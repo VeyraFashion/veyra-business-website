@@ -1,7 +1,9 @@
+import { Reveal } from "@/components/Reveal";
+
 export default function WhyNow() {
   return (
     <section className="wrap section" id="why">
-      <div className="whynow">
+      <Reveal className="whynow">
         <div className="feature-kicker">Why Now</div>
         <h2 className="section-title">Why licensing this now, instead of building it.</h2>
         <blockquote>
@@ -17,7 +19,7 @@ export default function WhyNow() {
           layer that&rsquo;s already built, already priced per use, and already proven out on our
           own consumer app before it ever touched a retailer&rsquo;s traffic.
         </p>
-      </div>
+      </Reveal>
     </section>
   );
 }

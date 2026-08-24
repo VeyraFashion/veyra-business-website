@@ -1,3 +1,5 @@
+import { Reveal } from "@/components/Reveal";
+
 const CODE_SAMPLE = [
   "POST /ai/jobs/try-on",
   '{ "quality_profile": "interactive" }',
@@ -12,12 +14,12 @@ const CODE_SAMPLE = [
 export default function Capabilities() {
   return (
     <section className="wrap section" id="platform">
-      <div className="section-head center">
+      <Reveal className="section-head center">
         <h2 className="section-title">One catalog. Six things it can now do.</h2>
         <p className="section-sub">The same engine underneath every surface — not six separate integrations.</p>
-      </div>
+      </Reveal>
 
-      <div className="feature-row">
+      <Reveal className="feature-row" y={24}>
         <div className="feature-copy">
           <div className="feature-kicker">Catalog Automation</div>
           <h3>Turn raw product photos into a real catalog, automatically.</h3>
@@ -42,9 +44,9 @@ export default function Capabilities() {
             <div className="cell tint-c"><svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-shoe" /></svg></div>
           </div>
         </div>
-      </div>
+      </Reveal>
 
-      <div className="feature-row reverse">
+      <Reveal className="feature-row reverse" y={24}>
         <div className="feature-copy">
           <div className="feature-kicker">Virtual Try-On</div>
           <h3>Multi-garment try-on, checked for realism before it ships.</h3>
@@ -68,9 +70,9 @@ export default function Capabilities() {
           <div className="slider-label l">Before</div>
           <div className="slider-label r">After</div>
         </div>
-      </div>
+      </Reveal>
 
-      <div className="feature-row">
+      <Reveal className="feature-row" y={24}>
         <div className="feature-copy">
           <div className="feature-kicker">Reusable Avatars</div>
           <h3>Set up once. Try on anything after that.</h3>
@@ -98,9 +100,9 @@ export default function Capabilities() {
           </div>
           <div className="count-pill">One avatar, reused for every try-on</div>
         </div>
-      </div>
+      </Reveal>
 
-      <div className="feature-row reverse">
+      <Reveal className="feature-row reverse" y={24}>
         <div className="feature-copy">
           <div className="feature-kicker">Outfit Intelligence</div>
           <h3>Rank real combinations from your real catalog — not a hardcoded rule set.</h3>
@@ -125,9 +127,9 @@ export default function Capabilities() {
             </div>
           </div>
         </div>
-      </div>
+      </Reveal>
 
-      <div className="feature-row">
+      <Reveal className="feature-row" y={24}>
         <div className="feature-copy">
           <div className="feature-kicker">Built for Engineering Teams</div>
           <h3>A real API, not a black-box widget.</h3>
@@ -149,9 +151,9 @@ export default function Capabilities() {
             <pre>{CODE_SAMPLE}</pre>
           </div>
         </div>
-      </div>
+      </Reveal>
 
-      <div className="feature-row reverse">
+      <Reveal className="feature-row reverse" y={24}>
         <div className="feature-copy">
           <div className="feature-kicker">How We Work With You</div>
           <h3>A measurable pilot before a platform commitment.</h3>
@@ -179,7 +181,7 @@ export default function Capabilities() {
             <div className="cal-pill">Week 6 · Pilot review</div>
           </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

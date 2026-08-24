@@ -1,7 +1,9 @@
+import { Reveal } from "@/components/Reveal";
+
 export default function Hero() {
   return (
     <section className="wrap hero">
-      <div>
+      <Reveal>
         <div className="eyebrow">Now onboarding design partners</div>
         <h1 className="display">
           The AI stylist layer,
@@ -19,9 +21,9 @@ export default function Hero() {
           <a href="#integration" className="btn btn-ghost">See the API</a>
         </div>
         <div className="hero-note">Built for a pilot, not a year of procurement.</div>
-      </div>
+      </Reveal>
 
-      <div className="browser">
+      <Reveal delay={0.15} y={20} className="browser">
         <div className="browser-bar">
           <span className="browser-dot" />
           <span className="browser-dot" />
@@ -39,7 +41,7 @@ export default function Hero() {
             <div className="browser-tryon-btn">Try it on</div>
           </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

@@ -1,0 +1,75 @@
+{
+  "_note": "Random, unguessable per-brand IDs used as the /demo/<id> URL for each brand's private, customized try-on demo. Do not link these from the public site nav or any indexed page - the randomness is the only thing keeping one brand's link from working for another brand.",
+  "idsById": {
+    "a952ff1c54": {
+      "brand": "Blissclub",
+      "slug": "blissclub",
+      "assetsDir": "Blissclub",
+      "catalogFile": "blissclub.json",
+      "hasCatalog": false
+    },
+    "34f56177ab": {
+      "brand": "Bonkers Corner",
+      "slug": "bonkers-corner",
+      "assetsDir": "Bonkers Corner",
+      "catalogFile": "bonkers-corner.json",
+      "hasCatalog": false
+    },
+    "88c64009be": {
+      "brand": "SNITCH",
+      "slug": "snitch",
+      "assetsDir": "SNITCH",
+      "catalogFile": "snitch.json",
+      "hasCatalog": true
+    },
+    "f36f6d64b0": {
+      "brand": "NEWME",
+      "slug": "newme",
+      "assetsDir": "NEWME",
+      "catalogFile": "newme.json",
+      "hasCatalog": false
+    },
+    "51e026192a": {
+      "brand": "The Bear House",
+      "slug": "the-bear-house",
+      "assetsDir": "The Bear House",
+      "catalogFile": "the-bear-house.json",
+      "hasCatalog": false
+    },
+    "513c78d2c8": {
+      "brand": "FREAKINS",
+      "slug": "freakins",
+      "assetsDir": "FREAKINS",
+      "catalogFile": "freakins.json",
+      "hasCatalog": false
+    },
+    "3e1523409b": {
+      "brand": "The Pant Project",
+      "slug": "the-pant-project",
+      "assetsDir": "The Pant Project",
+      "catalogFile": "the-pant-project.json",
+      "hasCatalog": false
+    },
+    "9cba38c2ce": {
+      "brand": "Urban Monkey",
+      "slug": "urban-monkey",
+      "assetsDir": "Urban Monkey",
+      "catalogFile": "urban-monkey.json",
+      "hasCatalog": false
+    },
+    "ad7e5cf4f2": {
+      "brand": "BEWAKOOF",
+      "slug": "bewakoof",
+      "assetsDir": "BEWAKOOF",
+      "catalogFile": "bewakoof.json",
+      "hasCatalog": false
+    },
+    "c4be7e363b": {
+      "brand": "The Souled Store",
+      "slug": "the-souled-store",
+      "assetsDir": "The Souled Store",
+      "catalogFile": "the-souled-store.json",
+      "hasCatalog": false
+    }
+  }
+}

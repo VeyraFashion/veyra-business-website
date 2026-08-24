@@ -1,12 +1,14 @@
+import { Reveal, RevealGroup, RevealItem } from "@/components/Reveal";
+
 export default function HowItWorks() {
   return (
     <section className="wrap section" id="how">
-      <div className="section-head center">
+      <Reveal className="section-head center">
         <h2 className="section-title">Three steps. No rebuild of your storefront.</h2>
         <p className="section-sub">You keep your stack — your PDP, your cart, your checkout. Veyra sits behind it.</p>
-      </div>
-      <div className="steps">
-        <div className="step">
+      </Reveal>
+      <RevealGroup className="steps" stagger={0.12}>
+        <RevealItem className="step">
           <span className="num">01 — Connect your catalog</span>
           <h3>Point us at your product photos</h3>
           <p>
@@ -21,9 +23,9 @@ export default function HowItWorks() {
               <svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-jacket" /></svg>
             </div>
           </div>
-        </div>
+        </RevealItem>
 
-        <div className="step">
+        <RevealItem className="step">
           <span className="num">02 — Drop in the widget</span>
           <h3>One API call, or your own UI</h3>
           <p>
@@ -45,9 +47,9 @@ export default function HowItWorks() {
             </div>
             <div className="count-pill">3 of 4 garment slots filled</div>
           </div>
-        </div>
+        </RevealItem>
 
-        <div className="step">
+        <RevealItem className="step">
           <span className="num">03 — Watch it on real traffic</span>
           <h3>A pilot, not a rollout</h3>
           <p>
@@ -67,8 +69,8 @@ export default function HowItWorks() {
             <div className="slider-label l">Control</div>
             <div className="slider-label r">Pilot</div>
           </div>
-        </div>
-      </div>
+        </RevealItem>
+      </RevealGroup>
     </section>
   );
 }
