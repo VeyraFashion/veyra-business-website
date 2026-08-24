@@ -23,9 +23,7 @@ export default function Problem() {
       </RevealGroup>
       <Reveal delay={0.1}>
         <p className="stat-close">
-          None of that is a Veyra number — it&rsquo;s the industry&rsquo;s own. What we&rsquo;re
-          offering to help you find out is what happens to <em>your</em> conversion rate and{" "}
-          <em>your</em> return rate once real customers can see the fit before they buy.
+          None of that is a Veyra number — it&rsquo;s the industry&rsquo;s own, sourced below.
         </p>
         <p className="stat-source">
           Sources:{" "}
@@ -33,6 +31,32 @@ export default function Problem() {
           {" · "}
           <a href="https://www.rocketreturns.io/blog/ecommerce-return-rates-2025-complete-industry-analysis-benchmarks-by-category" target="_blank" rel="noreferrer">Rocket Returns, 2025 Industry Analysis</a>
         </p>
+      </Reveal>
+
+      <Reveal delay={0.15} style={{ marginTop: 32 }}>
+        <div className="math-box">
+          <h3 className="math-head">The math, once there&rsquo;s a pilot to measure.</h3>
+          <p className="math-sub">
+            We could put an impressive-looking conversion-lift number in the slots below right
+            now. We&rsquo;re not going to. Nothing goes in them until a real pilot, on your own
+            traffic, produces it — that&rsquo;s the actual pitch, not a placeholder for one.
+          </p>
+          <div className="math-slots">
+            <div className="math-slot">
+              <div className="blank">— %</div>
+              <div className="label">Conversion rate, before vs. after</div>
+            </div>
+            <div className="math-slot">
+              <div className="blank">— %</div>
+              <div className="label">Return rate, before vs. after</div>
+            </div>
+            <div className="math-slot">
+              <div className="blank">— %</div>
+              <div className="label">Repeat purchase, before vs. after</div>
+            </div>
+          </div>
+          <p className="math-note">Filled in from your own dashboard after the pilot window — not before.</p>
+        </div>
       </Reveal>
     </section>
   );

@@ -20,6 +20,41 @@ export default function WhyNow() {
           own consumer app before it ever touched a retailer&rsquo;s traffic.
         </p>
       </Reveal>
+
+      <Reveal delay={0.1} style={{ marginTop: 40, maxWidth: 720 }}>
+        <div className="compare-table">
+          <div className="compare-row head">
+            <div>&nbsp;</div>
+            <div>Building it yourself</div>
+            <div className="col-veyra">Licensing Veyra</div>
+          </div>
+          <div className="compare-row">
+            <div className="compare-label">Time to first live try-on</div>
+            <div className="compare-no">Months of specialized ML hiring and integration</div>
+            <div className="compare-yes">A pilot running on real traffic within weeks</div>
+          </div>
+          <div className="compare-row">
+            <div className="compare-label">Multi-garment &amp; role logic</div>
+            <div className="compare-no">You design, build, and test conflict rules yourselves</div>
+            <div className="compare-yes">Already built, already reviewed for fidelity</div>
+          </div>
+          <div className="compare-row">
+            <div className="compare-label">Keeping up with model updates</div>
+            <div className="compare-no">Your team re-integrates every time a model changes</div>
+            <div className="compare-yes">Handled on our side, transparently</div>
+          </div>
+          <div className="compare-row">
+            <div className="compare-label">Upfront cost</div>
+            <div className="compare-no">A full ML team&rsquo;s salary, before any results</div>
+            <div className="compare-yes">Usage-based from day one — see <a href="#pricing" style={{ color: "var(--coral2)" }}>pricing</a></div>
+          </div>
+          <div className="compare-row">
+            <div className="compare-label">If it doesn&rsquo;t move the metric</div>
+            <div className="compare-no">The engineering cost is sunk either way</div>
+            <div className="compare-yes">You piloted it on a slice of traffic first</div>
+          </div>
+        </div>
+      </Reveal>
     </section>
   );
 }

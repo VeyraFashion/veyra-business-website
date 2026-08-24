@@ -65,9 +65,25 @@ nav { position: sticky; top: 0; z-index: 40; padding: 14px 0 0; background: tran
 .nav-links a { color: inherit; text-decoration: none; }
 .nav-links a:hover { color: var(--ink); }
 .links-inline { display: flex; align-items: center; gap: 32px; }
-.btn { display: inline-flex; align-items: center; justify-content: center; border-radius: 999px; font-family: var(--sans); font-weight: 700; font-size: 14px; cursor: pointer; text-decoration: none; white-space: nowrap; border: 1px solid transparent; }
-.btn-primary { background: linear-gradient(135deg, var(--coral2), var(--coral)); color: #0b0f10; padding: 12px 22px; box-shadow: 0 8px 24px rgba(255, 107, 71, 0.28); }
+.btn { display: inline-flex; align-items: center; justify-content: center; border-radius: 999px; font-family: var(--sans); font-weight: 700; font-size: 14px; cursor: pointer; text-decoration: none; white-space: nowrap; border: 1px solid transparent; transition: transform 0.15s ease, box-shadow 0.2s ease, background-color 0.2s ease, border-color 0.2s ease; }
+.btn:hover { transform: translateY(-2px); }
+.btn:active { transform: translateY(0) scale(0.97); transition-duration: 0.05s; }
+.btn-primary {
+  position: relative; isolation: isolate; overflow: hidden;
+  background: linear-gradient(135deg, var(--coral2), var(--coral)); color: #0b0f10; padding: 12px 22px;
+  box-shadow: 0 8px 24px rgba(255, 107, 71, 0.28);
+}
+.btn-primary:hover { box-shadow: 0 14px 32px rgba(255, 107, 71, 0.42); }
+/* A single light sheen sweeps across on hover — negative z-index keeps it behind the label so
+   the text stays crisp throughout, same isolate+z-index trick as .card's spotlight above. */
+.btn-primary::after {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.35) 50%, transparent 65%);
+  transform: translateX(-140%); transition: transform 0.7s ease;
+}
+.btn-primary:hover::after { transform: translateX(140%); }
 .btn-ghost { background: rgba(255, 255, 255, 0.05); border-color: var(--line); color: var(--ink); padding: 12px 22px; }
+.btn-ghost:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.28); }
 @media (max-width: 720px) { .nav-links .links-inline { display: none; } }
 
 /* ---- hero ---- */
@@ -217,7 +233,8 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 
 .personas { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 @media (max-width: 720px) { .personas { grid-template-columns: 1fr; } }
-.persona { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 26px; }
+.persona { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 26px; transition: border-color 0.2s ease, transform 0.25s ease; }
+.persona:hover { border-color: rgba(255, 107, 71, 0.32); transform: translateY(-3px); }
 .persona h4 { font-family: var(--sans); font-size: 15.5px; font-weight: 700; margin: 0 0 8px; }
 .persona p { font-size: 14px; color: var(--sub); line-height: 1.6; margin: 0; }
 
@@ -229,10 +246,19 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .waitlist-form input::placeholder { color: var(--faint); }
 .waitlist-form input:focus { outline: none; border-color: rgba(255, 107, 71, 0.5); }
 
-footer { border-top: 1px solid var(--line); padding: 44px 0; }
-.foot-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px; }
-.foot-links { display: flex; gap: 28px; font-size: 13.5px; color: var(--sub); }
-.foot-links a { color: inherit; text-decoration: none; }
+footer { border-top: 1px solid var(--line); padding: 64px 0 0; }
+.footer-grid { display: grid; grid-template-columns: 1.6fr repeat(3, 1fr); gap: 32px; padding-bottom: 48px; }
+@media (max-width: 780px) { .footer-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .footer-grid { grid-template-columns: 1fr; } }
+.footer-tagline { font-size: 13.5px; color: var(--sub); line-height: 1.6; margin: 10px 0 18px; max-width: 260px; }
+.social-icons { display: flex; gap: 10px; }
+.social-icon { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); color: var(--sub); transition: color 0.2s ease, border-color 0.2s ease, transform 0.15s ease; }
+.social-icon:hover { color: var(--ink); border-color: var(--coral2); transform: translateY(-2px); }
+.footer-col h5 { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--faint); margin: 0 0 16px; }
+.footer-col { display: flex; flex-direction: column; gap: 12px; font-size: 13.5px; }
+.footer-col a { color: var(--sub); text-decoration: none; transition: color 0.15s ease; }
+.footer-col a:hover { color: var(--ink); }
+.footer-bottom { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; border-top: 1px solid var(--line); padding: 22px 0; }
 .foot-fine { font-size: 12.5px; color: var(--faint); }
 
 /* ---- B2B-specific: browser mockup (hero) — a storefront the widget drops into, not our own app ---- */
@@ -247,7 +273,7 @@ footer { border-top: 1px solid var(--line); padding: 44px 0; }
     radial-gradient(70% 50% at 100% 100%, rgba(255, 107, 71, 0.14), transparent 55%),
     #0b1113;
 }
-.browser-product { width: 118px; aspect-ratio: 3/4; flex-shrink: 0; border-radius: 16px; background: linear-gradient(160deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02)); border: 1px solid rgba(255, 255, 255, 0.08); display: flex; align-items: center; justify-content: center; position: relative; }
+.browser-product { width: 118px; aspect-ratio: 3/4; flex-shrink: 0; border-radius: 16px; overflow: hidden; background: linear-gradient(160deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02)); border: 1px solid rgba(255, 255, 255, 0.08); display: flex; align-items: center; justify-content: center; position: relative; }
 .browser-product svg { width: 44%; opacity: 0.55; }
 .browser-copy { flex: 1; min-width: 0; }
 .browser-copy .bname { font-family: var(--serif); font-weight: 600; font-size: 15px; color: var(--ink); margin: 0 0 4px; }
@@ -282,11 +308,24 @@ footer { border-top: 1px solid var(--line); padding: 44px 0; }
 .btn-block { width: 100%; }
 
 .card {
+  position: relative; isolation: isolate;
   background: var(--card); border: 1px solid var(--line); border-radius: 22px; overflow: hidden;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.3s ease;
 }
 .card:hover { border-color: rgba(255, 107, 71, 0.4); box-shadow: 0 18px 36px rgba(0, 0, 0, 0.34); }
+/* Cursor-follow spotlight — --mx/--my set by components/CardSpotlight.tsx (one delegated,
+   rAF-throttled listener for every .card, not a per-card React state). Sits behind all real
+   content (negative z-index inside .card's own isolated stacking context, see `isolation`
+   above) so it never obscures text, and is clipped to the card's own rounded corners via
+   `border-radius: inherit` regardless of whether that particular card overrides `overflow`
+   (.outfit-card does, for its rank badge — see below). */
+.card::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; border-radius: inherit; pointer-events: none;
+  background: radial-gradient(280px circle at var(--mx, 50%) var(--my, 50%), rgba(255, 107, 71, 0.16), transparent 70%);
+  opacity: 0; transition: opacity 0.35s ease;
+}
+.card:hover::before { opacity: 1; }
 
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 22px; }
 
@@ -315,28 +354,14 @@ footer { border-top: 1px solid var(--line); padding: 44px 0; }
 }
 .product-card.selected .thumb { outline: 2px solid var(--coral); outline-offset: -2px; }
 
-/* ---- Outfit suggestion cards — ranked, with a confidence ring instead of plain text ---- */
-/* overflow: visible overrides .card's overflow: hidden - the rank badge deliberately pokes
-   above the card's top edge (top: -11px) and .card's overflow:hidden was clipping it flat. */
-.outfit-card { position: relative; overflow: visible; padding: 24px 20px 20px; display: flex; flex-direction: column; gap: 14px; margin-top: 10px; }
-.outfit-card .rank-badge {
-  position: absolute; top: -11px; left: 20px; background: linear-gradient(135deg, var(--coral2), var(--coral));
-  color: #140b08; font-size: 11px; font-weight: 800; letter-spacing: 0.03em;
-  padding: 4px 13px; border-radius: 999px; box-shadow: 0 6px 16px rgba(255, 107, 71, 0.4);
-}
-.outfit-card .title-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+/* ---- Outfit suggestion cards ---- */
+.outfit-card { padding: 24px 20px 20px; display: flex; flex-direction: column; gap: 14px; }
+.outfit-card .title-row { display: flex; align-items: center; gap: 12px; }
 .outfit-card .title { font-family: var(--serif); font-size: 19px; font-weight: 600; line-height: 1.25; }
 .outfit-card .rationale { color: var(--sub); font-size: 14px; line-height: 1.55; }
 /* Grid items stretch to the row's tallest card by default; pin the CTA to that shared bottom
    edge instead of letting it sit wherever the (variable-length) rationale text happens to end. */
 .outfit-card > .btn { margin-top: auto; }
-
-.confidence-ring {
-  position: relative; width: 46px; height: 46px; border-radius: 50%; flex-shrink: 0;
-  display: flex; align-items: center; justify-content: center;
-}
-.confidence-ring::after { content: ""; position: absolute; inset: 4px; border-radius: 50%; background: var(--bg2); }
-.confidence-ring span { position: relative; z-index: 1; font-size: 11px; font-weight: 800; color: var(--ink); }
 
 .outfit-items { display: flex; gap: 12px; }
 .outfit-items .mini-thumb { width: 74px; aspect-ratio: 3/4; border-radius: 12px; overflow: hidden; background: #e9e7e1; flex-shrink: 0; border: 1px solid var(--line); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
@@ -392,3 +417,86 @@ footer { border-top: 1px solid var(--line); padding: 44px 0; }
 
 .empty-catalog { text-align: center; padding: 100px 0; color: var(--sub); }
 .empty-catalog h2 { font-family: var(--serif); font-weight: 600; font-size: 26px; color: var(--ink); margin-bottom: 12px; }
+
+/* ---- Pricing ---- */
+.period-toggle-wrap { display: flex; justify-content: center; margin-bottom: 40px; }
+.period-toggle { display: inline-flex; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 4px; gap: 4px; }
+.period-toggle button { display: inline-flex; align-items: center; gap: 8px; border: none; background: transparent; color: var(--sub); font-family: var(--sans); font-weight: 700; font-size: 13.5px; padding: 9px 18px; border-radius: 999px; cursor: pointer; transition: background-color 0.2s ease, color 0.2s ease; }
+.period-toggle button:not(.active):hover { color: var(--ink); background: rgba(255, 255, 255, 0.06); }
+.period-toggle button.active { background: linear-gradient(135deg, var(--coral2), var(--coral)); color: #0b0f10; }
+.period-toggle .save-badge { font-size: 10px; font-weight: 700; letter-spacing: 0.02em; padding: 2px 8px; border-radius: 999px; background: rgba(255, 255, 255, 0.12); color: var(--ink); }
+.period-toggle button.active .save-badge { background: rgba(11, 15, 16, 0.16); color: #0b0f10; }
+.price-card .amount-sub { font-size: 12px; color: var(--faint); margin: 0 0 14px; }
+.pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: stretch; }
+@media (max-width: 860px) { .pricing-grid { grid-template-columns: 1fr; } }
+.price-card { display: flex; flex-direction: column; padding: 28px; }
+.price-card.featured { border-color: rgba(255, 107, 71, 0.45); background: linear-gradient(165deg, rgba(255, 107, 71, 0.08), var(--card2)); }
+.price-card .tier-label { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+.price-card .tier-name { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--faint); }
+.price-card.featured .tier-name { color: var(--coral2); }
+.price-card .badge { font-size: 10.5px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #140b08; background: var(--coral); border-radius: 999px; padding: 3px 10px; }
+.price-card .amount { font-family: var(--serif); font-weight: 600; font-size: 34px; margin: 0 0 6px; }
+.price-card .amount span { font-family: var(--sans); font-size: 14px; font-weight: 500; color: var(--faint); }
+.price-card .for { font-size: 13.5px; color: var(--sub); margin: 0 0 20px; min-height: 40px; }
+.price-card ul { list-style: none; margin: 0 0 24px; padding: 0; flex: 1; }
+.price-card li { display: flex; gap: 10px; align-items: baseline; font-size: 13.5px; color: var(--sub); padding: 8px 0; border-top: 1px solid var(--line); }
+.price-card li:first-child { border-top: none; }
+.price-card li::before { content: '+'; color: var(--coral2); font-weight: 700; flex-shrink: 0; }
+.price-card .btn { margin-top: auto; }
+.pricing-footnote { text-align: center; color: var(--faint); font-size: 13px; margin-top: 24px; }
+
+/* ---- Build-it-yourself vs. license comparison ---- */
+.compare-table { border: 1px solid var(--line); border-radius: 20px; overflow: hidden; }
+.compare-row { display: grid; grid-template-columns: 1.1fr 1fr 1fr; }
+@media (max-width: 720px) { .compare-row { grid-template-columns: 1fr; } }
+.compare-row + .compare-row { border-top: 1px solid var(--line); }
+.compare-row > div { padding: 16px 20px; font-size: 14px; line-height: 1.5; }
+.compare-row > div:not(:last-child) { border-right: 1px solid var(--line); }
+@media (max-width: 720px) { .compare-row > div:not(:last-child) { border-right: none; border-bottom: 1px solid var(--line); } }
+.compare-row.head { background: var(--card2); }
+.compare-row.head > div { font-size: 11.5px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--faint); padding: 12px 20px; }
+.compare-row.head .col-veyra { color: var(--coral2); }
+.compare-label { color: var(--ink); font-weight: 600; }
+.compare-no { color: var(--faint); }
+.compare-no::before { content: '✕'; color: var(--faint); margin-right: 8px; }
+.compare-yes { color: var(--sub); }
+.compare-yes::before { content: '✓'; color: var(--coral); font-weight: 700; margin-right: 8px; }
+
+/* ---- Honest-math callout ---- */
+.math-box { border: 1.5px solid rgba(255, 107, 71, 0.35); border-radius: 24px; padding: 32px; background: radial-gradient(120% 160% at 0% 0%, rgba(255, 107, 71, 0.08), transparent 60%), var(--card2); }
+.math-box .math-head { font-family: var(--serif); font-size: 20px; font-weight: 600; margin: 0 0 8px; }
+.math-box .math-sub { font-size: 14px; color: var(--sub); margin: 0 0 24px; max-width: 60ch; }
+.math-slots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+@media (max-width: 720px) { .math-slots { grid-template-columns: 1fr; } }
+.math-slot { background: var(--bg2); padding: 22px 20px; text-align: center; }
+.math-slot .blank { font-family: var(--serif); font-size: 28px; font-weight: 600; color: var(--faint); letter-spacing: 0.1em; }
+.math-slot .label { font-size: 12.5px; color: var(--sub); margin-top: 8px; line-height: 1.4; }
+.math-box .math-note { text-align: center; font-size: 12.5px; color: var(--faint); margin-top: 18px; }
+
+/* ---- Measurement methodology ---- */
+.method-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+@media (max-width: 860px) { .method-steps { grid-template-columns: 1fr; } }
+.method-step { text-align: center; padding: 4px; }
+.method-step .method-num { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); font-family: var(--serif); font-size: 13px; font-weight: 600; color: var(--coral2); margin-bottom: 14px; }
+.method-step h4 { font-size: 15px; font-weight: 700; margin: 0 0 8px; }
+.method-step p { font-size: 13.5px; color: var(--sub); margin: 0; line-height: 1.55; }
+
+/* ---- About ---- */
+.about-values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+@media (max-width: 780px) { .about-values { grid-template-columns: 1fr; } }
+.about-value { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px 24px; transition: border-color 0.2s ease, transform 0.25s ease; }
+.about-value:hover { border-color: rgba(255, 107, 71, 0.32); transform: translateY(-3px); }
+.about-value h4 { font-size: 14.5px; font-weight: 700; margin: 0 0 8px; }
+.about-value p { font-size: 13.5px; color: var(--sub); line-height: 1.6; margin: 0; }
+
+/* ---- Team ---- */
+.team-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; max-width: 720px; margin: 0 auto; }
+@media (max-width: 640px) { .team-grid { grid-template-columns: 1fr; } }
+.team-card { padding: 28px; text-align: center; }
+.avatar { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-family: var(--serif); font-weight: 600; font-size: 19px; color: #0b0f10; transition: transform 0.3s ease; }
+.team-card:hover .avatar { transform: scale(1.08) rotate(-4deg); }
+.avatar-coral { background: linear-gradient(135deg, var(--coral2), var(--coral)); }
+.avatar-teal { background: linear-gradient(135deg, #6f9aa6, var(--teal)); color: var(--ink); }
+.team-card h4 { font-size: 16px; font-weight: 700; margin: 0 0 4px; }
+.team-role { font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--coral2); margin-bottom: 12px; }
+.team-card p { font-size: 13.5px; color: var(--sub); line-height: 1.6; margin: 0; }

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Reveal } from "@/components/Reveal";
 
 export default function Hero() {
@@ -33,7 +34,7 @@ export default function Hero() {
         <div className="browser-body">
           <div className="browser-badge">AI Try-On</div>
           <div className="browser-product">
-            <svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-jacket" /></svg>
+            <Image src="/field-jacket.png" alt="Field Jacket" fill sizes="118px" style={{ objectFit: "cover" }} />
           </div>
           <div className="browser-copy">
             <p className="bname">Field Jacket</p>

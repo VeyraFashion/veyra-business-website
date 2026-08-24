@@ -25,21 +25,6 @@ const cardVariants: Variants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.35, ease: "easeOut" } },
 };
 
-function ConfidenceRing({ confidence }: { confidence: number }) {
-  const pct = Math.round(confidence * 100);
-  const deg = Math.round(pct * 3.6);
-  return (
-    <div
-      className="confidence-ring"
-      style={{ background: `conic-gradient(var(--coral) 0deg ${deg}deg, rgba(255,255,255,0.1) ${deg}deg 360deg)` }}
-      role="img"
-      aria-label={`${pct}% match confidence`}
-    >
-      <span>{pct}%</span>
-    </div>
-  );
-}
-
 export default function OutfitPanel({
   brandId,
   catalogById,
@@ -110,10 +95,8 @@ export default function OutfitPanel({
               variants={reduced ? undefined : cardVariants}
               whileHover={reduced ? undefined : { y: -4, transition: { duration: 0.2, ease: "easeOut" } }}
             >
-              <span className="rank-badge">Pick #{idx + 1}</span>
               <div className="title-row">
                 <span className="title">{outfit.name}</span>
-                <ConfidenceRing confidence={outfit.confidence} />
               </div>
               <div className="outfit-items">
                 {ids.map((id) => {

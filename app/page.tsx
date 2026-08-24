@@ -7,6 +7,9 @@ import Capabilities from "@/components/sections/Capabilities";
 import PlugsIn from "@/components/sections/PlugsIn";
 import WhyNow from "@/components/sections/WhyNow";
 import Segments from "@/components/sections/Segments";
+import Pricing from "@/components/sections/Pricing";
+import About from "@/components/sections/About";
+import Team from "@/components/sections/Team";
 import FinalCta from "@/components/sections/FinalCta";
 import Footer from "@/components/sections/Footer";
 
@@ -23,6 +26,9 @@ export default function Home() {
       <PlugsIn />
       <WhyNow />
       <Segments />
+      <Pricing />
+      <About />
+      <Team />
       <FinalCta />
       <Footer />
     </>

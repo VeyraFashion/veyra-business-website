@@ -96,6 +96,120 @@ state instead of erroring, so every link is safe to send even before the images 
 
 No code changes needed — the route, API, and UI are already brand-agnostic.
 
+## Pricing, comparison table, honest-math box, measurement methodology (2026-08-25)
+
+Four additions implementing the "Now — days, not weeks" section of a competitive analysis
+(Veyra vs. Elara's B2B widget, published separately as an artifact):
+
+- **`components/sections/Pricing.tsx`** (new, `#pricing`, wired into `app/page.tsx` between
+  Segments and FinalCta, added to Nav/Footer) — three tiers (Pilot $299/mo, Growth $899/mo,
+  Scale custom), capped on the platform's real usage axes (try-on renders, outfit-ranking calls,
+  SKUs catalogued) rather than gating features by tier. Numbers are grounded in this session's
+  actually-observed veyra-ai Gemini costs (~$0.08/try-on render, ~$0.03–0.06/outfit-ranking
+  call), not copied from any competitor's published pricing.
+- **Build-it-yourself vs. license comparison table** — `.compare-table` in `WhyNow.tsx`, a new
+  `<Reveal>` block after the existing why-now paragraph.
+- **"Honest math" callout** — `.math-box` in `Problem.tsx`, replacing the old single-sentence
+  closing paragraph. Deliberately doesn't invent a conversion-lift number to fill the three
+  stat slots — the empty slots *are* the point, explained as such. This is the opposite move
+  from a competitor's boxed ROI-math device that publishes an unverified estimate; it keeps the
+  site's existing "no fabricated benchmark numbers" commitment (already stated elsewhere on the
+  page) consistent with what the page actually shows.
+- **Measurement methodology** — `.method-steps`, a 3-step "how we'll measure it" strip appended
+  to the end of `Pricing.tsx` (baseline → pilot window → compare). Deliberately a plain
+  before/after comparison, not a claimed statistical holdout-test methodology, since only the
+  former is something this stage of the product can actually commit to honestly.
+
+All four verified in a real browser (build clean, zero console errors, no mobile overflow at
+390px) before calling this done.
+
+## Pricing toggle, About, Team, footer (2026-08-25)
+
+- **Monthly/annual pricing toggle** — `Pricing.tsx` is now a client component with a `period-toggle`
+  pill switch above the tier grid. Annual price is exactly eleven months' worth of the monthly price
+  (`monthly * 11`, i.e. "1 month free") for Pilot ($3,289/yr) and Growth ($9,889/yr) — a pricing
+  *structure* choice, not a performance claim, so it doesn't run into the site's own
+  no-fabricated-numbers rule. Scale stays "Custom" either way. Verified live: clicking toggles the
+  `active` class and swaps every tier's displayed price/sub-line correctly (checked via DOM, not
+  just read from source).
+- **`components/sections/About.tsx`** (new, `#about`) — the origin story (consumer app → licensed
+  retail layer) plus a 3-card "what we believe" strip that restates values already established
+  elsewhere on the site (no fabricated benchmarks, one platform, proven on our own traffic first)
+  rather than inventing new claims.
+- **`components/sections/Team.tsx`** (new, `#team`) — two real people (Shobhit Tulshain, Founder;
+  Omkar Ghugarkar, Co-Founder), initials-avatar circles (no stock photos standing in for real
+  people), and bios that are explicitly labeled as placeholders pending real backgrounds — a
+  footnote says so directly rather than presenting placeholder text as fact.
+- **Footer rewrite** (`Footer.tsx`) — expanded from a single link row into a 4-column footer
+  (brand + tagline + social icons, Product, Company, Legal) plus a bottom legal bar. Social icons
+  (LinkedIn/X/Instagram) and the Privacy/Terms links are inert (`href="#"`) — same honest
+  "not wired up yet" pattern as the Book-a-demo form elsewhere on this site; swap in real URLs
+  when they exist.
+
+All wired into `app/page.tsx` (Pricing → About → Team → FinalCta → Footer) and into the new
+footer's Company column. Nav itself is unchanged (already at capacity); About/Team are reachable
+via the footer and direct anchors. Verified with a live CDP pass: zero console errors, toggle
+state changes confirmed via DOM diff, all four new/changed sections screenshotted after a real
+scroll (not just a source read).
+
+## Scroll feel + card/button animation polish (2026-08-25)
+
+Closes the "scroll feel" gap noted against Elara, plus a broader animation pass on cards and
+buttons:
+
+- **`components/SmoothScroll.tsx`** (new, mounted once in `app/layout.tsx`) — site-wide inertial
+  scroll via `lenis` (the same library Elara's `joinelara.shop` runs, confirmed in the earlier
+  comparison), driven by our own `requestAnimationFrame` loop. **Disabled entirely under
+  `prefers-reduced-motion: reduce`** — same rule as every other Motion-based effect here; inertial
+  scroll is exactly the kind of vestibular-trigger effect that setting exists to suppress, so it's
+  skipped outright rather than toned down. Verified live, not just via the `lenis` class Lenis adds
+  to `<html>`: called the instance's own `.scrollTo()` and sampled `window.scrollY` mid-flight
+  (477→787→941→992→1000 over ~500ms, a real eased curve, not an instant jump), and confirmed the
+  `lenis` class is absent and the instance never initializes under reduced motion.
+- **`components/CardSpotlight.tsx`** (new, mounted once in `app/layout.tsx`) — a cursor-follow
+  radial glow on every `.card` (pricing tiers, team, and the demo page's product/outfit cards),
+  set via `--mx`/`--my` CSS custom properties through one delegated, rAF-throttled `mousemove`
+  listener rather than per-card React state or per-component wiring. The glow sits behind all real
+  content — `.card` now uses `isolation: isolate` plus a `z-index: -1` pseudo-element, which is
+  the actual fix for a real stacking bug this would otherwise have: without it, non-positioned
+  static content (card text) paints *before* positioned descendants in normal CSS stacking order,
+  so the pseudo-element's radial-gradient background would sit on top of the card's own text
+  rather than behind it.
+- **`.btn-primary` sheen sweep** — a single light diagonal highlight crosses the button on hover,
+  same isolate+negative-z-index technique so the "Book a demo" label stays legible throughout.
+- **Lighter hover states added to `.persona` and `.about-value`** (border-color brighten + a small
+  lift) — these aren't `.card`-classed (no CTA, not clickable), so they get the simpler treatment
+  rather than the full spotlight, matching the "cards you can act on get richer feedback than
+  purely informational ones" split already implicit in the rest of the page.
+- **Team avatar hover-pop** — `.team-card:hover .avatar` scales to 1.08 and rotates -4°, pure CSS,
+  no JS.
+
+All verified live via CDP computed-style diffs (border-color/transform before vs. hover) rather
+than screenshots alone, since headless scroll timing in this environment needed a full reveal
+settle before hover coordinates were reliable — screenshots of the spotlight and sheen effects
+were still taken (standalone mock + live captures) to confirm they render correctly, not just that
+the CSS parses.
+
+## Demo page: outfit cards simplified (2026-08-25)
+
+Removed the "Pick #1/#2/#3" rank ribbon and the percentage-match confidence ring from
+`OutfitPanel.tsx`'s outfit cards (`ConfidenceRing` component deleted, `.rank-badge` and
+`.confidence-ring` CSS removed as dead code) — outfit cards now show just the outfit name, item
+thumbnails, rationale, and the try-on button. `.outfit-card` no longer needs its `overflow: visible`
+override either, since nothing pokes above the card edge anymore; it now inherits the same
+`overflow: hidden` (and therefore the same spotlight-clipping behavior) as every other `.card`.
+
+## Placeholder icons vs. real photos
+
+Most "clothing" shown on the marketing pages is actually the shared line-icon set in
+`components/IconSprite.tsx` (raw, editable `.svg` copies + a usage map: `assets/icons-raw/`), not
+photography — by design, per the original wireframe. The Hero mockup's "Field Jacket" product
+thumbnail is the one exception: it's a real photo (`public/field-jacket.png`, via `next/image`
+in `components/sections/Hero.tsx`), swapped in over the `g-jacket` icon placeholder. Swap in more
+real photos the same way — `next/image` with `fill` inside a `position: relative` container,
+`object-fit: cover`, and `overflow: hidden` on that container so the image respects its rounded
+corners.
+
 ## Motion / animation
 
 Uses `motion` (`motion/react`, the modern Framer Motion) throughout — scroll-reveal on every
@@ -117,6 +231,18 @@ side-by-side layout now (`.tryon-layout`, two `.tryon-col`s) — photo + selecte
 circular thumbnails, not plain text tags) on the left, the result frame with an idle-state
 placeholder on the right — instead of everything stacked in one column. Collapses to a single
 stacked column under 860px.
+
+**Button hover/press states (2026-08-25):** found via a live before/hover/active computed-style
+diff against Elara's B2B site (`joinelara.shop`, confirmed built on Framer + Lenis) that Veyra's
+own `.btn` class had *no* `:hover`/`:active` rule at all — nav, hero, pricing, and final-CTA
+buttons sat visually static regardless of mouse state, while cards (`.card`, and the demo page's
+motion-driven product/outfit cards) already had real hover lift/glow. Elara's own CTA hover is
+minimal (a flat `rgba(255,255,255,0.06)` background fade via Framer's generic `transition: all`,
+no transform, no shadow change) — so the bar was low, but Veyra was still behind it on this one
+element. Fixed in `theme.css`: `.btn:hover` lifts 2px + deepens the coral glow shadow,
+`.btn:active` settles to `scale(0.97)` (matching the tap-scale already used elsewhere),
+`.btn-ghost:hover` brightens its fill/border. Verified live via CDP (`Input.dispatchMouseEvent`)
+computed-style diff and screenshots, not just read from source.
 
 **`prefers-reduced-motion` — use `lib/use-reduced-motion.ts`, not Motion's own `useReducedMotion()`.**
 Framer Motion's built-in hook caches the media-query result in a module-level singleton
