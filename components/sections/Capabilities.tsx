@@ -1,4 +1,5 @@
 import { Reveal } from "@/components/Reveal";
+import CatalogVideo from "@/components/CatalogVideo";
 
 const CODE_SAMPLE = [
   "POST /ai/jobs/try-on",
@@ -35,14 +36,7 @@ export default function Capabilities() {
           </ul>
         </div>
         <div className="feature-visual">
-          <div className="wgrid">
-            <div className="cell tint-a"><svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-tee" /></svg></div>
-            <div className="cell tint-b"><svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-jacket" /></svg></div>
-            <div className="cell tint-c"><svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-pants" /></svg></div>
-            <div className="cell tint-b"><svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-dress" /></svg></div>
-            <div className="cell tint-a"><svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-bag" /></svg></div>
-            <div className="cell tint-c"><svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-shoe" /></svg></div>
-          </div>
+          <CatalogVideo />
         </div>
       </Reveal>
 

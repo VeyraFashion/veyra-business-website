@@ -28,6 +28,66 @@ New, B2B-specific pieces added on top:
 - **`.touchpoints`** (the "Where It Fits" band, `PlugsIn.tsx`) — three chips (Product Page / Cart /
   Post-Purchase) replacing the consumer site's chat-mock in that slot.
 
+## Problem-section stats sharpened with better sources (2026-08-25)
+
+Upgraded two of the three Problem-section stats from rounded, blog-sourced figures to precise,
+named-research-firm figures, and added a fourth: 25% → **24.4%**, ~Half → **53%**, both now
+attributed to a **Coresight Research** apparel-returns survey (2023 estimate; the primary report
+is paywalled, so cited via [3DLOOK's summary](https://3dlook.ai/content-hub/true-cost-apparel-returns-data-rising-return-rates/),
+which names Coresight and quotes the figures directly — checked against the original Coresight
+report page to confirm title/date/author exist and match). Added a fourth stat, **$38B**
+(estimated yearly US online-apparel-returns cost, same Coresight-based estimate) — `.stats` is now
+a 4-up grid (2×2 on tablet, stacked on mobile) rather than 3. Richpanel/Rocket Returns stay in the
+sources line as supporting citations for the general category claims.
+
+**The "honest math" box's three slots are now filled — with a third party's numbers, explicitly
+not Veyra's (2026-08-25).** Initially left blank on purpose (see git history / the note below),
+then filled in after the user clarified the ask: real, research-backed numbers are fine as long as
+they're never presented as Veyra's own results. Rebuilt the box around a single, gold-standard
+source rather than patchwork blog stats: Nestler et al., *"SizeFlags: Reducing Size and Fit
+Related Returns in Fashion E-Commerce"* — Zalando SE, peer-reviewed at **KDD 2021**
+([arXiv:2106.03532](https://arxiv.org/abs/2106.03532)), a live A/B-tested study (300k+ customers
+per group) of Zalando's own AI-driven size/fit system. Three real, precisely-scoped figures:
+**+2.1%** conversion rate, **+1.8%** items added to cart (same test), **4–8%** fewer size-related
+returns (range across the different model versions the paper tested). Rewrote the box's copy to
+make the attribution unmissable — *"These are not Veyra numbers... They're Zalando's"* — rather
+than quietly swapping numbers into copy that used to say the opposite. Renamed the CSS class that
+used to hold the blank placeholder (`.blank`) to `.figure` and gave it the same real-data
+treatment as the stats above (ink-colored serif numerals, coral accent) instead of the deliberately
+faint/dim placeholder styling, since these are now real numbers, not empty slots. Verified live,
+zero console errors, both breakpoints.
+
+**Copy trimmed further per follow-up requests (same session):** removed the box's explanatory
+paragraph, then the compact "Zalando · KDD 2021, not Veyra" tag that briefly replaced it, then the
+`.stat-close` line above the industry stats ("None of that is a Veyra number..."). What's left:
+the numbers, their labels, and a plain "Source:"/"Sources:" citation line under each group — the
+same minimal citation treatment on both, no separate disclaimer copy. **Then made the math-box
+visually match the section's main header and stats grid** — `.math-head` now uses the same serif
+type scale as `h2.section-title` (`clamp(26px,3.2vw,36px)`, centered, `text-wrap: balance`), and
+`.math-slot .figure`/`.math-slot` now use the exact same numeral size/weight/padding as
+`.stat .n`/`.stat` (52px serif, 40px/32px padding, 22px border-radius) — so the two number groups
+read as the same tier of evidence rather than the second looking like an afterthought. Kept the
+bordered/gradient card wrapper on the math-box, since it's still a genuinely different category of
+number (proof the approach works elsewhere vs. the industry-problem stats above it) — only the
+typography was unified, not the whole container. Verified live at both desktop and mobile widths,
+zero console errors.
+
+**Gap above the math-box widened to match inter-section spacing.** Was `marginTop: 32` (an
+arbitrary small nudge); measured the real gap this site uses between two actual `<section>`s
+(Problem → HowItWorks: 88px bottom padding + 88px top padding = 176px, confirmed via
+`getBoundingClientRect()` on each section's real content, not just the section boxes themselves —
+those touch with 0px gap, all the spacing comes from each section's own padding) and set the
+math-box's `marginTop` to the same 176px, so the break above it reads as a real section transition
+rather than a tacked-on afterthought spaced arbitrarily closer than everything else on the page.
+
+Numbers considered and rejected before landing on Zalando/KDD: several "up to 64% fewer returns,"
+"250% conversion lift," "Macy's <2% return rate" style figures turned up repeatedly across
+SEO/vendor blogs (Stytrix, Rewarx, aifitfinderapp, etc.) with no traceable primary source —
+exactly the unverifiable-claim pattern this project has criticized in a competitor elsewhere in
+this document. None of those made it in. McKinsey's fashion-AI report was also considered but
+dropped — its site timed out on every fetch attempt, so specific figures attributed to it
+couldn't be independently confirmed before use.
+
 ## On the numbers
 
 The three stats in the Problem section (25% apparel return rate, ~half from fit/sizing, typical
@@ -151,6 +211,57 @@ footer's Company column. Nav itself is unchanged (already at capacity); About/Te
 via the footer and direct anchors. Verified with a live CDP pass: zero console errors, toggle
 state changes confirmed via DOM diff, all four new/changed sections screenshotted after a real
 scroll (not just a source read).
+
+## Catalog Automation visual is now a real video, not an icon grid (2026-08-25)
+
+`components/sections/Capabilities.tsx`'s first feature row ("Catalog Automation") used to show a
+static 6-icon grid (`.wgrid`) as its `.feature-visual`. Replaced with an actual clip via
+`components/CatalogVideo.tsx` — autoplaying, looped, muted, inside the same `.feature-visual`
+container every other row uses, so it drops in without changing the section's layout.
+
+Source file: `assets/static/This_is_how_the_camera_clicked.mp4` (raw original, same convention as
+`assets/icons-raw/`/`assets/icon-images/` — edit/replace there, not in `public/`), copied to the
+actually-served `public/catalog-automation.mp4`. Re-run the copy if the source file ever changes;
+nothing else references the `assets/static/` path directly.
+
+Uses `object-fit: contain`, not `cover` — the source is 16:9 and `.feature-visual` is a squarer
+4:3.2 box, so `cover` was cropping the sides of every frame (lost the reticle circle's edges and a
+couple of corner UI icons). `contain` shows the whole shot; the letterbox bars sit on the
+container's own transparent background, so they pick up its existing dark teal/coral gradient
+rather than reading as flat black bars.
+
+Two things caught by testing, not assumed from source:
+- **The bare `autoplay` HTML attribute wasn't reliable** — confirmed live that a fully-loaded video
+  with `autoplay`/`muted` attributes present still sat paused at frame 0 until `.play()` was called
+  explicitly. Fixed by calling `.play()` imperatively in a `useEffect` on mount (rejection caught
+  and ignored, so the worst case is a static first frame, never a console error) rather than
+  trusting the attribute alone.
+- **A real reduced-motion race**, the same class of bug as the Lenis fix above: `usePrefersReducedMotion`
+  starts `false` and corrects to `true` a tick later, so the video would briefly start playing on a
+  reduced-motion visitor's first render before the correction landed — and removing the
+  `loop`/`autoplay` *attributes* on the next render doesn't stop already-running playback. Fixed by
+  explicitly calling `.pause()` in the same effect when `reduced` is true, not just skipping
+  `.play()`. Verified deterministic across 4 fresh reduced-motion loads (stayed paused at t=0 every
+  time) and confirmed normal playback advances correctly in the non-reduced case.
+
+## Demo page now shares the real site nav (2026-08-25)
+
+The per-brand demo (`/demo/[brandId]`) used to render its own inline nav — "Veyra demo for
+{brand}" plus a "Try it on" quick-scroll button — instead of the actual site nav. Replaced it
+with the same `Nav` component the marketing homepage uses, so a prospect on a demo link sees the
+same Veyra business identity instead of something that reads as disposable.
+
+`components/sections/Nav.tsx` now takes an optional `homeHref` prop: `""` (default, unchanged) on
+the homepage keeps plain in-page `#anchor` links; `"/"` on any other page (currently just the demo
+route, via `<Nav homeHref="/" />` in `StoreDemo.tsx`) prefixes every link to `/#anchor` so "Pricing",
+"Book a demo", etc. correctly navigate back to the real site and land on the right section, rather
+than trying to scroll to an anchor that doesn't exist on the current page. The wordmark itself
+links home the same way. Verified live: nav hrefs differ correctly between the two pages, and an
+actual click-through from the demo page lands on `/#pricing`, scrolled there.
+
+Brand identity on the demo page itself is unaffected — the page's own `<h1>` still names the brand
+("SNITCH's catalog, styled and worn by AI.") — only the nav badge that duplicated that
+("demo for Snitch") is gone.
 
 ## Scroll feel + card/button animation polish (2026-08-25)
 

@@ -29,7 +29,7 @@ export default function HowItWorks() {
           <span className="num">02 — Drop in the widget</span>
           <h3>One API call, or your own UI</h3>
           <p>
-            Call <code>/ai/try-on</code> and <code>/ai/outfits</code> directly, or embed Veyra&rsquo;s
+            Call our API endpoints directly, or embed Veyra&rsquo;s
             ready-made try-on widget on the product page and cart. Either way, it&rsquo;s your
             storefront — our engine underneath.
           </p>

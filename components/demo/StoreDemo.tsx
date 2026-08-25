@@ -4,6 +4,7 @@ import { useMemo, useRef, useState } from "react";
 import type { Catalog, CatalogItem } from "@/lib/catalog";
 import { Reveal } from "@/components/Reveal";
 import IconSprite from "@/components/IconSprite";
+import Nav from "@/components/sections/Nav";
 import ProductGrid from "@/components/demo/ProductGrid";
 import TryOnPanel from "@/components/demo/TryOnPanel";
 import OutfitPanel from "@/components/demo/OutfitPanel";
@@ -43,18 +44,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
   return (
     <>
       <IconSprite />
-      <nav>
-        <div className="wrap">
-          <div className="nav-glass">
-            <div className="wordmark">
-              Veyra <small style={{ fontFamily: "var(--sans)", fontWeight: 500, fontSize: 12, color: "var(--faint)", border: "1px solid var(--line)", borderRadius: 999, padding: "3px 9px", marginLeft: 4 }}>demo for {catalog.brand}</small>
-            </div>
-            <a href="#try-on" className="btn btn-primary" style={{ padding: "10px 18px", fontSize: 13 }}>
-              Try it on
-            </a>
-          </div>
-        </div>
-      </nav>
+      <Nav homeHref="/" />
 
       <Reveal className="wrap" style={{ paddingTop: 56, paddingBottom: 24 }}>
         <span className="eyebrow">Live capability demo</span>
