@@ -55,8 +55,8 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
         </h1>
         <p className="section-sub">
           {catalog.items.length > 0
-            ? `This runs on ${catalog.items.length} real ${catalog.brand} SKUs and Veyra’s actual try-on and outfit-ranking engine — not a mockup. Pick a few pieces, upload a photo, and see it rendered live.`
-            : `A live, working demo of Veyra’s try-on and outfit-ranking engine, built specifically for ${catalog.brand} — waiting on product photos to go live.`}
+            ? `This runs on ${catalog.items.length} real ${catalog.brand} SKUs and EditMe’s actual try-on and outfit-ranking engine — not a mockup. Pick a few pieces, upload a photo, and see it rendered live.`
+            : `A live, working demo of EditMe’s try-on and outfit-ranking engine, built specifically for ${catalog.brand} — waiting on product photos to go live.`}
         </p>
       </Reveal>
 
@@ -85,7 +85,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
           <section className="section" style={{ paddingTop: 0 }}>
             <Reveal className="wrap">
               <div className="section-head">
-                <h2 className="section-title">Let Veyra style it for you</h2>
+                <h2 className="section-title">Let EditMe style it for you</h2>
                 <p className="section-sub">Ranks combinations across the catalog above — no manual pairing.</p>
               </div>
               <OutfitPanel brandId={brandId} catalogById={catalogById} onTryOutfit={tryOutfit} />
@@ -105,7 +105,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
       )}
 
       <div className="footer-note">
-        Independent demo built by Veyra using a small sample of {catalog.brand}&rsquo;s public
+        Independent demo built by EditMe using a small sample of {catalog.brand}&rsquo;s public
         product images — not an official {catalog.brand} property.
       </div>
     </>

@@ -68,7 +68,7 @@ export default function OutfitPanel({
     return (
       <div className="panel panel-idle">
         <svg viewBox="0 0 24 24"><use href="#g-sparkle" /></svg>
-        <p>Veyra scores every combination in the catalog above on fit, weather, occasion, and your stated preferences — then ranks the best three.</p>
+        <p>EditMe scores every combination in the catalog above on fit, weather, occasion, and your stated preferences — then ranks the best three.</p>
         <button type="button" className="btn btn-primary" onClick={fetchOutfits} disabled={status === "loading"}>
           {status === "loading" ? "Styling…" : "✨ Get AI-styled outfit ideas"}
         </button>

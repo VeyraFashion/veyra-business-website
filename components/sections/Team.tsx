@@ -12,7 +12,7 @@ const TEAM = [
     initials: "OG",
     name: "Omkar Ghugarkar",
     role: "Co-Founder",
-    bio: "Working to take Veyra's styling and try-on engine from a consumer app to a platform retail teams can license and integrate.",
+    bio: "Working to take EditMe's styling and try-on engine from a consumer app to a platform retail teams can license and integrate.",
     tone: "teal" as const,
   },
 ];

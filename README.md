@@ -1,21 +1,21 @@
-# Veyra for Retail
+# EditMe for Retail
 
-The B2B/B2B2C pitch: Veyra's AI layer (garment analysis, virtual try-on, reusable avatars, outfit
+The B2B/B2B2C pitch: EditMe's AI layer (garment analysis, virtual try-on, reusable avatars, outfit
 ranking) licensed as an API to fashion retailers, instead of — or alongside — the consumer app.
-Same template and design system as `veyra-web` (Next.js 15 + React 19 + TypeScript, the same
+Same template and design system as `editme-web` (Next.js 15 + React 19 + TypeScript, the same
 Fraunces/dark/coral/teal theme), new content for a retailer buyer instead of an end consumer.
 
 ```bash
 npm install
-npm run dev   # http://localhost:3000 (pass -- -p 3003 to run alongside veyra-web/veyra-poc)
+npm run dev   # http://localhost:3000 (pass -- -p 3003 to run alongside editme-web/editme-poc)
 ```
 
-## What's different from veyra-web
+## What's different from editme-web
 
 Same section rhythm (nav → hero → problem stats → 3-step how-it-works → 6 capability rows →
 integration band → why-now → segments → final CTA → footer), same CSS variables and component
 classes (`.wrap`, `.section`, `.feature-row`, `.stats`, `.personas`, `.final-cta`, …) copied from
-the already-fixed `veyra-web/app/theme.css` (the mobile nav-overflow and zero-padding bugs found
+the already-fixed `editme-web/app/theme.css` (the mobile nav-overflow and zero-padding bugs found
 there are already fixed here, not reintroduced).
 
 New, B2B-specific pieces added on top:
@@ -24,7 +24,7 @@ New, B2B-specific pieces added on top:
   lives on *someone else's* site, so the visual needed to say that.
 - **`.code-mock`** (Capabilities, "Built for Engineering Teams" row) — a plain-text terminal-style
   panel showing the real async job shape (`POST /ai/jobs/try-on` → `202 Accepted` → poll → `completed`),
-  matching `veyra-ai/AI_API_README.md`'s actual documented contract, not an invented one.
+  matching `editme-ai/AI_API_README.md`'s actual documented contract, not an invented one.
 - **`.touchpoints`** (the "Where It Fits" band, `PlugsIn.tsx`) — three chips (Product Page / Cart /
   Post-Purchase) replacing the consumer site's chat-mock in that slot.
 
@@ -41,16 +41,16 @@ a 4-up grid (2×2 on tablet, stacked on mobile) rather than 3. Richpanel/Rocket 
 sources line as supporting citations for the general category claims.
 
 **The "honest math" box's three slots are now filled — with a third party's numbers, explicitly
-not Veyra's (2026-08-25).** Initially left blank on purpose (see git history / the note below),
+not EditMe's (2026-08-25).** Initially left blank on purpose (see git history / the note below),
 then filled in after the user clarified the ask: real, research-backed numbers are fine as long as
-they're never presented as Veyra's own results. Rebuilt the box around a single, gold-standard
+they're never presented as EditMe's own results. Rebuilt the box around a single, gold-standard
 source rather than patchwork blog stats: Nestler et al., *"SizeFlags: Reducing Size and Fit
 Related Returns in Fashion E-Commerce"* — Zalando SE, peer-reviewed at **KDD 2021**
 ([arXiv:2106.03532](https://arxiv.org/abs/2106.03532)), a live A/B-tested study (300k+ customers
 per group) of Zalando's own AI-driven size/fit system. Three real, precisely-scoped figures:
 **+2.1%** conversion rate, **+1.8%** items added to cart (same test), **4–8%** fewer size-related
 returns (range across the different model versions the paper tested). Rewrote the box's copy to
-make the attribution unmissable — *"These are not Veyra numbers... They're Zalando's"* — rather
+make the attribution unmissable — *"These are not EditMe numbers... They're Zalando's"* — rather
 than quietly swapping numbers into copy that used to say the opposite. Renamed the CSS class that
 used to hold the blank placeholder (`.blank`) to `.figure` and gave it the same real-data
 treatment as the stats above (ink-colored serif numerals, coral accent) instead of the deliberately
@@ -58,8 +58,8 @@ faint/dim placeholder styling, since these are now real numbers, not empty slots
 zero console errors, both breakpoints.
 
 **Copy trimmed further per follow-up requests (same session):** removed the box's explanatory
-paragraph, then the compact "Zalando · KDD 2021, not Veyra" tag that briefly replaced it, then the
-`.stat-close` line above the industry stats ("None of that is a Veyra number..."). What's left:
+paragraph, then the compact "Zalando · KDD 2021, not EditMe" tag that briefly replaced it, then the
+`.stat-close` line above the industry stats ("None of that is a EditMe number..."). What's left:
 the numbers, their labels, and a plain "Source:"/"Sources:" citation line under each group — the
 same minimal citation treatment on both, no separate disclaimer copy. **Then made the math-box
 visually match the section's main header and stats grid** — `.math-head` now uses the same serif
@@ -91,26 +91,26 @@ couldn't be independently confirmed before use.
 ## On the numbers
 
 The three stats in the Problem section (25% apparel return rate, ~half from fit/sizing, typical
-in-house build time) are **industry figures, not Veyra performance claims** — sourced and linked
-under the stats grid. Veyra doesn't have retailer pilot data yet, so the copy is deliberately
+in-house build time) are **industry figures, not EditMe performance claims** — sourced and linked
+under the stats grid. EditMe doesn't have retailer pilot data yet, so the copy is deliberately
 built around "here's the industry problem, here's what we'll help you measure on your own
 catalog" rather than inventing a conversion-lift or return-reduction number the way a competitor
 site (SizeSense.ai) does with unverifiable claims like "94% accuracy" / "66% fewer returns."
-Don't add a specific Veyra-attributed outcome number here until a real pilot produces one.
+Don't add a specific EditMe-attributed outcome number here until a real pilot produces one.
 
 ## Not wired up
 
-Same honest pattern as `veyra-web`: the "Book a demo" form is a disabled input + inert button.
+Same honest pattern as `editme-web`: the "Book a demo" form is a disabled input + inert button.
 Wiring it to a real inbox/CRM/calendar link is a follow-up, not done here.
 
 ## Per-brand outreach demo (`/demo/<brandId>`)
 
-The `veyra-poc` storefront demo (product grid + live try-on + outfit ranking, built for Snitch
+The `editme-poc` storefront demo (product grid + live try-on + outfit ranking, built for Snitch
 outreach) is integrated here as a route, generalized to any brand:
 
 ```
 app/demo/[brandId]/page.tsx                     — resolves the id, loads that brand's catalog
-app/api/demo/[brandId]/tryon(+/[jobId])/route.ts — same veyra-ai proxy pattern as veyra-poc
+app/api/demo/[brandId]/tryon(+/[jobId])/route.ts — same editme-ai proxy pattern as editme-poc
 app/api/demo/[brandId]/outfits/route.ts
 components/demo/{StoreDemo,ProductGrid,TryOnPanel,OutfitPanel}.tsx
 config/brands.json                              — the id → brand mapping
@@ -131,7 +131,7 @@ Current mapping (also in `config/brands.json`):
 |---|---|---|
 | Blissclub | `/demo/a952ff1c54` | not yet added |
 | Bonkers Corner | `/demo/34f56177ab` | not yet added |
-| SNITCH | `/demo/88c64009be` | ✅ 11 SKUs, ported from veyra-poc |
+| SNITCH | `/demo/88c64009be` | ✅ 11 SKUs, ported from editme-poc |
 | NEWME | `/demo/f36f6d64b0` | not yet added |
 | The Bear House | `/demo/51e026192a` | not yet added |
 | FREAKINS | `/demo/513c78d2c8` | not yet added |
@@ -159,13 +159,13 @@ No code changes needed — the route, API, and UI are already brand-agnostic.
 ## Pricing, comparison table, honest-math box, measurement methodology (2026-08-25)
 
 Four additions implementing the "Now — days, not weeks" section of a competitive analysis
-(Veyra vs. Elara's B2B widget, published separately as an artifact):
+(EditMe vs. Elara's B2B widget, published separately as an artifact):
 
 - **`components/sections/Pricing.tsx`** (new, `#pricing`, wired into `app/page.tsx` between
   Segments and FinalCta, added to Nav/Footer) — three tiers (Pilot $299/mo, Growth $899/mo,
   Scale custom), capped on the platform's real usage axes (try-on renders, outfit-ranking calls,
   SKUs catalogued) rather than gating features by tier. Numbers are grounded in this session's
-  actually-observed veyra-ai Gemini costs (~$0.08/try-on render, ~$0.03–0.06/outfit-ranking
+  actually-observed editme-ai Gemini costs (~$0.08/try-on render, ~$0.03–0.06/outfit-ranking
   call), not copied from any competitor's published pricing.
 - **Build-it-yourself vs. license comparison table** — `.compare-table` in `WhyNow.tsx`, a new
   `<Reveal>` block after the existing why-now paragraph.
@@ -246,10 +246,10 @@ Two things caught by testing, not assumed from source:
 
 ## Demo page now shares the real site nav (2026-08-25)
 
-The per-brand demo (`/demo/[brandId]`) used to render its own inline nav — "Veyra demo for
+The per-brand demo (`/demo/[brandId]`) used to render its own inline nav — "EditMe demo for
 {brand}" plus a "Try it on" quick-scroll button — instead of the actual site nav. Replaced it
 with the same `Nav` component the marketing homepage uses, so a prospect on a demo link sees the
-same Veyra business identity instead of something that reads as disposable.
+same EditMe business identity instead of something that reads as disposable.
 
 `components/sections/Nav.tsx` now takes an optional `homeHref` prop: `""` (default, unchanged) on
 the homepage keeps plain in-page `#anchor` links; `"/"` on any other page (currently just the demo
@@ -344,12 +344,12 @@ placeholder on the right — instead of everything stacked in one column. Collap
 stacked column under 860px.
 
 **Button hover/press states (2026-08-25):** found via a live before/hover/active computed-style
-diff against Elara's B2B site (`joinelara.shop`, confirmed built on Framer + Lenis) that Veyra's
+diff against Elara's B2B site (`joinelara.shop`, confirmed built on Framer + Lenis) that EditMe's
 own `.btn` class had *no* `:hover`/`:active` rule at all — nav, hero, pricing, and final-CTA
 buttons sat visually static regardless of mouse state, while cards (`.card`, and the demo page's
 motion-driven product/outfit cards) already had real hover lift/glow. Elara's own CTA hover is
 minimal (a flat `rgba(255,255,255,0.06)` background fade via Framer's generic `transition: all`,
-no transform, no shadow change) — so the bar was low, but Veyra was still behind it on this one
+no transform, no shadow change) — so the bar was low, but EditMe was still behind it on this one
 element. Fixed in `theme.css`: `.btn:hover` lifts 2px + deepens the coral glow shadow,
 `.btn:active` settles to `scale(0.97)` (matching the tap-scale already used elsewhere),
 `.btn-ghost:hover` brightens its fill/border. Verified live via CDP (`Input.dispatchMouseEvent`)

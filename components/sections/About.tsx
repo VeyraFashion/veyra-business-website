@@ -10,7 +10,7 @@ export default function About() {
 
       <Reveal delay={0.05} style={{ maxWidth: 720 }}>
         <p className="section-sub" style={{ fontSize: 16, marginBottom: 14 }}>
-          Veyra began as a consumer app — an AI stylist that understands the clothes already in
+          EditMe began as a consumer app — an AI stylist that understands the clothes already in
           someone&rsquo;s closet, tries new pieces on their own body, and builds outfits from what
           actually fits. This site is the same engine, offered the other way round: instead of
           asking shoppers to come to us, we license the try-on and styling layer directly into the

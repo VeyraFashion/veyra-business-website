@@ -1,18 +1,18 @@
-/** Thin server-side client for the veyra-ai FastAPI service. Never call this from client code —
+/** Thin server-side client for the editme-ai FastAPI service. Never call this from client code —
  *  it's imported only from Next.js route handlers (app/api/**), so the Gemini/service key stay
  *  server-side. */
 
-export function veyraAiBaseUrl(): string {
-  return process.env.VEYRA_AI_BASE_URL || "http://127.0.0.1:8000";
+export function editMeAiBaseUrl(): string {
+  return process.env.EDITME_AI_BASE_URL || "http://127.0.0.1:8000";
 }
 
 export function serviceKeyHeaders(): Record<string, string> {
-  const key = process.env.VEYRA_AI_SERVICE_KEY;
+  const key = process.env.EDITME_AI_SERVICE_KEY;
   return key ? { "X-Service-Key": key } : {};
 }
 
 export function qualityProfile(): string {
-  return process.env.VEYRA_AI_QUALITY_PROFILE || "interactive";
+  return process.env.EDITME_AI_QUALITY_PROFILE || "interactive";
 }
 
 export interface ImageJobAccepted {
@@ -40,10 +40,10 @@ export interface ImageJobStatus {
   error: { code: string; message: string } | null;
 }
 
-/** Wraps a fetch to veyra-ai and turns non-2xx responses into a normalized Error with the
+/** Wraps a fetch to editme-ai and turns non-2xx responses into a normalized Error with the
  *  service's own `detail` message (e.g. 503 "GEMINI_API_KEY not configured"). */
-async function veyraFetch(pathname: string, init: RequestInit): Promise<Response> {
-  const res = await fetch(`${veyraAiBaseUrl()}${pathname}`, init);
+async function editMeFetch(pathname: string, init: RequestInit): Promise<Response> {
+  const res = await fetch(`${editMeAiBaseUrl()}${pathname}`, init);
   if (!res.ok) {
     let detail = res.statusText;
     try {
@@ -60,7 +60,7 @@ async function veyraFetch(pathname: string, init: RequestInit): Promise<Response
 }
 
 export async function submitTryOnJob(form: FormData): Promise<ImageJobAccepted> {
-  const res = await veyraFetch("/ai/jobs/try-on", {
+  const res = await editMeFetch("/ai/jobs/try-on", {
     method: "POST",
     body: form,
     headers: { ...serviceKeyHeaders() },
@@ -69,7 +69,7 @@ export async function submitTryOnJob(form: FormData): Promise<ImageJobAccepted> 
 }
 
 export async function getJob(jobId: string): Promise<ImageJobStatus> {
-  const res = await veyraFetch(`/ai/jobs/${jobId}`, {
+  const res = await editMeFetch(`/ai/jobs/${jobId}`, {
     method: "GET",
     headers: { ...serviceKeyHeaders() },
   });
@@ -77,7 +77,7 @@ export async function getJob(jobId: string): Promise<ImageJobStatus> {
 }
 
 export async function rankOutfits(body: Record<string, unknown>): Promise<Record<string, unknown>> {
-  const res = await veyraFetch("/ai/outfits", {
+  const res = await editMeFetch("/ai/outfits", {
     method: "POST",
     headers: { "Content-Type": "application/json", ...serviceKeyHeaders() },
     body: JSON.stringify(body),
