@@ -10,12 +10,12 @@ import PilotChecklist from "@/components/home/PilotChecklist";
 afterEach(cleanup);
 
 describe("homepage interactions", () => {
-  it("labels the independent study results without presenting them as Veyra metrics", () => {
+  it("labels the independent study results and identifies the Veyra benchmark", () => {
     render(<BusinessHome />);
 
     expect(screen.getByText("−3.8%")).toBeInTheDocument();
     expect(screen.getByText("−4.3% to −6.6%")).toBeInTheDocument();
-    expect(screen.getByText(/relative reductions reported by that study—not Veyra performance/i)).toBeInTheDocument();
+    expect(screen.getByText(/a Veyra pilot establishes the benchmark for your own customer journey/i)).toBeInTheDocument();
     expect(screen.queryByText("+2.1%")).not.toBeInTheDocument();
   });
 
@@ -58,13 +58,13 @@ describe("homepage interactions", () => {
     render(<Faq />);
 
     const trigger = screen.getByRole("button", {
-      name: /does veyra replace our storefront or app/i,
+      name: /how does veyra fit into our storefront or app/i,
     });
     expect(trigger).toHaveAttribute("aria-expanded", "false");
 
     await user.click(trigger);
     expect(trigger).toHaveAttribute("aria-expanded", "true");
-    expect(screen.getByText(/veyra is the intelligence and image layer/i)).toBeVisible();
+    expect(screen.getByText(/veyra adds an intelligence and image layer/i)).toBeVisible();
 
     await user.click(trigger);
     expect(trigger).toHaveAttribute("aria-expanded", "false");

@@ -22,7 +22,7 @@ const GOOGLE_CASE_STUDY =
   "https://cloud.google.com/blog/topics/retail/how-breuninger-boosted-sales-with-its-be-your-own-model-ai";
 const ZALANDO_STUDY = "https://arxiv.org/abs/2106.03532";
 const TRY_ON_CODE = [
-  "// Accept the work without freezing the PDP",
+  "// Queue the work and keep the PDP responsive",
   "POST /ai/jobs/try-on",
   "",
   "{",
@@ -42,7 +42,7 @@ const capabilities = [
     number: "01",
     icon: UserRound,
     title: "See it on me",
-    body: "A shopper uploads a photo once, then tries single pieces or compatible layers without leaving the product journey.",
+    body: "A shopper uploads a photo once, then tries single pieces or compatible layers inside the product journey.",
     detail: "Reusable avatar · multi-garment rules · fidelity review",
   },
   {
@@ -119,7 +119,7 @@ export default function BusinessHome() {
             <ul className="home-hero-facts" aria-label="Veyra product facts">
               <li><Check size={16} aria-hidden="true" /> Your brand and interface stay in front</li>
               <li><Check size={16} aria-hidden="true" /> Start with one measurable surface</li>
-              <li><Check size={16} aria-hidden="true" /> No invented performance claims</li>
+              <li><Check size={16} aria-hidden="true" /> Performance measured on your traffic</li>
             </ul>
           </div>
 
@@ -166,9 +166,9 @@ export default function BusinessHome() {
 
         <section className="home-proof-rail" aria-label="Product positioning">
           <div className="home-shell home-proof-rail-inner">
-            <span>Not another destination app.</span>
+            <span>One connected customer journey.</span>
             <span aria-hidden="true">/</span>
-            <span>Not a generic chatbot.</span>
+            <span>Commerce-native intelligence.</span>
             <span aria-hidden="true">/</span>
             <strong>A confidence layer inside commerce.</strong>
           </div>
@@ -177,11 +177,11 @@ export default function BusinessHome() {
         <section className="home-section home-shell" id="product" aria-labelledby="product-title">
           <div className="home-section-intro home-section-intro-wide">
             <p className="home-overline">The customer journey</p>
-            <h2 id="product-title">Useful at the exact moment doubt appears.</h2>
+            <h2 id="product-title">Useful at the exact moment confidence matters.</h2>
             <p>
-              Veyra does not ask shoppers to learn a new destination. It adds personal proof to
-              the product page, helps complete the cart, and keeps serving the purchase after it
-              arrives.
+              Veyra meets shoppers inside the journey they already know. It adds personal proof
+              to the product page, helps complete the cart, and keeps serving the purchase after
+              it arrives.
             </p>
           </div>
           <CommerceMoment />
@@ -193,9 +193,8 @@ export default function BusinessHome() {
               <p className="home-overline">What the market learned</p>
               <h2 id="how-title">Personalization gets stronger as the shopper gets closer to the image.</h2>
               <p>
-                Breuninger moved through three levels of virtual try-on before customer feedback
-                made the priority clear: people did not only want a representative model. They
-                wanted to see themselves.
+                Breuninger explored three levels of virtual try-on. Customer feedback highlighted
+                the most personal experience: people valued seeing themselves in the product.
               </p>
               <a className="home-source-link" href={GOOGLE_CASE_STUDY} target="_blank" rel="noreferrer">
                 Read the Google Cloud retail case study <ArrowUpRight size={16} aria-hidden="true" />
@@ -205,7 +204,7 @@ export default function BusinessHome() {
             <ol className="home-maturity-list">
               <li>
                 <span className="home-maturity-number">01</span>
-                <div><strong>Catalog-ready</strong><p>Prepare consistent product imagery at scale, without another full shoot.</p></div>
+                <div><strong>Catalog-ready</strong><p>Prepare consistent product imagery at scale from your existing catalog assets.</p></div>
                 <span className="home-maturity-mode">Batch</span>
               </li>
               <li>
@@ -227,9 +226,8 @@ export default function BusinessHome() {
             <p className="home-overline">One system, four jobs</p>
             <h2 id="platform-title">Everything around the render matters.</h2>
             <p>
-              High-quality try-on is not one model call. The product image, garment roles,
-              customer input, response time, and review path all shape whether a result earns
-              trust.
+              High-quality try-on comes from a complete workflow. The product image, garment
+              roles, customer input, response time, and review path work together to earn trust.
             </p>
           </div>
           <div className="home-capability-list">
@@ -249,11 +247,10 @@ export default function BusinessHome() {
           <div className="home-shell">
             <div className="home-evidence-heading">
               <p className="home-overline">Independent evidence</p>
-              <h2 id="evidence-title">The category has proof. Veyra still has to earn yours.</h2>
+              <h2 id="evidence-title">The category has proof. Your pilot makes it specific.</h2>
               <p>
-                We separate published retail evidence from Veyra performance. A pilot should
-                measure the impact on your catalog and your shoppers—not borrow someone else’s
-                uplift as a promise.
+                Published retail evidence sets the context. A focused pilot measures the impact
+                across your catalog, your customer journey, and your shoppers.
               </p>
             </div>
 
@@ -268,7 +265,7 @@ export default function BusinessHome() {
                   personalized virtual try-on converted at a higher rate and generated stronger
                   contribution margin. Surveys also highlighted image quality and personalization.
                 </p>
-                <p className="home-evidence-caveat">The article reports direction, not a numeric uplift.</p>
+                <p className="home-evidence-caveat">The published evidence is directional across conversion and contribution margin.</p>
                 <a href={GOOGLE_CASE_STUDY} target="_blank" rel="noreferrer">
                   View source <ArrowUpRight size={16} aria-hidden="true" />
                 </a>
@@ -301,8 +298,8 @@ export default function BusinessHome() {
                 </dl>
                 <p>
                   Zalando researchers tested article-level size guidance on shoes and textiles.
-                  The figures above are relative reductions reported by that study—not Veyra
-                  performance.
+                  These relative reductions come from the published study. A Veyra pilot
+                  establishes the benchmark for your own customer journey.
                 </p>
                 <a href={ZALANDO_STUDY} target="_blank" rel="noreferrer">
                   Read the paper <ArrowUpRight size={16} aria-hidden="true" />
@@ -324,7 +321,7 @@ export default function BusinessHome() {
               <ul className="home-check-list">
                 <li><CircleCheck size={18} aria-hidden="true" /> Existing product pages stay intact</li>
                 <li><CircleCheck size={18} aria-hidden="true" /> Image jobs return immediately with a job ID</li>
-                <li><CircleCheck size={18} aria-hidden="true" /> Garment conflicts are rejected before generation</li>
+                <li><CircleCheck size={18} aria-hidden="true" /> Garment compatibility is validated before generation</li>
                 <li><CircleCheck size={18} aria-hidden="true" /> Usage and quality review travel with the response</li>
               </ul>
             </div>
@@ -346,12 +343,12 @@ export default function BusinessHome() {
         <section className="home-section home-pilot" id="pilot" aria-labelledby="pilot-title">
           <div className="home-shell home-pilot-grid">
             <div>
-              <p className="home-overline">Start narrow. Learn fast.</p>
+              <p className="home-overline">Start focused. Learn fast.</p>
               <h2 id="pilot-title">A useful first pilot fits on one page.</h2>
               <p className="home-pilot-lede">
                 Pick one customer moment, a small representative catalog slice, and one business
-                question. The goal is not to “launch AI.” It is to learn whether personal proof
-                changes purchase behavior for your shoppers.
+                question. Create a focused learning loop that shows how personal proof changes
+                purchase behavior for your shoppers.
               </p>
             </div>
             <div className="home-pilot-steps">

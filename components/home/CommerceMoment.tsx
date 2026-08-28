@@ -9,9 +9,9 @@ const moments = [
   {
     id: "pdp",
     label: "Product page",
-    eyebrow: "Answer the first doubt",
+    eyebrow: "Build confidence early",
     title: "See the product on a familiar body.",
-    body: "The try-on action sits beside the purchase decision—not inside a separate AI experience.",
+    body: "The try-on action sits beside the purchase decision, directly inside the familiar product experience.",
     action: "Try this shirt on",
     image: "/products/snitch/shirt-quads-line-grey.png",
     product: "Quads Line Shirt",

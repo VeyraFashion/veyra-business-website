@@ -24,11 +24,30 @@ const forbiddenPublicCopy = [
   ">Pricing<",
 ];
 
+const negativePublicFraming = [
+  "does not ask shoppers",
+  "Not another destination app",
+  "Not a generic chatbot",
+  "No invented performance claims",
+  "High-quality try-on is not",
+  "The goal is not",
+  "—not Veyra performance",
+  "Answer the first doubt",
+];
+
 for (const forbidden of forbiddenPublicCopy) {
   assert.equal(
     publicHomepage.includes(forbidden),
     false,
     `Public homepage still contains hidden content: ${forbidden}`,
+  );
+}
+
+for (const framing of negativePublicFraming) {
+  assert.equal(
+    publicHomepage.toLowerCase().includes(framing.toLowerCase()),
+    false,
+    `Public homepage contains negative framing: ${framing}`,
   );
 }
 

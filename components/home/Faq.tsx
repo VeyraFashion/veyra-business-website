@@ -9,29 +9,29 @@ import {
 
 const questions = [
   {
-    question: "Does Veyra replace our storefront or app?",
+    question: "How does Veyra fit into our storefront or app?",
     answer:
-      "No. Veyra is the intelligence and image layer behind the experience. Your team can use the API directly or begin with a focused surface while keeping your existing product pages, cart, identity, and analytics.",
+      "Veyra adds an intelligence and image layer behind your experience. Your team can use the API directly or begin with a focused surface while keeping your existing product pages, cart, identity, and analytics in place.",
   },
   {
     question: "What does a shopper need to upload?",
     answer:
-      "A shopper can start with a single suitable photo. A reusable avatar can then support later try-ons without asking for the same upload every time. The interface should always explain what is needed and how the image will be used.",
+      "A shopper can start with a single suitable photo. That photo creates a reusable avatar for future try-ons. The interface clearly explains what is needed and how the image will be used.",
   },
   {
     question: "Can a shopper try multiple garments together?",
     answer:
-      "Yes, when the layers are compatible. A base top and jacket can work together; two shirts or duplicate footwear cannot. Veyra validates garment roles before starting the image generation job.",
+      "Yes. Veyra supports a base top, a bottom or full-body garment, an outerwear layer, and footwear. It validates each combination before starting the image generation job.",
   },
   {
     question: "How do you keep generated images trustworthy?",
     answer:
-      "The workflow includes source analysis, garment-role checks, constrained generation, and a second visual review for color, pattern, logo, texture, construction, and framing. The response exposes warnings instead of hiding uncertainty.",
+      "The workflow includes source analysis, garment-role checks, constrained generation, and a second visual review for color, pattern, logo, texture, construction, and framing. Clear review notes help teams assess every result confidently.",
   },
   {
     question: "What should the first pilot measure?",
     answer:
-      "Choose one primary behavior before launch: try-on activation, add-to-cart, conversion, contribution margin, or return behavior. Published retail studies are useful context, but the decision should be based on your own catalog and traffic.",
+      "Choose one primary behavior before launch: try-on activation, add-to-cart, conversion, contribution margin, or return behavior. Published retail studies provide useful context, while your own catalog and traffic establish the decision-ready measure.",
   },
 ] as const;
 
