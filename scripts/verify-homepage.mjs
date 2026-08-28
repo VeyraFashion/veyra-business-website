@@ -10,7 +10,13 @@ const homeCss = await readFile(path.join(root, "app/home.css"), "utf8");
 const demoCss = await readFile(path.join(root, "app/demo.css"), "utf8");
 const legacyAndDemoCss = await readFile(path.join(root, "app/theme.css"), "utf8");
 const demoSource = await readFile(path.join(root, "components/demo/StoreDemo.tsx"), "utf8");
+const outfitPanelSource = await readFile(path.join(root, "components/demo/OutfitPanel.tsx"), "utf8");
 const productGridSource = await readFile(path.join(root, "components/demo/ProductGrid.tsx"), "utf8");
+const tryOnPanelSource = await readFile(path.join(root, "components/demo/TryOnPanel.tsx"), "utf8");
+const aiClientSource = await readFile(path.join(root, "lib/veyra-ai.ts"), "utf8");
+const outfitRouteSource = await readFile(path.join(root, "app/api/demo/[brandId]/outfits/route.ts"), "utf8");
+const tryOnRouteSource = await readFile(path.join(root, "app/api/demo/[brandId]/tryon/route.ts"), "utf8");
+const jobRouteSource = await readFile(path.join(root, "app/api/demo/[brandId]/tryon/[jobId]/route.ts"), "utf8");
 const tailwindCss = await readFile(path.join(root, "app/tailwind.css"), "utf8");
 const builtHome = await readFile(path.join(root, ".next/server/app/index.html"), "utf8");
 const builtCssDirectory = path.join(root, ".next/static/chunks");
@@ -98,8 +104,35 @@ assert.match(demoCss, /@media \(max-width: 430px\)/);
 assert.match(demoCss, /@media \(prefers-reduced-motion: reduce\)/);
 assert.match(demoCss, /\.demo-product-card[\s\S]*color: var\(--demo-ink\) !important/);
 assert.match(demoSource, /Live catalog intelligence/);
-assert.match(demoSource, /Move from selection to self\./);
+assert.match(demoSource, /Three looks\. Already on you\./);
+assert.match(demoSource, /Receive three try-ons/);
+assert.match(outfitPanelSource, /Create 3 looks on me/);
+assert.match(outfitPanelSource, /Checking your photo and composing three looks/);
+assert.match(outfitPanelSource, /photoAssessment\.status === "needs_new_photo"/);
+assert.match(outfitPanelSource, /Promise\.allSettled/);
 assert.match(productGridSource, /aria-pressed=\{selected\}/);
+const hiddenProviderName = ["gem", "ini"].join("");
+const clientProviderSurface = [
+  pageSource,
+  demoSource,
+  outfitPanelSource,
+  tryOnPanelSource,
+  aiClientSource,
+  outfitRouteSource,
+  tryOnRouteSource,
+  jobRouteSource,
+].join("\n").toLowerCase();
+assert.equal(
+  clientProviderSurface.includes(hiddenProviderName),
+  false,
+  "A private AI provider name is present in the client-facing application source",
+);
+assert.doesNotMatch(outfitRouteSource, /NextResponse\.json\(result/);
+assert.match(outfitRouteSource, /photo_assessment: publicPhotoAssessment/);
+assert.doesNotMatch(tryOnRouteSource, /NextResponse\.json\(accepted/);
+assert.match(tryOnRouteSource, /job_id: accepted\.job_id/);
+assert.doesNotMatch(jobRouteSource, /NextResponse\.json\(status/);
+assert.match(jobRouteSource, /result: job\.status === "completed" \? publicResult/);
 assert.match(layoutSource, /metadataBase/);
 assert.match(layoutSource, /applicationName: "Veyra"/);
 assert.match(layoutSource, /title: "Veyra for Business — Virtual Try-On & AI Styling"/);

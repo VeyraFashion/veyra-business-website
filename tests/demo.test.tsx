@@ -1,11 +1,15 @@
 import { cleanup, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import axe from "axe-core";
-import { afterEach, describe, expect, it } from "vitest";
+import { renderToStaticMarkup } from "react-dom/server";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import StoreDemo from "@/components/demo/StoreDemo";
 import type { Catalog } from "@/lib/catalog";
 
-afterEach(cleanup);
+afterEach(() => {
+  cleanup();
+  vi.unstubAllGlobals();
+});
 
 const snitchSample: Catalog = {
   brand: "SNITCH",
@@ -55,6 +59,14 @@ const snitchSample: Catalog = {
 };
 
 describe("private brand demo", () => {
+  it("ships critical demo content visible before client hydration", () => {
+    const html = renderToStaticMarkup(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
+
+    expect(html).toContain("See SNITCH");
+    expect(html).toContain("Regular Fit Denim Shirt");
+    expect(html).not.toMatch(/opacity:\s*0/);
+  });
+
   it("renders a live catalog journey and links back to the public pilot", () => {
     render(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
 
@@ -62,8 +74,48 @@ describe("private brand demo", () => {
     expect(screen.getByRole("button", { name: /Regular Fit Denim Shirt/i })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /Washed Straight Fit Jeans/i })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Plan a pilot/i })).toHaveAttribute("href", "/#pilot");
-    expect(screen.getByRole("heading", { name: /Turn products into a considered look/i })).toBeInTheDocument();
-    expect(screen.getByText(/Veyra compares compatible combinations/i)).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Three looks. Already on you/i })).toBeInTheDocument();
+    expect(screen.getByText(/Upload once. Receive three complete looks on you/i)).toBeInTheDocument();
+  });
+
+  it("requires one reusable shopper photo and a conversational brief", async () => {
+    const user = userEvent.setup();
+    render(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
+
+    const chatInput = screen.getByRole("textbox", { name: /Where are you going/i });
+    const photoInput = screen.getByLabelText(/Add your full-body photo/i);
+    const submit = screen.getByRole("button", { name: /Create 3 looks on me/i });
+
+    expect(chatInput).toHaveAttribute("maxlength", "600");
+    expect(photoInput).toHaveAttribute("accept", "image/jpeg,image/png,image/webp");
+    expect(submit).toBeDisabled();
+
+    await user.click(screen.getByRole("button", { name: /first date at an art gallery/i }));
+    expect(chatInput).toHaveValue("A first date at an art gallery, polished but relaxed");
+    expect(submit).toBeDisabled();
+
+    await user.upload(photoInput, new File(["shopper"], "shopper.jpg", { type: "image/jpeg" }));
+    expect(submit).toBeEnabled();
+  });
+
+  it("shows immediate progress after the shopper starts the three-look journey", async () => {
+    vi.stubGlobal("fetch", vi.fn(() => new Promise<Response>(() => undefined)));
+    const user = userEvent.setup();
+    render(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
+
+    await user.type(
+      screen.getByRole("textbox", { name: /Where are you going/i }),
+      "Dinner by the sea at sunset",
+    );
+    await user.upload(
+      screen.getByLabelText(/Add your full-body photo/i),
+      new File(["shopper"], "shopper.jpg", { type: "image/jpeg" }),
+    );
+    await user.click(screen.getByRole("button", { name: /Create 3 looks on me/i }));
+
+    expect(screen.getByRole("button", { name: /Checking photo and styling/i })).toBeDisabled();
+    expect(screen.getByRole("status")).toHaveTextContent(/composing three looks/i);
+    expect(screen.getByRole("status")).toHaveTextContent(/Please keep this page open/i);
   });
 
   it("keeps one garment per wear role while allowing a top and bottom", async () => {
@@ -85,9 +137,8 @@ describe("private brand demo", () => {
     await user.click(jeans);
     expect(greyShirt).toHaveClass("selected");
     expect(jeans).toHaveClass("selected");
-    expect(screen.getByText("Quads Line Grey Shirt", { selector: ".demo-selected-chip" })).toBeInTheDocument();
-    expect(screen.getByText("Washed Straight Fit Jeans", { selector: ".demo-selected-chip" })).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /Continue to try-on/i })).toBeInTheDocument();
+    expect(screen.getAllByText(/Quads Line Grey Shirt \+ Washed Straight Fit Jeans/i)).toHaveLength(2);
+    expect(screen.getByRole("button", { name: /Build 3 looks with these/i })).toBeInTheDocument();
   });
 
   it("replaces separates with a full-body garment and restores separates cleanly", async () => {

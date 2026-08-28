@@ -17,7 +17,7 @@ export default function About() {
           storefronts they&rsquo;re already on.
         </p>
         <p className="section-sub" style={{ fontSize: 16 }}>
-          We&rsquo;re a small team, on purpose, for now — close enough to the model outputs and the
+          We&rsquo;re a small team, on purpose, for now — close enough to every product output and the
           pilot data to keep the claims on this site honest rather than optimistic.
         </p>
       </Reveal>

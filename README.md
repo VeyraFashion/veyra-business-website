@@ -10,7 +10,7 @@ experience until they are ready to be published.
 
 ## Current direction
 
-- Editorial commerce design: warm paper, near-black typography, cobalt, acid lime, and persimmon.
+- Editorial commerce design: warm paper, near-black typography, cobalt, acid lime, and periwinkle.
 - One primary journey: plan a small, measurable retail pilot.
 - Real product UI instead of decorative dashboard mockups.
 - Independent evidence beside the claims it supports, clearly separated from Veyra results.
@@ -86,6 +86,7 @@ npm run test:content
 app/page.tsx                         Public homepage entry
 app/tailwind.css                     Tailwind v4 and Veyra design-token bridge
 app/home.css                         Homepage visual system and responsive rules
+app/demo.css                         Private brand-demo visual and responsive system
 app/opengraph-image.png              Social-preview card
 components/home/BusinessHome.tsx     Homepage content and layout
 components/home/CommerceMoment.tsx   Interactive commerce touchpoints
@@ -96,8 +97,8 @@ tests/homepage.test.tsx              Interaction and accessibility tests
 scripts/verify-homepage.mjs          Built-output and content checks
 ~~~
 
-The legacy theme remains because the private brand-demo route still uses its catalog, card, upload,
-and result styles.
+The legacy theme remains for older shared sections; the public homepage and private brand demos
+use their own scoped visual systems.
 
 Tailwind is configured without Preflight so it cannot unexpectedly reset the legacy demo or the
 art-directed homepage. Add new functional primitives through shadcn, keep their source in
@@ -106,9 +107,18 @@ registry defaults unchanged.
 
 ## Private brand demos
 
-**/demo/[brandId]** hosts brand-specific product, outfit, and live try-on demos. Random IDs resolve
-through **config/brands.json**; catalog data lives in **catalog/**, and product images live under
-**public/products/**.
+**/demo/[brandId]** hosts brand-specific product, conversational outfit, and live try-on demos.
+The primary journey accepts one JPEG/PNG/WebP full-body photo and a shopper-written brief. The
+server-side **/api/demo/[brandId]/outfits** route asks FastAPI **/ai/outfits** to validate technical
+photo suitability and rank only the known brand catalogue. A cropped, angled, obstructed, or
+multi-person photo returns positive retake guidance before any image-generation job begins. A
+passing photo is reused automatically across three asynchronous **/ai/jobs/try-on** jobs, so all
+three recommendations appear on the shopper without another upload or per-look action. Catalogue
+selections become `must_include_item_ids` for the same guided journey.
+
+Shopper photos are capped at 8 MB and their bytes are excluded from Veyra API logs. Random IDs
+resolve through **config/brands.json**; catalog data lives in **catalog/**, and product images live
+under **public/products/**.
 
 These routes are intentionally:
 

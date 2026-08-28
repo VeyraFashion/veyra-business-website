@@ -44,3 +44,13 @@ Object.defineProperty(HTMLCanvasElement.prototype, "getContext", {
   configurable: true,
   value: () => null,
 });
+
+Object.defineProperty(URL, "createObjectURL", {
+  configurable: true,
+  value: () => "blob:shopper-preview",
+});
+
+Object.defineProperty(URL, "revokeObjectURL", {
+  configurable: true,
+  value: () => undefined,
+});

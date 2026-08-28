@@ -60,10 +60,17 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ bra
     outgoing.set("quality_profile", qualityProfile());
 
     const accepted = await submitTryOnJob(outgoing);
-    return NextResponse.json(accepted, { status: 202 });
+    return NextResponse.json({
+      job_id: accepted.job_id,
+      status: accepted.status,
+      message: "Your look is queued for rendering.",
+    }, { status: 202 });
   } catch (err) {
     const status = (err as { status?: number })?.status ?? 500;
-    const message = err instanceof Error ? err.message : "Unknown error";
-    return NextResponse.json({ error: message }, { status });
+    const publicStatus = status >= 500 ? 503 : status;
+    return NextResponse.json(
+      { error: "Veyra could not start this try-on. Please try again." },
+      { status: publicStatus },
+    );
   }
 }

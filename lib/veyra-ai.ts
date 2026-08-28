@@ -1,5 +1,5 @@
-/** Thin server-side client for the veyra-ai FastAPI service. Never call this from client code —
- *  it's imported only from Next.js route handlers (app/api/**), so the Gemini/service key stay
+/** Thin server-side client for the private Veyra AI service. Never call this from client code —
+ *  it is imported only from Next.js route handlers so credentials and provider details remain
  *  server-side. */
 
 export function veyraAiBaseUrl(): string {
@@ -40,19 +40,14 @@ export interface ImageJobStatus {
   error: { code: string; message: string } | null;
 }
 
-/** Wraps a fetch to veyra-ai and turns non-2xx responses into a normalized Error with the
- *  service's own `detail` message (e.g. 503 "GEMINI_API_KEY not configured"). */
+/** Converts private service failures into provider-neutral errors before a route can expose them. */
 async function veyraFetch(pathname: string, init: RequestInit): Promise<Response> {
   const res = await fetch(`${veyraAiBaseUrl()}${pathname}`, init);
   if (!res.ok) {
-    let detail = res.statusText;
-    try {
-      const body = await res.json();
-      detail = body?.detail || detail;
-    } catch {
-      /* non-JSON error body, keep statusText */
-    }
-    const err = new Error(detail) as Error & { status?: number };
+    const message = res.status >= 500
+      ? "Veyra's AI service is temporarily unavailable."
+      : "Veyra could not complete this request.";
+    const err = new Error(message) as Error & { status?: number };
     err.status = res.status;
     throw err;
   }

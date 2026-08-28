@@ -94,11 +94,7 @@ export default function TryOnPanel({
   }
 
   const busy = status === "submitting" || status === "polling";
-  const friendlyError =
-    error &&
-    (error.toLowerCase().includes("gemini") || error.toLowerCase().includes("credential")
-      ? "Connect the Gemini API key in veyra-ai/.env to activate live try-on generation."
-      : error);
+  const friendlyError = error;
 
   return (
     <div className="demo-tryon-panel">
@@ -124,7 +120,7 @@ export default function TryOnPanel({
                 <motion.span
                   className="demo-upload-prompt"
                   key="placeholder"
-                  initial={reduced ? undefined : { opacity: 0 }}
+                  initial={false}
                   animate={{ opacity: 1 }}
                   exit={reduced ? undefined : { opacity: 0 }}
                   transition={{ duration: 0.15 }}
@@ -174,7 +170,7 @@ export default function TryOnPanel({
             <strong>{resultUrl ? "Complete" : "Preview"}</strong>
           </div>
           <div className="demo-result-frame" aria-busy={busy}>
-            <AnimatePresence mode="wait">
+            <AnimatePresence mode="wait" initial={false}>
               {resultUrl ? (
                 <motion.img
                   key="result"
@@ -188,7 +184,7 @@ export default function TryOnPanel({
                 <motion.div
                   key="spinner"
                   className="demo-result-loading"
-                  initial={reduced ? undefined : { opacity: 0 }}
+                  initial={false}
                   animate={{ opacity: 1 }}
                   exit={reduced ? undefined : { opacity: 0 }}
                 >
@@ -199,7 +195,7 @@ export default function TryOnPanel({
                 <motion.div
                   key="placeholder"
                   className="demo-result-placeholder"
-                  initial={reduced ? undefined : { opacity: 0 }}
+                  initial={false}
                   animate={{ opacity: 1 }}
                   exit={reduced ? undefined : { opacity: 0 }}
                 >

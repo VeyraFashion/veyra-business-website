@@ -34,7 +34,7 @@ export default function ProductGrid({
   return (
     <motion.div
       className="demo-product-grid"
-      initial={reduced ? undefined : "hidden"}
+      initial={false}
       whileInView={reduced ? undefined : "visible"}
       viewport={{ once: true, margin: "-60px" }}
       variants={reduced ? undefined : gridVariants}

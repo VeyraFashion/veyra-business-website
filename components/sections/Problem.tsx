@@ -50,7 +50,7 @@ export default function Problem() {
             </div>
             <div className="math-slot">
               <div className="figure"><span className="accent">4&ndash;8%</span></div>
-              <div className="label">Fewer size-related returns, across the models tested</div>
+              <div className="label">Fewer size-related returns, across the tested approaches</div>
             </div>
           </div>
           <p className="math-note">

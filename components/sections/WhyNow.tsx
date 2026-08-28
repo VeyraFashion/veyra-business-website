@@ -39,8 +39,8 @@ export default function WhyNow() {
             <div className="compare-yes">Already built, already reviewed for fidelity</div>
           </div>
           <div className="compare-row">
-            <div className="compare-label">Keeping up with model updates</div>
-            <div className="compare-no">Your team re-integrates every time a model changes</div>
+            <div className="compare-label">Keeping the experience current</div>
+            <div className="compare-no">Your team repeatedly rebuilds and re-integrates the workflow</div>
             <div className="compare-yes">Handled on our side, transparently</div>
           </div>
           <div className="compare-row">
