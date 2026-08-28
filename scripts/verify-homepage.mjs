@@ -51,10 +51,12 @@ assert.match(layoutSource, /metadataBase/);
 assert.match(layoutSource, /applicationName: "Veyra"/);
 assert.match(layoutSource, /title: "Veyra for Business — Virtual Try-On & AI Styling"/);
 assert.match(builtHome, /<title>Veyra for Business — Virtual Try-On &amp; AI Styling<\/title>/);
+assert.match(builtHome, /<link rel="icon" href="\/icon\?[^\"]+" type="image\/png" sizes="64x64"\/>/);
 assert.match(builtCss, /\.bg-veyra-cobalt\{background-color:/);
 assert.match(builtCss, /\.text-white\\!\{color:[^}]+!important\}/);
 
 for (const asset of [
+  "app/icon.tsx",
   "app/opengraph-image.png",
   "public/field-jacket.png",
   "public/products/snitch/shirt-quads-line-grey.png",
