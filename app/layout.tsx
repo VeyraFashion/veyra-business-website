@@ -3,6 +3,7 @@ import "./fonts.css";
 import "./tailwind.css";
 import "./theme.css";
 import "./home.css";
+import "./demo.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import CardSpotlight from "@/components/CardSpotlight";
 

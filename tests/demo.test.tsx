@@ -1,5 +1,6 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import axe from "axe-core";
 import { afterEach, describe, expect, it } from "vitest";
 import StoreDemo from "@/components/demo/StoreDemo";
 import type { Catalog } from "@/lib/catalog";
@@ -40,6 +41,16 @@ const snitchSample: Catalog = {
       tags: ["casual"],
       image: "/products/snitch/jeans-washed-straight-fit.png",
     },
+    {
+      id: "utility-jumpsuit",
+      name: "Utility Jumpsuit",
+      price_inr: 2499,
+      category: "jumpsuits",
+      role: "full_body",
+      colors: ["black"],
+      tags: ["evening"],
+      image: "/products/snitch/shirt-quads-line-grey.png",
+    },
   ],
 };
 
@@ -51,7 +62,8 @@ describe("private brand demo", () => {
     expect(screen.getByRole("button", { name: /Regular Fit Denim Shirt/i })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /Washed Straight Fit Jeans/i })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Plan a pilot/i })).toHaveAttribute("href", "/#pilot");
-    expect(screen.getByText(/Automatically ranks the strongest combinations/i)).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Turn products into a considered look/i })).toBeInTheDocument();
+    expect(screen.getByText(/Veyra compares compatible combinations/i)).toBeInTheDocument();
   });
 
   it("keeps one garment per wear role while allowing a top and bottom", async () => {
@@ -64,6 +76,7 @@ describe("private brand demo", () => {
 
     await user.click(denimShirt);
     expect(denimShirt).toHaveClass("selected");
+    expect(denimShirt).toHaveAttribute("aria-pressed", "true");
 
     await user.click(greyShirt);
     expect(denimShirt).not.toHaveClass("selected");
@@ -72,8 +85,32 @@ describe("private brand demo", () => {
     await user.click(jeans);
     expect(greyShirt).toHaveClass("selected");
     expect(jeans).toHaveClass("selected");
-    expect(screen.getByText("Quads Line Grey Shirt", { selector: ".selected-chip" })).toBeInTheDocument();
-    expect(screen.getByText("Washed Straight Fit Jeans", { selector: ".selected-chip" })).toBeInTheDocument();
+    expect(screen.getByText("Quads Line Grey Shirt", { selector: ".demo-selected-chip" })).toBeInTheDocument();
+    expect(screen.getByText("Washed Straight Fit Jeans", { selector: ".demo-selected-chip" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Continue to try-on/i })).toBeInTheDocument();
+  });
+
+  it("replaces separates with a full-body garment and restores separates cleanly", async () => {
+    const user = userEvent.setup();
+    render(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
+
+    const shirt = screen.getByRole("button", { name: /Regular Fit Denim Shirt/i });
+    const jeans = screen.getByRole("button", { name: /Washed Straight Fit Jeans/i });
+    const jumpsuit = screen.getByRole("button", { name: /Utility Jumpsuit/i });
+
+    await user.click(shirt);
+    await user.click(jeans);
+    expect(shirt).toHaveClass("selected");
+    expect(jeans).toHaveClass("selected");
+
+    await user.click(jumpsuit);
+    expect(shirt).not.toHaveClass("selected");
+    expect(jeans).not.toHaveClass("selected");
+    expect(jumpsuit).toHaveClass("selected");
+
+    await user.click(shirt);
+    expect(jumpsuit).not.toHaveClass("selected");
+    expect(shirt).toHaveClass("selected");
   });
 
   it("shows a useful activation path for brands awaiting catalog images", () => {
@@ -86,5 +123,14 @@ describe("private brand demo", () => {
 
     expect(screen.getByRole("heading", { name: /Catalog coming soon for Blissclub/i })).toBeInTheDocument();
     expect(screen.getByText(/activate product selection, AI outfit ranking, and virtual try-on/i)).toBeInTheDocument();
+  });
+
+  it("has no automated accessibility violations in the initial catalog state", async () => {
+    const { container } = render(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
+    const results = await axe.run(container);
+
+    await waitFor(() => {
+      expect(results.violations, results.violations.map((item) => item.help).join("\n")).toEqual([]);
+    });
   });
 });

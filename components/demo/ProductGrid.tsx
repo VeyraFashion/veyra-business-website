@@ -14,8 +14,6 @@ const ROLE_LABEL: Record<string, string> = {
   accessory: "Accessory",
 };
 
-// Stagger List (subtle tier, ui-ux-pro-max: 0.02-0.04s/item) and Hover Micro-interaction
-// (standard tier: y -4, scale 1.02, ~250ms power2.out) — sourced, not guessed.
 const gridVariants: Variants = { hidden: {}, visible: { transition: { staggerChildren: 0.035 } } };
 const cardVariants: Variants = {
   hidden: { opacity: 0, y: 14 },
@@ -35,7 +33,7 @@ export default function ProductGrid({
 
   return (
     <motion.div
-      className="grid"
+      className="demo-product-grid"
       initial={reduced ? undefined : "hidden"}
       whileInView={reduced ? undefined : "visible"}
       viewport={{ once: true, margin: "-60px" }}
@@ -48,28 +46,41 @@ export default function ProductGrid({
           <motion.button
             key={item.id}
             type="button"
-            className={`card product-card${selected ? " selected" : ""}`}
+            className={`demo-product-card${selected ? " selected" : ""}`}
             onClick={() => onToggle(item)}
-            style={{ textAlign: "left", cursor: "pointer" }}
+            aria-pressed={selected}
+            aria-label={`${selected ? "Remove" : "Select"} ${item.name}`}
             variants={reduced ? undefined : cardVariants}
-            whileHover={reduced ? undefined : { y: -4, scale: 1.02, transition: { duration: 0.25, ease: "easeOut" } }}
-            whileTap={reduced ? undefined : { scale: 0.97 }}
+            whileHover={reduced ? undefined : { y: -5, transition: { duration: 0.22, ease: "easeOut" } }}
+            whileTap={reduced ? undefined : { scale: 0.98 }}
             suppressHydrationWarning
           >
-            <div className="thumb">
-              <Image src={item.image} alt={item.name} fill sizes="230px" />
-              <span className="role-badge">{ROLE_LABEL[item.role] ?? item.role}</span>
+            <div className="demo-product-image">
+              <Image
+                src={item.image}
+                alt=""
+                fill
+                sizes="(max-width: 700px) 90vw, (max-width: 1100px) 44vw, 30vw"
+              />
+              <span className="demo-role-badge">{ROLE_LABEL[item.role] ?? item.role}</span>
               <motion.span
-                className="select-check"
-                animate={selected ? { scale: 1 } : { scale: reduced ? 1 : 0.85 }}
+                className="demo-select-check"
+                animate={selected ? { scale: 1 } : { scale: reduced ? 1 : 0.9 }}
                 transition={{ duration: 0.15, ease: "easeOut" }}
+                aria-hidden="true"
               >
                 ✓
               </motion.span>
             </div>
-            <div className="body">
-              <span className="name">{item.name}</span>
-              <span className="price">₹{item.price_inr.toLocaleString("en-IN")}</span>
+            <div className="demo-product-body">
+              <div>
+                <span className="demo-product-name">{item.name}</span>
+                <span className="demo-product-detail">{item.subcategory ?? item.category}</span>
+              </div>
+              <div className="demo-product-meta">
+                <span className="demo-product-price">₹{item.price_inr.toLocaleString("en-IN")}</span>
+                <span className="demo-product-action">{selected ? "Selected" : "Add to look"}</span>
+              </div>
             </div>
           </motion.button>
         );

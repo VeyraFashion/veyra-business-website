@@ -7,7 +7,10 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const pageSource = await readFile(path.join(root, "components/home/BusinessHome.tsx"), "utf8");
 const layoutSource = await readFile(path.join(root, "app/layout.tsx"), "utf8");
 const homeCss = await readFile(path.join(root, "app/home.css"), "utf8");
+const demoCss = await readFile(path.join(root, "app/demo.css"), "utf8");
 const legacyAndDemoCss = await readFile(path.join(root, "app/theme.css"), "utf8");
+const demoSource = await readFile(path.join(root, "components/demo/StoreDemo.tsx"), "utf8");
+const productGridSource = await readFile(path.join(root, "components/demo/ProductGrid.tsx"), "utf8");
 const tailwindCss = await readFile(path.join(root, "app/tailwind.css"), "utf8");
 const builtHome = await readFile(path.join(root, ".next/server/app/index.html"), "utf8");
 const builtCssDirectory = path.join(root, ".next/static/chunks");
@@ -72,7 +75,7 @@ assert.equal(pageSource.includes("+2.1%"), false, "Homepage contains the old ove
 assert.equal(pageSource.includes("+1.8%"), false, "Homepage contains the old oversized cart metric");
 assert.equal(builtHome.includes('href="#"'), false, "Homepage contains a dead placeholder link");
 
-const siteCss = `${homeCss}\n${legacyAndDemoCss}\n${tailwindCss}`;
+const siteCss = `${homeCss}\n${demoCss}\n${legacyAndDemoCss}\n${tailwindCss}`;
 for (const orangeToken of ["#ff6b47", "#ff9468", "#ed5b3a", "255, 107, 71", "255,107,71"]) {
   assert.equal(
     siteCss.toLowerCase().includes(orangeToken),
@@ -81,7 +84,7 @@ for (const orangeToken of ["#ff6b47", "#ff9468", "#ed5b3a", "255, 107, 71", "255
   );
 }
 assert.equal(
-  /font-size:\s*(?:[0-9](?:\.\d+)?|1[01](?:\.\d+)?)px/.test(`${homeCss}\n${legacyAndDemoCss}`),
+  /font-size:\s*(?:[0-9](?:\.\d+)?|1[01](?:\.\d+)?)px/.test(`${homeCss}\n${demoCss}\n${legacyAndDemoCss}`),
   false,
   "Site CSS contains text smaller than the 12px readability floor",
 );
@@ -90,6 +93,13 @@ assert.match(homeCss, /@media \(max-width: 760px\)/);
 assert.match(homeCss, /@media \(max-width: 430px\)/);
 assert.match(homeCss, /@media \(prefers-reduced-motion: reduce\)/);
 assert.match(homeCss, /:focus-visible/);
+assert.match(demoCss, /@media \(max-width: 760px\)/);
+assert.match(demoCss, /@media \(max-width: 430px\)/);
+assert.match(demoCss, /@media \(prefers-reduced-motion: reduce\)/);
+assert.match(demoCss, /\.demo-product-card[\s\S]*color: var\(--demo-ink\) !important/);
+assert.match(demoSource, /Live catalog intelligence/);
+assert.match(demoSource, /Move from selection to self\./);
+assert.match(productGridSource, /aria-pressed=\{selected\}/);
 assert.match(layoutSource, /metadataBase/);
 assert.match(layoutSource, /applicationName: "Veyra"/);
 assert.match(layoutSource, /title: "Veyra for Business — Virtual Try-On & AI Styling"/);
@@ -112,4 +122,4 @@ for (const asset of [
   await access(path.join(root, asset));
 }
 
-console.log("Homepage verification passed: content privacy, evidence, links, responsive rules, metadata, and assets.");
+console.log("Site verification passed: homepage evidence and privacy plus demo contrast, interaction, responsive rules, metadata, and assets.");

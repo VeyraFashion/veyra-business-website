@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { ArrowRight, Sparkles } from "lucide-react";
 import { AnimatePresence, motion, type Variants } from "motion/react";
 import { usePrefersReducedMotion } from "@/lib/use-reduced-motion";
 import type { CatalogItem } from "@/lib/catalog";
@@ -25,6 +26,11 @@ const cardVariants: Variants = {
   hidden: { opacity: 0, y: 16 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.35, ease: "easeOut" } },
 };
+
+function formatMatch(confidence: number) {
+  const normalized = confidence <= 1 ? confidence * 100 : confidence;
+  return `${Math.max(0, Math.min(100, Math.round(normalized)))}% match`;
+}
 
 export default function OutfitPanel({
   brandId,
@@ -67,67 +73,76 @@ export default function OutfitPanel({
 
   if (outfits.length === 0) {
     return (
-      <div className="panel panel-idle">
-        <svg viewBox="0 0 24 24"><use href="#g-sparkle" /></svg>
-        <p>Veyra scores every combination in the catalog above on fit, weather, occasion, and your stated preferences — then ranks the best three.</p>
-        <button type="button" className="btn btn-primary" onClick={fetchOutfits} disabled={status === "loading"}>
-          {status === "loading" ? "Styling…" : "✨ Get AI-styled outfit ideas"}
+      <div className="demo-stylist-panel">
+        <div className="demo-stylist-icon" aria-hidden="true"><Sparkles size={30} /></div>
+        <div className="demo-stylist-intro">
+          <span>Live recommendation</span>
+          <p>
+            Veyra compares compatible combinations across silhouette, color, weather,
+            occasion, and catalog coverage, then returns three explainable looks.
+          </p>
+        </div>
+        <button
+          type="button"
+          className="demo-button demo-button-lime demo-stylist-action"
+          onClick={fetchOutfits}
+          disabled={status === "loading"}
+        >
+          {status === "loading" ? "Styling the catalog…" : "Generate three looks"}
+          {status !== "loading" && <ArrowRight size={18} aria-hidden="true" />}
         </button>
-        {friendlyError && <p className="error-line">{friendlyError}</p>}
+        {friendlyError && <p className="demo-error-line">{friendlyError}</p>}
       </div>
     );
   }
 
   return (
-    <div>
+    <div className="demo-outfit-results">
       <motion.div
-        className="grid"
-        style={{ gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))" }}
+        className="demo-outfit-grid"
         initial={reduced ? undefined : "hidden"}
         animate={reduced ? undefined : "visible"}
         variants={reduced ? undefined : groupVariants}
       >
         {outfits.map((outfit, idx) => {
-          const ids = outfit.items.map((i) => i.item_id).filter((id): id is string => !!id);
+          const ids = outfit.items.map((item) => item.item_id).filter((id): id is string => !!id);
           return (
-            <motion.div
-              className="card outfit-card"
-              key={idx}
+            <motion.article
+              className="demo-outfit-card"
+              key={`${outfit.name}-${idx}`}
               variants={reduced ? undefined : cardVariants}
               whileHover={reduced ? undefined : { y: -4, transition: { duration: 0.2, ease: "easeOut" } }}
             >
-              <div className="title-row">
-                <span className="title">{outfit.name}</span>
+              <div className="demo-outfit-card-head">
+                <span>Look {String(idx + 1).padStart(2, "0")}</span>
+                <strong>{formatMatch(outfit.confidence)}</strong>
               </div>
-              <div className="outfit-items">
+              <h3>{outfit.name}</h3>
+              <div className="demo-outfit-items" aria-label={`${outfit.name} products`}>
                 {ids.map((id) => {
                   const item = catalogById[id];
                   return item ? (
-                    <div className="mini-thumb" key={id}>
-                      <Image src={item.image} alt={item.name} width={96} height={96} sizes="48px" />
+                    <div className="demo-outfit-thumb" key={id}>
+                      <Image src={item.image} alt={item.name} fill sizes="110px" />
                     </div>
                   ) : null;
                 })}
               </div>
-              <p className="rationale">{outfit.rationale}</p>
+              <p>{outfit.rationale}</p>
               <button
                 type="button"
-                className="btn btn-primary btn-sm btn-block"
+                className="demo-button demo-button-dark demo-outfit-action"
                 onClick={() => onTryOutfit(ids)}
                 disabled={ids.length === 0}
               >
-                Try this outfit on
+                Try this look <ArrowRight size={17} aria-hidden="true" />
               </button>
-            </motion.div>
+            </motion.article>
           );
         })}
       </motion.div>
       <AnimatePresence>
-        {friendlyError && (
-          <p className="error-line" style={{ textAlign: "left", marginTop: 12 }}>
-            {friendlyError}
-          </p>
-        )}
+        {friendlyError && <p className="demo-error-line">{friendlyError}</p>}
       </AnimatePresence>
     </div>
   );

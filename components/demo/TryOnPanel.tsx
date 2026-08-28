@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import Image from "next/image";
+import { ArrowRight, ImagePlus, Shirt } from "lucide-react";
 import { AnimatePresence, motion } from "motion/react";
 import { usePrefersReducedMotion } from "@/lib/use-reduced-motion";
 import type { CatalogItem } from "@/lib/catalog";
@@ -58,9 +59,7 @@ export default function TryOnPanel({
         setStatus("error");
         return;
       }
-      setStatusMessage(
-        data.status === "processing" ? "Generating your try-on…" : "Queued…"
-      );
+      setStatusMessage(data.status === "processing" ? "Rendering the selected garments…" : "Preparing your look…");
       pollTimer.current = setTimeout(() => pollJob(jobId), 2000);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Unknown error while polling.");
@@ -74,19 +73,19 @@ export default function TryOnPanel({
     setStatus("submitting");
     setError(null);
     setResultUrl(null);
-    setStatusMessage("Uploading…");
+    setStatusMessage("Uploading your photo…");
 
     try {
       const form = new FormData();
       form.set("photo", photoFile);
-      form.set("itemIds", JSON.stringify(selectedItems.map((i) => i.id)));
+      form.set("itemIds", JSON.stringify(selectedItems.map((item) => item.id)));
 
       const res = await fetch(`/api/demo/${brandId}/tryon`, { method: "POST", body: form });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Could not start try-on job.");
 
       setStatus("polling");
-      setStatusMessage("Queued…");
+      setStatusMessage("Preparing your look…");
       pollJob(data.job_id);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Unknown error.");
@@ -102,49 +101,57 @@ export default function TryOnPanel({
       : error);
 
   return (
-    <div className="panel">
-      <div className="tryon-layout">
-        {/* ---- Left: input — your photo + what you're wearing ---- */}
-        <div className="tryon-col">
-          <div className="tryon-col-label">Your Photo</div>
-          <label className="upload-box">
+    <div className="demo-tryon-panel">
+      <div className="demo-tryon-layout">
+        <div className="demo-tryon-column">
+          <div className="demo-tryon-column-head">
+            <span>01 / Your photo</span>
+            <strong>{photoFile ? "Ready" : "Required"}</strong>
+          </div>
+          <label className={`demo-upload-box${photoPreview ? " has-photo" : ""}`}>
             <AnimatePresence mode="wait" initial={false}>
               {photoPreview ? (
                 <motion.img
                   key="preview"
                   src={photoPreview}
-                  alt="Your upload"
-                  className="preview-photo"
-                  initial={reduced ? undefined : { opacity: 0, scale: 0.96 }}
+                  alt="Your uploaded photo"
+                  className="demo-preview-photo"
+                  initial={reduced ? undefined : { opacity: 0, scale: 0.97 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.3, ease: "easeOut" }}
                 />
               ) : (
                 <motion.span
+                  className="demo-upload-prompt"
                   key="placeholder"
                   initial={reduced ? undefined : { opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={reduced ? undefined : { opacity: 0 }}
                   transition={{ duration: 0.15 }}
                 >
-                  📷 Upload a full-body photo of yourself
+                  <span className="demo-upload-icon" aria-hidden="true"><ImagePlus size={34} /></span>
+                  <strong>Add a full-body photo</strong>
+                  <small>Front-facing images give the clearest result.</small>
                 </motion.span>
               )}
             </AnimatePresence>
             <input
               type="file"
               accept="image/*"
-              onChange={(e) => handlePhoto(e.target.files?.[0] ?? null)}
+              aria-label="Upload a full-body photo"
+              onChange={(event) => handlePhoto(event.target.files?.[0] ?? null)}
             />
           </label>
 
-          <div className="selected-chips">
+          <div className="demo-selection-list" aria-label="Selected products">
             {selectedItems.length === 0 && (
-              <span className="selected-chip empty">Pick at least one item from the catalog above</span>
+              <span className="demo-selected-chip empty">
+                <Shirt size={17} aria-hidden="true" /> Choose at least one product above
+              </span>
             )}
             {selectedItems.map((item) => (
-              <span className="selected-chip" key={item.id}>
-                <Image src={item.image} alt="" width={28} height={28} sizes="28px" />
+              <span className="demo-selected-chip" key={item.id}>
+                <Image src={item.image} alt="" width={34} height={34} sizes="34px" />
                 {item.name}
               </span>
             ))}
@@ -152,55 +159,62 @@ export default function TryOnPanel({
 
           <button
             type="button"
-            className="btn btn-primary btn-block"
+            className="demo-button demo-button-dark demo-generate-button"
             disabled={!photoFile || selectedItems.length === 0 || busy}
             onClick={submit}
-            style={{ marginTop: "auto" }}
           >
-            {busy ? "Generating…" : "Generate try-on"}
+            {busy ? "Generating your look…" : "Generate try-on"}
+            {!busy && <ArrowRight size={18} aria-hidden="true" />}
           </button>
         </div>
 
-        {/* ---- Right: output — the actual render ---- */}
-        <div className="tryon-col">
-          <div className="tryon-col-label">Result</div>
-          <div className="result-frame" aria-busy={busy}>
+        <div className="demo-tryon-column demo-result-column">
+          <div className="demo-tryon-column-head">
+            <span>02 / Generated look</span>
+            <strong>{resultUrl ? "Complete" : "Preview"}</strong>
+          </div>
+          <div className="demo-result-frame" aria-busy={busy}>
             <AnimatePresence mode="wait">
               {resultUrl ? (
                 <motion.img
                   key="result"
                   src={resultUrl}
-                  alt="Try-on result"
-                  initial={reduced ? undefined : { opacity: 0, scale: 0.96 }}
+                  alt="Generated try-on result"
+                  initial={reduced ? undefined : { opacity: 0, scale: 0.97 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.4, ease: "easeOut" }}
                 />
               ) : busy ? (
                 <motion.div
                   key="spinner"
-                  className="spinner"
+                  className="demo-result-loading"
                   initial={reduced ? undefined : { opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  exit={reduced ? undefined : { opacity: 0, transition: { duration: 0.15 } }}
-                />
+                  exit={reduced ? undefined : { opacity: 0 }}
+                >
+                  <span className="demo-spinner" aria-hidden="true" />
+                  <strong>{statusMessage}</strong>
+                </motion.div>
               ) : (
                 <motion.div
                   key="placeholder"
-                  className="result-placeholder"
+                  className="demo-result-placeholder"
                   initial={reduced ? undefined : { opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  exit={reduced ? undefined : { opacity: 0, transition: { duration: 0.15 } }}
+                  exit={reduced ? undefined : { opacity: 0 }}
                 >
-                  <svg viewBox="0 0 24 24"><use href="#g-jacket" /></svg>
-                  <span>Your try-on will appear here, side by side with your photo</span>
+                  <span className="demo-result-index">V / 01</span>
+                  <Shirt size={48} strokeWidth={1.35} aria-hidden="true" />
+                  <strong>Your generated look appears here.</strong>
+                  <p>Selected products are composed in one compatible, front-facing render.</p>
                 </motion.div>
               )}
             </AnimatePresence>
           </div>
-          {statusMessage && status !== "done" && !error && (
-            <p className="status-line">{statusMessage}</p>
+          {statusMessage && status !== "done" && !error && !busy && (
+            <p className="demo-status-line">{statusMessage}</p>
           )}
-          {friendlyError && <p className="error-line">{friendlyError}</p>}
+          {friendlyError && <p className="demo-error-line">{friendlyError}</p>}
         </div>
       </div>
     </div>
