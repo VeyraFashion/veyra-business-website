@@ -53,10 +53,13 @@ for (const framing of negativePublicFraming) {
 
 assert.match(publicHomepage, /Make [“&quot;]Will this suit me\?[”&quot;] answerable\./);
 assert.match(publicHomepage, /cloud\.google\.com\/blog\/topics\/retail\/how-breuninger-boosted-sales/);
+assert.match(publicHomepage, /corporate\.zalando\.com\/en\/technology\/how-zalando-uses-technology-help-customers-find-right-size/);
 assert.match(publicHomepage, /Plan a 5-SKU pilot/);
-assert.match(publicHomepage, /Measure what matters on your storefront\./);
-assert.match(publicHomepage, /Activation/);
-assert.match(publicHomepage, /Commercial impact/);
+assert.match(publicHomepage, /From pilot signal to retail scale\./);
+assert.match(publicHomepage, /Up to 40%/);
+assert.match(publicHomepage, /fewer returns in recent Virtual Fitting Room pilots/);
+assert.match(publicHomepage, /Scaling to millions of customers/);
+assert.match(publicHomepage, /retailer-reported pilot result/);
 assert.equal(publicHomepage.includes("Zalando SizeFlags"), false, "Homepage contains dated adjacent evidence");
 assert.equal(publicHomepage.includes("KDD 2021"), false, "Homepage contains the dated KDD label");
 assert.equal(pageSource.includes("−3.8%"), false, "Homepage contains the old shoe return metric");

@@ -10,14 +10,18 @@ import PilotChecklist from "@/components/home/PilotChecklist";
 afterEach(cleanup);
 
 describe("homepage interactions", () => {
-  it("turns category evidence into a current Veyra pilot scorecard", () => {
+  it("shows current virtual fitting room evidence with its pilot scope", () => {
     render(<BusinessHome />);
 
-    expect(screen.getByText("Measure what matters on your storefront.")).toBeInTheDocument();
-    expect(screen.getByText("Activation")).toBeInTheDocument();
-    expect(screen.getByText("Purchase intent")).toBeInTheDocument();
-    expect(screen.getByText("Commercial impact")).toBeInTheDocument();
-    expect(screen.getByText("Customer confidence")).toBeInTheDocument();
+    expect(screen.getByText("From pilot signal to retail scale.")).toBeInTheDocument();
+    expect(screen.getByText("Up to 40%")).toBeInTheDocument();
+    expect(screen.getByText(/fewer returns in recent Virtual Fitting Room pilots/i)).toBeInTheDocument();
+    expect(screen.getByText("Scaling to millions of customers")).toBeInTheDocument();
+    expect(screen.getByText(/retailer-reported pilot result/i)).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /Read Zalando’s 2026 update/i })).toHaveAttribute(
+      "href",
+      "https://corporate.zalando.com/en/technology/how-zalando-uses-technology-help-customers-find-right-size",
+    );
     expect(screen.queryByText(/Zalando SizeFlags/i)).not.toBeInTheDocument();
     expect(screen.queryByText("−3.8%")).not.toBeInTheDocument();
   });

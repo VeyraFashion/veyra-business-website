@@ -20,6 +20,8 @@ import { Button } from "@/components/ui/button";
 
 const GOOGLE_CASE_STUDY =
   "https://cloud.google.com/blog/topics/retail/how-breuninger-boosted-sales-with-its-be-your-own-model-ai";
+const ZALANDO_2026_SIZE_FIT_UPDATE =
+  "https://corporate.zalando.com/en/technology/how-zalando-uses-technology-help-customers-find-right-size";
 const TRY_ON_CODE = [
   "// Queue the work and keep the PDP responsive",
   "POST /ai/jobs/try-on",
@@ -245,11 +247,11 @@ export default function BusinessHome() {
         <section className="home-evidence" id="evidence" aria-labelledby="evidence-title">
           <div className="home-shell">
             <div className="home-evidence-heading">
-              <p className="home-overline">Evidence to action</p>
-              <h2 id="evidence-title">The category has proof. Your pilot makes it specific.</h2>
+              <p className="home-overline">Current retail evidence</p>
+              <h2 id="evidence-title">The signal is getting stronger. Your pilot makes it specific.</h2>
               <p>
-                Published retail evidence sets the context. A focused pilot measures the impact
-                across your catalog, your customer journey, and your shoppers.
+                Recent retailer deployments point to gains across conversion, margin, and return
+                behavior. A focused pilot measures the impact across your catalog and customer mix.
               </p>
             </div>
 
@@ -270,35 +272,28 @@ export default function BusinessHome() {
                 </a>
               </article>
 
-              <article className="home-evidence-card home-evidence-card-scorecard">
+              <article className="home-evidence-card home-evidence-card-current">
                 <div className="home-evidence-meta">
-                  <span>Veyra pilot</span><span>Your catalog + traffic</span>
+                  <span>Zalando</span><span>June 2026</span>
                 </div>
-                <h3>Measure what matters on your storefront.</h3>
-                <ul className="home-pilot-scorecard">
-                  <li>
-                    <span>01</span>
-                    <div><strong>Activation</strong><p>Try-on starts and completed results</p></div>
-                  </li>
-                  <li>
-                    <span>02</span>
-                    <div><strong>Purchase intent</strong><p>Add-to-cart and outfit completion</p></div>
-                  </li>
-                  <li>
-                    <span>03</span>
-                    <div><strong>Commercial impact</strong><p>Conversion and contribution margin</p></div>
-                  </li>
-                  <li>
-                    <span>04</span>
-                    <div><strong>Customer confidence</strong><p>Feedback and return behavior</p></div>
-                  </li>
-                </ul>
+                <h3>From pilot signal to retail scale.</h3>
+                <div className="home-evidence-signal">
+                  <strong>Up to 40%</strong>
+                  <span>fewer returns in recent Virtual Fitting Room pilots</span>
+                </div>
+                <div className="home-evidence-scale">
+                  <span>2026 rollout</span>
+                  <strong>Scaling to millions of customers</strong>
+                </div>
                 <p>
-                  Set one primary outcome and a clear baseline. Product, commerce, and analytics
-                  teams then share one decision-ready view of the result.
+                  Zalando is taking the experience from temporary tests to a permanent product,
+                  beginning with jeans and expanding the available assortment.
                 </p>
-                <a href="#pilot">
-                  Build the pilot scorecard <ArrowRight size={16} aria-hidden="true" />
+                <p className="home-evidence-caveat">
+                  The 40% figure is a retailer-reported pilot result; the scaled rollout is now underway.
+                </p>
+                <a href={ZALANDO_2026_SIZE_FIT_UPDATE} target="_blank" rel="noreferrer">
+                  Read Zalando’s 2026 update <ArrowUpRight size={16} aria-hidden="true" />
                 </a>
               </article>
             </div>

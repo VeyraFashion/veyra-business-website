@@ -73,8 +73,10 @@ npm run test:content
   a six-week retail A/B test reported higher conversion and stronger contribution margin among
   shoppers who used personalized virtual try-on. The homepage presents this as directional
   category evidence.
-- The Veyra pilot scorecard turns that context into a current retailer-specific measurement plan
-  across activation, purchase intent, commercial impact, and customer confidence.
+- [Zalando’s June 2026 Size & Fit update](https://corporate.zalando.com/en/technology/how-zalando-uses-technology-help-customers-find-right-size):
+  recent Virtual Fitting Room pilots reported up to 40% fewer returns, followed by a permanent
+  rollout intended to reach millions of customers. The homepage labels the return figure as a
+  retailer-reported pilot result and keeps the scale-up claim distinct.
 
 ## Project structure
 
