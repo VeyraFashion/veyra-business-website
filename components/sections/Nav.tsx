@@ -15,7 +15,7 @@ export default function Nav({ homeHref = "" }: { homeHref?: string }) {
             <div className="links-inline">
               <a href={`${homeHref}#how`}>How it works</a>
               <a href={`${homeHref}#platform`}>Platform</a>
-              <a href={`${homeHref}#pricing`}>Pricing</a>
+              <a href={`${homeHref}#evidence`}>Evidence</a>
               <a href={`${homeHref}#integration`}>For developers</a>
             </div>
             <a href={`${homeHref}#demo`} className="btn btn-primary" style={{ padding: "10px 18px", fontSize: 13 }}>

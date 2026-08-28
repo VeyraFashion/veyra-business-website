@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { AnimatePresence, motion, type Variants } from "motion/react";
 import { usePrefersReducedMotion } from "@/lib/use-reduced-motion";
 import type { CatalogItem } from "@/lib/catalog";
@@ -103,7 +104,7 @@ export default function OutfitPanel({
                   const item = catalogById[id];
                   return item ? (
                     <div className="mini-thumb" key={id}>
-                      <img src={item.image} alt={item.name} />
+                      <Image src={item.image} alt={item.name} width={96} height={96} sizes="48px" />
                     </div>
                   ) : null;
                 })}

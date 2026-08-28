@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import Image from "next/image";
 import { AnimatePresence, motion } from "motion/react";
 import { usePrefersReducedMotion } from "@/lib/use-reduced-motion";
 import type { CatalogItem } from "@/lib/catalog";
@@ -143,7 +144,7 @@ export default function TryOnPanel({
             )}
             {selectedItems.map((item) => (
               <span className="selected-chip" key={item.id}>
-                <img src={item.image} alt="" />
+                <Image src={item.image} alt="" width={28} height={28} sizes="28px" />
                 {item.name}
               </span>
             ))}

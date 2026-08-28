@@ -1,4 +1,4 @@
-import { Reveal, RevealGroup, RevealItem } from "@/components/Reveal";
+import { RevealGroup, RevealItem } from "@/components/Reveal";
 
 export default function PlugsIn() {
   return (
