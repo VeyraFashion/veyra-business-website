@@ -62,7 +62,7 @@ export default function OutfitPanel({
   const friendlyError =
     error &&
     (error.toLowerCase().includes("gemini") || error.toLowerCase().includes("credential")
-      ? "The AI service isn't configured yet (missing Gemini API key on the server) — this UI is fully wired, it just needs a real key in veyra-ai/.env."
+      ? "Connect the Gemini API key in veyra-ai/.env to activate live outfit ranking."
       : error);
 
   if (outfits.length === 0) {

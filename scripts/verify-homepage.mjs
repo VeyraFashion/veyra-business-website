@@ -7,6 +7,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const pageSource = await readFile(path.join(root, "components/home/BusinessHome.tsx"), "utf8");
 const layoutSource = await readFile(path.join(root, "app/layout.tsx"), "utf8");
 const homeCss = await readFile(path.join(root, "app/home.css"), "utf8");
+const legacyAndDemoCss = await readFile(path.join(root, "app/theme.css"), "utf8");
+const tailwindCss = await readFile(path.join(root, "app/tailwind.css"), "utf8");
 const builtHome = await readFile(path.join(root, ".next/server/app/index.html"), "utf8");
 const builtCssDirectory = path.join(root, ".next/static/chunks");
 const builtCssFiles = (await readdir(builtCssDirectory)).filter((file) => file.endsWith(".css"));
@@ -68,6 +70,20 @@ assert.equal(pageSource.includes("4–8%"), false, "Homepage contains the old mi
 assert.equal(pageSource.includes("+2.1%"), false, "Homepage contains the old oversized conversion metric");
 assert.equal(pageSource.includes("+1.8%"), false, "Homepage contains the old oversized cart metric");
 assert.equal(builtHome.includes('href="#"'), false, "Homepage contains a dead placeholder link");
+
+const siteCss = `${homeCss}\n${legacyAndDemoCss}\n${tailwindCss}`;
+for (const orangeToken of ["#ff6b47", "#ff9468", "#ed5b3a", "255, 107, 71", "255,107,71"]) {
+  assert.equal(
+    siteCss.toLowerCase().includes(orangeToken),
+    false,
+    `Site CSS still contains the retired orange palette value: ${orangeToken}`,
+  );
+}
+assert.equal(
+  /font-size:\s*(?:[0-9](?:\.\d+)?|1[01](?:\.\d+)?)px/.test(`${homeCss}\n${legacyAndDemoCss}`),
+  false,
+  "Site CSS contains text smaller than the 12px readability floor",
+);
 
 assert.match(homeCss, /@media \(max-width: 760px\)/);
 assert.match(homeCss, /@media \(max-width: 430px\)/);

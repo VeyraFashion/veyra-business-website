@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 /** Global cursor-follow spotlight for every `.card` element (pricing tiers, team, and the demo
- *  page's product/outfit cards) — a soft coral-tinted glow that tracks the mouse via `--mx`/`--my`
+ *  page's product/outfit cards) — a soft cobalt-tinted glow that tracks the mouse via `--mx`/`--my`
  *  CSS custom properties (see `.card::before` in theme.css). One delegated, rAF-throttled
  *  `mousemove` listener sets the variables directly via the DOM, rather than per-card React state
  *  — keeps every card a plain CSS effect with zero re-renders on mouse move, and needs no changes

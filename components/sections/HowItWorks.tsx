@@ -38,7 +38,7 @@ export default function HowItWorks() {
               <div className="mini-card" style={{ background: "linear-gradient(155deg, rgba(46,77,86,0.35), rgba(46,77,86,0.05))" }}>
                 <svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-tee" /></svg>
               </div>
-              <div className="mini-card" style={{ background: "linear-gradient(155deg, rgba(255,107,71,0.16), rgba(255,107,71,0.02))" }}>
+              <div className="mini-card" style={{ background: "linear-gradient(155deg, rgba(91,121,255,0.16), rgba(91,121,255,0.03))" }}>
                 <svg viewBox="0 0 24 24" style={{ color: "var(--ink)" }}><use href="#g-pants" /></svg>
               </div>
               <div className="mini-card" style={{ background: "linear-gradient(155deg, rgba(231,203,160,0.16), rgba(231,203,160,0.02))" }}>

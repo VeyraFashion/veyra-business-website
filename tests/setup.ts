@@ -25,6 +25,21 @@ Object.defineProperty(window, "ResizeObserver", {
   value: ResizeObserverMock,
 });
 
+class IntersectionObserverMock {
+  root = null;
+  rootMargin = "0px";
+  thresholds = [0];
+  observe() {}
+  unobserve() {}
+  disconnect() {}
+  takeRecords() { return []; }
+}
+
+Object.defineProperty(window, "IntersectionObserver", {
+  configurable: true,
+  value: IntersectionObserverMock,
+});
+
 Object.defineProperty(HTMLCanvasElement.prototype, "getContext", {
   configurable: true,
   value: () => null,

@@ -55,8 +55,8 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
         </h1>
         <p className="section-sub">
           {catalog.items.length > 0
-            ? `This runs on ${catalog.items.length} real ${catalog.brand} SKUs and Veyra’s actual try-on and outfit-ranking engine — not a mockup. Pick a few pieces, upload a photo, and see it rendered live.`
-            : `A live, working demo of Veyra’s try-on and outfit-ranking engine, built specifically for ${catalog.brand} — waiting on product photos to go live.`}
+            ? `This runs on ${catalog.items.length} real ${catalog.brand} SKUs and Veyra’s live try-on and outfit-ranking engine. Pick a few pieces, upload a photo, and see the result.`
+            : `A live Veyra try-on and outfit-ranking experience prepared specifically for ${catalog.brand}. Add product photos to activate the complete catalog journey.`}
         </p>
       </Reveal>
 
@@ -64,9 +64,8 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
         <Reveal className="wrap empty-catalog">
           <h2>Catalog coming soon for {catalog.brand}</h2>
           <p>
-            This link is live and working — it just doesn&rsquo;t have {catalog.brand}&rsquo;s
-            product photos loaded yet. Drop them in and this page lights up the same way the
-            working demos do.
+            This private link is ready. Add {catalog.brand}&rsquo;s product photos to activate
+            product selection, AI outfit ranking, and virtual try-on in one journey.
           </p>
         </Reveal>
       ) : (
@@ -86,14 +85,14 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
             <Reveal className="wrap">
               <div className="section-head">
                 <h2 className="section-title">Let Veyra style it for you</h2>
-                <p className="section-sub">Ranks combinations across the catalog above — no manual pairing.</p>
+                <p className="section-sub">Automatically ranks the strongest combinations across the catalog above.</p>
               </div>
               <OutfitPanel brandId={brandId} catalogById={catalogById} onTryOutfit={tryOutfit} />
             </Reveal>
           </section>
 
           <section className="section" id="try-on" ref={tryOnRef}>
-            <Reveal className="wrap" style={{ maxWidth: 560 }}>
+            <Reveal className="wrap" style={{ maxWidth: 980 }}>
               <div className="section-head">
                 <h2 className="section-title">Try it on</h2>
                 <p className="section-sub">Upload a photo, then generate a live render wearing your selection.</p>
@@ -105,8 +104,8 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
       )}
 
       <div className="footer-note">
-        Independent demo built by Veyra using a small sample of {catalog.brand}&rsquo;s public
-        product images — not an official {catalog.brand} property.
+        Independent Veyra capability demo using a small sample of {catalog.brand}&rsquo;s public
+        product images. Brand names and product assets remain the property of their owners.
       </div>
     </>
   );

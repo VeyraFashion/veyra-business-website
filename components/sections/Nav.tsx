@@ -18,8 +18,8 @@ export default function Nav({ homeHref = "" }: { homeHref?: string }) {
               <a href={`${homeHref}#evidence`}>Evidence</a>
               <a href={`${homeHref}#integration`}>For developers</a>
             </div>
-            <a href={`${homeHref}#demo`} className="btn btn-primary" style={{ padding: "10px 18px", fontSize: 13 }}>
-              Book a demo
+            <a href={`${homeHref}#pilot`} className="btn btn-primary" style={{ padding: "10px 18px", fontSize: 14 }}>
+              Plan a pilot
             </a>
           </div>
         </div>

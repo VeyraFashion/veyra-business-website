@@ -15,7 +15,7 @@
   --veyra-muted: #66665f;
   --veyra-border: rgb(23 23 19 / 18%);
   --veyra-cobalt: #2f50f5;
-  --veyra-persimmon: #ed5b3a;
+  --veyra-periwinkle: #c7d2fe;
   --veyra-lime: #d9ff63;
   --veyra-radius: 0rem;
 }
@@ -27,7 +27,7 @@
   --color-veyra-muted: var(--veyra-muted);
   --color-veyra-border: var(--veyra-border);
   --color-veyra-cobalt: var(--veyra-cobalt);
-  --color-veyra-persimmon: var(--veyra-persimmon);
+  --color-veyra-periwinkle: var(--veyra-periwinkle);
   --color-veyra-lime: var(--veyra-lime);
   --radius-veyra: var(--veyra-radius);
   --font-veyra: Arial, "Helvetica Neue", Helvetica, sans-serif;
