@@ -1,0 +1,34 @@
+/*
+ * Tailwind is deliberately additive here: this established site already owns its reset and
+ * editorial layout rules, so we import the theme and utilities without Preflight. shadcn
+ * primitives use these shared tokens while the homepage keeps its bespoke composition.
+ */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "tw-animate-css";
+
+:root {
+  --veyra-background: #f3f0e8;
+  --veyra-paper: #fbfaf6;
+  --veyra-foreground: #171713;
+  --veyra-muted: #66665f;
+  --veyra-border: rgb(23 23 19 / 18%);
+  --veyra-cobalt: #2f50f5;
+  --veyra-persimmon: #ed5b3a;
+  --veyra-lime: #d9ff63;
+  --veyra-radius: 0rem;
+}
+
+@theme inline {
+  --color-veyra-background: var(--veyra-background);
+  --color-veyra-paper: var(--veyra-paper);
+  --color-veyra-foreground: var(--veyra-foreground);
+  --color-veyra-muted: var(--veyra-muted);
+  --color-veyra-border: var(--veyra-border);
+  --color-veyra-cobalt: var(--veyra-cobalt);
+  --color-veyra-persimmon: var(--veyra-persimmon);
+  --color-veyra-lime: var(--veyra-lime);
+  --radius-veyra: var(--veyra-radius);
+  --font-veyra: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

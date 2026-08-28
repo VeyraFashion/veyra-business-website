@@ -29,8 +29,13 @@ for (const forbidden of forbiddenPublicCopy) {
 
 assert.match(publicHomepage, /Make [“&quot;]Will this suit me\?[”&quot;] answerable\./);
 assert.match(publicHomepage, /cloud\.google\.com\/blog\/topics\/retail\/how-breuninger-boosted-sales/);
-assert.match(publicHomepage, /Zalando SE/);
+assert.match(publicHomepage, /Zalando SizeFlags/);
 assert.match(publicHomepage, /Plan a 5-SKU pilot/);
+assert.match(pageSource, /−3\.8%/);
+assert.match(pageSource, /−4\.3% to −6\.6%/);
+assert.equal(pageSource.includes("4–8%"), false, "Homepage contains the old mixed return range");
+assert.equal(pageSource.includes("+2.1%"), false, "Homepage contains the old oversized conversion metric");
+assert.equal(pageSource.includes("+1.8%"), false, "Homepage contains the old oversized cart metric");
 assert.equal(builtHome.includes('href="#"'), false, "Homepage contains a dead placeholder link");
 
 assert.match(homeCss, /@media \(max-width: 760px\)/);
@@ -38,6 +43,7 @@ assert.match(homeCss, /@media \(max-width: 430px\)/);
 assert.match(homeCss, /@media \(prefers-reduced-motion: reduce\)/);
 assert.match(homeCss, /:focus-visible/);
 assert.match(layoutSource, /metadataBase/);
+assert.match(layoutSource, /title: "Veyra for Business"/);
 
 for (const asset of [
   "app/opengraph-image.png",

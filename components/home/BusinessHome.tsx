@@ -16,6 +16,7 @@ import {
 import CommerceMoment from "@/components/home/CommerceMoment";
 import Faq from "@/components/home/Faq";
 import PilotChecklist from "@/components/home/PilotChecklist";
+import { Button } from "@/components/ui/button";
 
 const GOOGLE_CASE_STUDY =
   "https://cloud.google.com/blog/topics/retail/how-breuninger-boosted-sales-with-its-be-your-own-model-ai";
@@ -87,9 +88,11 @@ export default function BusinessHome() {
             <a href="#evidence">Evidence</a>
             <a href="#integration">API</a>
           </nav>
-          <a className="home-button home-button-small" href="#pilot">
-            Plan a pilot <ArrowRight size={16} aria-hidden="true" />
-          </a>
+          <Button asChild className="home-nav-cta" size="sm">
+            <a href="#pilot">
+              Plan a pilot <ArrowRight size={16} aria-hidden="true" />
+            </a>
+          </Button>
         </div>
       </header>
 
@@ -104,9 +107,11 @@ export default function BusinessHome() {
               — inside the storefront you already run.
             </p>
             <div className="home-actions">
-              <a className="home-button" href="#pilot">
-                Plan a 5-SKU pilot <ArrowRight size={18} aria-hidden="true" />
-              </a>
+              <Button asChild className="home-hero-cta" size="lg">
+                <a href="#pilot">
+                  Plan a 5-SKU pilot <ArrowRight size={18} aria-hidden="true" />
+                </a>
+              </Button>
               <a className="home-text-link" href="#product">
                 See the customer journey <ArrowDown size={17} aria-hidden="true" />
               </a>
@@ -271,16 +276,33 @@ export default function BusinessHome() {
 
               <article className="home-evidence-card">
                 <div className="home-evidence-meta">
-                  <span>Zalando SE</span><span>KDD 2021</span>
+                  <span>Zalando SizeFlags</span><span>KDD 2021</span>
                 </div>
-                <div className="home-evidence-stats">
-                  <div><strong>+2.1%</strong><span>conversion</span></div>
-                  <div><strong>+1.8%</strong><span>items added</span></div>
-                  <div><strong>4–8%</strong><span>fewer size returns</span></div>
-                </div>
+                <h3>Size advice, tested at retail scale.</h3>
+                <dl className="home-evidence-results">
+                  <div>
+                    <dt>Shoes A/B test</dt>
+                    <dd>
+                      <span className="home-evidence-measure">
+                        <strong>−3.8%</strong><span>size-related returns</span>
+                      </span>
+                      <small>720,000 customers in each group</small>
+                    </dd>
+                  </div>
+                  <div>
+                    <dt>Textiles A/B test</dt>
+                    <dd>
+                      <span className="home-evidence-measure">
+                        <strong>−4.3% to −6.6%</strong><span>size-related returns</span>
+                      </span>
+                      <small>“Too small” and “too big” flags · 180,000+ customers per group</small>
+                    </dd>
+                  </div>
+                </dl>
                 <p>
-                  A separate, large-scale size-and-fit system demonstrated that better purchase
-                  confidence can move both conversion and return behavior.
+                  Zalando researchers tested article-level size guidance on shoes and textiles.
+                  The figures above are relative reductions reported by that study—not Veyra
+                  performance.
                 </p>
                 <a href={ZALANDO_STUDY} target="_blank" rel="noreferrer">
                   Read the paper <ArrowUpRight size={16} aria-hidden="true" />

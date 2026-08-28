@@ -10,6 +10,15 @@ import PilotChecklist from "@/components/home/PilotChecklist";
 afterEach(cleanup);
 
 describe("homepage interactions", () => {
+  it("labels the independent study results without presenting them as Veyra metrics", () => {
+    render(<BusinessHome />);
+
+    expect(screen.getByText("−3.8%")).toBeInTheDocument();
+    expect(screen.getByText("−4.3% to −6.6%")).toBeInTheDocument();
+    expect(screen.getByText(/relative reductions reported by that study—not Veyra performance/i)).toBeInTheDocument();
+    expect(screen.queryByText("+2.1%")).not.toBeInTheDocument();
+  });
+
   it("changes the commerce story by click and keyboard", async () => {
     const user = userEvent.setup();
     render(<CommerceMoment />);

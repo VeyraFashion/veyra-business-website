@@ -1,7 +1,11 @@
 "use client";
 
-import * as Accordion from "@radix-ui/react-accordion";
-import { ChevronDown } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const questions = [
   {
@@ -33,20 +37,17 @@ const questions = [
 
 export default function Faq() {
   return (
-    <Accordion.Root className="home-faq" type="single" collapsible>
+    <Accordion className="home-faq" type="single" collapsible>
       {questions.map((item, index) => (
-        <Accordion.Item className="home-faq-item" value={`item-${index}`} key={item.question}>
-          <Accordion.Header>
-            <Accordion.Trigger className="home-faq-trigger">
-              <span><span className="home-faq-number">0{index + 1}</span>{item.question}</span>
-              <ChevronDown className="home-faq-chevron" size={19} aria-hidden="true" />
-            </Accordion.Trigger>
-          </Accordion.Header>
-          <Accordion.Content className="home-faq-content">
+        <AccordionItem className="home-faq-item" value={`item-${index}`} key={item.question}>
+          <AccordionTrigger className="home-faq-trigger">
+            <span><span className="home-faq-number">0{index + 1}</span>{item.question}</span>
+          </AccordionTrigger>
+          <AccordionContent className="home-faq-content">
             <div>{item.answer}</div>
-          </Accordion.Content>
-        </Accordion.Item>
+          </AccordionContent>
+        </AccordionItem>
       ))}
-    </Accordion.Root>
+    </Accordion>
   );
 }

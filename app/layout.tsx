@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./fonts.css";
+import "./tailwind.css";
 import "./theme.css";
 import "./home.css";
 import SmoothScroll from "@/components/SmoothScroll";
@@ -15,7 +16,8 @@ const siteUrl =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Veyra for Business — Virtual try-on for fashion commerce",
+  applicationName: "Veyra for Business",
+  title: "Veyra for Business",
   description:
     "Give fashion shoppers a high-fidelity way to see themselves in products, build complete looks, and buy with more confidence — inside the storefront you already run.",
   openGraph: {

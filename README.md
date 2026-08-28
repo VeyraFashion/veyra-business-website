@@ -15,7 +15,9 @@ experience until they are ready to be published.
 - Real product UI instead of decorative dashboard mockups.
 - Independent evidence beside the claims it supports, clearly separated from Veyra results.
 - Restrained motion with reduced-motion support.
-- Accessible Radix primitives for the FAQ and keyboard-complete tabs for the commerce journey.
+- Tailwind v4 theme tokens and owned shadcn primitives for functional UI, without replacing the
+  bespoke editorial homepage composition.
+- An accessible shadcn/Radix FAQ and keyboard-complete tabs for the commerce journey.
 - A bespoke Open Graph card at **app/opengraph-image.png**.
 
 ## Run locally
@@ -79,18 +81,25 @@ npm run test:content
 
 ~~~text
 app/page.tsx                         Public homepage entry
+app/tailwind.css                     Tailwind v4 and Veyra design-token bridge
 app/home.css                         Homepage visual system and responsive rules
 app/opengraph-image.png              Social-preview card
 components/home/BusinessHome.tsx     Homepage content and layout
 components/home/CommerceMoment.tsx   Interactive commerce touchpoints
 components/home/Faq.tsx              Accessible FAQ accordion
 components/home/PilotChecklist.tsx   Copyable pilot brief
+components/ui/                       Owned shadcn primitives, restyled for Veyra
 tests/homepage.test.tsx              Interaction and accessibility tests
 scripts/verify-homepage.mjs          Built-output and content checks
 ~~~
 
 The legacy theme remains because the private brand-demo route still uses its catalog, card, upload,
 and result styles.
+
+Tailwind is configured without Preflight so it cannot unexpectedly reset the legacy demo or the
+art-directed homepage. Add new functional primitives through shadcn, keep their source in
+**components/ui/**, and map visuals to the tokens in **app/tailwind.css** instead of shipping
+registry defaults unchanged.
 
 ## Private brand demos
 

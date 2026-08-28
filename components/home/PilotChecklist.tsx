@@ -2,6 +2,7 @@
 
 import { Check, Clipboard, ClipboardCheck } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Button } from "@/components/ui/button";
 
 const CHECKLIST = `Veyra pilot brief
 
@@ -37,10 +38,10 @@ export default function PilotChecklist() {
         <span className="home-pilot-action-icon"><Check size={18} aria-hidden="true" /></span>
         <p><strong>Take the next useful step.</strong> Copy a seven-line brief your commerce, product, and analytics teams can fill in together.</p>
       </div>
-      <button className="home-button home-button-light" type="button" onClick={copyChecklist} aria-live="polite">
+      <Button className="home-pilot-copy" variant="inverse" type="button" onClick={copyChecklist} aria-live="polite">
         {copied ? <ClipboardCheck size={18} aria-hidden="true" /> : <Clipboard size={18} aria-hidden="true" />}
         {copied ? "Pilot brief copied" : "Copy pilot brief"}
-      </button>
+      </Button>
     </div>
   );
 }
