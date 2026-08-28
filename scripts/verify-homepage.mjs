@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access, readFile } from "node:fs/promises";
+import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -8,6 +8,11 @@ const pageSource = await readFile(path.join(root, "components/home/BusinessHome.
 const layoutSource = await readFile(path.join(root, "app/layout.tsx"), "utf8");
 const homeCss = await readFile(path.join(root, "app/home.css"), "utf8");
 const builtHome = await readFile(path.join(root, ".next/server/app/index.html"), "utf8");
+const builtCssDirectory = path.join(root, ".next/static/chunks");
+const builtCssFiles = (await readdir(builtCssDirectory)).filter((file) => file.endsWith(".css"));
+const builtCss = (
+  await Promise.all(builtCssFiles.map((file) => readFile(path.join(builtCssDirectory, file), "utf8")))
+).join("\n");
 
 const publicHomepage = `${pageSource}\n${builtHome}`;
 const forbiddenPublicCopy = [
@@ -43,7 +48,16 @@ assert.match(homeCss, /@media \(max-width: 430px\)/);
 assert.match(homeCss, /@media \(prefers-reduced-motion: reduce\)/);
 assert.match(homeCss, /:focus-visible/);
 assert.match(layoutSource, /metadataBase/);
-assert.match(layoutSource, /title: "Veyra for Business"/);
+assert.match(layoutSource, /applicationName: "Veyra"/);
+assert.match(layoutSource, /title: "Veyra"/);
+assert.match(builtHome, /<title>Veyra<\/title>/);
+assert.equal(
+  layoutSource.includes('title: "Veyra for Business"'),
+  false,
+  "Browser tab still uses the longer business title",
+);
+assert.match(builtCss, /\.bg-veyra-cobalt\{background-color:/);
+assert.match(builtCss, /\.text-white\\!\{color:[^}]+!important\}/);
 
 for (const asset of [
   "app/opengraph-image.png",

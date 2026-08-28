@@ -10,11 +10,11 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "border-veyra-foreground bg-veyra-foreground text-white hover:border-veyra-cobalt hover:bg-veyra-cobalt",
+          "border-veyra-cobalt bg-veyra-cobalt text-white! hover:border-veyra-foreground hover:bg-veyra-foreground",
         inverse:
-          "border-veyra-paper bg-veyra-paper text-veyra-foreground hover:border-veyra-lime hover:bg-veyra-lime",
+          "border-veyra-paper bg-veyra-paper text-veyra-foreground! hover:border-veyra-lime hover:bg-veyra-lime",
         outline:
-          "border-veyra-foreground bg-transparent text-veyra-foreground hover:bg-veyra-foreground hover:text-white",
+          "border-veyra-foreground bg-transparent text-veyra-foreground! hover:bg-veyra-foreground hover:text-white!",
       },
       size: {
         default: "min-h-12 px-5",
@@ -44,6 +44,8 @@ function Button({
   return (
     <Component
       data-slot="button"
+      data-variant={variant ?? "primary"}
+      data-size={size ?? "default"}
       className={cn(buttonVariants({ variant, size, className }))}
       {...props}
     />

@@ -19,6 +19,20 @@ describe("homepage interactions", () => {
     expect(screen.queryByText("+2.1%")).not.toBeInTheDocument();
   });
 
+  it("renders branded primary actions with legible text", () => {
+    const { container } = render(<BusinessHome />);
+    const primaryLinks = Array.from(
+      container.querySelectorAll<HTMLAnchorElement>('a[data-slot="button"][href="#pilot"]'),
+    );
+
+    expect(primaryLinks).toHaveLength(2);
+    for (const link of primaryLinks) {
+      expect(link).toHaveAttribute("data-slot", "button");
+      expect(link).toHaveAttribute("data-variant", "primary");
+      expect(link).toHaveClass("bg-veyra-cobalt", "text-white!");
+    }
+  });
+
   it("changes the commerce story by click and keyboard", async () => {
     const user = userEvent.setup();
     render(<CommerceMoment />);
@@ -65,7 +79,10 @@ describe("homepage interactions", () => {
     });
     render(<PilotChecklist />);
 
-    await user.click(screen.getByRole("button", { name: /copy pilot brief/i }));
+    const copyButton = screen.getByRole("button", { name: /copy pilot brief/i });
+    expect(copyButton).toHaveAttribute("data-variant", "inverse");
+    expect(copyButton).toHaveClass("text-veyra-foreground!");
+    await user.click(copyButton);
     expect(writeText).toHaveBeenCalledOnce();
     expect(writeText.mock.calls[0][0]).toContain("Customer moment:");
     expect(await screen.findByRole("button", { name: /pilot brief copied/i })).toBeVisible();
