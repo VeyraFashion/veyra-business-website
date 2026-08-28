@@ -56,6 +56,7 @@ for (const framing of negativePublicFraming) {
 assert.match(publicHomepage, /Make [“&quot;]Will this suit me\?[”&quot;] answerable\./);
 assert.match(publicHomepage, /cloud\.google\.com\/blog\/topics\/retail\/how-breuninger-boosted-sales/);
 assert.match(publicHomepage, /corporate\.zalando\.com\/en\/technology\/how-zalando-uses-technology-help-customers-find-right-size/);
+assert.match(publicHomepage, /corporate\.zalando\.com\/en\/fashion\/tracking-future-why-zalando-uniquely-placed-lead-next-era-retail/);
 assert.match(publicHomepage, /Plan a 5-SKU pilot/);
 assert.match(publicHomepage, /From pilot signal to retail scale\./);
 assert.match(publicHomepage, /Up to 40%/);

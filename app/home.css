@@ -175,6 +175,8 @@
 .home-evidence-card p { max-width: 680px; color: rgba(255,255,255,.76); font-size: 14px; line-height: 1.65; }
 .home-evidence-card .home-evidence-caveat { color: rgba(255,255,255,.64); font-size: 12px; }
 .home-evidence-card a { display: inline-flex; align-items: center; gap: 8px; margin-top: 22px; font-size: 13px; font-weight: 900; text-underline-offset: 5px; }
+.home-evidence-links { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 22px; }
+.home-evidence-links a { margin-top: 0; }
 .home-evidence-signal { display: grid; grid-template-columns: minmax(145px, .78fr) 1fr; gap: 20px; align-items: end; margin-bottom: 20px; padding: 22px 0; border-block: 1px solid rgba(255,255,255,.32); }
 .home-evidence-signal strong { color: var(--home-lime); font-size: clamp(44px, 5vw, 72px); letter-spacing: -.07em; line-height: .88; }
 .home-evidence-signal span { max-width: 210px; color: rgba(255,255,255,.84); font-size: 13px; font-weight: 700; line-height: 1.35; }

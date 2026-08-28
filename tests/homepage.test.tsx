@@ -18,9 +18,13 @@ describe("homepage interactions", () => {
     expect(screen.getByText(/fewer returns in recent Virtual Fitting Room pilots/i)).toBeInTheDocument();
     expect(screen.getByText("Scaling to millions of customers")).toBeInTheDocument();
     expect(screen.getByText(/retailer-reported pilot result/i)).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: /Read Zalando’s 2026 update/i })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: /View pilot result/i })).toHaveAttribute(
       "href",
       "https://corporate.zalando.com/en/technology/how-zalando-uses-technology-help-customers-find-right-size",
+    );
+    expect(screen.getByRole("link", { name: /View scale update/i })).toHaveAttribute(
+      "href",
+      "https://corporate.zalando.com/en/fashion/tracking-future-why-zalando-uniquely-placed-lead-next-era-retail",
     );
     expect(screen.queryByText(/Zalando SizeFlags/i)).not.toBeInTheDocument();
     expect(screen.queryByText("−3.8%")).not.toBeInTheDocument();

@@ -75,8 +75,10 @@ npm run test:content
   category evidence.
 - [Zalando’s June 2026 Size & Fit update](https://corporate.zalando.com/en/technology/how-zalando-uses-technology-help-customers-find-right-size):
   recent Virtual Fitting Room pilots reported up to 40% fewer returns, followed by a permanent
-  rollout intended to reach millions of customers. The homepage labels the return figure as a
-  retailer-reported pilot result and keeps the scale-up claim distinct.
+  rollout. A separate [March 2026 scale update](https://corporate.zalando.com/en/fashion/tracking-future-why-zalando-uniquely-placed-lead-next-era-retail)
+  says the experience is being made available to millions of customers. The homepage links both
+  sources, labels the return figure as a retailer-reported pilot result, and keeps the scale-up
+  claim distinct.
 
 ## Project structure
 

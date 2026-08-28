@@ -22,6 +22,8 @@ const GOOGLE_CASE_STUDY =
   "https://cloud.google.com/blog/topics/retail/how-breuninger-boosted-sales-with-its-be-your-own-model-ai";
 const ZALANDO_2026_SIZE_FIT_UPDATE =
   "https://corporate.zalando.com/en/technology/how-zalando-uses-technology-help-customers-find-right-size";
+const ZALANDO_2026_SCALE_UPDATE =
+  "https://corporate.zalando.com/en/fashion/tracking-future-why-zalando-uniquely-placed-lead-next-era-retail";
 const TRY_ON_CODE = [
   "// Queue the work and keep the PDP responsive",
   "POST /ai/jobs/try-on",
@@ -292,9 +294,14 @@ export default function BusinessHome() {
                 <p className="home-evidence-caveat">
                   The 40% figure is a retailer-reported pilot result; the scaled rollout is now underway.
                 </p>
-                <a href={ZALANDO_2026_SIZE_FIT_UPDATE} target="_blank" rel="noreferrer">
-                  Read Zalando’s 2026 update <ArrowUpRight size={16} aria-hidden="true" />
-                </a>
+                <div className="home-evidence-links">
+                  <a href={ZALANDO_2026_SIZE_FIT_UPDATE} target="_blank" rel="noreferrer">
+                    View pilot result <ArrowUpRight size={16} aria-hidden="true" />
+                  </a>
+                  <a href={ZALANDO_2026_SCALE_UPDATE} target="_blank" rel="noreferrer">
+                    View scale update <ArrowUpRight size={16} aria-hidden="true" />
+                  </a>
+                </div>
               </article>
             </div>
           </div>
