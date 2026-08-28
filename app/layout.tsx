@@ -17,7 +17,7 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   applicationName: "Veyra",
-  title: "Veyra",
+  title: "Veyra for Business — Virtual Try-On & AI Styling",
   description:
     "Give fashion shoppers a high-fidelity way to see themselves in products, build complete looks, and buy with more confidence — inside the storefront you already run.",
   openGraph: {

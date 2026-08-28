@@ -49,13 +49,8 @@ assert.match(homeCss, /@media \(prefers-reduced-motion: reduce\)/);
 assert.match(homeCss, /:focus-visible/);
 assert.match(layoutSource, /metadataBase/);
 assert.match(layoutSource, /applicationName: "Veyra"/);
-assert.match(layoutSource, /title: "Veyra"/);
-assert.match(builtHome, /<title>Veyra<\/title>/);
-assert.equal(
-  layoutSource.includes('title: "Veyra for Business"'),
-  false,
-  "Browser tab still uses the longer business title",
-);
+assert.match(layoutSource, /title: "Veyra for Business — Virtual Try-On & AI Styling"/);
+assert.match(builtHome, /<title>Veyra for Business — Virtual Try-On &amp; AI Styling<\/title>/);
 assert.match(builtCss, /\.bg-veyra-cobalt\{background-color:/);
 assert.match(builtCss, /\.text-white\\!\{color:[^}]+!important\}/);
 
