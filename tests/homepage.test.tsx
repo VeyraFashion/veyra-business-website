@@ -10,13 +10,16 @@ import PilotChecklist from "@/components/home/PilotChecklist";
 afterEach(cleanup);
 
 describe("homepage interactions", () => {
-  it("labels the independent study results and identifies the Veyra benchmark", () => {
+  it("turns category evidence into a current Veyra pilot scorecard", () => {
     render(<BusinessHome />);
 
-    expect(screen.getByText("−3.8%")).toBeInTheDocument();
-    expect(screen.getByText("−4.3% to −6.6%")).toBeInTheDocument();
-    expect(screen.getByText(/a Veyra pilot establishes the benchmark for your own customer journey/i)).toBeInTheDocument();
-    expect(screen.queryByText("+2.1%")).not.toBeInTheDocument();
+    expect(screen.getByText("Measure what matters on your storefront.")).toBeInTheDocument();
+    expect(screen.getByText("Activation")).toBeInTheDocument();
+    expect(screen.getByText("Purchase intent")).toBeInTheDocument();
+    expect(screen.getByText("Commercial impact")).toBeInTheDocument();
+    expect(screen.getByText("Customer confidence")).toBeInTheDocument();
+    expect(screen.queryByText(/Zalando SizeFlags/i)).not.toBeInTheDocument();
+    expect(screen.queryByText("−3.8%")).not.toBeInTheDocument();
   });
 
   it("renders branded primary actions with legible text", () => {

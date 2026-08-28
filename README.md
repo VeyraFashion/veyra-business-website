@@ -67,15 +67,14 @@ npm run build
 npm run test:content
 ~~~
 
-## Evidence used on the homepage
+## Evidence and measurement on the homepage
 
 - [Google Cloud × Breuninger virtual try-on case study](https://cloud.google.com/blog/topics/retail/how-breuninger-boosted-sales-with-its-be-your-own-model-ai):
   a six-week retail A/B test reported higher conversion and stronger contribution margin among
-  shoppers who used personalized virtual try-on. The source gives direction, not a numeric uplift,
-  and the website says so.
-- [Zalando SE, SizeFlags, KDD 2021](https://arxiv.org/abs/2106.03532): published results for a
-  separate size-and-fit system. These figures are industry evidence, never presented as Veyra
-  performance.
+  shoppers who used personalized virtual try-on. The homepage presents this as directional
+  category evidence.
+- The Veyra pilot scorecard turns that context into a current retailer-specific measurement plan
+  across activation, purchase intent, commercial impact, and customer confidence.
 
 ## Project structure
 

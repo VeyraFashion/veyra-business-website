@@ -20,7 +20,6 @@ import { Button } from "@/components/ui/button";
 
 const GOOGLE_CASE_STUDY =
   "https://cloud.google.com/blog/topics/retail/how-breuninger-boosted-sales-with-its-be-your-own-model-ai";
-const ZALANDO_STUDY = "https://arxiv.org/abs/2106.03532";
 const TRY_ON_CODE = [
   "// Queue the work and keep the PDP responsive",
   "POST /ai/jobs/try-on",
@@ -246,7 +245,7 @@ export default function BusinessHome() {
         <section className="home-evidence" id="evidence" aria-labelledby="evidence-title">
           <div className="home-shell">
             <div className="home-evidence-heading">
-              <p className="home-overline">Independent evidence</p>
+              <p className="home-overline">Evidence to action</p>
               <h2 id="evidence-title">The category has proof. Your pilot makes it specific.</h2>
               <p>
                 Published retail evidence sets the context. A focused pilot measures the impact
@@ -271,38 +270,35 @@ export default function BusinessHome() {
                 </a>
               </article>
 
-              <article className="home-evidence-card">
+              <article className="home-evidence-card home-evidence-card-scorecard">
                 <div className="home-evidence-meta">
-                  <span>Zalando SizeFlags</span><span>KDD 2021</span>
+                  <span>Veyra pilot</span><span>Your catalog + traffic</span>
                 </div>
-                <h3>Size advice, tested at retail scale.</h3>
-                <dl className="home-evidence-results">
-                  <div>
-                    <dt>Shoes A/B test</dt>
-                    <dd>
-                      <span className="home-evidence-measure">
-                        <strong>−3.8%</strong><span>size-related returns</span>
-                      </span>
-                      <small>720,000 customers in each group</small>
-                    </dd>
-                  </div>
-                  <div>
-                    <dt>Textiles A/B test</dt>
-                    <dd>
-                      <span className="home-evidence-measure">
-                        <strong>−4.3% to −6.6%</strong><span>size-related returns</span>
-                      </span>
-                      <small>“Too small” and “too big” flags · 180,000+ customers per group</small>
-                    </dd>
-                  </div>
-                </dl>
+                <h3>Measure what matters on your storefront.</h3>
+                <ul className="home-pilot-scorecard">
+                  <li>
+                    <span>01</span>
+                    <div><strong>Activation</strong><p>Try-on starts and completed results</p></div>
+                  </li>
+                  <li>
+                    <span>02</span>
+                    <div><strong>Purchase intent</strong><p>Add-to-cart and outfit completion</p></div>
+                  </li>
+                  <li>
+                    <span>03</span>
+                    <div><strong>Commercial impact</strong><p>Conversion and contribution margin</p></div>
+                  </li>
+                  <li>
+                    <span>04</span>
+                    <div><strong>Customer confidence</strong><p>Feedback and return behavior</p></div>
+                  </li>
+                </ul>
                 <p>
-                  Zalando researchers tested article-level size guidance on shoes and textiles.
-                  These relative reductions come from the published study. A Veyra pilot
-                  establishes the benchmark for your own customer journey.
+                  Set one primary outcome and a clear baseline. Product, commerce, and analytics
+                  teams then share one decision-ready view of the result.
                 </p>
-                <a href={ZALANDO_STUDY} target="_blank" rel="noreferrer">
-                  Read the paper <ArrowUpRight size={16} aria-hidden="true" />
+                <a href="#pilot">
+                  Build the pilot scorecard <ArrowRight size={16} aria-hidden="true" />
                 </a>
               </article>
             </div>
