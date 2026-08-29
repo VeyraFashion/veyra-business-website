@@ -46,7 +46,7 @@ export async function GET(
     const status = (err as { status?: number })?.status ?? 500;
     const publicStatus = status >= 500 ? 503 : status;
     return NextResponse.json(
-      { error: "Veyra could not check this try-on. Please try again." },
+      { error: "STYLD could not check this try-on. Please try again." },
       { status: publicStatus },
     );
   }

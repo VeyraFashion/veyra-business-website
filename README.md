@@ -1,6 +1,6 @@
-# Veyra for Business
+# STYLD for Business
 
-The public B2B website for Veyra’s fashion-commerce platform: virtual try-on, outfit
+The public B2B website for STYLD’s fashion-commerce platform: virtual try-on, outfit
 intelligence, reusable avatars, and catalog-ready imagery delivered behind a retailer’s existing
 storefront.
 
@@ -13,7 +13,7 @@ experience until they are ready to be published.
 - Editorial commerce design: warm paper, near-black typography, cobalt, acid lime, and periwinkle.
 - One primary journey: plan a small, measurable retail pilot.
 - Real product UI instead of decorative dashboard mockups.
-- Independent evidence beside the claims it supports, clearly separated from Veyra results.
+- Independent evidence beside the claims it supports, clearly separated from STYLD results.
 - Restrained motion with reduced-motion support.
 - Tailwind v4 theme tokens and owned shadcn primitives for functional UI, without replacing the
   bespoke editorial homepage composition.
@@ -33,9 +33,9 @@ Set these values in **.env.local** when needed:
 
 ~~~bash
 NEXT_PUBLIC_SITE_URL=https://your-public-origin.example
-VEYRA_AI_BASE_URL=http://127.0.0.1:8000
-VEYRA_AI_SERVICE_KEY=
-VEYRA_AI_QUALITY_PROFILE=interactive
+STYLD_AI_BASE_URL=http://127.0.0.1:8000
+STYLD_AI_SERVICE_KEY=
+STYLD_AI_QUALITY_PROFILE=interactive
 ~~~
 
 **NEXT_PUBLIC_SITE_URL** ensures Open Graph and other metadata use the canonical production
@@ -84,7 +84,7 @@ npm run test:content
 
 ~~~text
 app/page.tsx                         Public homepage entry
-app/tailwind.css                     Tailwind v4 and Veyra design-token bridge
+app/tailwind.css                     Tailwind v4 and STYLD design-token bridge
 app/home.css                         Homepage visual system and responsive rules
 app/demo.css                         Private brand-demo visual and responsive system
 app/opengraph-image.png              Social-preview card
@@ -92,7 +92,7 @@ components/home/BusinessHome.tsx     Homepage content and layout
 components/home/CommerceMoment.tsx   Interactive commerce touchpoints
 components/home/Faq.tsx              Accessible FAQ accordion
 components/home/PilotChecklist.tsx   Copyable pilot brief
-components/ui/                       Owned shadcn primitives, restyled for Veyra
+components/ui/                       Owned shadcn primitives, restyled for STYLD
 tests/homepage.test.tsx              Interaction and accessibility tests
 scripts/verify-homepage.mjs          Built-output and content checks
 ~~~
@@ -116,7 +116,7 @@ passing photo is reused automatically across three asynchronous **/ai/jobs/try-o
 three recommendations appear on the shopper without another upload or per-look action. Catalogue
 selections become `must_include_item_ids` for the same guided journey.
 
-Shopper photos are capped at 8 MB and their bytes are excluded from Veyra API logs. Random IDs
+Shopper photos are capped at 8 MB and their bytes are excluded from STYLD API logs. Random IDs
 resolve through **config/brands.json**; catalog data lives in **catalog/**, and product images live
 under **public/products/**.
 

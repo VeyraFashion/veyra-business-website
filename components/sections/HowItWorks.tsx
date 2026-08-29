@@ -5,7 +5,7 @@ export default function HowItWorks() {
     <section className="wrap section" id="how">
       <Reveal className="section-head center">
         <h2 className="section-title">Three steps. No rebuild of your storefront.</h2>
-        <p className="section-sub">You keep your stack — your PDP, your cart, your checkout. Veyra sits behind it.</p>
+        <p className="section-sub">You keep your stack — your PDP, your cart, your checkout. STYLD sits behind it.</p>
       </Reveal>
       <RevealGroup className="steps" stagger={0.12}>
         <RevealItem className="step">
@@ -29,7 +29,7 @@ export default function HowItWorks() {
           <span className="num">02 — Drop in the widget</span>
           <h3>One API call, or your own UI</h3>
           <p>
-            Call our API endpoints directly, or embed Veyra&rsquo;s
+            Call our API endpoints directly, or embed STYLD&rsquo;s
             ready-made try-on widget on the product page and cart. Either way, it&rsquo;s your
             storefront — our engine underneath.
           </p>

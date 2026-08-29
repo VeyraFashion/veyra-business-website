@@ -55,9 +55,9 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
 
       <header className="demo-nav">
         <div className="demo-shell demo-nav-inner">
-          <Link className="demo-mark" href="/" aria-label="Veyra for Business home">
-            <span className="demo-mark-symbol" aria-hidden="true">V</span>
-            <span>Veyra</span>
+          <Link className="demo-mark" href="/" aria-label="STYLD for Business home">
+            <span className="demo-mark-symbol" aria-hidden="true">S</span>
+            <span>STYLD</span>
             <span className="demo-mark-context">for business</span>
           </Link>
           <div className="demo-nav-label">
@@ -80,8 +80,8 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
               </h1>
               <p className="demo-hero-lede">
                 {catalog.items.length > 0
-                  ? `Select from ${catalog.items.length} real products, ask Veyra to build complete looks, and place compatible pieces on a shopper’s photo.`
-                  : `A private Veyra commerce environment prepared for ${catalog.brand}, ready to activate with product imagery.`}
+                  ? `Select from ${catalog.items.length} real products, ask STYLD to build complete looks, and place compatible pieces on a shopper’s photo.`
+                  : `A private STYLD commerce environment prepared for ${catalog.brand}, ready to activate with product imagery.`}
               </p>
               <div className="demo-hero-facts" aria-label="Demo capabilities">
                 <span><Check size={16} aria-hidden="true" /> Real product assets</span>
@@ -137,7 +137,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
               <div className="demo-catalog-intro demo-shell">
                 <p className="demo-overline">Optional catalogue control</p>
                 <h2>Want a specific piece in every look?</h2>
-                <p>Select compatible products below, then send those choices to the styling room. Veyra will build three complete outfits around them.</p>
+                <p>Select compatible products below, then send those choices to the styling room. STYLD will build three complete outfits around them.</p>
               </div>
               {Array.from(byCategory.entries()).map(([category, items], index) => (
                 <section className="demo-catalog-section" key={category}>
@@ -175,7 +175,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
 
       <footer className="demo-footer">
         <div className="demo-shell">
-          <span>Veyra × {catalog.brand}</span>
+          <span>STYLD × {catalog.brand}</span>
           <p>Independent capability demo using public product imagery. Brand names and product assets remain the property of their owners.</p>
         </div>
       </footer>

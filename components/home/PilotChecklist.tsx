@@ -4,7 +4,7 @@ import { Check, Clipboard, ClipboardCheck } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 
-const CHECKLIST = `Veyra pilot brief
+const CHECKLIST = `STYLD pilot brief
 
 Customer moment:
 Catalog slice (5–25 SKUs):

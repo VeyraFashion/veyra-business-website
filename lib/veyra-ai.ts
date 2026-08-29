@@ -1,18 +1,18 @@
-/** Thin server-side client for the private Veyra AI service. Never call this from client code —
+/** Thin server-side client for the private STYLD AI service. Never call this from client code —
  *  it is imported only from Next.js route handlers so credentials and provider details remain
  *  server-side. */
 
-export function veyraAiBaseUrl(): string {
-  return process.env.VEYRA_AI_BASE_URL || "http://127.0.0.1:8000";
+export function styldAiBaseUrl(): string {
+  return process.env.STYLD_AI_BASE_URL || "http://127.0.0.1:8000";
 }
 
 export function serviceKeyHeaders(): Record<string, string> {
-  const key = process.env.VEYRA_AI_SERVICE_KEY;
+  const key = process.env.STYLD_AI_SERVICE_KEY;
   return key ? { "X-Service-Key": key } : {};
 }
 
 export function qualityProfile(): string {
-  return process.env.VEYRA_AI_QUALITY_PROFILE || "interactive";
+  return process.env.STYLD_AI_QUALITY_PROFILE || "interactive";
 }
 
 export interface ImageJobAccepted {
@@ -41,12 +41,12 @@ export interface ImageJobStatus {
 }
 
 /** Converts private service failures into provider-neutral errors before a route can expose them. */
-async function veyraFetch(pathname: string, init: RequestInit): Promise<Response> {
-  const res = await fetch(`${veyraAiBaseUrl()}${pathname}`, init);
+async function styldFetch(pathname: string, init: RequestInit): Promise<Response> {
+  const res = await fetch(`${styldAiBaseUrl()}${pathname}`, init);
   if (!res.ok) {
     const message = res.status >= 500
-      ? "Veyra's AI service is temporarily unavailable."
-      : "Veyra could not complete this request.";
+      ? "STYLD's AI service is temporarily unavailable."
+      : "STYLD could not complete this request.";
     const err = new Error(message) as Error & { status?: number };
     err.status = res.status;
     throw err;
@@ -55,7 +55,7 @@ async function veyraFetch(pathname: string, init: RequestInit): Promise<Response
 }
 
 export async function submitTryOnJob(form: FormData): Promise<ImageJobAccepted> {
-  const res = await veyraFetch("/ai/jobs/try-on", {
+  const res = await styldFetch("/ai/jobs/try-on", {
     method: "POST",
     body: form,
     headers: { ...serviceKeyHeaders() },
@@ -64,7 +64,7 @@ export async function submitTryOnJob(form: FormData): Promise<ImageJobAccepted> 
 }
 
 export async function getJob(jobId: string): Promise<ImageJobStatus> {
-  const res = await veyraFetch(`/ai/jobs/${jobId}`, {
+  const res = await styldFetch(`/ai/jobs/${jobId}`, {
     method: "GET",
     headers: { ...serviceKeyHeaders() },
   });
@@ -72,7 +72,7 @@ export async function getJob(jobId: string): Promise<ImageJobStatus> {
 }
 
 export async function rankOutfits(body: Record<string, unknown>): Promise<Record<string, unknown>> {
-  const res = await veyraFetch("/ai/outfits", {
+  const res = await styldFetch("/ai/outfits", {
     method: "POST",
     headers: { "Content-Type": "application/json", ...serviceKeyHeaders() },
     body: JSON.stringify(body),

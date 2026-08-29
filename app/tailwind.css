@@ -9,26 +9,26 @@
 @import "tw-animate-css";
 
 :root {
-  --veyra-background: #f3f0e8;
-  --veyra-paper: #fbfaf6;
-  --veyra-foreground: #171713;
-  --veyra-muted: #66665f;
-  --veyra-border: rgb(23 23 19 / 18%);
-  --veyra-cobalt: #2f50f5;
-  --veyra-periwinkle: #c7d2fe;
-  --veyra-lime: #d9ff63;
-  --veyra-radius: 0rem;
+  --styld-background: #f3f0e8;
+  --styld-paper: #fbfaf6;
+  --styld-foreground: #171713;
+  --styld-muted: #66665f;
+  --styld-border: rgb(23 23 19 / 18%);
+  --styld-cobalt: #2f50f5;
+  --styld-periwinkle: #c7d2fe;
+  --styld-lime: #d9ff63;
+  --styld-radius: 0rem;
 }
 
 @theme inline {
-  --color-veyra-background: var(--veyra-background);
-  --color-veyra-paper: var(--veyra-paper);
-  --color-veyra-foreground: var(--veyra-foreground);
-  --color-veyra-muted: var(--veyra-muted);
-  --color-veyra-border: var(--veyra-border);
-  --color-veyra-cobalt: var(--veyra-cobalt);
-  --color-veyra-periwinkle: var(--veyra-periwinkle);
-  --color-veyra-lime: var(--veyra-lime);
-  --radius-veyra: var(--veyra-radius);
-  --font-veyra: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --color-styld-background: var(--styld-background);
+  --color-styld-paper: var(--styld-paper);
+  --color-styld-foreground: var(--styld-foreground);
+  --color-styld-muted: var(--styld-muted);
+  --color-styld-border: var(--styld-border);
+  --color-styld-cobalt: var(--styld-cobalt);
+  --color-styld-periwinkle: var(--styld-periwinkle);
+  --color-styld-lime: var(--styld-lime);
+  --radius-styld: var(--styld-radius);
+  --font-styld: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }

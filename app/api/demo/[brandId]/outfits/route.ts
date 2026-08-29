@@ -41,7 +41,7 @@ function publicOutfit(value: unknown) {
       }).filter(Boolean)
     : [];
   return {
-    name: typeof outfit.name === "string" ? outfit.name : "Veyra look",
+    name: typeof outfit.name === "string" ? outfit.name : "STYLD look",
     items,
     rationale: typeof outfit.rationale === "string" ? outfit.rationale : "",
     confidence: typeof outfit.confidence === "number" ? outfit.confidence : 0,
@@ -167,7 +167,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ bra
     const status = (err as { status?: number })?.status ?? 500;
     const publicStatus = status >= 500 ? 503 : status;
     return NextResponse.json(
-      { error: "Veyra could not create these looks. Please try again." },
+      { error: "STYLD could not create these looks. Please try again." },
       { status: publicStatus },
     );
   }

@@ -276,7 +276,7 @@ export default function OutfitPanel({
             <div className="demo-stylist-intro">
               <span>One guided experience</span>
               <h3>Upload once. Receive three complete looks on you.</h3>
-              <p>Veyra checks the photo, ranks compatible catalogue outfits, and renders every recommendation automatically.</p>
+              <p>STYLD checks the photo, ranks compatible catalogue outfits, and renders every recommendation automatically.</p>
             </div>
           </div>
 
@@ -340,7 +340,7 @@ export default function OutfitPanel({
           )}
 
           <div className="demo-stylist-submit-row">
-            <p>Your photo moves directly from recommendation to try-on and stays out of Veyra&apos;s request logs.</p>
+            <p>Your photo moves directly from recommendation to try-on and stays out of STYLD&apos;s request logs.</p>
             <button
               type="submit"
               className="demo-button demo-button-lime demo-stylist-action"
@@ -358,7 +358,7 @@ export default function OutfitPanel({
             <span className="demo-loader-orbit"><LoaderCircle size={27} aria-hidden="true" /></span>
             <div>
               <strong>Checking your photo and composing three looks</strong>
-              <p>Veyra is reviewing framing first, then occasion fit, compatible garment roles, colour, and proportion.</p>
+              <p>STYLD is reviewing framing first, then occasion fit, compatible garment roles, colour, and proportion.</p>
             </div>
             <span className="demo-loader-label">Please keep this page open</span>
           </div>
@@ -384,7 +384,7 @@ export default function OutfitPanel({
         <div className="demo-outfit-results">
           <div className="demo-results-head" aria-live="polite">
             <div>
-              <span>Your Veyra fitting room</span>
+              <span>Your STYLD fitting room</span>
               <strong>{outfits.length} complete looks, rendered on your photo</strong>
             </div>
             <span className="demo-results-context"><Check size={15} /> Photo approved for try-on</span>

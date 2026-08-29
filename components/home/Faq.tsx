@@ -9,9 +9,9 @@ import {
 
 const questions = [
   {
-    question: "How does Veyra fit into our storefront or app?",
+    question: "How does STYLD fit into our storefront or app?",
     answer:
-      "Veyra adds an intelligence and image layer behind your experience. Your team can use the API directly or begin with a focused surface while keeping your existing product pages, cart, identity, and analytics in place.",
+      "STYLD adds an intelligence and image layer behind your experience. Your team can use the API directly or begin with a focused surface while keeping your existing product pages, cart, identity, and analytics in place.",
   },
   {
     question: "What does a shopper need to upload?",
@@ -21,7 +21,7 @@ const questions = [
   {
     question: "Can a shopper try multiple garments together?",
     answer:
-      "Yes. Veyra supports a base top, a bottom or full-body garment, an outerwear layer, and footwear. It validates each combination before starting the image generation job.",
+      "Yes. STYLD supports a base top, a bottom or full-body garment, an outerwear layer, and footwear. It validates each combination before starting the image generation job.",
   },
   {
     question: "How do you keep generated images trustworthy?",

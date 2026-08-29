@@ -29,7 +29,7 @@ export default function Footer() {
     <footer>
       <div className="wrap footer-grid">
         <div className="footer-brand">
-          <div className="wordmark" style={{ fontSize: 18 }}>Veyra</div>
+          <div className="wordmark" style={{ fontSize: 18 }}>STYLD</div>
           <p className="footer-tagline">The AI try-on and styling layer, licensed into your storefront.</p>
           <div className="social-icons">
             {SOCIALS.map((s) => (
@@ -65,7 +65,7 @@ export default function Footer() {
       </div>
 
       <div className="wrap footer-bottom">
-        <div className="foot-fine">© 2026 Veyra. All rights reserved.</div>
+        <div className="foot-fine">© 2026 STYLD. All rights reserved.</div>
         <div className="foot-fine">Made for teams who&rsquo;d rather ship a pilot than a slide deck.</div>
       </div>
     </footer>

@@ -1,8 +1,8 @@
 {
-  "name": "veyra-business-website",
+  "name": "styld-business-website",
   "version": "0.1.0",
   "private": true,
-  "description": "Veyra for Business — B2B/B2B2C marketing site.",
+  "description": "STYLD for Business — B2B/B2B2C marketing site.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

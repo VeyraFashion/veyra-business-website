@@ -40,7 +40,7 @@ describe("homepage interactions", () => {
     for (const link of primaryLinks) {
       expect(link).toHaveAttribute("data-slot", "button");
       expect(link).toHaveAttribute("data-variant", "primary");
-      expect(link).toHaveClass("bg-veyra-cobalt", "text-white!");
+      expect(link).toHaveClass("bg-styld-cobalt", "text-white!");
     }
   });
 
@@ -69,13 +69,13 @@ describe("homepage interactions", () => {
     render(<Faq />);
 
     const trigger = screen.getByRole("button", {
-      name: /how does veyra fit into our storefront or app/i,
+      name: /how does styld fit into our storefront or app/i,
     });
     expect(trigger).toHaveAttribute("aria-expanded", "false");
 
     await user.click(trigger);
     expect(trigger).toHaveAttribute("aria-expanded", "true");
-    expect(screen.getByText(/veyra adds an intelligence and image layer/i)).toBeVisible();
+    expect(screen.getByText(/styld adds an intelligence and image layer/i)).toBeVisible();
 
     await user.click(trigger);
     expect(trigger).toHaveAttribute("aria-expanded", "false");
@@ -92,7 +92,7 @@ describe("homepage interactions", () => {
 
     const copyButton = screen.getByRole("button", { name: /copy pilot brief/i });
     expect(copyButton).toHaveAttribute("data-variant", "inverse");
-    expect(copyButton).toHaveClass("text-veyra-foreground!");
+    expect(copyButton).toHaveClass("text-styld-foreground!");
     await user.click(copyButton);
     expect(writeText).toHaveBeenCalledOnce();
     expect(writeText.mock.calls[0][0]).toContain("Customer moment:");

@@ -71,7 +71,7 @@ export default function Capabilities() {
           <div className="feature-kicker">Reusable Avatars</div>
           <h3>Set up once. Try on anything after that.</h3>
           <p>
-            A customer uploads a headshot once; Veyra generates a realistic, neutral-pose
+            A customer uploads a headshot once; STYLD generates a realistic, neutral-pose
             full-body avatar they reuse for every try-on after that — no new upload required per
             session.
           </p>

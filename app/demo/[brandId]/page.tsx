@@ -13,10 +13,10 @@ export async function generateMetadata({
   const entry = resolveBrand(brandId);
 
   return {
-    title: entry ? `${entry.brand} × Veyra — Live AI Styling Demo` : "Veyra — Private AI Styling Demo",
+    title: entry ? `${entry.brand} × STYLD — Live AI Styling Demo` : "STYLD — Private AI Styling Demo",
     description: entry
-      ? `Explore ${entry.brand} products with live outfit intelligence and virtual try-on in Veyra's private commerce demo.`
-      : "Explore Veyra's private AI styling and virtual try-on experience.",
+      ? `Explore ${entry.brand} products with live outfit intelligence and virtual try-on in STYLD's private commerce demo.`
+      : "Explore STYLD's private AI styling and virtual try-on experience.",
     robots: { index: false, follow: false },
   };
 }

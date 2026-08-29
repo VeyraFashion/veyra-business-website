@@ -89,7 +89,7 @@ export default function CommerceMoment() {
             <p className="home-overline">{active.eyebrow}</p>
             <h3>{active.title}</h3>
             <p>{active.body}</p>
-            <div className="home-moment-assurance"><Check size={16} aria-hidden="true" /> Powered by Veyra, presented as your brand</div>
+            <div className="home-moment-assurance"><Check size={16} aria-hidden="true" /> Powered by STYLD, presented as your brand</div>
           </motion.div>
 
           <motion.div

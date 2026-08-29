@@ -69,7 +69,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ bra
     const status = (err as { status?: number })?.status ?? 500;
     const publicStatus = status >= 500 ? 503 : status;
     return NextResponse.json(
-      { error: "Veyra could not start this try-on. Please try again." },
+      { error: "STYLD could not start this try-on. Please try again." },
       { status: publicStatus },
     );
   }

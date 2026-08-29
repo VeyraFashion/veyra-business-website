@@ -42,7 +42,7 @@ const negativePublicFraming = [
   "No invented performance claims",
   "High-quality try-on is not",
   "The goal is not",
-  "—not Veyra performance",
+  "—not STYLD performance",
   "Answer the first doubt",
 ];
 
@@ -134,14 +134,14 @@ assert.match(tryOnRouteSource, /job_id: accepted\.job_id/);
 assert.doesNotMatch(jobRouteSource, /NextResponse\.json\(status/);
 assert.match(jobRouteSource, /result: job\.status === "completed" \? publicResult/);
 assert.match(layoutSource, /metadataBase/);
-assert.match(layoutSource, /applicationName: "Veyra"/);
-assert.match(layoutSource, /title: "Veyra for Business — Virtual Try-On & AI Styling"/);
-assert.match(builtHome, /<title>Veyra for Business — Virtual Try-On &amp; AI Styling<\/title>/);
+assert.match(layoutSource, /applicationName: "STYLD"/);
+assert.match(layoutSource, /title: "STYLD for Business — Virtual Try-On & AI Styling"/);
+assert.match(builtHome, /<title>STYLD for Business — Virtual Try-On &amp; AI Styling<\/title>/);
 assert.match(
   builtHome,
   /<link rel="icon" href="\/favicon\.ico\?[^\"]+" sizes="64x64" type="image\/x-icon"\/>/,
 );
-assert.match(builtCss, /\.bg-veyra-cobalt\{background-color:/);
+assert.match(builtCss, /\.bg-styld-cobalt\{background-color:/);
 assert.match(builtCss, /\.text-white\\!\{color:[^}]+!important\}/);
 
 for (const asset of [

@@ -26,7 +26,7 @@ export default function WhyNow() {
           <div className="compare-row head">
             <div>&nbsp;</div>
             <div>Building it yourself</div>
-            <div className="col-veyra">Licensing Veyra</div>
+            <div className="col-styld">Licensing STYLD</div>
           </div>
           <div className="compare-row">
             <div className="compare-label">Time to first live try-on</div>

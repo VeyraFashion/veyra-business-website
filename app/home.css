@@ -1,14 +1,14 @@
 .business-home {
-  --home-bg: var(--veyra-background);
-  --home-paper: var(--veyra-paper);
-  --home-ink: var(--veyra-foreground);
-  --home-muted: var(--veyra-muted);
-  --home-line: var(--veyra-border);
+  --home-bg: var(--styld-background);
+  --home-paper: var(--styld-paper);
+  --home-ink: var(--styld-foreground);
+  --home-muted: var(--styld-muted);
+  --home-line: var(--styld-border);
   --home-line-strong: rgba(23, 23, 19, 0.42);
-  --home-cobalt: var(--veyra-cobalt);
+  --home-cobalt: var(--styld-cobalt);
   --home-cobalt-dark: #1835cf;
-  --home-periwinkle: var(--veyra-periwinkle);
-  --home-lime: var(--veyra-lime);
+  --home-periwinkle: var(--styld-periwinkle);
+  --home-lime: var(--styld-lime);
   --home-sans: Arial, "Helvetica Neue", Helvetica, sans-serif;
   min-height: 100vh;
   overflow: clip;

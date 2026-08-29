@@ -80,9 +80,9 @@ export default function BusinessHome() {
 
       <header className="home-nav" aria-label="Primary navigation">
         <div className="home-shell home-nav-inner">
-          <a className="home-mark" href="#top" aria-label="Veyra for Business home">
-            <span className="home-mark-symbol" aria-hidden="true">V</span>
-            <span>Veyra</span>
+          <a className="home-mark" href="#top" aria-label="STYLD for Business home">
+            <span className="home-mark-symbol" aria-hidden="true">S</span>
+            <span>STYLD</span>
             <span className="home-mark-context">for business</span>
           </a>
           <nav className="home-nav-links" aria-label="Homepage sections">
@@ -105,7 +105,7 @@ export default function BusinessHome() {
             <p className="home-overline">Fashion commerce infrastructure</p>
             <h1 id="hero-title">Make “Will this suit me?” answerable.</h1>
             <p className="home-hero-lede">
-              Veyra gives fashion retailers a customer-ready try-on and styling layer. Shoppers
+              STYLD gives fashion retailers a customer-ready try-on and styling layer. Shoppers
               see themselves in the product, build a complete look, and buy with more confidence
               — inside the storefront you already run.
             </p>
@@ -119,7 +119,7 @@ export default function BusinessHome() {
                 See the customer journey <ArrowDown size={17} aria-hidden="true" />
               </a>
             </div>
-            <ul className="home-hero-facts" aria-label="Veyra product facts">
+            <ul className="home-hero-facts" aria-label="STYLD product facts">
               <li><Check size={16} aria-hidden="true" /> Your brand and interface stay in front</li>
               <li><Check size={16} aria-hidden="true" /> Start with one measurable surface</li>
               <li><Check size={16} aria-hidden="true" /> Performance measured on your traffic</li>
@@ -182,7 +182,7 @@ export default function BusinessHome() {
             <p className="home-overline">The customer journey</p>
             <h2 id="product-title">Useful at the exact moment confidence matters.</h2>
             <p>
-              Veyra meets shoppers inside the journey they already know. It adds personal proof
+              STYLD meets shoppers inside the journey they already know. It adds personal proof
               to the product page, helps complete the cart, and keeps serving the purchase after
               it arrives.
             </p>
@@ -313,7 +313,7 @@ export default function BusinessHome() {
               <p className="home-overline">For product and engineering</p>
               <h2 id="integration-title">Your customer sees the experience. Your team keeps control.</h2>
               <p>
-                Use Veyra behind your storefront, app, or internal catalog tools. Start with a
+                Use STYLD behind your storefront, app, or internal catalog tools. Start with a
                 widget-sized surface or build directly against the API.
               </p>
               <ul className="home-check-list">
@@ -324,7 +324,7 @@ export default function BusinessHome() {
               </ul>
             </div>
 
-            <div className="home-code-window" aria-label="Example Veyra try-on API request">
+            <div className="home-code-window" aria-label="Example STYLD try-on API request">
               <div className="home-code-bar">
                 <span>try-on.ts</span>
                 <span>Interactive job</span>
@@ -373,8 +373,8 @@ export default function BusinessHome() {
         <div className="home-shell home-footer-main">
           <div>
             <a className="home-mark home-mark-footer" href="#top">
-              <span className="home-mark-symbol" aria-hidden="true">V</span>
-              <span>Veyra</span>
+              <span className="home-mark-symbol" aria-hidden="true">S</span>
+              <span>STYLD</span>
             </a>
             <p>Personal proof for fashion commerce.</p>
           </div>
@@ -386,7 +386,7 @@ export default function BusinessHome() {
           </div>
         </div>
         <div className="home-shell home-footer-bottom">
-          <span>© 2026 Veyra</span>
+          <span>© 2026 STYLD</span>
           <span>Built for confidence, measured on real traffic.</span>
         </div>
       </footer>
