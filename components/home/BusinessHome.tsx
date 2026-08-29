@@ -1,4 +1,5 @@
 import Image from "next/image";
+import BrandMark from "@/components/BrandMark";
 import {
   ArrowDown,
   ArrowRight,
@@ -81,7 +82,7 @@ export default function BusinessHome() {
       <header className="home-nav" aria-label="Primary navigation">
         <div className="home-shell home-nav-inner">
           <a className="home-mark" href="#top" aria-label="STYLD for Business home">
-            <span className="home-mark-symbol" aria-hidden="true">S</span>
+            <span className="home-mark-symbol" aria-hidden="true"><BrandMark /></span>
             <span>STYLD</span>
             <span className="home-mark-context">for business</span>
           </a>
@@ -373,7 +374,7 @@ export default function BusinessHome() {
         <div className="home-shell home-footer-main">
           <div>
             <a className="home-mark home-mark-footer" href="#top">
-              <span className="home-mark-symbol" aria-hidden="true">S</span>
+              <span className="home-mark-symbol" aria-hidden="true"><BrandMark /></span>
               <span>STYLD</span>
             </a>
             <p>Personal proof for fashion commerce.</p>

@@ -40,7 +40,8 @@
 }
 .home-nav-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .home-mark { display: inline-flex; align-items: center; gap: 10px; color: var(--home-ink); text-decoration: none; font-size: 20px; font-weight: 800; letter-spacing: -0.04em; }
-.home-mark-symbol { width: 31px; height: 31px; display: inline-grid; place-items: center; background: var(--home-ink); color: var(--home-bg); font-size: 15px; letter-spacing: -0.08em; }
+.home-mark-symbol { width: 31px; height: 31px; display: inline-grid; place-items: center; background: var(--home-ink); color: var(--home-bg); }
+.home-mark-symbol svg { width: 13px; height: 16px; }
 .home-mark-context { margin-left: 2px; color: var(--home-muted); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
 .home-nav-links { display: flex; align-items: center; gap: clamp(22px, 3vw, 42px); margin-left: auto; }
 .home-nav-links a, .home-footer-links a { position: relative; text-decoration: none; font-size: 13px; font-weight: 700; }
