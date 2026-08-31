@@ -24,6 +24,7 @@ const snitchSample: Catalog = {
       colors: ["blue"],
       tags: ["casual"],
       image: "/products/snitch/shirt-denim-regular-fit.png",
+      imageDiskPath: "/tmp/not-used-in-tests/shirt-denim-regular-fit.png",
     },
     {
       id: "grey-shirt",
@@ -34,6 +35,7 @@ const snitchSample: Catalog = {
       colors: ["grey"],
       tags: ["casual"],
       image: "/products/snitch/shirt-quads-line-grey.png",
+      imageDiskPath: "/tmp/not-used-in-tests/shirt-quads-line-grey.png",
     },
     {
       id: "straight-jeans",
@@ -44,6 +46,7 @@ const snitchSample: Catalog = {
       colors: ["blue"],
       tags: ["casual"],
       image: "/products/snitch/jeans-washed-straight-fit.png",
+      imageDiskPath: "/tmp/not-used-in-tests/jeans-washed-straight-fit.png",
     },
     {
       id: "utility-jumpsuit",
@@ -54,6 +57,7 @@ const snitchSample: Catalog = {
       colors: ["black"],
       tags: ["evening"],
       image: "/products/snitch/shirt-quads-line-grey.png",
+      imageDiskPath: "/tmp/not-used-in-tests/shirt-quads-line-grey.png",
     },
   ],
 };

@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import CommerceMoment from "@/components/home/CommerceMoment";
 import Faq from "@/components/home/Faq";
+import MobileNav from "@/components/home/MobileNav";
 import PilotChecklist from "@/components/home/PilotChecklist";
 import { Button } from "@/components/ui/button";
 
@@ -84,7 +85,6 @@ export default function BusinessHome() {
           <a className="home-mark" href="#top" aria-label="STYLD for Business home">
             <span className="home-mark-symbol" aria-hidden="true"><BrandMark /></span>
             <span>STYLD</span>
-            <span className="home-mark-context">for business</span>
           </a>
           <nav className="home-nav-links" aria-label="Homepage sections">
             <a href="#product">Product</a>
@@ -92,6 +92,7 @@ export default function BusinessHome() {
             <a href="#evidence">Evidence</a>
             <a href="#integration">API</a>
           </nav>
+          <MobileNav />
           <Button asChild className="home-nav-cta" size="sm">
             <a href="#pilot">
               Plan a pilot <ArrowRight size={16} aria-hidden="true" />
@@ -103,12 +104,13 @@ export default function BusinessHome() {
       <div id="main-content">
         <section className="home-hero home-shell" aria-labelledby="hero-title">
           <div className="home-hero-copy">
-            <p className="home-overline">Fashion commerce infrastructure</p>
+            <p className="home-overline">Virtual try-on &amp; styling infrastructure for fashion e-commerce</p>
             <h1 id="hero-title">Make “Will this suit me?” answerable.</h1>
             <p className="home-hero-lede">
-              STYLD gives fashion retailers a customer-ready try-on and styling layer. Shoppers
-              see themselves in the product, build a complete look, and buy with more confidence
-              — inside the storefront you already run.
+              STYLD adds AI-powered try-on and complete-outfit recommendations to the product
+              pages you already have. Shoppers see themselves in the product and buy with more
+              confidence — no re-platforming, no new checkout, measured on your own traffic
+              before you commit to anything beyond a pilot.
             </p>
             <div className="home-actions">
               <Button asChild className="home-hero-cta" size="lg">
@@ -176,6 +178,79 @@ export default function BusinessHome() {
             <span aria-hidden="true">/</span>
             <strong>A confidence layer inside commerce.</strong>
           </div>
+        </section>
+
+        <section className="home-section home-shell" id="problem" aria-labelledby="problem-title">
+          <div className="home-section-intro home-section-intro-wide">
+            <p className="home-overline">Why this is worth fixing</p>
+            <h2 id="problem-title">Fit uncertainty is the most commonly cited reason fashion returns happen.</h2>
+            <p>
+              These are industry figures, not STYLD&rsquo;s own results — cited here to size the
+              problem before the rest of this page gets to the solution.
+            </p>
+          </div>
+          <div className="home-stat-grid">
+            <div className="home-stat">
+              <strong>20&ndash;40%</strong>
+              <p>Apparel return rates, well above the rate for most other retail categories.</p>
+              <span>
+                <a href="https://nrf.com/research/2025-retail-returns-landscape" target="_blank" rel="noreferrer">
+                  NRF, 2025 Retail Returns Landscape
+                </a>
+              </span>
+            </div>
+            <div className="home-stat">
+              <strong>50&ndash;70%</strong>
+              <p>of apparel returns are commonly attributed to fit and sizing issues, not damage or late delivery.</p>
+              <span>Industry returns-benchmark reports (figures vary by methodology)</span>
+            </div>
+            <div className="home-stat">
+              <strong>10&ndash;15%</strong>
+              <p>revenue lift retailers see from personalization done well — try-on and outfit-level recommendation are personalization, not a novelty feature.</p>
+              <span>
+                <a
+                  href="https://www.mckinsey.com/industries/retail/our-insights/personalizing-the-customer-experience-driving-differentiation-in-retail"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  McKinsey &amp; Company
+                </a>
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <section className="home-section home-shell" id="alternatives" aria-labelledby="alternatives-title">
+          <div className="home-section-intro home-section-intro-wide">
+            <p className="home-overline">Why not just&hellip;</p>
+            <h2 id="alternatives-title">Recommendation engines don&rsquo;t know what an outfit is.</h2>
+            <p>
+              Every one of these is probably already in your stack, or already on your shortlist.
+              Here&rsquo;s what each one structurally can&rsquo;t do that STYLD does.
+            </p>
+          </div>
+          <ul className="home-alt-list">
+            <li>
+              <strong>A standard recommendation engine</strong>
+              <p>Recommends from browsing and purchase history — it has no concept of what an outfit is, and can&rsquo;t show a shopper what a specific combination actually looks like on them.</p>
+            </li>
+            <li>
+              <strong>Shopify&rsquo;s built-in tools</strong>
+              <p>Handle catalog, checkout, and basic merchandising — none of it visual, none of it garment-aware. STYLD runs behind your existing storefront rather than replacing it, platform-agnostic either way.</p>
+            </li>
+            <li>
+              <strong>An in-house build</strong>
+              <p>Possible, eventually — but garment-role validation, avatar reuse, and a generate-then-review quality loop took real engineering time to get right. Licensing it is faster than rebuilding it from zero.</p>
+            </li>
+            <li>
+              <strong>A generic AI shopping chatbot</strong>
+              <p>Answers questions in text. It doesn&rsquo;t render what a shopper will actually look like in a product, which is the specific hesitation behind the return-rate numbers above.</p>
+            </li>
+            <li>
+              <strong>A traditional personalization platform</strong>
+              <p>Good at ranking which products to show. None of them do visual, garment-aware, outfit-level reasoning — that&rsquo;s STYLD&rsquo;s clearest wedge, not a feature they&rsquo;re missing by accident.</p>
+            </li>
+          </ul>
         </section>
 
         <section className="home-section home-shell" id="product" aria-labelledby="product-title">

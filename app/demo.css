@@ -64,10 +64,11 @@
   align-items: center;
   gap: 28px;
 }
+.demo-nav-left { display: flex; align-items: center; gap: clamp(20px, 3vw, 40px); justify-self: start; min-width: 0; }
+.demo-nav-right { display: flex; align-items: center; gap: 14px; justify-self: end; }
 .demo-mark {
   display: inline-flex;
   align-items: center;
-  justify-self: start;
   gap: 10px;
   color: var(--demo-ink);
   text-decoration: none;
@@ -85,18 +86,16 @@
   font-size: 15px;
   letter-spacing: -0.08em;
 }
-.demo-mark-context {
-  margin-left: 2px;
-  color: var(--demo-muted);
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.demo-nav-links { display: flex; align-items: center; gap: clamp(18px, 2.4vw, 32px); }
+.demo-nav-links a { position: relative; text-decoration: none; font-size: 13px; font-weight: 700; color: var(--demo-ink); }
+.demo-nav-links a::after {
+  content: ""; position: absolute; right: 0; bottom: -6px; left: 0; height: 1px;
+  background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform 180ms ease;
 }
+.demo-nav-links a:hover::after { transform: scaleX(1); transform-origin: left; }
 .demo-nav-label { display: grid; justify-items: center; gap: 3px; }
 .demo-nav-label span:first-child { font-size: 14px; font-weight: 900; letter-spacing: 0.06em; text-transform: uppercase; }
 .demo-nav-label span:last-child { color: var(--demo-muted); font-size: 12px; font-weight: 700; }
-.demo-nav-action { justify-self: end; }
 
 .demo-button {
   min-height: 48px;
@@ -461,8 +460,8 @@
 @media (max-width: 760px) {
   .demo-shell { width: min(100% - 40px, 1240px); }
   .demo-nav-inner { min-height: 68px; grid-template-columns: 1fr auto; gap: 16px; }
-  .demo-mark-context,
-  .demo-nav-label { display: none; }
+  .demo-nav-label,
+  .demo-nav-links { display: none; }
   .demo-nav-action { min-height: 42px; padding-inline: 14px; }
   .demo-hero-grid { min-height: auto; grid-template-columns: 1fr; gap: 48px; padding-block: 72px 82px; }
   .demo-hero-copy h1 { font-size: clamp(48px, 13vw, 74px); }

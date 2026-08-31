@@ -7,6 +7,8 @@ import type { Catalog, CatalogItem, Role } from "@/lib/catalog";
 import IconSprite from "@/components/IconSprite";
 import ProductGrid from "@/components/demo/ProductGrid";
 import OutfitPanel from "@/components/demo/OutfitPanel";
+import DemoSessionMarker from "@/components/DemoSessionMarker";
+import MobileNav from "@/components/home/MobileNav";
 
 export default function StoreDemo({ brandId, catalog }: { brandId: string; catalog: Catalog }) {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
@@ -51,22 +53,33 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
   return (
     <div className="brand-demo">
       <IconSprite />
+      <DemoSessionMarker brandId={brandId} brand={catalog.brand} />
       <a className="demo-skip-link" href="#demo-catalog">Skip to catalog</a>
 
       <header className="demo-nav">
         <div className="demo-shell demo-nav-inner">
-          <Link className="demo-mark" href="/" aria-label="STYLD for Business home">
-            <span className="demo-mark-symbol" aria-hidden="true">S</span>
-            <span>STYLD</span>
-            <span className="demo-mark-context">for business</span>
-          </Link>
+          <div className="demo-nav-left">
+            <Link className="demo-mark" href="/" aria-label="STYLD for Business home">
+              <span className="demo-mark-symbol" aria-hidden="true">S</span>
+              <span>STYLD</span>
+            </Link>
+            <nav className="demo-nav-links" aria-label="Homepage sections">
+              <Link href="/#product">Product</Link>
+              <Link href="/#how">How it works</Link>
+              <Link href="/#evidence">Evidence</Link>
+              <Link href="/#integration">API</Link>
+            </nav>
+          </div>
           <div className="demo-nav-label">
             <span>{catalog.brand}</span>
             <span>Private capability demo</span>
           </div>
-          <Link className="demo-button demo-button-dark demo-nav-action" href="/#pilot">
-            Plan a pilot <ArrowRight size={17} aria-hidden="true" />
-          </Link>
+          <div className="demo-nav-right">
+            <MobileNav />
+            <Link className="demo-button demo-button-dark demo-nav-action" href="/#pilot">
+              Plan a pilot <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+          </div>
         </div>
       </header>
 

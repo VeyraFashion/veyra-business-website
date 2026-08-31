@@ -1,0 +1,1937 @@
+{
+  "brand": "SNITCH",
+  "slug": "snitch",
+  "audience": "men",
+  "source_urls": [
+    "https://www.snitch.com/"
+  ],
+  "wardrobe": [
+    {
+      "id": "snitch-black-regular-shirt",
+      "name": "Regular Fit Black Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "smart casual",
+        "evening",
+        "regular fit"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "button-down shirt",
+        "product_url": "https://www.snitch.com/men-shirts/regular-fit-black-shirt-4sfs145-02/9269896904866/buy"
+      },
+      "image_path": null
+    },
+    {
+      "id": "snitch-linen-stripe-shirt",
+      "name": "Linen Blend Regular Fit Stripes Shirt",
+      "category": "top",
+      "colors": [
+        "neutral",
+        "striped"
+      ],
+      "tags": [
+        "linen blend",
+        "breathable",
+        "smart casual"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "striped shirt",
+        "fit": "regular",
+        "product_url": "https://www.snitch.com/men-shirts/linen-blend-regular-fit-stripes-shirt-4bsfs031-07/9272811454626/buy"
+      },
+      "image_path": null
+    },
+    {
+      "id": "snitch-striped-polo",
+      "name": "100% Cotton Regular Fit Stripes Polo T-shirt",
+      "category": "top",
+      "colors": [
+        "striped"
+      ],
+      "tags": [
+        "cotton",
+        "polo",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "striped polo",
+        "fit": "regular",
+        "product_url": "https://www.snitch.com/men-t-shirts/100-cotton-regular-fit-stripes-polo-t-shirt-4mst2712-03/8698066370722/buy"
+      },
+      "image_path": null
+    },
+    {
+      "id": "snitch-washed-jeans",
+      "name": "Slim Fit Stretch Washed Jeans",
+      "category": "bottom",
+      "colors": [
+        "washed blue"
+      ],
+      "tags": [
+        "denim",
+        "stretch",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "slim jeans",
+        "product_url": "https://www.snitch.com/men-jeans/slim-fit-stretch-washed-jeans-4bje006-02/9261366542498/buy"
+      },
+      "image_path": null
+    },
+    {
+      "id": "snitch-black-trousers",
+      "name": "Regular Fit Black Trousers",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "work",
+        "formal",
+        "regular fit"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "formal trousers",
+        "product_url": "https://www.snitch.com/men-trousers/regular-fit-black-trousers-4msr5386-03/8786284150946/buy"
+      },
+      "image_path": null
+    },
+    {
+      "id": "snitch-textured-chinos",
+      "name": "Slim Fit Stretch Five-Pocket Textured Chinos",
+      "category": "bottom",
+      "colors": [
+        "neutral"
+      ],
+      "tags": [
+        "chinos",
+        "stretch",
+        "smart casual"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "five-pocket chinos",
+        "product_url": "https://www.snitch.com/men-trousers/slim-fit-stretch-five-pockets-chino-textured-chinos-4msc4040-02/8934113280162/buy"
+      },
+      "image_path": null
+    },
+    {
+      "id": "snitch-black-denim-jacket",
+      "name": "Black Relaxed Fit Denim Jacket",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "denim",
+        "relaxed fit",
+        "casual layer"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "denim jacket",
+        "product_url": "https://www.snitch.com/men-jackets/black-relaxed-fit-denim-jacket-4c-sk0006-01/8627387564194/buy"
+      },
+      "image_path": null
+    },
+    {
+      "id": "snitch-beige-sneakers",
+      "name": "Beige Solid Sneakers",
+      "category": "footwear",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "sneakers",
+        "casual",
+        "neutral"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "low-top sneakers",
+        "product_url": "https://www.snitch.com/men-shoes/beige-solid-sneakers-sh0155-02/8802184462498/buy"
+      },
+      "image_path": null
+    },
+    {
+      "id": "snitch-100-cotton-oversized-plus-size-t-shirt-4mbgst1233-04",
+      "name": "100% Cotton Oversized Plus Size T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/100-cotton-oversized-plus-size-t-shirt-4mbgst1233-04/8883304202402/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MBGSS1233-04-3XL17.jpg?v=1772798074",
+      "image_path": "images/snitch-100-cotton-oversized-plus-size-t-shirt-4mbgst1233-04.jpg"
+    },
+    {
+      "id": "snitch-navy-blue-regular-fit-shirt-4mss4632-05",
+      "name": "Navy Blue Regular Fit Shirt",
+      "category": "top",
+      "colors": [
+        "navy",
+        "blue"
+      ],
+      "tags": [
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/navy-blue-regular-fit-shirt-4mss4632-05/8930527084706/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4632-05_1.jpg?v=1772731767",
+      "image_path": "images/snitch-navy-blue-regular-fit-shirt-4mss4632-05.jpg"
+    },
+    {
+      "id": "snitch-black-textured-abstract-shirt-4mss3320-02",
+      "name": "Black Textured Abstract Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/black-textured-abstract-shirt-4mss3320-02/8475834024098/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/f7967e6bd62dd33dd48ff492a94c2be9.webp?v=1724926999",
+      "image_path": "images/snitch-black-textured-abstract-shirt-4mss3320-02.jpg"
+    },
+    {
+      "id": "snitch-stripes-slim-fit-luxe-stretch-shirt-4mlx1222-01",
+      "name": "Slim Fit Stretch Stripes Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/stripes-slim-fit-luxe-stretch-shirt-4mlx1222-01/8930526691490/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mlx1222-01_1.jpg?v=1772731750",
+      "image_path": "images/snitch-stripes-slim-fit-luxe-stretch-shirt-4mlx1222-01.jpg"
+    },
+    {
+      "id": "snitch-floral-100-viscose-oversized-shirt-4shs044-16",
+      "name": "Floral 100% Viscose Oversized Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/floral-100-viscose-oversized-shirt-4shs044-16/9273197002914/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d3780651-bce7-41d5-8640-c3731f249e97.jpg?v=1784646542",
+      "image_path": "images/snitch-floral-100-viscose-oversized-shirt-4shs044-16.jpg"
+    },
+    {
+      "id": "snitch-black-textured-slim-fit-shirt-4mss3863-03",
+      "name": "Black Textured Slim Fit Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/black-textured-slim-fit-shirt-4mss3863-03/8570958151842/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/e126b0bca43344ed49fc696621197a2e.jpg?v=1736945880",
+      "image_path": "images/snitch-black-textured-slim-fit-shirt-4mss3863-03.jpg"
+    },
+    {
+      "id": "snitch-box-fit-textured-shirt-4mss4327-01",
+      "name": "Box Fit Textured Stripes Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/box-fit-textured-shirt-4mss4327-01/8763518353570/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS4327-01-M8.jpg?v=1771239051",
+      "image_path": "images/snitch-box-fit-textured-shirt-4mss4327-01.jpg"
+    },
+    {
+      "id": "snitch-navy-solid-double-pocket-overshirt-4mss3287-10",
+      "name": "Navy Solid Double Pocket Overshirt",
+      "category": "outerwear",
+      "colors": [
+        "navy"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/navy-solid-double-pocket-overshirt-4mss3287-10/8521451307170/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4d4a4cc9b6e44172ea207d375c95edc9.jpg?v=1729520634",
+      "image_path": "images/snitch-navy-solid-double-pocket-overshirt-4mss3287-10.jpg"
+    },
+    {
+      "id": "snitch-relaxed-fit-light-distressed-jeans-4msd4033-03",
+      "name": "Relaxed Fit Distressed Jeans",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "jeans",
+        "product_url": "https://www.snitch.com/men-jeans/relaxed-fit-light-distressed-jeans-4msd4033-03/8698063159458/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSD4033-03_1_c4884e7c-9d9b-4876-8573-56567f624cc2.jpg?v=1750265662",
+      "image_path": "images/snitch-relaxed-fit-light-distressed-jeans-4msd4033-03.jpg"
+    },
+    {
+      "id": "snitch-oversized-graphic-100-cotton-t-shirt-4mst3167-01",
+      "name": "Kaizen Digital Puff Print Oversized T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/oversized-graphic-100-cotton-t-shirt-4mst3167-01/8851574653090/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3167-01_1.jpg?v=1764006426",
+      "image_path": "images/snitch-oversized-graphic-100-cotton-t-shirt-4mst3167-01.jpg"
+    },
+    {
+      "id": "snitch-triumph-black-printed-slim-fit-t-shirt-4mst2562-01",
+      "name": "Triumph Black Printed Regular Fit T-Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "printed",
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/triumph-black-printed-slim-fit-t-shirt-4mst2562-01/8546820915362/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1001ea357c74ca3fa869bf48b807616d.jpg?v=1732603846",
+      "image_path": "images/snitch-triumph-black-printed-slim-fit-t-shirt-4mst2562-01.jpg"
+    },
+    {
+      "id": "snitch-oversized-graphic-t-shirt-4mst3017-01",
+      "name": "Cameras Oversized T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/oversized-graphic-t-shirt-4mst3017-01/8856059642018/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3017-01_1.jpg?v=1764411109",
+      "image_path": "images/snitch-oversized-graphic-t-shirt-4mst3017-01.jpg"
+    },
+    {
+      "id": "snitch-100-cotton-slim-fit-micro-check-shirt-4sfs021-04",
+      "name": "100% Cotton Slim Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton",
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/100-cotton-slim-fit-micro-check-shirt-4sfs021-04/9224474460322/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_7f75c735-41b6-4b3c-a45a-36cd181580ff.jpg?v=1778087233",
+      "image_path": "images/snitch-100-cotton-slim-fit-micro-check-shirt-4sfs021-04.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-100-cotton-shirt",
+      "name": "Linen Blend Slim Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "linen",
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-100-cotton-shirt/9259380441250/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_e21fb3ee-6c04-4ba9-a0c9-bdd8263e2f58.jpg?v=1782813732",
+      "image_path": "images/snitch-slim-fit-100-cotton-shirt.jpg"
+    },
+    {
+      "id": "snitch-graphic-oversized-100-cotton-t-shirt-4mst3330-01",
+      "name": "Dare Different 100% Cotton T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/graphic-oversized-100-cotton-t-shirt-4mst3330-01/8937669296290/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3330-01_1.jpg?v=1773338247",
+      "image_path": "images/snitch-graphic-oversized-100-cotton-t-shirt-4mst3330-01.jpg"
+    },
+    {
+      "id": "snitch-grey-solid-sneakers-sh0194-03",
+      "name": "Slide-Easy Grey Sneaker Mules",
+      "category": "footwear",
+      "colors": [
+        "grey"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shoes",
+        "product_url": "https://www.snitch.com/men-shoes/grey-solid-sneakers-sh0194-03/9223563378850/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/SH0194-03-3.jpg?v=1778151748",
+      "image_path": "images/snitch-grey-solid-sneakers-sh0194-03.jpg"
+    },
+    {
+      "id": "snitch-relaxed-fit-polo-core-lab-crochet-t-shirt-4mcrt0012-02",
+      "name": "Crochet Knit Core Lab Polo T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/relaxed-fit-polo-core-lab-crochet-t-shirt-4mcrt0012-02/8814314356898/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MCRT0012-02_9.jpg?v=1782287928",
+      "image_path": "images/snitch-relaxed-fit-polo-core-lab-crochet-t-shirt-4mcrt0012-02.jpg"
+    },
+    {
+      "id": "snitch-light-grey-self-design-slim-fit-shirt-4mss3701-04",
+      "name": "Light Grey Self-Design Slim Fit Shirt",
+      "category": "top",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/light-grey-self-design-slim-fit-shirt-4mss3701-04/8555928846498/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/8ddac9242b823ab7462ea37a86bda349.jpg?v=1733998597",
+      "image_path": "images/snitch-light-grey-self-design-slim-fit-shirt-4mss3701-04.jpg"
+    },
+    {
+      "id": "snitch-100-cotton-stripes-slim-fit-polo-t-shirt-4mst2769-01",
+      "name": "100% Cotton Stripes Slim Fit Polo T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton",
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/100-cotton-stripes-slim-fit-polo-t-shirt-4mst2769-01/8790466232482/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst2769-01_1.jpg?v=1759946174",
+      "image_path": "images/snitch-100-cotton-stripes-slim-fit-polo-t-shirt-4mst2769-01.jpg"
+    },
+    {
+      "id": "snitch-wilder-black-shirt",
+      "name": "Wilder Black Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/wilder-black-shirt/8113434263714/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS2463-05-M32.jpg?v=1755511718",
+      "image_path": "images/snitch-wilder-black-shirt.jpg"
+    },
+    {
+      "id": "snitch-blue-flannel-checks-double-pocket-overshirt-4mss3575-06",
+      "name": "Blue Flannel Checks Double Pocket Overshirt",
+      "category": "outerwear",
+      "colors": [
+        "blue"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "overshirt",
+        "product_url": "https://www.snitch.com/men-overshirt/blue-flannel-checks-double-pocket-overshirt-4mss3575-06/8521461727394/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/00bb45d236a842f46c133aa8baf4fd0f.jpg?v=1729521586",
+      "image_path": "images/snitch-blue-flannel-checks-double-pocket-overshirt-4mss3575-06.jpg"
+    },
+    {
+      "id": "snitch-relaxed-fit-stretch-trousers-4mtlx0017-03",
+      "name": "Relaxed Fit Stretch Luxe Trousers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "relaxed",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "trousers",
+        "product_url": "https://www.snitch.com/men-trousers/relaxed-fit-stretch-trousers-4mtlx0017-03/8860920610978/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mtlx0017-03_1.jpg?v=1764957928",
+      "image_path": "images/snitch-relaxed-fit-stretch-trousers-4mtlx0017-03.jpg"
+    },
+    {
+      "id": "snitch-luxe-stretch-slim-fit-checks-shirt-4mlx1224-01",
+      "name": "Slim Fit Stretch Checks Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/luxe-stretch-slim-fit-checks-shirt-4mlx1224-01/8935864205474/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mlx1224-01_1.jpg?v=1773208506",
+      "image_path": "images/snitch-luxe-stretch-slim-fit-checks-shirt-4mlx1224-01.jpg"
+    },
+    {
+      "id": "snitch-khaki-slim-fit-shirt-4lsfs019-03",
+      "name": "Slim Fit Stretch Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/khaki-slim-fit-shirt-4lsfs019-03/9238486089890/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_dfaa7665-4c13-4cb1-a5a8-d7b8c7d0e042.jpg?v=1779819970",
+      "image_path": "images/snitch-khaki-slim-fit-shirt-4lsfs019-03.jpg"
+    },
+    {
+      "id": "snitch-micro-check-slim-fit-100-cotton-shirt-4mss4630-02",
+      "name": "Slim Fit Micro Check Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/micro-check-slim-fit-100-cotton-shirt-4mss4630-02/8874540400802/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4630-02_1.jpg?v=1766509003",
+      "image_path": "images/snitch-micro-check-slim-fit-100-cotton-shirt-4mss4630-02.jpg"
+    },
+    {
+      "id": "snitch-navy-slim-fit-shirt-4mss3657-06",
+      "name": "Navy Slim Fit Shirt",
+      "category": "top",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/navy-slim-fit-shirt-4mss3657-06/8560036315298/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/786eb56c62cefec4430e66a107362ce5.jpg?v=1734528612",
+      "image_path": "images/snitch-navy-slim-fit-shirt-4mss3657-06.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-100-linen-shirt-4lsfs004-06",
+      "name": "Regular Fit 100% Linen Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "regular",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/regular-fit-100-linen-shirt-4lsfs004-06/9232403103906/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_e23140f2-4935-43a6-9006-fb9758a10659.jpg?v=1778864550",
+      "image_path": "images/snitch-regular-fit-100-linen-shirt-4lsfs004-06.jpg"
+    },
+    {
+      "id": "snitch-100-cotton-jacquard-slim-fit-shirt-4lsfs005-03",
+      "name": "Self-Design Slim Fit Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/100-cotton-jacquard-slim-fit-shirt-4lsfs005-03/9238486286498/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_72aa7fcb-7a1d-4305-81bc-96459b04ebfd.jpg?v=1779819980",
+      "image_path": "images/snitch-100-cotton-jacquard-slim-fit-shirt-4lsfs005-03.jpg"
+    },
+    {
+      "id": "snitch-polo-regular-fit-stretch-t-shirt-4pl043-06",
+      "name": "Regular Fit Stretch Technical Polo T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "regular",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/polo-regular-fit-stretch-t-shirt-4pl043-06/9228863111330/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_05c93f0e-f086-47ba-95ad-1f749068207e.jpg?v=1778519906",
+      "image_path": "images/snitch-polo-regular-fit-stretch-t-shirt-4pl043-06.jpg"
+    },
+    {
+      "id": "snitch-stripehaven-light-blue-stripe-shirt",
+      "name": "Stripehaven Light Blue Stripe Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/stripehaven-light-blue-stripe-shirt/8332310904994/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/5f95751382c0caa32da47aceeedff190_f3575217-85c7-4e4e-8e35-3bbc70236343.webp?v=1716314880",
+      "image_path": "images/snitch-stripehaven-light-blue-stripe-shirt.jpg"
+    },
+    {
+      "id": "snitch-checks-regular-fit-linen-snitch-plus-plus-size-linen-blend-shirt-4mbgss1120-01",
+      "name": "Linen Blend Checks Plus SIze Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "linen"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/checks-regular-fit-linen-snitch-plus-plus-size-linen-blend-shirt-4mbgss1120-01/8806241271970/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mbgss1120-01_1.jpg?v=1761208584",
+      "image_path": "images/snitch-checks-regular-fit-linen-snitch-plus-plus-size-linen-blend-shirt-4mbgss1120-01.jpg"
+    },
+    {
+      "id": "snitch-textured-relaxed-fit-linen-blend-trousers-4msr5450-02",
+      "name": "Relaxed Fit Linen Blend Trousers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "relaxed",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "trousers",
+        "product_url": "https://www.snitch.com/men-trousers/textured-relaxed-fit-linen-blend-trousers-4msr5450-02/8835502932130/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4msr5450-02_1.jpg?v=1762704889",
+      "image_path": "images/snitch-textured-relaxed-fit-linen-blend-trousers-4msr5450-02.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-jacquard-shirt-4mss4508-02",
+      "name": "Slim Fit Jacquard Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-jacquard-shirt-4mss4508-02/8814313963682/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4508-02_1.jpg?v=1761672376",
+      "image_path": "images/snitch-slim-fit-jacquard-shirt-4mss4508-02.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-luxe-100-cotton-t-shirt-4mlxt0004-02",
+      "name": "100% Mercerized Cotton Luxe T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/regular-fit-luxe-100-cotton-t-shirt-4mlxt0004-02/9002039476386/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mlxt0004-02_1.jpg?v=1775886633",
+      "image_path": "images/snitch-regular-fit-luxe-100-cotton-t-shirt-4mlxt0004-02.jpg"
+    },
+    {
+      "id": "snitch-abstract-slim-fit-luxe-100-cotton-shirt-4mlx1123-01",
+      "name": "Abstract Slim Fit Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/abstract-slim-fit-luxe-100-cotton-shirt-4mlx1123-01/8781889306786/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MLX1123-01-M28.jpg?v=1759772571",
+      "image_path": "images/snitch-abstract-slim-fit-luxe-100-cotton-shirt-4mlx1123-01.jpg"
+    },
+    {
+      "id": "snitch-washed-comfort-fit-stretch-jeans-4msd3976-04",
+      "name": "Washed Comfort Fit Stretch Jeans",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "jeans",
+        "product_url": "https://www.snitch.com/men-jeans/washed-comfort-fit-stretch-jeans-4msd3976-04/8690886574242/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSD3976-04_2_d3952ae8-5383-4c16-b9e3-50a0d341118e.jpg?v=1750661845",
+      "image_path": "images/snitch-washed-comfort-fit-stretch-jeans-4msd3976-04.jpg"
+    },
+    {
+      "id": "snitch-oversized-100-cotton-t-shirt-4rn002-05",
+      "name": "100% Cotton Oversized T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/oversized-100-cotton-t-shirt-4rn002-05/9214324375714/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d0ae052b-68d5-4cb3-bd70-10af804e37e7.jpg?v=1776788988",
+      "image_path": "images/snitch-oversized-100-cotton-t-shirt-4rn002-05.jpg"
+    },
+    {
+      "id": "snitch-five-pockets-washed-baggy-100-cotton-shorts-4sh005-01",
+      "name": "Washed Baggy Denim Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "denim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shorts",
+        "product_url": "https://www.snitch.com/men-shorts/five-pockets-washed-baggy-100-cotton-shorts-4sh005-01/9224475181218/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d253f17b-9e48-4b19-ad4a-87904222882b.jpg?v=1778087289",
+      "image_path": "images/snitch-five-pockets-washed-baggy-100-cotton-shorts-4sh005-01.jpg"
+    },
+    {
+      "id": "snitch-stretch-regular-fit-textured-mandarin-collar-shirt-4mss4491-02",
+      "name": "Mandarin Textured Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/stretch-regular-fit-textured-mandarin-collar-shirt-4mss4491-02/8882045681826/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d7b568c3-1697-41dd-90d6-f6f6cf2076f5.jpg?v=1767117459",
+      "image_path": "images/snitch-stretch-regular-fit-textured-mandarin-collar-shirt-4mss4491-02.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-linen-blend-shirt-4mss4858-03",
+      "name": "Cotton Linen Regular Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton",
+        "linen",
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/regular-fit-linen-blend-shirt-4mss4858-03/9246672486562/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_57fc1bce-5232-4699-bc27-05ca9422e610.jpg?v=1781025685",
+      "image_path": "images/snitch-regular-fit-linen-blend-shirt-4mss4858-03.jpg"
+    },
+    {
+      "id": "snitch-stretch-slim-fit-six-pockets-cargo-pants-4mso4586-03",
+      "name": "5 Pocket Stretch Cargo Joggers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "cargo%20pants",
+        "product_url": "https://www.snitch.com/men-cargo%20pants/stretch-slim-fit-six-pockets-cargo-pants-4mso4586-03/8892584788130/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mso4586-03_1.jpg?v=1768324418",
+      "image_path": "images/snitch-stretch-slim-fit-six-pockets-cargo-pants-4mso4586-03.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-checks-100-cotton-shirt-4mss4486-01",
+      "name": "Slim Fit Checks 100% Cotton Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-checks-100-cotton-shirt-4mss4486-01/8851573964962/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4486-01_1.jpg?v=1764006394",
+      "image_path": "images/snitch-slim-fit-checks-100-cotton-shirt-4mss4486-01.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-checks-plus-size-shirt-4mbgss1153-01",
+      "name": "Regular Fit Checks Plus Size Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/regular-fit-checks-plus-size-shirt-4mbgss1153-01/8921942655138/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MBGSS1153-01_9.jpg?v=1782287844",
+      "image_path": "images/snitch-regular-fit-checks-plus-size-shirt-4mbgss1153-01.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-100-cotton-self-design-shirt-4lsfs015-08",
+      "name": "Slim Fit 100% Cotton Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-100-cotton-self-design-shirt-4lsfs015-08/9233081794722/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_e88ca5fe-413b-4326-b391-fb2e435091be.jpg?v=1779027345",
+      "image_path": "images/snitch-slim-fit-100-cotton-self-design-shirt-4lsfs015-08.jpg"
+    },
+    {
+      "id": "snitch-black-solid-relaxed-fit-shirt-4mss3960-02",
+      "name": "Black Solid Relaxed Fit Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/black-solid-relaxed-fit-shirt-4mss3960-02/8640211288226/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3960-02_1_e5a97b04-d155-449b-a25d-788b38d46c28.jpg?v=1744079538",
+      "image_path": "images/snitch-black-solid-relaxed-fit-shirt-4mss3960-02.jpg"
+    },
+    {
+      "id": "snitch-linen-blend-regular-fit-stripes-shirt-4mss4272-02",
+      "name": "Linen Blend Regular Fit Stripes Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "linen",
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/linen-blend-regular-fit-stripes-shirt-4mss4272-02/8731085602978/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4272-02_3.jpg?v=1754117159",
+      "image_path": "images/snitch-linen-blend-regular-fit-stripes-shirt-4mss4272-02.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-stretch-shirt-4mss4810-03",
+      "name": "Pink Slim Fit Stretch Shirt",
+      "category": "top",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-stretch-shirt-4mss4810-03/9242088833186/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_3c95e8a9-0e51-4d2d-9ad3-835e3bd10ff6.jpg?v=1780310469",
+      "image_path": "images/snitch-slim-fit-stretch-shirt-4mss4810-03.jpg"
+    },
+    {
+      "id": "snitch-geometric-100-cotton-slim-fit-shirt-4mss4494-01",
+      "name": "100% Cotton Geometric Slim Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton",
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/geometric-100-cotton-slim-fit-shirt-4mss4494-01/8896660242594/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_04572894-c9e6-4430-9d75-0770eef0efbe.jpg?v=1769102400",
+      "image_path": "images/snitch-geometric-100-cotton-slim-fit-shirt-4mss4494-01.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-stretch-core-lab-white-t-shirt-4mst2574-03",
+      "name": "Slim Fit Stretch Core Lab White T-Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/slim-fit-stretch-core-lab-white-t-shirt-4mst2574-03/8553923281058/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2574-03-M-6.jpg?v=1755859725",
+      "image_path": "images/snitch-slim-fit-stretch-core-lab-white-t-shirt-4mst2574-03.jpg"
+    },
+    {
+      "id": "snitch-oversized-fit-self-design-yellow-shirt-4mss4165-01",
+      "name": "Oversized Fit Self-Design Yellow Shirt",
+      "category": "top",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/oversized-fit-self-design-yellow-shirt-4mss4165-01/8676755374242/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS4165-01_2_b905950a-80bf-46d8-8156-4130a6c70a1b.jpg?v=1747921953",
+      "image_path": "images/snitch-oversized-fit-self-design-yellow-shirt-4mss4165-01.jpg"
+    },
+    {
+      "id": "snitch-rust-textured-slim-fit-shirt-4mss3696-02",
+      "name": "Rust Textured Slim Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/rust-textured-slim-fit-shirt-4mss3696-02/8561986044066/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/e7d816561e1ea1131ba8f2b1c65b2480.jpg?v=1735044897",
+      "image_path": "images/snitch-rust-textured-slim-fit-shirt-4mss3696-02.jpg"
+    },
+    {
+      "id": "snitch-100-cotton-mandarin-collar-regular-fit-shirt-4mss4444-02",
+      "name": "100% Cotton Chinese Collar Oxford Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/100-cotton-mandarin-collar-regular-fit-shirt-4mss4444-02/8835501588642/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4444-02_1.jpg?v=1762704816",
+      "image_path": "images/snitch-100-cotton-mandarin-collar-regular-fit-shirt-4mss4444-02.jpg"
+    },
+    {
+      "id": "snitch-dark-blue-stripes-slim-fit-shirt-4mss4033-03",
+      "name": "Dark Blue Stripes Slim Fit Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/dark-blue-stripes-slim-fit-shirt-4mss4033-03/8633959284898/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS4033-03_1_4bbe5ca9-fc80-4e57-bb4c-20a59a9a8336.jpg?v=1743502490",
+      "image_path": "images/snitch-dark-blue-stripes-slim-fit-shirt-4mss4033-03.jpg"
+    },
+    {
+      "id": "snitch-stripes-luxe-stretch-slim-fit-shirt-4mlx1223-04",
+      "name": "Slim Fit Stretch Stripes Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/stripes-luxe-stretch-slim-fit-shirt-4mlx1223-04/8930527248546/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mlx1223-04_1.jpg?v=1772731775",
+      "image_path": "images/snitch-stripes-luxe-stretch-slim-fit-shirt-4mlx1223-04.jpg"
+    },
+    {
+      "id": "snitch-stripes-luxe-stretch-slim-fit-shirt-4mlx1223-05",
+      "name": "Slim Fit Stretch Stripes Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/stripes-luxe-stretch-slim-fit-shirt-4mlx1223-05/8930527314082/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mlx1223-05_1.jpg?v=1772731778",
+      "image_path": "images/snitch-stripes-luxe-stretch-slim-fit-shirt-4mlx1223-05.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-checks-shirt-4mss3950-01",
+      "name": "Slim Fit Checks Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-checks-shirt-4mss3950-01/8678232031394/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3950-01_1_c2bd729a-6941-4e27-8345-4dcd43e8e8ed.jpg?v=1748025096",
+      "image_path": "images/snitch-slim-fit-checks-shirt-4mss3950-01.jpg"
+    },
+    {
+      "id": "snitch-micro-check-luxe-slim-fit-100-cotton-shirt-4mlx1173-01",
+      "name": "Slim Fit 100% Cotton Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/micro-check-luxe-slim-fit-100-cotton-shirt-4mlx1173-01/8862610522274/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_8844aba6-d5c3-40b5-b2a8-773c110620b9.jpg?v=1765303189",
+      "image_path": "images/snitch-micro-check-luxe-slim-fit-100-cotton-shirt-4mlx1173-01.jpg"
+    },
+    {
+      "id": "snitch-swift-black-sling-bag-bp0003-01",
+      "name": "Swift Black Sling Bag",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "bags",
+        "product_url": "https://www.snitch.com/men-bags/swift-black-sling-bag-bp0003-01/8525752172706/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/BAG33.jpg?v=1730269156",
+      "image_path": "images/snitch-swift-black-sling-bag-bp0003-01.jpg"
+    },
+    {
+      "id": "snitch-astral-navy-trouser",
+      "name": "Astral Navy Trouser",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "trousers",
+        "product_url": "https://www.snitch.com/men-trousers/astral-navy-trouser/8167216906402/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSR5089-07_10.jpg?v=1782290262",
+      "image_path": "images/snitch-astral-navy-trouser.jpg"
+    },
+    {
+      "id": "snitch-linen-blend-regular-fit-double-pocket-shirt-4mss4577-07",
+      "name": "Double Pocket Linen Blend Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "linen"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/linen-blend-regular-fit-double-pocket-shirt-4mss4577-07/8895054971042/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_1d5b56f4-4bd6-4094-8ef0-13df5a3d0270.jpg?v=1768756643",
+      "image_path": "images/snitch-linen-blend-regular-fit-double-pocket-shirt-4mss4577-07.jpg"
+    },
+    {
+      "id": "snitch-blue-slim-fit-shirt-4mss4841-09",
+      "name": "Blue Slim Fit Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/blue-slim-fit-shirt-4mss4841-09/9269362983074/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_9db16805-f510-4854-aef7-2187a45fe768.jpg?v=1784049273",
+      "image_path": "images/snitch-blue-slim-fit-shirt-4mss4841-09.jpg"
+    },
+    {
+      "id": "snitch-olive-solid-slim-fit-t-shirt-4mst2644-01",
+      "name": "Core Lab Olive Solid Slim Fit T-Shirt",
+      "category": "top",
+      "colors": [
+        "olive"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/olive-solid-slim-fit-t-shirt-4mst2644-01/8553930653858/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2644-01-M-8.jpg?v=1755860078",
+      "image_path": "images/snitch-olive-solid-slim-fit-t-shirt-4mst2644-01.jpg"
+    },
+    {
+      "id": "snitch-straight-fit-acid-wash-jeans-4je120-07",
+      "name": "Straight Fit Washed Jeans",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "straight"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "jeans",
+        "product_url": "https://www.snitch.com/men-jeans/straight-fit-acid-wash-jeans-4je120-07/9233081139362/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_c98bb56e-b07a-4880-b099-a9026e91db13.jpg?v=1779027314",
+      "image_path": "images/snitch-straight-fit-acid-wash-jeans-4je120-07.jpg"
+    },
+    {
+      "id": "snitch-linen-blend-snitch-plus-linen-regular-fit-plus-size-shirt-4mbgss1200-06",
+      "name": "Linen Blend Plus Size Kurta Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "linen"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/linen-blend-snitch-plus-linen-regular-fit-plus-size-shirt-4mbgss1200-06/9236093894818/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_334b9c4e-1398-4cda-bb9c-4179ca6ec775.jpg?v=1779382019",
+      "image_path": "images/snitch-linen-blend-snitch-plus-linen-regular-fit-plus-size-shirt-4mbgss1200-06.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-4-way-stretch-black-t-shirt-4mst2683-10",
+      "name": "Slim Fit 4-Way Stretch Black T-Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/slim-fit-4-way-stretch-black-t-shirt-4mst2683-10/8615680966818/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2683-10-M4.jpg?v=1763018244",
+      "image_path": "images/snitch-slim-fit-4-way-stretch-black-t-shirt-4mst2683-10.jpg"
+    },
+    {
+      "id": "snitch-burgundy-solid-slim-fit-snitch-luxe-shirt-4mlx1013-06",
+      "name": "Burgundy Solid Slim Fit Luxe Shirt",
+      "category": "top",
+      "colors": [
+        "burgundy"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/burgundy-solid-slim-fit-snitch-luxe-shirt-4mlx1013-06/8641843658914/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MLX1013-06_1_09337208-b11c-4a68-aea4-614961e587e7.jpg?v=1744180158",
+      "image_path": "images/snitch-burgundy-solid-slim-fit-snitch-luxe-shirt-4mlx1013-06.jpg"
+    },
+    {
+      "id": "snitch-notch-collar-stripes-zipper-regular-fit-jacket-4msk8793-02",
+      "name": "Regular Fit Stripes Zipper Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "jackets",
+        "product_url": "https://www.snitch.com/men-jackets/notch-collar-stripes-zipper-regular-fit-jacket-4msk8793-02/8896657227938/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_bcd90675-fd31-4fa8-861b-be4547720d84.jpg?v=1769102326",
+      "image_path": "images/snitch-notch-collar-stripes-zipper-regular-fit-jacket-4msk8793-02.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-textured-shirt-4mss3904-02",
+      "name": "Slim Fit Textured Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-textured-shirt-4mss3904-02/8724716585122/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3904-02_1_95871dae-8252-4ac7-a261-deac0e6463fe.jpg?v=1759233283",
+      "image_path": "images/snitch-slim-fit-textured-shirt-4mss3904-02.jpg"
+    },
+    {
+      "id": "snitch-100-cotton-graphic-regular-fit-t-shirt-4mst3276-01",
+      "name": "Rebel 100% Cotton Regular Fit T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton",
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/100-cotton-graphic-regular-fit-t-shirt-4mst3276-01/8851574718626/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3276-01_1.jpg?v=1764006428",
+      "image_path": "images/snitch-100-cotton-graphic-regular-fit-t-shirt-4mst3276-01.jpg"
+    },
+    {
+      "id": "snitch-stretch-relaxed-fit-trousers-4msr5525-04",
+      "name": "Pleated Stretch Trousers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "trousers",
+        "product_url": "https://www.snitch.com/men-trousers/stretch-relaxed-fit-trousers-4msr5525-04/8874540728482/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4msr5525-04_1.jpg?v=1766509019",
+      "image_path": "images/snitch-stretch-relaxed-fit-trousers-4msr5525-04.jpg"
+    },
+    {
+      "id": "snitch-oversized-100-cotton-embossed-t-shirt-4mst3196-01",
+      "name": "Applique Embroidered Oversized T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/oversized-100-cotton-embossed-t-shirt-4mst3196-01/8873871474850/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d2358a60-bcc0-4dda-869c-fdcb7267018a.jpg?v=1766424592",
+      "image_path": "images/snitch-oversized-100-cotton-embossed-t-shirt-4mst3196-01.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-cotton-beige-shorts-4msh7046-04",
+      "name": "Regular Fit Cotton Beige Shorts",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "regular",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shorts",
+        "product_url": "https://www.snitch.com/men-shorts/regular-fit-cotton-beige-shorts-4msh7046-04/8662449389730/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSH7046-04_1_f1d582d5-e145-477c-a47a-762dea64c1fd.jpg?v=1747738684",
+      "image_path": "images/snitch-regular-fit-cotton-beige-shorts-4msh7046-04.jpg"
+    },
+    {
+      "id": "snitch-100-cotton-oversized-tie-dye-t-shirt-4mst2850-01",
+      "name": "Oversized Tie & Dye T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/100-cotton-oversized-tie-dye-t-shirt-4mst2850-01/8791572775074/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst2850-01_1.jpg?v=1760025989",
+      "image_path": "images/snitch-100-cotton-oversized-tie-dye-t-shirt-4mst2850-01.jpg"
+    },
+    {
+      "id": "snitch-double-pocket-box-fit-shirt-4mss4326-02",
+      "name": "Double Pocket Box Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/double-pocket-box-fit-shirt-4mss4326-02/8752169484450/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4326-02_1.jpg?v=1756728252",
+      "image_path": "images/snitch-double-pocket-box-fit-shirt-4mss4326-02.jpg"
+    },
+    {
+      "id": "snitch-100-cotton-regular-fit-stripes-shirt-4mss4452-03",
+      "name": "Regular Fit 100% Cotton Stripes Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "regular",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/100-cotton-regular-fit-stripes-shirt-4mss4452-03/8916117848226/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_44f9ec4b-af38-4a9d-9b73-329d40a2e5cd.jpg?v=1771349724",
+      "image_path": "images/snitch-100-cotton-regular-fit-stripes-shirt-4mss4452-03.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-100-cotton-shirt-mp-4sfs071-03",
+      "name": "Regular Fit 100% Cotton Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "regular",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/regular-fit-100-cotton-shirt-mp-4sfs071-03/9234328387746/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_6318b159-9e4a-4746-ba3c-6e95b0b6198d.jpg?v=1779176813",
+      "image_path": "images/snitch-regular-fit-100-cotton-shirt-mp-4sfs071-03.jpg"
+    },
+    {
+      "id": "snitch-textured-100-cotton-regular-fit-polo-t-shirt-4pl080-01",
+      "name": "Contrast Tipping Flat Knit Polo T-Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/textured-100-cotton-regular-fit-polo-t-shirt-4pl080-01/9224475574434/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_55f0002e-b171-4817-b3b3-2bdd72f0841a.jpg?v=1778498657",
+      "image_path": "images/snitch-textured-100-cotton-regular-fit-polo-t-shirt-4pl080-01.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-checks-stretch-shirt-4mss4392-01",
+      "name": "Crushed Checks Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/regular-fit-checks-stretch-shirt-4mss4392-01/8840017772706/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4392-01_1.jpg?v=1763103595",
+      "image_path": "images/snitch-regular-fit-checks-stretch-shirt-4mss4392-01.jpg"
+    },
+    {
+      "id": "snitch-floral-100-viscose-oversized-shirt-4shs161-01",
+      "name": "Floral Print Oversized Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/floral-100-viscose-oversized-shirt-4shs161-01/9264877928610/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4shs161-01_1.jpg?v=1783444916",
+      "image_path": "images/snitch-floral-100-viscose-oversized-shirt-4shs161-01.jpg"
+    },
+    {
+      "id": "snitch-100-acrylic-polo-regular-fit-stripes-shirt-4mss4381-01",
+      "name": "Contrast Collar Polo Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/100-acrylic-polo-regular-fit-stripes-shirt-4mss4381-01/8874540236962/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4381-01_1.jpg?v=1766508993",
+      "image_path": "images/snitch-100-acrylic-polo-regular-fit-stripes-shirt-4mss4381-01.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-linen-blend-white-shirt-4mss4063-01",
+      "name": "Regular Fit Linen Blend White Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "regular",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/regular-fit-linen-blend-white-shirt-4mss4063-01/8667295809698/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS4063-01_2_12638290-646b-4c08-8b2e-1e7844d288cc.jpg?v=1747919476",
+      "image_path": "images/snitch-regular-fit-linen-blend-white-shirt-4mss4063-01.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-stretch-pastel-pink-t-shirt-4mst2707-02",
+      "name": "Slim Fit Stretch Pastel Pink T-Shirt",
+      "category": "top",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "t shirts",
+        "product_url": "https://www.snitch.com/men-t-shirts/slim-fit-stretch-pastel-pink-t-shirt-4mst2707-02/8642327314594/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MST2707-02_1_0ceac89b-67cd-437b-85ac-8de49fa0a2dd.jpg?v=1744224994",
+      "image_path": "images/snitch-slim-fit-stretch-pastel-pink-t-shirt-4mst2707-02.jpg"
+    },
+    {
+      "id": "snitch-regular-fit-pastel-pink-shirt-4sfs145-04",
+      "name": "Hashtag Embroidered Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/regular-fit-pastel-pink-shirt-4sfs145-04/9269896937634/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/5_070f71c5-16d3-4d34-9789-bcd377af4d72.jpg?v=1784116620",
+      "image_path": "images/snitch-regular-fit-pastel-pink-shirt-4sfs145-04.jpg"
+    },
+    {
+      "id": "snitch-plus-size-stripes-regular-fit-linen-blend-shirt-4mbgss1114-01",
+      "name": "Linen Blend Stripes Plus Size Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "linen"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/plus-size-stripes-regular-fit-linen-blend-shirt-4mbgss1114-01/8830304583842/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_079b38ee-f0ce-42b0-8707-4ba7b41cbfb6.jpg?v=1764222034",
+      "image_path": "images/snitch-plus-size-stripes-regular-fit-linen-blend-shirt-4mbgss1114-01.jpg"
+    },
+    {
+      "id": "snitch-plumaleaf-beige-knitted-shirt",
+      "name": "Plumaleaf Beige Knitted Shirt",
+      "category": "top",
+      "colors": [
+        "beige"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/plumaleaf-beige-knitted-shirt/8329888989346/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/07e351193536282a8529265e952c5eb7.webp?v=1715683259",
+      "image_path": "images/snitch-plumaleaf-beige-knitted-shirt.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-100-cotton-abstract-shirt-4lsfs012-08",
+      "name": "Slim Fit Abstract Luxe Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-100-cotton-abstract-shirt-4lsfs012-08/9215839305890/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_e5ab730f-c447-42d4-b808-4642e8ce7890.jpg?v=1776965588",
+      "image_path": "images/snitch-slim-fit-100-cotton-abstract-shirt-4lsfs012-08.jpg"
+    },
+    {
+      "id": "snitch-checks-stretch-slim-fit-shirt-4mss4532-02",
+      "name": "Slim Fit Stretch Checks Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "slim",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/checks-stretch-slim-fit-shirt-4mss4532-02/8865684684962/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4532-02_1.jpg?v=1765473247",
+      "image_path": "images/snitch-checks-stretch-slim-fit-shirt-4mss4532-02.jpg"
+    },
+    {
+      "id": "snitch-triad-sky-blue-overshirt",
+      "name": "Triad Sky Blue Overshirt",
+      "category": "outerwear",
+      "colors": [
+        "blue"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "overshirt",
+        "product_url": "https://www.snitch.com/men-overshirt/triad-sky-blue-overshirt/8125930995874/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSK8568-02-M55.jpg?v=1701841585",
+      "image_path": "images/snitch-triad-sky-blue-overshirt.jpg"
+    },
+    {
+      "id": "snitch-gingham-linen-blend-regular-fit-shirt-4mss4189-04",
+      "name": "Gingham Linen Blend Regular Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "linen",
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/gingham-linen-blend-regular-fit-shirt-4mss4189-04/8690891128994/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS4189-04_1_8c66b010-8dfe-415a-a908-355c63b3c995.jpg?v=1749490311",
+      "image_path": "images/snitch-gingham-linen-blend-regular-fit-shirt-4mss4189-04.jpg"
+    },
+    {
+      "id": "snitch-slim-fit-stripes-green-knitted-shirt-4mss3879-01",
+      "name": "Slim Fit Stripes Green Knitted Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/slim-fit-stripes-green-knitted-shirt-4mss3879-01/8647165214882/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3879-01_1_d7e01f04-009b-4521-82fd-386d7274145f.jpg?v=1744567179",
+      "image_path": "images/snitch-slim-fit-stripes-green-knitted-shirt-4mss3879-01.jpg"
+    },
+    {
+      "id": "snitch-light-beige-textured-slim-fit-shirt-4mss3898-01",
+      "name": "Light Beige Textured Slim Fit Shirt",
+      "category": "top",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "slim"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/light-beige-textured-slim-fit-shirt-4mss3898-01/8596273397922/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS3898-01_1_83b100df-1a32-4aee-8936-d5d0be29827c.jpg?v=1739973913",
+      "image_path": "images/snitch-light-beige-textured-slim-fit-shirt-4mss3898-01.jpg"
+    },
+    {
+      "id": "snitch-linen-blend-regular-fit-shirt-4mss4733-05",
+      "name": "Linen Blend Regular Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "linen",
+        "regular"
+      ],
+      "metadata": {
+        "brand": "SNITCH",
+        "subcategory": "shirts",
+        "product_url": "https://www.snitch.com/men-shirts/linen-blend-regular-fit-shirt-4mss4733-05/8910059765922/buy",
+        "catalog_source": "https://www.snitch.com/sitemap-products-1.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4733-05_1.jpg?v=1770831105",
+      "image_path": "images/snitch-linen-blend-regular-fit-shirt-4mss4733-05.jpg"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "rooftop_anniversary_dinner",
+      "occasion": "date night",
+      "prompt": "The user has an anniversary dinner at a design-led rooftop restaurant with a smart-casual dress code. Style the required black shirt for flattering seated proportions, tactile interest, and a deliberate evening palette without making it resemble an office uniform. Include precise tuck, cuff, or jacket execution only when the selected pieces support it.",
+      "mood": "assured and intimate",
+      "weather_context": {
+        "temperature_c": 25,
+        "feels_like_c": 26,
+        "condition": "clear rooftop evening with a light breeze",
+        "wind_kph": 13,
+        "humidity_percent": 58
+      },
+      "preferences": {
+        "style": "modern smart casual",
+        "palette": "restrained with controlled contrast",
+        "avoid": [
+          "corporate uniform styling"
+        ]
+      },
+      "must_include_item_ids": [
+        "snitch-black-regular-shirt"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "startup_pitch_then_client_dinner",
+      "occasion": "work",
+      "prompt": "Build a day-to-evening outfit for presenting a startup pitch to investors at 3 p.m. and joining the same group for a relaxed client dinner. The required textured chinos must project competence without looking ceremonial. Prioritize sitting comfort, clean presentation lines, and a credible transition using only the supplied wardrobe.",
+      "mood": "persuasive and composed",
+      "weather_context": {
+        "temperature_c": 22,
+        "feels_like_c": 22,
+        "condition": "air-conditioned meeting room and dry evening commute",
+        "wind_kph": 8
+      },
+      "preferences": {
+        "style": "contemporary business casual",
+        "priorities": [
+          "presentation authority",
+          "dinner versatility"
+        ]
+      },
+      "must_include_item_ids": [
+        "snitch-textured-chinos"
+      ],
+      "wear_history": [
+        "snitch-black-regular-shirt"
+      ],
+      "limit": 3
+    }
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 4944,
+    "curated_items_preserved": 8
+  }
+}

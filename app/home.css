@@ -38,12 +38,28 @@
   background: color-mix(in srgb, var(--home-bg) 90%, transparent);
   border-bottom: 1px solid var(--home-line); backdrop-filter: blur(16px);
 }
-.home-nav-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
+.home-nav-inner { position: relative; min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .home-mark { display: inline-flex; align-items: center; gap: 10px; color: var(--home-ink); text-decoration: none; font-size: 20px; font-weight: 800; letter-spacing: -0.04em; }
 .home-mark-symbol { width: 31px; height: 31px; display: inline-grid; place-items: center; background: var(--home-ink); color: var(--home-bg); }
 .home-mark-symbol svg { width: 13px; height: 16px; }
-.home-mark-context { margin-left: 2px; color: var(--home-muted); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
 .home-nav-links { display: flex; align-items: center; gap: clamp(22px, 3vw, 42px); margin-left: auto; }
+.home-mobile-nav { display: none; }
+.home-mobile-nav-toggle {
+  display: grid; place-items: center; width: 38px; height: 38px; margin-left: auto;
+  border: 1px solid var(--home-line); background: transparent; color: var(--home-ink); cursor: pointer;
+}
+.home-mobile-nav-panel {
+  position: absolute; top: 100%; left: 0; right: 0;
+  display: flex; flex-direction: column;
+  background: var(--home-bg); border-bottom: 1px solid var(--home-line);
+  box-shadow: 0 12px 24px rgba(0,0,0,.08);
+  padding: 4px min(18px, 5vw);
+}
+.home-mobile-nav-panel a {
+  padding: 15px 2px; border-bottom: 1px solid var(--home-line);
+  font-size: 14px; font-weight: 700; text-decoration: none; color: var(--home-ink);
+}
+.home-mobile-nav-panel a:last-child { border-bottom: none; }
 .home-nav-links a, .home-footer-links a { position: relative; text-decoration: none; font-size: 13px; font-weight: 700; }
 .home-nav-links a::after, .home-footer-links a::after {
   content: ""; position: absolute; right: 0; bottom: -6px; left: 0; height: 1px;
@@ -138,6 +154,18 @@
 .home-moment-product-copy p { color: var(--home-muted); font-size: 13px; line-height: 1.55; }
 .home-moment-action { width: 100%; min-height: 50px; display: flex; align-items: center; gap: 9px; margin-top: 26px; padding: 0 14px; border: 1px solid var(--home-ink); background: var(--home-ink); color: white !important; font-size: 13px; font-weight: 800; }
 .home-moment-action svg:last-child { margin-left: auto; }
+
+.home-stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(28px, 4vw, 48px); }
+.home-stat { padding-top: 26px; border-top: 1px solid var(--home-ink); }
+.home-stat strong { display: block; margin-bottom: 16px; font-size: clamp(40px, 5vw, 60px); letter-spacing: -.05em; line-height: .95; color: var(--home-cobalt); }
+.home-stat p { margin: 0 0 12px; max-width: 34ch; font-size: 14px; line-height: 1.55; color: var(--home-ink); }
+.home-stat span { display: block; font-size: 11px; font-weight: 700; letter-spacing: .04em; color: var(--home-muted); }
+.home-stat span a { color: var(--home-muted) !important; text-underline-offset: 3px; }
+
+.home-alt-list { margin: 0; padding: 0; border-top: 1px solid var(--home-ink); list-style: none; }
+.home-alt-list li { display: grid; grid-template-columns: minmax(180px, 260px) 1fr; gap: 28px; align-items: start; padding: 26px 0; border-bottom: 1px solid var(--home-line); }
+.home-alt-list li strong { font-size: 15px; }
+.home-alt-list li p { margin: 0; color: var(--home-muted); font-size: 14px; line-height: 1.6; max-width: 62ch; }
 
 .home-how { background: var(--home-paper); border-block: 1px solid var(--home-line); }
 .home-how .home-shell { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(60px, 10vw, 140px); align-items: start; }
@@ -261,7 +289,7 @@
   .home-shell { width: min(100% - 36px, 1240px); }
   .home-nav-inner { min-height: 68px; }
   .home-nav-links { display: none; }
-  .home-mark-context { display: none; }
+  .home-mobile-nav { display: block; }
   .home-nav-cta { min-height: 40px; padding-inline: 13px; font-size: 12px; }
   .home-hero { padding-top: 54px; padding-bottom: 70px; }
   .home-hero h1 { font-size: clamp(50px, 15vw, 76px); }
@@ -279,6 +307,8 @@
   .home-proof-rail-inner > * { width: 100%; }
   .home-section, .home-evidence { padding-block: 96px; }
   .home-section-intro-wide { margin-bottom: 46px; }
+  .home-stat-grid { grid-template-columns: 1fr; gap: 30px; }
+  .home-alt-list li { grid-template-columns: 1fr; gap: 6px; padding: 20px 0; }
   .home-moment-tabs { grid-template-columns: 1fr; }
   .home-moment-tabs button { min-height: 56px; border-right: 0; border-bottom: 1px solid var(--home-line); }
   .home-moment-tabs button:last-child { border-bottom: 0; }
@@ -324,4 +354,56 @@
     scroll-behavior: auto !important; animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important; transition-duration: 0.01ms !important;
   }
+}
+
+/* ---- Demo return chip (mounted in app/layout.tsx, so it renders outside .business-home
+   on every non-demo page — uses the global --styld-* tokens directly, not the --home-*
+   aliases scoped to .business-home) ---- */
+.demo-return-chip {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: var(--styld-foreground);
+  color: var(--styld-background);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  animation: demo-return-chip-in 260ms ease;
+}
+.demo-return-chip-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 16px;
+  color: var(--styld-background) !important;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+.demo-return-chip-dismiss {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 100%;
+  align-self: stretch;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  color: var(--styld-background);
+  cursor: pointer;
+}
+.demo-return-chip-dismiss:hover { background: rgba(255, 255, 255, 0.1); }
+@keyframes demo-return-chip-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 560px) {
+  .demo-return-chip { left: 12px; right: 12px; bottom: 12px; }
+  .demo-return-chip-link { flex: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .demo-return-chip { animation: none; }
 }

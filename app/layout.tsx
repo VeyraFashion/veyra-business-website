@@ -6,6 +6,7 @@ import "./home.css";
 import "./demo.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import CardSpotlight from "@/components/CardSpotlight";
+import DemoReturnChip from "@/components/DemoReturnChip";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body suppressHydrationWarning>
         <SmoothScroll />
         <CardSpotlight />
+        <DemoReturnChip />
         {children}
       </body>
     </html>
