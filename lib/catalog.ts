@@ -80,6 +80,19 @@ function estimatePriceInr(id: string, role: Role): number {
   return Math.round(raw / 10) * 10;
 }
 
+/** Subcategory values in the source catalogues are URL-encoded in places (one SNITCH item
+ *  arrives as "cargo%20pants"), because they were derived from product-URL path segments.
+ *  Decoding is guarded: decodeURIComponent throws on a malformed sequence such as a lone
+ *  "%", and a bad value should degrade to the raw string rather than break catalogue load. */
+function decodeSubcategory(value: string | undefined): string | undefined {
+  if (!value) return undefined;
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
 function encodeAssetPath(...segments: string[]): string {
   return segments.map(encodeURIComponent).join("/");
 }
@@ -107,7 +120,7 @@ export function loadCatalogForBrand(entry: BrandEntry): Catalog {
         name: w.name,
         price_inr: estimatePriceInr(w.id, role),
         category: w.category,
-        subcategory: w.metadata?.subcategory,
+        subcategory: decodeSubcategory(w.metadata?.subcategory),
         role,
         colors: w.colors ?? [],
         tags: w.tags ?? [],

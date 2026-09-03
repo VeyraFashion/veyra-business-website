@@ -16,23 +16,24 @@ const siteUrl =
       ? `https://${process.env.VERCEL_URL}`
       : "http://localhost:3000");
 
+const DESCRIPTION =
+  "STYLD adds virtual try-on and complete-look AI styling to fashion storefronts. Help shoppers buy with more confidence and measure impact across conversion, AOV and returns.";
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   applicationName: "STYLD",
-  title: "STYLD for Business — Virtual Try-On & AI Styling",
-  description:
-    "Give fashion shoppers a high-fidelity way to see themselves in products, build complete looks, and buy with more confidence — inside the storefront you already run.",
+  title: "STYLD — Virtual Try-On & AI Styling for Fashion E-commerce",
+  description: DESCRIPTION,
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "STYLD for Business — Make ‘Will this suit me?’ answerable",
-    description:
-      "Virtual try-on, outfit intelligence, and catalog-ready imagery for fashion retailers.",
+    title: "STYLD — Virtual Try-On & AI Styling for Fashion E-commerce",
+    description: DESCRIPTION,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "STYLD for Business — Make ‘Will this suit me?’ answerable",
-    description:
-      "Virtual try-on, outfit intelligence, and catalog-ready imagery for fashion retailers.",
+    title: "STYLD — Virtual Try-On & AI Styling for Fashion E-commerce",
+    description: DESCRIPTION,
   },
 };
 

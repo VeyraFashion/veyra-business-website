@@ -266,7 +266,7 @@ export default function OutfitPanel({
       <div className="demo-journey-rail" aria-label="Styling journey">
         <span className={photoFile ? "complete" : "active"}><b>1</b> Your photo</span>
         <span className={photoFile && prompt.trim().length >= 4 ? "complete" : ""}><b>2</b> Your plan</span>
-        <span className={outfits.length ? "complete" : ""}><b>3</b> Three try-ons</span>
+        <span className={outfits.length ? "complete" : ""}><b>3</b> Your try-ons</span>
       </div>
 
       <div className="demo-stylist-panel">
@@ -275,7 +275,7 @@ export default function OutfitPanel({
             <div className="demo-stylist-icon" aria-hidden="true"><Sparkles size={30} /></div>
             <div className="demo-stylist-intro">
               <span>One guided experience</span>
-              <h3>Upload once. Receive three complete looks on you.</h3>
+              <h3>Upload once. Receive complete looks on you.</h3>
               <p>STYLD checks the photo, ranks compatible catalogue outfits, and renders every recommendation automatically.</p>
             </div>
           </div>
@@ -346,7 +346,7 @@ export default function OutfitPanel({
               className="demo-button demo-button-lime demo-stylist-action"
               disabled={busy || !photoFile || prompt.trim().length < 4}
             >
-              {status === "ranking" ? "Checking photo and styling…" : status === "rendering" ? "Rendering your three looks…" : outfits.length ? "Create three new looks" : "Create 3 looks on me"}
+              {status === "ranking" ? "Checking photo and styling…" : status === "rendering" ? "Rendering your looks…" : outfits.length ? "Create new looks" : "Create looks on me"}
               {!busy && <ArrowRight size={18} aria-hidden="true" />}
               {busy && <LoaderCircle className="demo-spin" size={18} aria-hidden="true" />}
             </button>
@@ -357,7 +357,7 @@ export default function OutfitPanel({
           <div className="demo-journey-loader" role="status" aria-live="polite">
             <span className="demo-loader-orbit"><LoaderCircle size={27} aria-hidden="true" /></span>
             <div>
-              <strong>Checking your photo and composing three looks</strong>
+              <strong>Checking your photo and composing your looks</strong>
               <p>STYLD is reviewing framing first, then occasion fit, compatible garment roles, colour, and proportion.</p>
             </div>
             <span className="demo-loader-label">Please keep this page open</span>

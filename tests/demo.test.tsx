@@ -78,8 +78,8 @@ describe("private brand demo", () => {
     expect(screen.getByRole("button", { name: /Regular Fit Denim Shirt/i })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /Washed Straight Fit Jeans/i })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Plan a pilot/i })).toHaveAttribute("href", "/#pilot");
-    expect(screen.getByRole("heading", { name: /Three looks. Already on you/i })).toBeInTheDocument();
-    expect(screen.getByText(/Upload once. Receive three complete looks on you/i)).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Complete looks. Already on you/i })).toBeInTheDocument();
+    expect(screen.getByText(/Upload once. Receive complete looks on you/i)).toBeInTheDocument();
   });
 
   it("requires one reusable shopper photo and a conversational brief", async () => {
@@ -88,7 +88,7 @@ describe("private brand demo", () => {
 
     const chatInput = screen.getByRole("textbox", { name: /Where are you going/i });
     const photoInput = screen.getByLabelText(/Add your full-body photo/i);
-    const submit = screen.getByRole("button", { name: /Create 3 looks on me/i });
+    const submit = screen.getByRole("button", { name: /Create looks on me/i });
 
     expect(chatInput).toHaveAttribute("maxlength", "600");
     expect(photoInput).toHaveAttribute("accept", "image/jpeg,image/png,image/webp");
@@ -115,10 +115,10 @@ describe("private brand demo", () => {
       screen.getByLabelText(/Add your full-body photo/i),
       new File(["shopper"], "shopper.jpg", { type: "image/jpeg" }),
     );
-    await user.click(screen.getByRole("button", { name: /Create 3 looks on me/i }));
+    await user.click(screen.getByRole("button", { name: /Create looks on me/i }));
 
     expect(screen.getByRole("button", { name: /Checking photo and styling/i })).toBeDisabled();
-    expect(screen.getByRole("status")).toHaveTextContent(/composing three looks/i);
+    expect(screen.getByRole("status")).toHaveTextContent(/composing your looks/i);
     expect(screen.getByRole("status")).toHaveTextContent(/Please keep this page open/i);
   });
 
@@ -131,18 +131,17 @@ describe("private brand demo", () => {
     const jeans = screen.getByRole("button", { name: /Washed Straight Fit Jeans/i });
 
     await user.click(denimShirt);
-    expect(denimShirt).toHaveClass("selected");
     expect(denimShirt).toHaveAttribute("aria-pressed", "true");
 
     await user.click(greyShirt);
-    expect(denimShirt).not.toHaveClass("selected");
-    expect(greyShirt).toHaveClass("selected");
+    expect(denimShirt).toHaveAttribute("aria-pressed", "false");
+    expect(greyShirt).toHaveAttribute("aria-pressed", "true");
 
     await user.click(jeans);
-    expect(greyShirt).toHaveClass("selected");
-    expect(jeans).toHaveClass("selected");
+    expect(greyShirt).toHaveAttribute("aria-pressed", "true");
+    expect(jeans).toHaveAttribute("aria-pressed", "true");
     expect(screen.getAllByText(/Quads Line Grey Shirt \+ Washed Straight Fit Jeans/i)).toHaveLength(2);
-    expect(screen.getByRole("button", { name: /Build 3 looks with these/i })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Build looks with these/i })).toBeInTheDocument();
   });
 
   it("replaces separates with a full-body garment and restores separates cleanly", async () => {
@@ -155,17 +154,17 @@ describe("private brand demo", () => {
 
     await user.click(shirt);
     await user.click(jeans);
-    expect(shirt).toHaveClass("selected");
-    expect(jeans).toHaveClass("selected");
+    expect(shirt).toHaveAttribute("aria-pressed", "true");
+    expect(jeans).toHaveAttribute("aria-pressed", "true");
 
     await user.click(jumpsuit);
-    expect(shirt).not.toHaveClass("selected");
-    expect(jeans).not.toHaveClass("selected");
-    expect(jumpsuit).toHaveClass("selected");
+    expect(shirt).toHaveAttribute("aria-pressed", "false");
+    expect(jeans).toHaveAttribute("aria-pressed", "false");
+    expect(jumpsuit).toHaveAttribute("aria-pressed", "true");
 
     await user.click(shirt);
-    expect(jumpsuit).not.toHaveClass("selected");
-    expect(shirt).toHaveClass("selected");
+    expect(jumpsuit).toHaveAttribute("aria-pressed", "false");
+    expect(shirt).toHaveAttribute("aria-pressed", "true");
   });
 
   it("shows a useful activation path for brands awaiting catalog images", () => {

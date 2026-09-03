@@ -1,471 +1,360 @@
-import Image from "next/image";
 import BrandMark from "@/components/BrandMark";
-import {
-  ArrowDown,
-  ArrowRight,
-  ArrowUpRight,
-  Check,
-  CircleCheck,
-  Code2,
-  ImageIcon,
-  Layers3,
-  ShieldCheck,
-  ShoppingBag,
-  Sparkles,
-  UserRound,
-} from "lucide-react";
-import CommerceMoment from "@/components/home/CommerceMoment";
+import { ArrowRight, Check } from "lucide-react";
+import BookWalkthrough from "@/components/home/BookWalkthrough";
+import ComparisonTable from "@/components/home/ComparisonTable";
+import CostOfUncertainty from "@/components/home/CostOfUncertainty";
+import DemoShowcase from "@/components/home/DemoShowcase";
+import EvidenceBlock from "@/components/home/EvidenceBlock";
 import Faq from "@/components/home/Faq";
+import HeroReveal from "@/components/home/HeroReveal";
 import MobileNav from "@/components/home/MobileNav";
-import PilotChecklist from "@/components/home/PilotChecklist";
-import { Button } from "@/components/ui/button";
+import RoiCalculator from "@/components/home/RoiCalculator";
+import { StoreInputsProvider } from "@/components/home/StoreInputs";
 
-const GOOGLE_CASE_STUDY =
-  "https://cloud.google.com/blog/topics/retail/how-breuninger-boosted-sales-with-its-be-your-own-model-ai";
-const ZALANDO_2026_SIZE_FIT_UPDATE =
-  "https://corporate.zalando.com/en/technology/how-zalando-uses-technology-help-customers-find-right-size";
-const ZALANDO_2026_SCALE_UPDATE =
-  "https://corporate.zalando.com/en/fashion/tracking-future-why-zalando-uniquely-placed-lead-next-era-retail";
-const TRY_ON_CODE = [
-  "// Queue the work and keep the PDP responsive",
-  "POST /ai/jobs/try-on",
-  "",
-  "{",
-  "  \"quality_profile\": \"interactive\",",
-  "  \"garments\": [",
-  "    { \"role\": \"base_top\" },",
-  "    { \"role\": \"outerwear\" }",
-  "  ]",
-  "}",
-  "",
-  "// 202 Accepted",
-  "{ \"status\": \"queued\", \"job_id\": \"...\" }",
-].join("\n");
+const TRY_ON_CODE = `// Queue the work and keep the PDP responsive
+POST /ai/jobs/try-on
 
-const capabilities = [
+{
+  "quality_profile": "interactive",
+  "garments": [
+    { "role": "base_top" },
+    { "role": "outerwear" }
+  ]
+}
+
+// 202 Accepted
+{ "status": "queued", "job_id": "..." }`;
+
+const PILOT_STEPS = [
   {
-    number: "01",
-    icon: UserRound,
-    title: "See it on me",
-    body: "A shopper uploads a photo once, then tries single pieces or compatible layers inside the product journey.",
-    detail: "Reusable avatar · multi-garment rules · fidelity review",
+    n: "01",
+    title: "Choose the surface",
+    body: "Product-page try-on, complete-look styling, cart styling, or one category.",
   },
   {
-    number: "02",
-    icon: Layers3,
-    title: "Style the whole decision",
-    body: "Recommend complete looks from the catalog using the weather, occasion, preference, and what the shopper already selected.",
-    detail: "Ranked combinations · missing-piece detection · clear rationale",
+    n: "02",
+    title: "Choose the eligible catalogue",
+    body: "5–25 representative SKUs to validate integration; a larger sample where commercial measurement needs it.",
   },
   {
-    number: "03",
-    icon: ImageIcon,
-    title: "Prepare every product",
-    body: "Turn inconsistent uploads into clean cutouts and a consistent studio presentation before they reach the customer experience.",
-    detail: "Garment analysis · background removal · visual QA",
+    n: "03",
+    title: "Define the control",
+    body: "Randomly assign eligible sessions to STYLD or a control where your traffic allows.",
   },
   {
-    number: "04",
-    icon: Code2,
-    title: "Keep your storefront",
-    body: "Use the API behind your own interface or start with a focused surface. Image work runs asynchronously, so the page stays responsive.",
-    detail: "Documented schemas · queued image jobs · usage visibility",
+    n: "04",
+    title: "Report the business metrics",
+    body: "Activation, add-to-cart, conversion, AOV, units per order, revenue per eligible session, cancellations, return rate and reason.",
   },
 ] as const;
 
 export default function BusinessHome() {
   return (
-    <main className="business-home" id="top">
-      <a className="home-skip-link" href="#main-content">
-        Skip to content
-      </a>
+    <StoreInputsProvider>
+      <main className="business-home" id="top">
+        <a className="home-skip-link" href="#main-content">
+          Skip to content
+        </a>
 
-      <header className="home-nav" aria-label="Primary navigation">
-        <div className="home-shell home-nav-inner">
-          <a className="home-mark" href="#top" aria-label="STYLD for Business home">
-            <span className="home-mark-symbol" aria-hidden="true"><BrandMark /></span>
-            <span>STYLD</span>
-          </a>
-          <nav className="home-nav-links" aria-label="Homepage sections">
-            <a href="#product">Product</a>
-            <a href="#how">How it works</a>
-            <a href="#evidence">Evidence</a>
-            <a href="#integration">API</a>
-          </nav>
-          <MobileNav />
-          <Button asChild className="home-nav-cta" size="sm">
-            <a href="#pilot">
-              Plan a pilot <ArrowRight size={16} aria-hidden="true" />
-            </a>
-          </Button>
-        </div>
-      </header>
-
-      <div id="main-content">
-        <section className="home-hero home-shell" aria-labelledby="hero-title">
-          <div className="home-hero-copy">
-            <p className="home-overline">Virtual try-on &amp; styling infrastructure for fashion e-commerce</p>
-            <h1 id="hero-title">Make “Will this suit me?” answerable.</h1>
-            <p className="home-hero-lede">
-              STYLD adds AI-powered try-on and complete-outfit recommendations to the product
-              pages you already have. Shoppers see themselves in the product and buy with more
-              confidence — no re-platforming, no new checkout, measured on your own traffic
-              before you commit to anything beyond a pilot.
-            </p>
-            <div className="home-actions">
-              <Button asChild className="home-hero-cta" size="lg">
-                <a href="#pilot">
-                  Plan a 5-SKU pilot <ArrowRight size={18} aria-hidden="true" />
-                </a>
-              </Button>
-              <a className="home-text-link" href="#product">
-                See the customer journey <ArrowDown size={17} aria-hidden="true" />
-              </a>
-            </div>
-            <ul className="home-hero-facts" aria-label="STYLD product facts">
-              <li><Check size={16} aria-hidden="true" /> Your brand and interface stay in front</li>
-              <li><Check size={16} aria-hidden="true" /> Start with one measurable surface</li>
-              <li><Check size={16} aria-hidden="true" /> Performance measured on your traffic</li>
-            </ul>
-          </div>
-
-          <div className="home-hero-product" aria-label="Example product-page integration">
-            <div className="home-commerce-window">
-              <div className="home-commerce-bar">
-                <span className="home-demo-wordmark">ARC / 01</span>
-                <span className="home-demo-meta">NEW SEASON</span>
-                <ShoppingBag size={18} aria-hidden="true" />
-              </div>
-              <div className="home-product-stage">
-                <div className="home-product-image">
-                  <Image
-                    src="/field-jacket.png"
-                    alt="Olive field jacket on a neutral background"
-                    fill
-                    priority
-                    sizes="(max-width: 900px) 80vw, 480px"
-                  />
-                </div>
-                <div className="home-product-copy">
-                  <p className="home-product-code">OUTERWEAR / 024</p>
-                  <h2>Field Jacket</h2>
-                  <p>Washed cotton · relaxed structure</p>
-                  <div className="home-size-row" aria-label="Available sizes">
-                    <span>S</span><span className="is-selected">M</span><span>L</span><span>XL</span>
-                  </div>
-                  <span className="home-add-button" aria-hidden="true">Add to bag</span>
-                </div>
-              </div>
-            </div>
-            <div className="home-tryon-card">
-              <span className="home-tryon-icon"><Sparkles size={18} aria-hidden="true" /></span>
-              <div>
-                <strong>See this on you</strong>
-                <span>Use one photo. Keep shopping.</span>
-              </div>
-              <ArrowUpRight size={18} aria-hidden="true" />
-            </div>
-            <div className="home-stage-label home-stage-label-one">PDP</div>
-            <div className="home-stage-label home-stage-label-two">YOUR UI</div>
-          </div>
-        </section>
-
-        <section className="home-proof-rail" aria-label="Product positioning">
-          <div className="home-shell home-proof-rail-inner">
-            <span>One connected customer journey.</span>
-            <span aria-hidden="true">/</span>
-            <span>Commerce-native intelligence.</span>
-            <span aria-hidden="true">/</span>
-            <strong>A confidence layer inside commerce.</strong>
-          </div>
-        </section>
-
-        <section className="home-section home-shell" id="problem" aria-labelledby="problem-title">
-          <div className="home-section-intro home-section-intro-wide">
-            <p className="home-overline">Why this is worth fixing</p>
-            <h2 id="problem-title">Fit uncertainty is the most commonly cited reason fashion returns happen.</h2>
-            <p>
-              These are industry figures, not STYLD&rsquo;s own results — cited here to size the
-              problem before the rest of this page gets to the solution.
-            </p>
-          </div>
-          <div className="home-stat-grid">
-            <div className="home-stat">
-              <strong>20&ndash;40%</strong>
-              <p>Apparel return rates, well above the rate for most other retail categories.</p>
-              <span>
-                <a href="https://nrf.com/research/2025-retail-returns-landscape" target="_blank" rel="noreferrer">
-                  NRF, 2025 Retail Returns Landscape
-                </a>
-              </span>
-            </div>
-            <div className="home-stat">
-              <strong>50&ndash;70%</strong>
-              <p>of apparel returns are commonly attributed to fit and sizing issues, not damage or late delivery.</p>
-              <span>Industry returns-benchmark reports (figures vary by methodology)</span>
-            </div>
-            <div className="home-stat">
-              <strong>10&ndash;15%</strong>
-              <p>revenue lift retailers see from personalization done well — try-on and outfit-level recommendation are personalization, not a novelty feature.</p>
-              <span>
-                <a
-                  href="https://www.mckinsey.com/industries/retail/our-insights/personalizing-the-customer-experience-driving-differentiation-in-retail"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  McKinsey &amp; Company
-                </a>
-              </span>
-            </div>
-          </div>
-        </section>
-
-        <section className="home-section home-shell" id="alternatives" aria-labelledby="alternatives-title">
-          <div className="home-section-intro home-section-intro-wide">
-            <p className="home-overline">Why not just&hellip;</p>
-            <h2 id="alternatives-title">Recommendation engines don&rsquo;t know what an outfit is.</h2>
-            <p>
-              Every one of these is probably already in your stack, or already on your shortlist.
-              Here&rsquo;s what each one structurally can&rsquo;t do that STYLD does.
-            </p>
-          </div>
-          <ul className="home-alt-list">
-            <li>
-              <strong>A standard recommendation engine</strong>
-              <p>Recommends from browsing and purchase history — it has no concept of what an outfit is, and can&rsquo;t show a shopper what a specific combination actually looks like on them.</p>
-            </li>
-            <li>
-              <strong>Shopify&rsquo;s built-in tools</strong>
-              <p>Handle catalog, checkout, and basic merchandising — none of it visual, none of it garment-aware. STYLD runs behind your existing storefront rather than replacing it, platform-agnostic either way.</p>
-            </li>
-            <li>
-              <strong>An in-house build</strong>
-              <p>Possible, eventually — but garment-role validation, avatar reuse, and a generate-then-review quality loop took real engineering time to get right. Licensing it is faster than rebuilding it from zero.</p>
-            </li>
-            <li>
-              <strong>A generic AI shopping chatbot</strong>
-              <p>Answers questions in text. It doesn&rsquo;t render what a shopper will actually look like in a product, which is the specific hesitation behind the return-rate numbers above.</p>
-            </li>
-            <li>
-              <strong>A traditional personalization platform</strong>
-              <p>Good at ranking which products to show. None of them do visual, garment-aware, outfit-level reasoning — that&rsquo;s STYLD&rsquo;s clearest wedge, not a feature they&rsquo;re missing by accident.</p>
-            </li>
-          </ul>
-        </section>
-
-        <section className="home-section home-shell" id="product" aria-labelledby="product-title">
-          <div className="home-section-intro home-section-intro-wide">
-            <p className="home-overline">The customer journey</p>
-            <h2 id="product-title">Useful at the exact moment confidence matters.</h2>
-            <p>
-              STYLD meets shoppers inside the journey they already know. It adds personal proof
-              to the product page, helps complete the cart, and keeps serving the purchase after
-              it arrives.
-            </p>
-          </div>
-          <CommerceMoment />
-        </section>
-
-        <section className="home-section home-how" id="how" aria-labelledby="how-title">
-          <div className="home-shell">
-            <div className="home-section-intro">
-              <p className="home-overline">What the market learned</p>
-              <h2 id="how-title">Personalization gets stronger as the shopper gets closer to the image.</h2>
-              <p>
-                Breuninger explored three levels of virtual try-on. Customer feedback highlighted
-                the most personal experience: people valued seeing themselves in the product.
-              </p>
-              <a className="home-source-link" href={GOOGLE_CASE_STUDY} target="_blank" rel="noreferrer">
-                Read the Google Cloud retail case study <ArrowUpRight size={16} aria-hidden="true" />
-              </a>
-            </div>
-
-            <ol className="home-maturity-list">
-              <li>
-                <span className="home-maturity-number">01</span>
-                <div><strong>Catalog-ready</strong><p>Prepare consistent product imagery at scale from your existing catalog assets.</p></div>
-                <span className="home-maturity-mode">Batch</span>
-              </li>
-              <li>
-                <span className="home-maturity-number">02</span>
-                <div><strong>A relevant body</strong><p>Use a body type or reusable avatar that makes drape easier to imagine.</p></div>
-                <span className="home-maturity-mode">On request</span>
-              </li>
-              <li className="is-emphasis">
-                <span className="home-maturity-number">03</span>
-                <div><strong>Be your own model</strong><p>Let the shopper use their own image for the most personal proof.</p></div>
-                <span className="home-maturity-mode">Personal</span>
-              </li>
-            </ol>
-          </div>
-        </section>
-
-        <section className="home-section home-shell" id="platform" aria-labelledby="platform-title">
-          <div className="home-section-intro home-section-intro-wide">
-            <p className="home-overline">One system, four jobs</p>
-            <h2 id="platform-title">Everything around the render matters.</h2>
-            <p>
-              High-quality try-on comes from a complete workflow. The product image, garment
-              roles, customer input, response time, and review path work together to earn trust.
-            </p>
-          </div>
-          <div className="home-capability-list">
-            {capabilities.map(({ number, icon: Icon, title, body, detail }) => (
-              <article className="home-capability-row" key={number}>
-                <span className="home-capability-number">{number}</span>
-                <span className="home-capability-icon"><Icon size={22} strokeWidth={1.7} aria-hidden="true" /></span>
-                <h3>{title}</h3>
-                <p>{body}</p>
-                <span className="home-capability-detail">{detail}</span>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="home-evidence" id="evidence" aria-labelledby="evidence-title">
-          <div className="home-shell">
-            <div className="home-evidence-heading">
-              <p className="home-overline">Current retail evidence</p>
-              <h2 id="evidence-title">The signal is getting stronger. Your pilot makes it specific.</h2>
-              <p>
-                Recent retailer deployments point to gains across conversion, margin, and return
-                behavior. A focused pilot measures the impact across your catalog and customer mix.
-              </p>
-            </div>
-
-            <div className="home-evidence-grid">
-              <article className="home-evidence-card home-evidence-card-featured">
-                <div className="home-evidence-meta">
-                  <span>Google Cloud × Breuninger</span><span>6-week A/B test</span>
-                </div>
-                <h3>Higher conversion. Stronger contribution margin.</h3>
-                <p>
-                  During Black Week and the holiday season, shoppers who used Breuninger’s
-                  personalized virtual try-on converted at a higher rate and generated stronger
-                  contribution margin. Surveys also highlighted image quality and personalization.
-                </p>
-                <p className="home-evidence-caveat">The published evidence is directional across conversion and contribution margin.</p>
-                <a href={GOOGLE_CASE_STUDY} target="_blank" rel="noreferrer">
-                  View source <ArrowUpRight size={16} aria-hidden="true" />
-                </a>
-              </article>
-
-              <article className="home-evidence-card home-evidence-card-current">
-                <div className="home-evidence-meta">
-                  <span>Zalando</span><span>June 2026</span>
-                </div>
-                <h3>From pilot signal to retail scale.</h3>
-                <div className="home-evidence-signal">
-                  <strong>Up to 40%</strong>
-                  <span>fewer returns in recent Virtual Fitting Room pilots</span>
-                </div>
-                <div className="home-evidence-scale">
-                  <span>2026 rollout</span>
-                  <strong>Scaling to millions of customers</strong>
-                </div>
-                <p>
-                  Zalando is taking the experience from temporary tests to a permanent product,
-                  beginning with jeans and expanding the available assortment.
-                </p>
-                <p className="home-evidence-caveat">
-                  The 40% figure is a retailer-reported pilot result; the scaled rollout is now underway.
-                </p>
-                <div className="home-evidence-links">
-                  <a href={ZALANDO_2026_SIZE_FIT_UPDATE} target="_blank" rel="noreferrer">
-                    View pilot result <ArrowUpRight size={16} aria-hidden="true" />
-                  </a>
-                  <a href={ZALANDO_2026_SCALE_UPDATE} target="_blank" rel="noreferrer">
-                    View scale update <ArrowUpRight size={16} aria-hidden="true" />
-                  </a>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
-
-        <section className="home-section home-integration" id="integration" aria-labelledby="integration-title">
-          <div className="home-shell home-integration-grid">
-            <div className="home-section-intro">
-              <p className="home-overline">For product and engineering</p>
-              <h2 id="integration-title">Your customer sees the experience. Your team keeps control.</h2>
-              <p>
-                Use STYLD behind your storefront, app, or internal catalog tools. Start with a
-                widget-sized surface or build directly against the API.
-              </p>
-              <ul className="home-check-list">
-                <li><CircleCheck size={18} aria-hidden="true" /> Existing product pages stay intact</li>
-                <li><CircleCheck size={18} aria-hidden="true" /> Image jobs return immediately with a job ID</li>
-                <li><CircleCheck size={18} aria-hidden="true" /> Garment compatibility is validated before generation</li>
-                <li><CircleCheck size={18} aria-hidden="true" /> Usage and quality review travel with the response</li>
-              </ul>
-            </div>
-
-            <div className="home-code-window" aria-label="Example STYLD try-on API request">
-              <div className="home-code-bar">
-                <span>try-on.ts</span>
-                <span>Interactive job</span>
-              </div>
-              <pre><code>{TRY_ON_CODE}</code></pre>
-              <div className="home-code-status">
-                <span><span className="home-status-dot" /> Storefront stays responsive</span>
-                <ShieldCheck size={18} aria-hidden="true" />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="home-section home-pilot" id="pilot" aria-labelledby="pilot-title">
-          <div className="home-shell home-pilot-grid">
-            <div>
-              <p className="home-overline">Start focused. Learn fast.</p>
-              <h2 id="pilot-title">A useful first pilot fits on one page.</h2>
-              <p className="home-pilot-lede">
-                Pick one customer moment, a small representative catalog slice, and one business
-                question. Create a focused learning loop that shows how personal proof changes
-                purchase behavior for your shoppers.
-              </p>
-            </div>
-            <div className="home-pilot-steps">
-              <div><span>01</span><p><strong>Choose the moment</strong>Product page try-on, cart styling, or catalog preparation.</p></div>
-              <div><span>02</span><p><strong>Choose the slice</strong>Five to twenty-five SKUs that represent real catalog complexity.</p></div>
-              <div><span>03</span><p><strong>Choose the measure</strong>Activation, add-to-cart, conversion, contribution margin, or returns.</p></div>
-            </div>
-            <PilotChecklist />
-          </div>
-        </section>
-
-        <section className="home-section home-faq-section" aria-labelledby="faq-title">
-          <div className="home-shell home-faq-grid">
-            <div className="home-section-intro">
-              <p className="home-overline">Useful questions</p>
-              <h2 id="faq-title">What a retail team should ask before a pilot.</h2>
-            </div>
-            <Faq />
-          </div>
-        </section>
-      </div>
-
-      <footer className="home-footer">
-        <div className="home-shell home-footer-main">
-          <div>
-            <a className="home-mark home-mark-footer" href="#top">
+        <header className="home-nav" aria-label="Primary navigation">
+          <div className="home-shell home-nav-inner">
+            <a className="home-mark" href="#top" aria-label="STYLD for Business home">
               <span className="home-mark-symbol" aria-hidden="true"><BrandMark /></span>
               <span>STYLD</span>
             </a>
-            <p>Personal proof for fashion commerce.</p>
+            <nav className="home-nav-links" aria-label="Homepage sections">
+              <a href="#demo">See it work</a>
+              <a href="#difference">Why it&rsquo;s different</a>
+              <a href="#evidence">Results</a>
+              <a href="#live">Go live</a>
+            </nav>
+            <MobileNav />
+            <a className="home-nav-cta" href="#book">
+              Book a walkthrough <ArrowRight size={15} aria-hidden="true" />
+            </a>
           </div>
-          <div className="home-footer-links">
-            <a href="#product">Product</a>
-            <a href="#evidence">Evidence</a>
-            <a href="#integration">API</a>
-            <a href="#pilot">Plan a pilot</a>
+        </header>
+
+        <div id="main-content">
+          <section className="home-hero home-shell" aria-labelledby="hero-title">
+            <div className="home-hero-copy">
+              <p className="home-overline">Virtual try-on + outfit intelligence for fashion commerce</p>
+              <h1 id="hero-title">Make &ldquo;Will this suit me?&rdquo; answerable &mdash; and measurable.</h1>
+              <p className="home-hero-lede">
+                Your shopper uses one photo and sees the garment on themselves, inside your
+                storefront. No re-platforming.
+              </p>
+              <div className="home-actions">
+                <a className="home-cta-primary" href="#book">
+                  Book a 20-minute walkthrough <ArrowRight size={17} aria-hidden="true" />
+                </a>
+                <a className="home-cta-quiet" href="#demo">
+                  See it in action <ArrowRight size={15} aria-hidden="true" />
+                </a>
+              </div>
+            </div>
+            <HeroReveal />
+          </section>
+
+          <div className="home-rail">
+            <div className="home-shell home-rail-inner">
+              <span>Your brand and interface stay in front</span>
+              <span aria-hidden="true">/</span>
+              <span>Start on one measurable surface</span>
+              <span aria-hidden="true">/</span>
+              <span>Performance measured on <strong>your</strong> traffic</span>
+            </div>
           </div>
+
+          <section className="home-cost" aria-labelledby="cost-title">
+            <div className="home-shell home-cost-grid">
+              <div>
+                <p className="home-overline is-lime">The cost of uncertainty</p>
+                <h2 id="cost-title">
+                  Every garment a shopper can&rsquo;t picture on themselves is a return waiting
+                  to happen.
+                </h2>
+                <p className="home-cost-copy">
+                  Fashion returns are driven by fit and appearance &mdash; decisions a flat
+                  product photo can&rsquo;t settle. The revenue leaves your P&amp;L twice: once
+                  as the order you never won, and again as the parcel you pay to bring back.
+                </p>
+                <p className="home-cost-note">
+                  Figures beside this are arithmetic on the inputs shown, not a STYLD result.
+                  Edit them in the calculator further down.
+                </p>
+              </div>
+              <CostOfUncertainty />
+            </div>
+          </section>
+
+          <section className="home-section home-shell" id="demo" aria-labelledby="demo-title">
+            <div className="home-section-intro">
+              <p className="home-overline">See STYLD work</p>
+              <h2 id="demo-title">Four moments. Four different outputs.</h2>
+              <p>
+                Each tab shows what the shopper actually ends up looking at &mdash; not a
+                diagram of where a button would go.
+              </p>
+            </div>
+
+            <DemoShowcase />
+
+            <div className="home-demo-foot">
+              <p>Want to see this on one of your own products?</p>
+              <a href="#book">
+                Send us a product URL <ArrowRight size={17} aria-hidden="true" />
+              </a>
+            </div>
+          </section>
+
+          <section className="home-section home-difference" id="difference" aria-labelledby="difference-title">
+            <div className="home-shell">
+              <div className="home-section-intro">
+                <p className="home-overline">Why not just&hellip;</p>
+                <h2 id="difference-title">Recommendation engines don&rsquo;t know what an outfit is.</h2>
+                <p>
+                  Most of these are already in your stack. Here&rsquo;s what each category
+                  structurally can&rsquo;t do.
+                </p>
+              </div>
+              <ComparisonTable />
+            </div>
+          </section>
+
+          <section className="home-section home-shell" id="evidence" aria-labelledby="evidence-title">
+            <div className="home-section-intro">
+              <p className="home-overline">Published retailer evidence</p>
+              <h2 id="evidence-title">Three levers. What retailers have actually measured.</h2>
+              <p>
+                Ordered by rigour, not by size &mdash; a randomised test is worth more to a
+                buying committee than a bigger number from a self-selected group.
+              </p>
+            </div>
+            <EvidenceBlock />
+          </section>
+
+          <section className="home-section home-roi" id="roi" aria-labelledby="roi-title">
+            <div className="home-shell">
+              <div className="home-section-intro">
+                <p className="home-overline">Revenue opportunity</p>
+                <h2 id="roi-title">What could this be worth on your catalogue?</h2>
+                <p>
+                  Three numbers to start. Benchmark-informed assumptions applied to your own
+                  figures &mdash; a scenario model, which the pilot then replaces with
+                  measurement.
+                </p>
+              </div>
+              <RoiCalculator />
+            </div>
+          </section>
+
+          <section className="home-section home-live" id="live" aria-labelledby="live-title">
+            <div className="home-shell">
+              <div className="home-section-intro">
+                <p className="home-overline">Measurement, not a trial</p>
+                <h2 id="live-title">How it goes live.</h2>
+                <p>
+                  Pilot design, integration, the API and data handling &mdash; in one place,
+                  because they&rsquo;re one decision.
+                </p>
+              </div>
+
+              <div className="home-live-grid">
+                <div>
+                  <ol className="home-steps">
+                    {PILOT_STEPS.map((step) => (
+                      <li key={step.n}>
+                        <span className="home-step-n">{step.n}</span>
+                        <div>
+                          <strong>{step.title}</strong>
+                          <p>{step.body}</p>
+                        </div>
+                      </li>
+                    ))}
+                  </ol>
+
+                  <div className="home-kpi">
+                    <span>Recommended executive KPI</span>
+                    <strong>Incremental contribution per eligible session, after returns</strong>
+                  </div>
+
+                  <div className="home-pending">
+                    <span>[Content required]</span>
+                    <p>
+                      Pilot duration, commercial shape (pilot fee, per-render or per-session),
+                      and exit terms. Publish these once agreed &mdash; total silence on
+                      commercials stalls more deals than a number does.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="home-live-side">
+                  <div className="home-api">
+                    <p className="home-overline is-lime">For product and engineering</p>
+                    <h3>Your customer sees the experience. Your team keeps control.</h3>
+                    <p className="home-api-copy">
+                      No re-platforming. One API call per try-on request. Image jobs return
+                      immediately with a job ID, so the page never waits.
+                    </p>
+                    <div className="home-code">
+                      <div className="home-code-bar">
+                        <span>try-on.ts</span>
+                        <span>Interactive job</span>
+                      </div>
+                      <pre><code>{TRY_ON_CODE}</code></pre>
+                      <div className="home-code-foot">
+                        <span><span className="home-status-dot" aria-hidden="true" /> Storefront stays responsive</span>
+                      </div>
+                    </div>
+                    <p className="home-api-pending">
+                      <strong>[Content required]</strong> typical job completion time, added PDP
+                      payload, uptime target, and a documentation link.
+                    </p>
+                  </div>
+
+                  <div className="home-data">
+                    <h3>Shopper photos and data</h3>
+                    <ul>
+                      <li><Check size={15} aria-hidden="true" /> One JPEG, PNG or WebP full-body photo, capped at 8&nbsp;MB</li>
+                      <li><Check size={15} aria-hidden="true" /> Photo bytes are excluded from STYLD API logs</li>
+                      <li><Check size={15} aria-hidden="true" /> Technical suitability is validated before any generation job starts</li>
+                      <li><Check size={15} aria-hidden="true" /> Only your known catalogue is ranked &mdash; no external inventory</li>
+                      <li className="is-pending">
+                        [Content required] retention window, processing region, sub-processors,
+                        consent copy
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="home-section home-shell" aria-labelledby="trust-title">
+            <div className="home-section-intro">
+              <p className="home-overline">Who you&rsquo;d be working with</p>
+              <h2 id="trust-title">
+                A small team, a narrow product, and a short list of design partners.
+              </h2>
+            </div>
+
+            <div className="home-trust-grid">
+              <div className="home-person">
+                <div className="home-person-photo" aria-hidden="true">Photo</div>
+                <strong>[Content required]</strong>
+                <p>
+                  Founder name, role, and one line of relevant background. This is the
+                  highest-trust-per-pixel element currently missing from the site.
+                </p>
+              </div>
+              <div className="home-person">
+                <div className="home-person-photo" aria-hidden="true">Photo</div>
+                <strong>[Content required]</strong>
+                <p>Second founder or technical lead. Do not fabricate names, titles or history.</p>
+              </div>
+              <div className="home-partner">
+                <p className="home-overline">Design-partner programme</p>
+                <h3>We&rsquo;re taking on a small number of brands for the coming season.</h3>
+                <p>
+                  A defined surface, a defined KPI, a randomised control, and preferential
+                  terms in exchange for measurement we can both learn from.
+                </p>
+                <p className="home-partner-pending">
+                  [Content required] &mdash; slot count, season dates and terms.
+                </p>
+                <a href="#book">
+                  Ask about a slot <ArrowRight size={16} aria-hidden="true" />
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <section className="home-section home-faq-section" aria-labelledby="faq-title">
+            <div className="home-shell home-faq-grid">
+              <div className="home-section-intro">
+                <p className="home-overline">Useful questions</p>
+                <h2 id="faq-title">What a retail team should ask before a pilot.</h2>
+              </div>
+              <Faq />
+            </div>
+          </section>
+
+          <section className="home-section home-book" id="book" aria-labelledby="book-title">
+            <div className="home-shell">
+              <BookWalkthrough />
+            </div>
+          </section>
         </div>
-        <div className="home-shell home-footer-bottom">
-          <span>© 2026 STYLD</span>
-          <span>Built for confidence, measured on real traffic.</span>
-        </div>
-      </footer>
-    </main>
+
+        <footer className="home-footer">
+          <div className="home-shell home-footer-main">
+            <div>
+              <a className="home-mark home-mark-footer" href="#top">
+                <span className="home-mark-symbol" aria-hidden="true"><BrandMark /></span>
+                <span>STYLD</span>
+              </a>
+              <p>Measurable purchase confidence for fashion commerce.</p>
+              <p className="home-footer-pending">
+                [Content required] legal entity, registered city, privacy contact, LinkedIn,
+                documentation link.
+              </p>
+            </div>
+            <div className="home-footer-links">
+              <a href="#demo">See it work</a>
+              <a href="#difference">Why it&rsquo;s different</a>
+              <a href="#evidence">Results</a>
+              <a href="#roi">ROI</a>
+              <a href="#live">Go live</a>
+              <a href="#book">Book a walkthrough</a>
+            </div>
+          </div>
+          <div className="home-shell home-footer-bottom">
+            <span>&copy; 2026 STYLD</span>
+            <span>Built for confidence, measured on real traffic.</span>
+          </div>
+        </footer>
+      </main>
+    </StoreInputsProvider>
   );
 }
