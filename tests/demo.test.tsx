@@ -223,6 +223,7 @@ describe("private brand demo", () => {
     const result = await within(specificSection).findByAltText(/Your selected look rendered/i);
     expect(result).toBeInTheDocument();
     expect(within(specificSection).getAllByAltText(/rendered on your uploaded photo/i)).toHaveLength(1);
+    expect(within(specificSection).queryByText("Why this works")).not.toBeInTheDocument();
     expect(tryOnRequests).toHaveLength(1);
     expect(JSON.parse(String(tryOnRequests[0].get("itemIds")))).toEqual([
       "denim-shirt",

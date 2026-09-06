@@ -571,10 +571,12 @@ export default function OutfitPanel({
                       <strong>{guided ? formatMatch(outfit.confidence) : "Exact selection"}</strong>
                     </div>
                     <h3>{outfit.name}</h3>
-                    <div className="demo-outfit-reason">
-                      <span><Lightbulb size={14} aria-hidden="true" /> Why this works</span>
-                      <p>{outfit.rationale}</p>
-                    </div>
+                    {guided && (
+                      <div className="demo-outfit-reason">
+                        <span><Lightbulb size={14} aria-hidden="true" /> Why this works</span>
+                        <p>{outfit.rationale}</p>
+                      </div>
+                    )}
                     <span className="demo-outfit-shop-label">Shop this look</span>
                     <div className="demo-outfit-items" aria-label={`${outfit.name} source products`}>
                       {ids.map((id) => {
