@@ -132,7 +132,7 @@
 .demo-overline {
   margin-bottom: 20px;
   color: var(--demo-cobalt);
-  font-size: 12px;
+  font-size: 14.4px;
   font-weight: 900;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -184,11 +184,11 @@
 .demo-flow-card strong { display: block; margin-bottom: 8px; font-size: 21px; letter-spacing: -0.035em; }
 .demo-flow-card p { max-width: 310px; margin-bottom: 0; color: rgba(255, 255, 255, 0.76); font-size: 14px; line-height: 1.55; }
 
-.demo-empty-catalog { min-height: 540px; display: grid; align-content: center; padding-block: 110px; }
+.demo-empty-catalog { min-height: 540px; display: grid; align-content: center; padding-block: 77px; }
 .demo-empty-catalog h2 { max-width: 780px; margin-bottom: 24px; font-size: clamp(42px, 6vw, 76px); letter-spacing: -0.065em; line-height: 0.98; }
 .demo-empty-catalog > p:not(.demo-overline) { max-width: 690px; color: var(--demo-muted); font-size: 18px; line-height: 1.65; }
 
-.demo-catalog-section { padding-block: 112px; border-bottom: 1px solid var(--demo-line); }
+.demo-catalog-section { padding-block: 78px; border-bottom: 1px solid var(--demo-line); }
 .demo-catalog-section:nth-child(even) { background: var(--demo-paper); }
 .demo-section-head {
   display: grid;
@@ -199,74 +199,12 @@
 }
 .demo-section-head h2 { margin-bottom: 0; font-size: clamp(42px, 5.4vw, 72px); font-weight: 800; letter-spacing: -0.065em; line-height: 0.96; text-transform: capitalize; }
 .demo-section-head > p { margin: 0; color: var(--demo-muted); font-size: 16px; line-height: 1.62; }
-.demo-item-count { align-self: end; justify-self: end; padding-bottom: 8px; color: var(--demo-muted); font-size: 13px; font-weight: 800; }
 
-.demo-product-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
-.demo-product-card {
-  min-width: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid var(--demo-line-strong);
-  border-radius: 0;
-  background: var(--demo-paper);
-  color: var(--demo-ink) !important;
-  text-align: left;
-  appearance: none;
-  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
-}
-.demo-product-card:hover { border-color: var(--demo-ink); box-shadow: 8px 8px 0 var(--demo-periwinkle); }
-.demo-product-card.selected { border-color: var(--demo-cobalt); box-shadow: 8px 8px 0 var(--demo-cobalt); }
-.demo-product-image { position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: #e4e1d8; border-bottom: 1px solid var(--demo-line); }
-.demo-product-image img { object-fit: cover; object-position: center top; transition: transform 350ms ease; }
-.demo-product-card:hover .demo-product-image img { transform: scale(1.018); }
-.demo-role-badge {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  z-index: 2;
-  min-height: 32px;
-  display: inline-flex;
-  align-items: center;
-  padding: 0 12px;
-  border: 1px solid var(--demo-ink);
-  background: var(--demo-ink);
-  color: white;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-.demo-select-check {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  z-index: 2;
-  width: 38px;
-  height: 38px;
-  display: grid;
-  place-items: center;
-  border: 1px solid var(--demo-ink);
-  border-radius: 50%;
-  background: white;
-  color: transparent;
-  font-size: 17px;
-  font-weight: 900;
-  box-shadow: 0 4px 12px rgba(23, 23, 19, 0.16);
-}
-.demo-product-card.selected .demo-select-check { background: var(--demo-lime); color: var(--demo-ink); }
-.demo-product-body { min-height: 158px; display: flex; flex-direction: column; justify-content: space-between; gap: 24px; padding: 23px; }
-.demo-product-name { display: block; color: var(--demo-ink); font-size: 21px; font-weight: 800; letter-spacing: -0.035em; line-height: 1.18; }
-.demo-product-detail { display: block; margin-top: 7px; color: var(--demo-muted); font-size: 13px; font-weight: 700; text-transform: capitalize; }
-.demo-product-meta { display: flex; align-items: end; justify-content: space-between; gap: 18px; padding-top: 18px; border-top: 1px solid var(--demo-line); }
-.demo-product-price { color: var(--demo-ink); font-size: 18px; font-weight: 900; letter-spacing: -0.025em; }
-.demo-product-action { color: var(--demo-cobalt); font-size: 12px; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; }
-.demo-product-card.selected .demo-product-action { color: var(--demo-cobalt-dark); }
-
-.demo-catalog-intro { padding-block: 104px 16px; }
+.demo-catalog-intro { padding-block: 73px 11px; }
 .demo-catalog-intro h2 { max-width: 850px; margin-bottom: 22px; font-size: clamp(42px, 5.4vw, 72px); letter-spacing: -0.065em; line-height: 0.96; }
 .demo-catalog-intro > p:last-child { max-width: 720px; margin-bottom: 0; color: var(--demo-muted); font-size: 17px; line-height: 1.65; }
 
-.demo-stylist-section { padding-block: 128px; background: var(--demo-ink); color: white; }
+.demo-stylist-section { padding-block: 90px; background: var(--demo-ink); color: white; }
 .demo-section-head-inverse .demo-overline { color: var(--demo-lime); }
 .demo-section-head-inverse > p { color: rgba(255, 255, 255, 0.68); }
 .demo-outfit-experience { display: grid; gap: 42px; }
@@ -380,7 +318,7 @@
 .demo-outfit-thumb img { object-fit: cover; object-position: center top; }
 .demo-outfit-card-body > p { flex: 1; margin-bottom: 0; color: rgba(255, 255, 255, 0.76); font-size: 14px; line-height: 1.6; }
 
-.demo-tryon-section { padding-block: 128px; background: var(--demo-periwinkle); color: var(--demo-ink); }
+.demo-tryon-section { padding-block: 90px; background: var(--demo-periwinkle); color: var(--demo-ink); }
 .demo-tryon-panel { border: 1px solid var(--demo-ink); background: var(--demo-paper); box-shadow: 14px 14px 0 var(--demo-cobalt); }
 .demo-tryon-layout { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .demo-tryon-column { min-width: 0; display: flex; flex-direction: column; padding: 28px; }
@@ -451,7 +389,6 @@
 
 @media (max-width: 1040px) {
   .demo-hero-grid { grid-template-columns: minmax(0, 1fr) minmax(340px, 0.8fr); gap: 50px; }
-  .demo-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .demo-outfit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .demo-outfit-card:last-child { grid-column: 1 / -1; }
   .demo-stylist-input-grid { grid-template-columns: 270px minmax(0, 1fr); }
@@ -463,21 +400,16 @@
   .demo-nav-label,
   .demo-nav-links { display: none; }
   .demo-nav-action { min-height: 42px; padding-inline: 14px; }
-  .demo-hero-grid { min-height: auto; grid-template-columns: 1fr; gap: 48px; padding-block: 72px 82px; }
+  .demo-hero-grid { min-height: auto; grid-template-columns: 1fr; gap: 48px; padding-block: 50px 57px; }
   .demo-hero-copy h1 { font-size: clamp(48px, 13vw, 74px); }
   .demo-flow-card { margin-right: 12px; }
   .demo-flow-card li { min-height: 120px; }
   .demo-catalog-section,
   .demo-stylist-section,
-  .demo-tryon-section { padding-block: 88px; }
-  .demo-catalog-intro { padding-block: 82px 8px; }
+  .demo-tryon-section { padding-block: 62px; }
+  .demo-catalog-intro { padding-block: 57px 6px; }
   .demo-section-head { grid-template-columns: 1fr; align-items: start; gap: 20px; margin-bottom: 38px; }
   .demo-section-head > p { max-width: 610px; }
-  .demo-item-count { justify-self: start; padding: 0; }
-  .demo-product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-  .demo-product-body { min-height: 148px; padding: 18px; }
-  .demo-product-name { font-size: 18px; }
-  .demo-product-meta { align-items: flex-start; flex-direction: column; gap: 8px; }
   .demo-stylist-form { padding: 24px; }
   .demo-journey-rail { grid-template-columns: 1fr; }
   .demo-journey-rail > span + span { border-top: 1px solid rgba(255, 255, 255, 0.34); border-left: 0; }
@@ -509,19 +441,14 @@
   .demo-mark { font-size: 18px; }
   .demo-nav-action { font-size: 12px; }
   .demo-nav-action svg { display: none; }
-  .demo-hero-grid { padding-block: 58px 70px; }
+  .demo-hero-grid { padding-block: 41px 49px; }
   .demo-hero-copy h1 { margin-bottom: 22px; font-size: clamp(44px, 14vw, 60px); }
   .demo-hero-facts { display: grid; }
   .demo-flow-card li { grid-template-columns: 44px 1fr; padding: 21px; }
   .demo-catalog-section,
   .demo-stylist-section,
-  .demo-tryon-section { padding-block: 70px; }
+  .demo-tryon-section { padding-block: 49px; }
   .demo-section-head h2 { font-size: clamp(40px, 12vw, 56px); }
-  .demo-product-grid { grid-template-columns: 1fr; }
-  .demo-product-card { width: 100%; }
-  .demo-product-body { min-height: 150px; }
-  .demo-product-name { font-size: 20px; }
-  .demo-product-meta { align-items: center; flex-direction: row; }
   .demo-stylist-form { padding: 18px; }
   .demo-stylist-form-head { grid-template-columns: 1fr; }
   .demo-chat-field textarea { min-height: 240px; padding: 17px 45px 17px 17px; font-size: 16px; }
@@ -548,4 +475,107 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+
+/* ---- Catalogue picker -------------------------------------------------------
+   Replaces the per-role product sections (76 tall cards in one section, plus
+   three sections holding a single item each). This control selects; it doesn't
+   merchandise, so the tile is image-first and the list stays short by default. */
+.picker { display: grid; gap: 18px; }
+.picker-controls { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.picker-search {
+  display: flex; align-items: center; gap: 10px; min-width: 260px; flex: 0 1 320px;
+  padding: 0 14px; min-height: 46px; border: 1px solid var(--demo-ink); background: var(--demo-paper);
+}
+.picker-search svg { flex: 0 0 auto; color: var(--demo-muted); }
+.picker-search input {
+  flex: 1; min-width: 0; border: 0; background: transparent; color: var(--demo-ink);
+  font-size: 14px; font-weight: 700;
+}
+.picker-search input::placeholder { color: var(--demo-muted); font-weight: 400; }
+.picker-search input:focus-visible { outline: none; }
+.picker-search:focus-within { outline: 3px solid var(--demo-cobalt); outline-offset: 2px; }
+.picker-search input::-webkit-search-cancel-button { cursor: pointer; }
+
+.picker-chips { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.picker-chips button {
+  display: inline-flex; align-items: center; gap: 7px; min-height: 38px; padding: 0 13px;
+  border: 1px solid var(--demo-line-strong); background: transparent; cursor: pointer;
+  color: var(--demo-ink); font-size: 13px; font-weight: 800;
+  transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+.picker-chips button span {
+  padding: 1px 6px; background: rgba(23, 23, 19, 0.09);
+  font-size: 12px; font-weight: 800; font-variant-numeric: tabular-nums;
+}
+.picker-chips button:hover { border-color: var(--demo-ink); }
+.picker-chips button.is-active { border-color: var(--demo-ink); background: var(--demo-ink); color: #fff; }
+.picker-chips button.is-active span { background: rgba(255, 255, 255, 0.22); }
+.picker-chips button:focus-visible { outline: 3px solid var(--demo-cobalt); outline-offset: 2px; }
+
+.brand-demo .picker-count {
+  margin: 0; color: var(--demo-muted); font-size: 12.5px; font-weight: 700;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+
+.picker-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+
+/* Card treatment carried over from the previous product grid: a paper surface with a hard
+   offset shadow — periwinkle on hover, cobalt when selected. The shadow is the reason the
+   grid gap stays at 24px; anything tighter and adjacent cards collide with it. */
+.picker-tile {
+  display: flex; flex-direction: column; padding: 0; text-align: left; cursor: pointer;
+  border: 1px solid var(--demo-line-strong); background: var(--demo-paper);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+.picker-tile:hover { border-color: var(--demo-ink); box-shadow: 8px 8px 0 var(--demo-periwinkle); }
+.picker-tile:focus-visible { outline: 3px solid var(--demo-cobalt); outline-offset: 3px; }
+.picker-tile.is-selected { border-color: var(--demo-cobalt); box-shadow: 8px 8px 0 var(--demo-cobalt); }
+
+.picker-tile-image {
+  position: relative; display: block; aspect-ratio: 4 / 5; overflow: hidden;
+  background: #e4e1d8; border-bottom: 1px solid var(--demo-line);
+}
+.picker-tile-image img { object-fit: cover; object-position: center top; transition: transform 350ms ease; }
+.picker-tile:hover .picker-tile-image img { transform: scale(1.018); }
+.picker-tile-check {
+  position: absolute; top: 10px; right: 10px; z-index: 2;
+  width: 26px; height: 26px; display: grid; place-items: center;
+  border: 1px solid var(--demo-ink); background: white; color: var(--demo-ink);
+  opacity: 0; transform: scale(0.8); transition: opacity 150ms ease, transform 150ms ease;
+}
+.picker-tile.is-selected .picker-tile-check {
+  opacity: 1; transform: scale(1); background: var(--demo-lime); color: var(--demo-ink);
+}
+.picker-tile-name {
+  display: -webkit-box; padding: 13px 15px 15px; overflow: hidden;
+  color: var(--demo-ink) !important; font-size: 13.5px; font-weight: 700; line-height: 1.4;
+  -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+
+.picker-more {
+  justify-self: start; display: inline-flex; align-items: center; gap: 8px;
+  min-height: 44px; padding: 0 18px; border: 1px solid var(--demo-ink);
+  background: transparent; cursor: pointer; color: var(--demo-ink);
+  font-size: 13px; font-weight: 800;
+  transition: background-color 140ms ease, color 140ms ease;
+}
+.picker-more:hover { background: var(--demo-ink); color: #fff; }
+.picker-more:focus-visible { outline: 3px solid var(--demo-cobalt); outline-offset: 2px; }
+
+@media (max-width: 1020px) {
+  .picker-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; }
+}
+@media (max-width: 760px) {
+  .picker-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .picker-search { flex-basis: 100%; }
+}
+@media (max-width: 430px) {
+  .picker-grid { gap: 13px; }
+  .picker-tile:hover, .picker-tile.is-selected { box-shadow: 5px 5px 0 var(--demo-periwinkle); }
+  .picker-tile.is-selected { box-shadow: 5px 5px 0 var(--demo-cobalt); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .picker-tile:hover .picker-tile-image img { transform: none; }
 }

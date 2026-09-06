@@ -4,10 +4,12 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const LINKS = [
-  { href: "#product", label: "Product" },
-  { href: "#how", label: "How it works" },
-  { href: "#evidence", label: "Evidence" },
-  { href: "#integration", label: "API" },
+  { href: "#demo", label: "See it work" },
+  { href: "#difference", label: "Why it's different" },
+  { href: "#evidence", label: "Results" },
+  { href: "#roi", label: "ROI" },
+  { href: "#live", label: "Go live" },
+  { href: "#book", label: "Book a walkthrough" },
 ] as const;
 
 export default function MobileNav() {

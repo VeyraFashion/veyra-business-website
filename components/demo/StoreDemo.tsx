@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Check, Sparkles } from "lucide-react";
 import type { Catalog, CatalogItem, Role } from "@/lib/catalog";
 import IconSprite from "@/components/IconSprite";
-import ProductGrid from "@/components/demo/ProductGrid";
+import CatalogPicker from "@/components/demo/CatalogPicker";
 import OutfitPanel from "@/components/demo/OutfitPanel";
 import DemoSessionMarker from "@/components/DemoSessionMarker";
 import MobileNav from "@/components/home/MobileNav";
@@ -41,13 +41,6 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
 
   function scrollToStylist() {
     stylistRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
-
-  const byCategory = new Map<string, CatalogItem[]>();
-  for (const item of catalog.items) {
-    const bucket = byCategory.get(item.category) ?? [];
-    bucket.push(item);
-    byCategory.set(item.category, bucket);
   }
 
   return (
@@ -111,7 +104,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
               <ol>
                 <li><span>01</span><div><strong>Add one photo</strong><p>A clear, front-facing, head-to-toe image.</p></div></li>
                 <li><span>02</span><div><strong>Describe the moment</strong><p>Share the place, plan, and desired feeling.</p></div></li>
-                <li><span>03</span><div><strong>Receive three try-ons</strong><p>Complete catalogue looks rendered directly on you.</p></div></li>
+                <li><span>03</span><div><strong>Receive your try-ons</strong><p>Complete catalogue looks rendered directly on you.</p></div></li>
               </ol>
             </aside>
           </div>
@@ -133,9 +126,9 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
                 <div className="demo-section-head demo-section-head-inverse">
                   <div>
                     <p className="demo-overline">Personal styling room</p>
-                    <h2>Three looks. Already on you.</h2>
+                    <h2>Complete looks. Already on you.</h2>
                   </div>
-                  <p>One photo moves through quality checking, catalogue ranking, and three automatic virtual try-ons.</p>
+                  <p>One photo moves through quality checking, catalogue ranking, and automatic virtual try-ons.</p>
                 </div>
                 <OutfitPanel
                   brandId={brandId}
@@ -150,24 +143,17 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
               <div className="demo-catalog-intro demo-shell">
                 <p className="demo-overline">Optional catalogue control</p>
                 <h2>Want a specific piece in every look?</h2>
-                <p>Select compatible products below, then send those choices to the styling room. STYLD will build three complete outfits around them.</p>
+                <p>Select compatible products below, then send those choices to the styling room. STYLD will build complete outfits around them.</p>
               </div>
-              {Array.from(byCategory.entries()).map(([category, items], index) => (
-                <section className="demo-catalog-section" key={category}>
-                  <div className="demo-shell">
-                    <div className="demo-section-head">
-                      <div>
-                        <p className="demo-overline">Catalog / {String(index + 1).padStart(2, "0")}</p>
-                        <h2>{category}</h2>
-                      </div>
-                      <span className="demo-item-count">
-                        {items.length} {items.length === 1 ? "piece" : "pieces"}
-                      </span>
-                    </div>
-                    <ProductGrid items={items} selectedIds={selectedIds} onToggle={toggleItem} />
-                  </div>
-                </section>
-              ))}
+              <section className="demo-catalog-section">
+                <div className="demo-shell">
+                  <CatalogPicker
+                    items={catalog.items}
+                    selectedIds={selectedIds}
+                    onToggle={toggleItem}
+                  />
+                </div>
+              </section>
             </div>
 
           </>
@@ -181,7 +167,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
             <strong>{selectedItems.map((item) => item.name).join(" + ")}</strong>
           </div>
           <button className="demo-button demo-button-lime" type="button" onClick={scrollToStylist}>
-            Build 3 looks with these <ArrowRight size={17} aria-hidden="true" />
+            Build looks with these <ArrowRight size={17} aria-hidden="true" />
           </button>
         </div>
       )}
