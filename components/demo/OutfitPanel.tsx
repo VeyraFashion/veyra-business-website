@@ -13,7 +13,6 @@ import {
   RefreshCw,
   Shirt,
   Sparkles,
-  X,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { CatalogItem } from "@/lib/catalog";
@@ -381,18 +380,6 @@ export default function OutfitPanel({
                 <div className="demo-chat-field">
                   <div className="demo-chat-field-head">
                     <label htmlFor={promptInputId}>Where are you going?</label>
-                    {prompt.length > 0 && (
-                      <button
-                        type="button"
-                        aria-label="Clear styling brief"
-                        onClick={() => {
-                          setPrompt("");
-                          resetResults();
-                        }}
-                      >
-                        <X size={13} aria-hidden="true" /> Clear text
-                      </button>
-                    )}
                   </div>
                   <textarea
                     id={promptInputId}
@@ -404,10 +391,25 @@ export default function OutfitPanel({
                   />
                   <small>{prompt.length}/600</small>
                 </div>
-                <div className="demo-photo-checklist" aria-label="Photo requirements">
-                  <span><Check size={14} /> Full body and feet visible</span>
-                  <span><Check size={14} /> Face and hands unobstructed</span>
-                  <span><Check size={14} /> Front-facing, even lighting</span>
+                <div className="demo-brief-field-meta">
+                  <div className="demo-photo-checklist" aria-label="Photo requirements">
+                    <span><Check size={14} /> Full body and feet visible</span>
+                    <span><Check size={14} /> Face and hands unobstructed</span>
+                    <span><Check size={14} /> Front-facing, even lighting</span>
+                  </div>
+                  {prompt.length > 0 && (
+                    <button
+                      type="button"
+                      className="demo-field-clear"
+                      aria-label="Clear styling brief"
+                      onClick={() => {
+                        setPrompt("");
+                        resetResults();
+                      }}
+                    >
+                      Clear text
+                    </button>
+                  )}
                 </div>
               </div>
             ) : (
