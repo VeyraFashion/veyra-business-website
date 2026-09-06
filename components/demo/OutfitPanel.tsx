@@ -13,6 +13,7 @@ import {
   RefreshCw,
   Shirt,
   Sparkles,
+  X,
 } from "lucide-react";
 import { motion } from "motion/react";
 import type { CatalogItem } from "@/lib/catalog";
@@ -100,6 +101,7 @@ export default function OutfitPanel({
   const photoInputRef = useRef<HTMLInputElement>(null);
   const runTokenRef = useRef(0);
   const actionHintId = useId();
+  const promptInputId = useId();
   const photoFile = photo?.file ?? null;
 
   useEffect(() => () => {
@@ -376,9 +378,24 @@ export default function OutfitPanel({
 
             {guided ? (
               <div className="demo-brief-column">
-                <label className="demo-chat-field">
-                  <span>Where are you going?</span>
+                <div className="demo-chat-field">
+                  <div className="demo-chat-field-head">
+                    <label htmlFor={promptInputId}>Where are you going?</label>
+                    {prompt.length > 0 && (
+                      <button
+                        type="button"
+                        aria-label="Clear styling brief"
+                        onClick={() => {
+                          setPrompt("");
+                          resetResults();
+                        }}
+                      >
+                        <X size={13} aria-hidden="true" /> Clear
+                      </button>
+                    )}
+                  </div>
                   <textarea
+                    id={promptInputId}
                     value={prompt}
                     onChange={(event) => setPrompt(event.target.value)}
                     placeholder="Example: Dinner near Marine Drive at sunset. Romantic, polished and comfortable for a walk."
@@ -386,7 +403,7 @@ export default function OutfitPanel({
                     maxLength={600}
                   />
                   <small>{prompt.length}/600</small>
-                </label>
+                </div>
                 <div className="demo-photo-checklist" aria-label="Photo requirements">
                   <span><Check size={14} /> Full body and feet visible</span>
                   <span><Check size={14} /> Face and hands unobstructed</span>

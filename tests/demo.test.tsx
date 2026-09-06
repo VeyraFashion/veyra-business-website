@@ -141,6 +141,11 @@ describe("private brand demo", () => {
     expect(chatInput).toHaveValue(
       "I have a casual first date this weekend. I want to look good without feeling overdressed.",
     );
+    await user.click(screen.getByRole("button", { name: "Clear styling brief" }));
+    expect(chatInput).toHaveValue("");
+    expect(screen.queryByRole("button", { name: "Clear styling brief" })).not.toBeInTheDocument();
+
+    await user.click(screen.getByRole("button", { name: /casual first date this weekend/i }));
     expect(submit).toBeDisabled();
     expect(within(guidedSection).getByText("Upload your photo to continue.")).toBeInTheDocument();
 
