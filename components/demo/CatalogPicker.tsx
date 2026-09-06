@@ -9,9 +9,8 @@ import type { CatalogItem } from "@/lib/catalog";
  *
  *  This control's job is *selection*, not browsing: a visitor optionally pins one or two
  *  pieces before the styling room generates looks. It used to render as a storefront —
- *  one section per garment role, each with a full heading — which for SNITCH meant a
- *  76-item section of tall product cards plus three sections carrying a heading for a
- *  single item. So:
+ *  one section per garment role, each with a full heading — which for a top-heavy catalogue can
+ *  mean one huge section of tall product cards plus several sections carrying a single item. So:
  *
  *  - **One section, filtered**, instead of five wildly uneven ones.
  *  - **Filtered by subcategory, not role**, because role is the wrong axis when 83% of the

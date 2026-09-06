@@ -65,6 +65,26 @@ const snitchSample: Catalog = {
 };
 
 describe("private brand demo", () => {
+  it("uses the complete experience for any brand with an activated catalog", () => {
+    const otherBrandCatalog: Catalog = {
+      ...snitchSample,
+      brand: "Example Brand",
+      note: "Brand-agnostic behavior test",
+    };
+
+    render(<StoreDemo brandId="example-brand-id" catalog={otherBrandCatalog} />);
+
+    expect(screen.getByRole("heading", { name: /Example Brand’s catalog/i })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Complete looks. Already on you/i })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Want to try specific pieces together/i }))
+      .toBeInTheDocument();
+    expect(screen.getAllByAltText(
+      /Example of one person standing front-facing with their full body visible/i,
+    )).toHaveLength(2);
+    expect(screen.getByRole("button", { name: /Select Regular Fit Denim Shirt/i }))
+      .toBeInTheDocument();
+  });
+
   it("ships critical demo content visible before client hydration", () => {
     const html = renderToStaticMarkup(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
 
