@@ -141,6 +141,7 @@ describe("private brand demo", () => {
     expect(chatInput).toHaveValue(
       "I have a casual first date this weekend. I want to look good without feeling overdressed.",
     );
+    expect(screen.getByText("Clear text")).toBeInTheDocument();
     await user.click(screen.getByRole("button", { name: "Clear styling brief" }));
     expect(chatInput).toHaveValue("");
     expect(screen.queryByRole("button", { name: "Clear styling brief" })).not.toBeInTheDocument();
@@ -162,9 +163,10 @@ describe("private brand demo", () => {
     await user.upload(guidedInput, new File(["shared"], "shared.jpg", { type: "image/jpeg" }));
 
     expect(screen.getAllByAltText("Your selected photo")).toHaveLength(2);
+    expect(screen.getAllByText("Remove photo")).toHaveLength(2);
     expect(screen.getAllByText("Shared with both experiences")).toHaveLength(2);
 
-    await user.click(screen.getByRole("button", { name: "Clear photo for selected-piece looks" }));
+    await user.click(screen.getByRole("button", { name: "Remove photo for selected-piece looks" }));
     expect(screen.getAllByAltText("Your selected photo")).toHaveLength(1);
     expect(screen.getByText("Used only for guided looks")).toBeInTheDocument();
 

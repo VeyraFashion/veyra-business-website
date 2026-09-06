@@ -91,7 +91,7 @@ export default function ShopperPhotoField({
       {photo && (
         <div className="demo-photo-field-meta">
           <span>{isShared ? "Shared with both experiences" : privateLabel}</span>
-          <button type="button" aria-label={clearLabel} onClick={clearPhoto}>Clear</button>
+          <button type="button" aria-label={clearLabel} onClick={clearPhoto}>Remove photo</button>
         </div>
       )}
     </div>

@@ -370,7 +370,7 @@ export default function OutfitPanel({
               isShared={photoShared}
               inputRef={photoInputRef}
               inputLabel={guided ? "Add your full-body photo" : "Add your photo for selected-piece looks"}
-              clearLabel={guided ? "Clear photo for guided looks" : "Clear photo for selected-piece looks"}
+              clearLabel={guided ? "Remove photo for guided looks" : "Remove photo for selected-piece looks"}
               privateLabel={guided ? "Used only for guided looks" : "Used only for selected-piece looks"}
               onPhotoChange={handlePhotoChange}
               onError={handlePhotoError}
@@ -390,7 +390,7 @@ export default function OutfitPanel({
                           resetResults();
                         }}
                       >
-                        <X size={13} aria-hidden="true" /> Clear
+                        <X size={13} aria-hidden="true" /> Clear text
                       </button>
                     )}
                   </div>
