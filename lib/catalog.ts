@@ -13,6 +13,7 @@ export interface CatalogItem {
   role: Role;
   colors: string[];
   tags: string[];
+  productUrl?: string;
   image: string; // browser-facing URL served by app/brand-assets/[...path]/route.ts
   imageDiskPath: string; // absolute filesystem path, for server-side reads (AI job upload)
 }
@@ -97,6 +98,16 @@ function encodeAssetPath(...segments: string[]): string {
   return segments.map(encodeURIComponent).join("/");
 }
 
+function safeProductUrl(value: string | undefined): string | undefined {
+  if (!value) return undefined;
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" || url.protocol === "http:" ? url.toString() : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
 /** Loads assets/<assetsDir>/<catalogFile> for a resolved brand and adapts it to this app's
  *  CatalogItem shape. Returns an empty-items catalog (not an error) when the file doesn't
  *  exist yet, or when a wardrobe entry has no real image — most brands start with images
@@ -124,6 +135,7 @@ export function loadCatalogForBrand(entry: BrandEntry): Catalog {
         role,
         colors: w.colors ?? [],
         tags: w.tags ?? [],
+        productUrl: safeProductUrl(w.metadata?.product_url),
         image: `/brand-assets/${encodeAssetPath(entry.assetsDir, ...imagePathSegments)}`,
         imageDiskPath: path.join(assetsDirAbs, ...imagePathSegments),
       };

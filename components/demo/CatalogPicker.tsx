@@ -2,7 +2,7 @@
 
 import { useId, useMemo, useState } from "react";
 import Image from "next/image";
-import { Check, Search } from "lucide-react";
+import { Search, X } from "lucide-react";
 import type { CatalogItem } from "@/lib/catalog";
 
 /** Catalogue picker.
@@ -36,10 +36,12 @@ export default function CatalogPicker({
   items,
   selectedIds,
   onToggle,
+  onClear,
 }: {
   items: CatalogItem[];
   selectedIds: string[];
   onToggle: (item: CatalogItem) => void;
+  onClear: () => void;
 }) {
   const [group, setGroup] = useState<string>(ALL);
   const [query, setQuery] = useState("");
@@ -122,13 +124,20 @@ export default function CatalogPicker({
         </div>
       </div>
 
-      <p className="picker-count" aria-live="polite">
-        {filtered.length === 0
-          ? "No pieces match that search."
-          : `Showing ${visible.length} of ${filtered.length} ${
-              filtered.length === 1 ? "piece" : "pieces"
-            }`}
-      </p>
+      <div className="picker-summary">
+        <p className="picker-count" aria-live="polite">
+          {filtered.length === 0
+            ? "No pieces match that search."
+            : `Showing ${visible.length} of ${filtered.length} ${
+                filtered.length === 1 ? "piece" : "pieces"
+              }`}
+        </p>
+        {selectedIds.length > 0 && (
+          <button type="button" className="picker-clear" onClick={onClear}>
+            <X size={15} aria-hidden="true" /> Clear selection ({selectedIds.length})
+          </button>
+        )}
+      </div>
 
       {filtered.length > 0 && (
         <div className="picker-grid" id={gridId}>
@@ -150,9 +159,11 @@ export default function CatalogPicker({
                     fill
                     sizes="(max-width: 430px) 45vw, (max-width: 760px) 46vw, (max-width: 1020px) 30vw, 22vw"
                   />
-                  <span className="picker-tile-check" aria-hidden="true">
-                    <Check size={13} strokeWidth={3} />
-                  </span>
+                  {selected && (
+                    <span className="picker-tile-check" aria-hidden="true">
+                      <X size={13} strokeWidth={3} /> Remove
+                    </span>
+                  )}
                 </span>
                 <span className="picker-tile-name">{item.name}</span>
               </button>

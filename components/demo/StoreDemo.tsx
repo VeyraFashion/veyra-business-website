@@ -1,18 +1,27 @@
 "use client";
 
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { ArrowRight, Check, Sparkles } from "lucide-react";
 import type { Catalog, CatalogItem, Role } from "@/lib/catalog";
 import IconSprite from "@/components/IconSprite";
 import CatalogPicker from "@/components/demo/CatalogPicker";
 import OutfitPanel from "@/components/demo/OutfitPanel";
+import type { ShopperPhoto } from "@/components/demo/ShopperPhotoField";
 import DemoSessionMarker from "@/components/DemoSessionMarker";
 import MobileNav from "@/components/home/MobileNav";
 
 export default function StoreDemo({ brandId, catalog }: { brandId: string; catalog: Catalog }) {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
-  const stylistRef = useRef<HTMLElement>(null);
+  const [guidedPhoto, setGuidedPhoto] = useState<ShopperPhoto | null>(null);
+  const [specificPhoto, setSpecificPhoto] = useState<ShopperPhoto | null>(null);
+  const [guidedResetKey, setGuidedResetKey] = useState(0);
+  const [specificResetKey, setSpecificResetKey] = useState(0);
+  const photoUrlsRef = useRef<string[]>([]);
+
+  useEffect(() => () => {
+    photoUrlsRef.current.forEach((url) => URL.revokeObjectURL(url));
+  }, []);
 
   const catalogById = useMemo(
     () => Object.fromEntries(catalog.items.map((item) => [item.id, item])),
@@ -39,9 +48,34 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
     });
   }
 
-  function scrollToStylist() {
-    stylistRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  function updatePhoto(target: "guided" | "specific", file: File | null) {
+    const photosAreLinked = Boolean(guidedPhoto && guidedPhoto === specificPhoto);
+
+    if (file) {
+      const previewUrl = URL.createObjectURL(file);
+      photoUrlsRef.current.push(previewUrl);
+      const nextPhoto = { file, previewUrl };
+
+      if ((!guidedPhoto && !specificPhoto) || photosAreLinked) {
+        setGuidedPhoto(nextPhoto);
+        setSpecificPhoto(nextPhoto);
+        if (photosAreLinked) {
+          if (target === "guided") setSpecificResetKey((key) => key + 1);
+          else setGuidedResetKey((key) => key + 1);
+        }
+        return;
+      }
+
+      if (target === "guided") setGuidedPhoto(nextPhoto);
+      else setSpecificPhoto(nextPhoto);
+      return;
+    }
+
+    if (target === "guided") setGuidedPhoto(null);
+    else setSpecificPhoto(null);
   }
+
+  const photoIsShared = Boolean(guidedPhoto && guidedPhoto === specificPhoto);
 
   return (
     <div className="brand-demo">
@@ -121,7 +155,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
           </div>
         ) : (
           <>
-            <section className="demo-stylist-section" id="stylist" ref={stylistRef}>
+            <section className="demo-stylist-section" id="stylist">
               <div className="demo-shell">
                 <div className="demo-section-head demo-section-head-inverse">
                   <div>
@@ -131,30 +165,46 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
                   <p>One photo moves through quality checking, catalogue ranking, and automatic virtual try-ons.</p>
                 </div>
                 <OutfitPanel
+                  key={`guided-${guidedResetKey}`}
                   brandId={brandId}
                   catalogById={catalogById}
-                  mustIncludeIds={selectedIds}
-                  onClearSelection={() => setSelectedIds([])}
+                  mustIncludeIds={[]}
+                  onClearSelection={() => undefined}
+                  photo={guidedPhoto}
+                  photoShared={photoIsShared}
+                  onPhotoChange={(file) => updatePhoto("guided", file)}
                 />
               </div>
             </section>
 
-            <div id="demo-catalog">
-              <div className="demo-catalog-intro demo-shell">
-                <p className="demo-overline">Optional catalogue control</p>
-                <h2>Want a specific piece in every look?</h2>
-                <p>Select compatible products below, then send those choices to the styling room. STYLD will build complete outfits around them.</p>
-              </div>
-              <section className="demo-catalog-section">
-                <div className="demo-shell">
-                  <CatalogPicker
-                    items={catalog.items}
-                    selectedIds={selectedIds}
-                    onToggle={toggleItem}
+            <section className="demo-specific-section" id="demo-catalog">
+              <div className="demo-shell">
+                <div className="demo-catalog-intro">
+                  <p className="demo-overline">Optional catalogue control</p>
+                  <h2>Want to try specific pieces together?</h2>
+                  <p>Select the exact products to apply, then create one try-on here—without a conversation or any unselected additions.</p>
+                </div>
+                <CatalogPicker
+                  items={catalog.items}
+                  selectedIds={selectedIds}
+                  onToggle={toggleItem}
+                  onClear={() => setSelectedIds([])}
+                />
+                <div className="demo-specific-builder" id="selected-piece-builder">
+                  <OutfitPanel
+                    key={`specific-${specificResetKey}-${selectedIds.join("-")}`}
+                    mode="specific"
+                    brandId={brandId}
+                    catalogById={catalogById}
+                    mustIncludeIds={selectedIds}
+                    onClearSelection={() => setSelectedIds([])}
+                    photo={specificPhoto}
+                    photoShared={photoIsShared}
+                    onPhotoChange={(file) => updatePhoto("specific", file)}
                   />
                 </div>
-              </section>
-            </div>
+              </div>
+            </section>
 
           </>
         )}
@@ -166,9 +216,9 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
             <span>{selectedItems.length} {selectedItems.length === 1 ? "item" : "items"} selected</span>
             <strong>{selectedItems.map((item) => item.name).join(" + ")}</strong>
           </div>
-          <button className="demo-button demo-button-lime" type="button" onClick={scrollToStylist}>
-            Build looks with these <ArrowRight size={17} aria-hidden="true" />
-          </button>
+          <a className="demo-button demo-button-lime" href="#selected-piece-builder">
+            Build this look <ArrowRight size={17} aria-hidden="true" />
+          </a>
         </div>
       )}
 
