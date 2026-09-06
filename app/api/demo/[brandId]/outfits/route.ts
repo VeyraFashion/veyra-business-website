@@ -44,6 +44,9 @@ function publicOutfit(value: unknown) {
     name: typeof outfit.name === "string" ? outfit.name : "STYLD look",
     items,
     rationale: typeof outfit.rationale === "string" ? outfit.rationale : "",
+    render_instructions: typeof outfit.render_instructions === "string"
+      ? outfit.render_instructions
+      : null,
     confidence: typeof outfit.confidence === "number" ? outfit.confidence : 0,
   };
 }

@@ -122,6 +122,142 @@ describe("private brand demo", () => {
     expect(screen.getByRole("status")).toHaveTextContent(/Please keep this page open/i);
   });
 
+  it("carries the styling brief and selected-look execution into image generation", async () => {
+    const tryOnPrompts: string[] = [];
+    const fetchMock = vi.fn(async (input: RequestInfo | URL, init?: RequestInit) => {
+      const url = String(input);
+      if (url.endsWith("/outfits")) {
+        return Response.json({
+          photo_assessment: {
+            status: "passed",
+            suitable_for_try_on: true,
+            framing: "full_body",
+            pose: "front_facing",
+            issues: [],
+            guidance: null,
+          },
+          outfits: [{
+            name: "Relaxed gallery look",
+            items: [
+              { item_id: "denim-shirt", name: "Regular Fit Denim Shirt", category: "shirts", role: "base_top" },
+              { item_id: "straight-jeans", name: "Washed Straight Fit Jeans", category: "jeans", role: "bottom" },
+            ],
+            rationale: "For variety, a French tuck could also work for a different occasion.",
+            render_instructions: (
+              "Keep the shirt fully untucked over the jeans, with the complete visible lower " +
+              "hem outside the waistband and no full, French, half, or side tuck."
+            ),
+            confidence: 0.94,
+          }],
+        });
+      }
+      if (url.endsWith("/tryon")) {
+        const form = init?.body as FormData;
+        tryOnPrompts.push(String(form.get("prompt")));
+        return Response.json({ job_id: "job-1", status: "queued" }, { status: 202 });
+      }
+      if (url.endsWith("/tryon/job-1")) {
+        return Response.json({
+          status: "completed",
+          result: {
+            output_image_base64: "generated-image",
+            mime_type: "image/png",
+            quality_threshold_met: true,
+          },
+        });
+      }
+      throw new Error(`Unexpected request: ${url}`);
+    });
+    vi.stubGlobal("fetch", fetchMock);
+    const user = userEvent.setup();
+    render(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
+
+    await user.type(
+      screen.getByRole("textbox", { name: /Where are you going/i }),
+      "Gallery date; wear the shirt untucked",
+    );
+    await user.upload(
+      screen.getByLabelText(/Add your full-body photo/i),
+      new File(["shopper"], "shopper.jpg", { type: "image/jpeg" }),
+    );
+    await user.click(screen.getByRole("button", { name: /Create looks on me/i }));
+
+    await waitFor(() => expect(tryOnPrompts).toHaveLength(1));
+    expect(tryOnPrompts[0]).toContain(
+      "AUTHORITATIVE SHOPPER REQUEST (highest priority): " +
+      "Gallery date; wear the shirt untucked",
+    );
+    expect(tryOnPrompts[0]).toContain(
+      "STATIC SINGLE-FRAME RENDER PLAN (lower priority; ignore any conflict with the shopper): " +
+      "Keep the shirt fully untucked over the jeans, with the complete visible lower hem " +
+      "outside the waistband and no full, French, half, or side tuck.",
+    );
+    expect(tryOnPrompts[0]).not.toContain("a French tuck could also work");
+    expect(tryOnPrompts[0].indexOf("AUTHORITATIVE SHOPPER REQUEST")).toBeLessThan(
+      tryOnPrompts[0].indexOf("STATIC SINGLE-FRAME RENDER PLAN"),
+    );
+    expect(await screen.findByAltText(/Relaxed gallery look rendered/i)).toBeInTheDocument();
+  });
+
+  it("does not show a completed render that failed the visual quality gate", async () => {
+    const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input);
+      if (url.endsWith("/outfits")) {
+        return Response.json({
+          photo_assessment: {
+            status: "passed",
+            suitable_for_try_on: true,
+            framing: "full_body",
+            pose: "front_facing",
+            issues: [],
+            guidance: null,
+          },
+          outfits: [{
+            name: "Strict untucked look",
+            items: [
+              { item_id: "denim-shirt", name: "Regular Fit Denim Shirt", category: "shirts", role: "base_top" },
+              { item_id: "straight-jeans", name: "Washed Straight Fit Jeans", category: "jeans", role: "bottom" },
+            ],
+            rationale: "Keep the shirt fully untucked over the jeans.",
+            render_instructions: "Keep the shirt fully untucked over the jeans.",
+            confidence: 0.94,
+          }],
+        });
+      }
+      if (url.endsWith("/tryon")) {
+        return Response.json({ job_id: "failed-gate-job", status: "queued" }, { status: 202 });
+      }
+      if (url.endsWith("/tryon/failed-gate-job")) {
+        return Response.json({
+          status: "completed",
+          result: {
+            output_image_base64: "must-not-be-displayed",
+            mime_type: "image/png",
+            quality_threshold_met: false,
+          },
+        });
+      }
+      throw new Error(`Unexpected request: ${url}`);
+    });
+    vi.stubGlobal("fetch", fetchMock);
+    const user = userEvent.setup();
+    render(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);
+
+    await user.type(
+      screen.getByRole("textbox", { name: /Where are you going/i }),
+      "Wear the denim shirt fully untucked",
+    );
+    await user.upload(
+      screen.getByLabelText(/Add your full-body photo/i),
+      new File(["shopper"], "shopper.jpg", { type: "image/jpeg" }),
+    );
+    await user.click(screen.getByRole("button", { name: /Create looks on me/i }));
+
+    expect(await screen.findByText(/did not meet STYLD's visual quality gate/i)).toBeInTheDocument();
+    expect(screen.queryByAltText(/Strict untucked look rendered/i)).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Retry this render/i })).toBeInTheDocument();
+  });
+
   it("keeps one garment per wear role while allowing a top and bottom", async () => {
     const user = userEvent.setup();
     render(<StoreDemo brandId="88c64009be" catalog={snitchSample} />);

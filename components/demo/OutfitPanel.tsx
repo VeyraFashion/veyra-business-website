@@ -26,6 +26,7 @@ interface Outfit {
   name: string;
   items: OutfitItemRef[];
   rationale: string;
+  render_instructions: string | null;
   confidence: number;
 }
 
@@ -88,6 +89,7 @@ export default function OutfitPanel({
   const [assessment, setAssessment] = useState<PhotoAssessment | null>(null);
   const [outfits, setOutfits] = useState<Outfit[]>([]);
   const [renders, setRenders] = useState<LookRender[]>([]);
+  const [submittedBrief, setSubmittedBrief] = useState("");
   const [error, setError] = useState<string | null>(null);
   const photoInputRef = useRef<HTMLInputElement>(null);
   const runTokenRef = useRef(0);
@@ -102,6 +104,7 @@ export default function OutfitPanel({
     setAssessment(null);
     setOutfits([]);
     setRenders([]);
+    setSubmittedBrief("");
     setError(null);
     setStatus("idle");
   }
@@ -132,7 +135,13 @@ export default function OutfitPanel({
     )));
   }
 
-  async function renderLook(outfit: Outfit, index: number, photo: File, token: number) {
+  async function renderLook(
+    outfit: Outfit,
+    index: number,
+    photo: File,
+    token: number,
+    stylingBrief: string,
+  ) {
     const itemIds = outfit.items
       .map((item) => item.item_id)
       .filter((id): id is string => Boolean(id && catalogById[id]));
@@ -146,6 +155,16 @@ export default function OutfitPanel({
       const form = new FormData();
       form.set("photo", photo);
       form.set("itemIds", JSON.stringify(itemIds));
+      const renderInstructions = outfit.render_instructions?.trim();
+      form.set(
+        "prompt",
+        `AUTHORITATIVE SHOPPER REQUEST (highest priority): ${stylingBrief}\n` +
+        "Apply every garment-styling clause in the shopper request literally. Occasion or mood " +
+        "text must not change the person's identity, pose, crop, camera, lighting, or background.\n" +
+        (renderInstructions
+          ? `STATIC SINGLE-FRAME RENDER PLAN (lower priority; ignore any conflict with the shopper): ${renderInstructions}`
+          : "STATIC SINGLE-FRAME RENDER PLAN: No additional styling state supplied; do not invent a stylized tuck, cuff, roll, or closure."),
+      );
       const response = await fetch(`/api/demo/${brandId}/tryon`, { method: "POST", body: form });
       const accepted = await response.json();
       if (!response.ok) throw new Error(accepted.error || "Could not start this render.");
@@ -156,8 +175,15 @@ export default function OutfitPanel({
         const job = await jobResponse.json();
         if (!jobResponse.ok) throw new Error(job.error || "Could not read this render.");
         if (job.status === "completed") {
-          const result = job.result as { output_image_base64: string; mime_type: string };
+          const result = job.result as {
+            output_image_base64: string;
+            mime_type: string;
+            quality_threshold_met: boolean;
+          };
           if (!result?.output_image_base64) throw new Error("The render completed without an image.");
+          if (!result.quality_threshold_met) {
+            throw new Error("This render did not meet STYLD's visual quality gate. Retry the look.");
+          }
           updateRender(index, {
             status: "done",
             imageUrl: `data:${result.mime_type};base64,${result.output_image_base64}`,
@@ -206,6 +232,7 @@ export default function OutfitPanel({
     setAssessment(null);
     setOutfits([]);
     setRenders([]);
+    setSubmittedBrief(brief);
 
     try {
       const form = new FormData();
@@ -238,7 +265,7 @@ export default function OutfitPanel({
       setRenders(ranked.map(() => ({ status: "waiting", message: "Preparing this look…" })));
       setStatus("rendering");
       await Promise.allSettled(
-        ranked.map((outfit, index) => renderLook(outfit, index, photoFile, token)),
+        ranked.map((outfit, index) => renderLook(outfit, index, photoFile, token, brief)),
       );
       if (runTokenRef.current === token) setStatus("done");
     } catch (requestError) {
@@ -253,7 +280,7 @@ export default function OutfitPanel({
     if (!outfit || !photoFile) return;
     const token = runTokenRef.current;
     setStatus("rendering");
-    await renderLook(outfit, index, photoFile, token);
+    await renderLook(outfit, index, photoFile, token, submittedBrief);
     if (runTokenRef.current === token) setStatus("done");
   }
 

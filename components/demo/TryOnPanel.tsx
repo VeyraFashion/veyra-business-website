@@ -48,7 +48,17 @@ export default function TryOnPanel({
       if (!res.ok) throw new Error(data.error || "Failed to check job status.");
 
       if (data.status === "completed") {
-        const result = data.result as { output_image_base64: string; mime_type: string };
+        const result = data.result as {
+          output_image_base64: string;
+          mime_type: string;
+          quality_threshold_met: boolean;
+        };
+        if (!result?.output_image_base64) {
+          throw new Error("The render completed without an image.");
+        }
+        if (!result.quality_threshold_met) {
+          throw new Error("This render did not meet STYLD's visual quality gate. Please retry.");
+        }
         setResultUrl(`data:${result.mime_type};base64,${result.output_image_base64}`);
         setStatus("done");
         setStatusMessage("");

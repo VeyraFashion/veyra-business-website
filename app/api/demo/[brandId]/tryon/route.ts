@@ -1,10 +1,27 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "node:fs";
+import path from "node:path";
 import { resolveBrand } from "@/lib/brands";
 import { loadCatalogForBrand, resolveItemImagePath } from "@/lib/catalog";
 import { submitTryOnJob, qualityProfile } from "@/lib/veyra-ai";
 
 export const runtime = "nodejs";
+
+function imageMimeType(filePath: string): string {
+  switch (path.extname(filePath).toLowerCase()) {
+    case ".jpg":
+    case ".jpeg":
+      return "image/jpeg";
+    case ".png":
+      return "image/png";
+    case ".webp":
+      return "image/webp";
+    case ".avif":
+      return "image/avif";
+    default:
+      return "application/octet-stream";
+  }
+}
 
 /** Client sends: multipart form with `photo` (the visitor's uploaded image) and `itemIds`
  *  (JSON array of catalog item ids, already deduped by role on the client — at most one
@@ -18,6 +35,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ bra
     const incoming = await req.formData();
     const photo = incoming.get("photo");
     const itemIdsRaw = incoming.get("itemIds");
+    const promptRaw = incoming.get("prompt");
 
     if (!(photo instanceof Blob)) {
       return NextResponse.json({ error: "Missing photo upload." }, { status: 400 });
@@ -52,12 +70,16 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ bra
     for (const item of items) {
       const filePath = resolveItemImagePath(item);
       const buf = fs.readFileSync(filePath);
-      const blob = new Blob([buf], { type: "image/png" });
-      outgoing.append("clothing_images", blob, `${item.id}.png`);
+      const extension = path.extname(filePath).toLowerCase();
+      const blob = new Blob([buf], { type: imageMimeType(filePath) });
+      outgoing.append("clothing_images", blob, `${item.id}${extension}`);
     }
 
     outgoing.set("garment_metadata", JSON.stringify(metadata));
     outgoing.set("quality_profile", qualityProfile());
+    if (typeof promptRaw === "string" && promptRaw.trim()) {
+      outgoing.set("prompt", promptRaw.trim());
+    }
 
     const accepted = await submitTryOnJob(outgoing);
     return NextResponse.json({
