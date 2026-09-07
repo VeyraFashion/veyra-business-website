@@ -1,0 +1,209 @@
+{
+  "brand": "Bonkers Corner",
+  "slug": "bonkers-corner",
+  "audience": "men/unisex",
+  "source_urls": [
+    "https://www.bonkerscorner.com/collections/founders-wardrobe"
+  ],
+  "wardrobe": [
+    {
+      "id": "bonkers-sports-dept-tee",
+      "name": "Sports Dept Oversized T-shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "streetwear",
+        "oversized",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "oversized t-shirt",
+        "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/sports-dept-oversized-t-shirt"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bonkers-red-knit-polo",
+      "name": "Red Stripe V-Neck Knit Polo",
+      "category": "top",
+      "colors": [
+        "red",
+        "white"
+      ],
+      "tags": [
+        "knit",
+        "smart casual",
+        "statement"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "v-neck knit polo",
+        "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/red-stripe-v-neck-knit-polo"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bonkers-warrior-shirt",
+      "name": "Warrior Alicorn Oversized Shirt",
+      "category": "top",
+      "colors": [
+        "black",
+        "multi"
+      ],
+      "tags": [
+        "streetwear",
+        "oversized",
+        "statement"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "oversized shirt",
+        "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/warrior-alicorn-oversized-shirt"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bonkers-black-joggers",
+      "name": "Black Everyday Joggers",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "casual",
+        "relaxed",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "joggers",
+        "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/black-everyday-joggers"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bonkers-black-utility-denim",
+      "name": "Black Utility Denim with Pockets",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "utility",
+        "denim",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "utility jeans",
+        "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/black-utility-denim-with-pockets"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bonkers-faded-black-hoodie",
+      "name": "Faded Black Hoodie",
+      "category": "outerwear",
+      "colors": [
+        "faded black"
+      ],
+      "tags": [
+        "hooded",
+        "streetwear",
+        "warm layer"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "hoodie",
+        "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/faded-black-hoodie-1"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bonkers-signature-denim-jacket",
+      "name": "Signature Denim Jacket",
+      "category": "outerwear",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "denim",
+        "streetwear",
+        "layering"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "denim jacket",
+        "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/signature-denim-jacket"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bonkers-baller-racer-jacket",
+      "name": "Baller Pro Racer Jacket",
+      "category": "outerwear",
+      "colors": [
+        "black",
+        "white"
+      ],
+      "tags": [
+        "racer",
+        "statement",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "racer jacket",
+        "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/baller-pro-racer-jacket"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "weekend_streetwear_signature",
+      "occasion": "weekend",
+      "prompt": "Style a confident contemporary streetwear look with controlled volume and one clear focal point.",
+      "mood": "confident",
+      "weather_context": {
+        "temperature_c": 24,
+        "feels_like_c": 25,
+        "condition": "partly cloudy",
+        "wind_kph": 8
+      },
+      "preferences": {
+        "style": "graphic streetwear",
+        "avoid": [
+          "over-layering"
+        ]
+      },
+      "must_include_item_ids": [
+        "bonkers-sports-dept-tee"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_layering",
+      "occasion": "casual",
+      "prompt": "Build a cold rainy city look; distinguish warmth from actual rain protection and report gaps honestly.",
+      "mood": "bold",
+      "weather_context": {
+        "temperature_c": 10,
+        "feels_like_c": 7,
+        "condition": "rain and wind",
+        "precipitation_mm": 6,
+        "wind_kph": 28
+      },
+      "preferences": {
+        "style": "dark streetwear"
+      },
+      "must_include_item_ids": [
+        "bonkers-black-utility-denim"
+      ],
+      "limit": 2
+    }
+  ]
+}

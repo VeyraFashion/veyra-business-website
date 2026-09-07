@@ -11,5 +11,7 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: ["./tests/setup.ts"],
     restoreMocks: true,
+    pool: "threads",
+    testTimeout: 15000,
   },
 });

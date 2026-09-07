@@ -5,11 +5,14 @@ import Link from "next/link";
 import { ArrowRight, Check, Sparkles } from "lucide-react";
 import type { Catalog, CatalogItem, Role } from "@/lib/catalog";
 import IconSprite from "@/components/IconSprite";
+import BrandMark from "@/components/BrandMark";
 import CatalogPicker from "@/components/demo/CatalogPicker";
 import OutfitPanel from "@/components/demo/OutfitPanel";
 import type { ShopperPhoto } from "@/components/demo/ShopperPhotoField";
 import DemoSessionMarker from "@/components/DemoSessionMarker";
 import MobileNav from "@/components/home/MobileNav";
+
+import { Reveal, RevealGroup, RevealHero, RevealItem, RevealScale } from "@/components/Reveal";
 
 export default function StoreDemo({ brandId, catalog }: { brandId: string; catalog: Catalog }) {
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
@@ -87,7 +90,7 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
         <div className="demo-shell demo-nav-inner">
           <div className="demo-nav-left">
             <Link className="demo-mark" href="/" aria-label="STYLD for Business home">
-              <span className="demo-mark-symbol" aria-hidden="true">S</span>
+              <span className="demo-mark-symbol" aria-hidden="true"><BrandMark /></span>
               <span>STYLD</span>
             </Link>
             <nav className="demo-nav-links" aria-label="Homepage sections">
@@ -130,82 +133,89 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
               </div>
             </div>
 
-            <aside className="demo-flow-card" aria-label="How to use this demo">
-              <div className="demo-flow-head">
-                <span>Three steps</span>
-                <Sparkles size={22} aria-hidden="true" />
-              </div>
-              <ol>
-                <li><span>01</span><div><strong>Add one photo</strong><p>A clear, front-facing, head-to-toe image.</p></div></li>
-                <li><span>02</span><div><strong>Describe the moment</strong><p>Share the place, plan, and desired feeling.</p></div></li>
-                <li><span>03</span><div><strong>Receive your try-ons</strong><p>Complete catalogue looks rendered directly on you.</p></div></li>
-              </ol>
-            </aside>
+            <RevealScale delay={0.15}>
+              <aside className="demo-flow-card" aria-label="How to use this demo">
+                <div className="demo-flow-head">
+                  <span>Three steps</span>
+                  <Sparkles size={22} aria-hidden="true" />
+                </div>
+                <ol>
+                  <li><span>01</span><div><strong>Add one photo</strong><p>A clear, front-facing, head-to-toe image.</p></div></li>
+                  <li><span>02</span><div><strong>Describe the moment</strong><p>Share the place, plan, and desired feeling.</p></div></li>
+                  <li><span>03</span><div><strong>Receive your try-ons</strong><p>Complete catalogue looks rendered directly on you.</p></div></li>
+                </ol>
+              </aside>
+            </RevealScale>
           </div>
         </section>
 
         {catalog.items.length === 0 ? (
-          <div className="demo-shell demo-empty-catalog">
+          <Reveal className="demo-shell demo-empty-catalog">
             <p className="demo-overline">Catalog activation</p>
             <h2>Catalog coming soon for {catalog.brand}</h2>
             <p>
               This private link is ready. Add {catalog.brand}&rsquo;s product photos to activate
               product selection, AI outfit ranking, and virtual try-on in one journey.
             </p>
-          </div>
+          </Reveal>
         ) : (
           <>
             <section className="demo-stylist-section" id="stylist">
               <div className="demo-shell">
-                <div className="demo-section-head demo-section-head-inverse">
+                <Reveal className="demo-section-head demo-section-head-inverse">
                   <div>
                     <p className="demo-overline">Personal styling room</p>
                     <h2>Complete looks. Already on you.</h2>
                   </div>
                   <p>One photo moves through quality checking, catalogue ranking, and automatic virtual try-ons.</p>
-                </div>
-                <OutfitPanel
-                  key={`guided-${guidedResetKey}`}
-                  brandId={brandId}
-                  catalogById={catalogById}
-                  mustIncludeIds={[]}
-                  onClearSelection={() => undefined}
-                  photo={guidedPhoto}
-                  photoShared={photoIsShared}
-                  onPhotoChange={(file) => updatePhoto("guided", file)}
-                />
+                </Reveal>
+                <RevealScale delay={0.1}>
+                  <OutfitPanel
+                    key={`guided-${guidedResetKey}`}
+                    brandId={brandId}
+                    catalogById={catalogById}
+                    mustIncludeIds={[]}
+                    onClearSelection={() => undefined}
+                    photo={guidedPhoto}
+                    photoShared={photoIsShared}
+                    onPhotoChange={(file) => updatePhoto("guided", file)}
+                  />
+                </RevealScale>
               </div>
             </section>
 
             <section className="demo-specific-section" id="demo-catalog">
               <div className="demo-shell">
-                <div className="demo-catalog-intro">
+                <Reveal className="demo-catalog-intro">
                   <p className="demo-overline">Optional catalogue control</p>
                   <h2>Want to try specific pieces together?</h2>
                   <p>Select the exact products to apply, then create one try-on here—without a conversation or any unselected additions.</p>
-                </div>
-                <CatalogPicker
-                  items={catalog.items}
-                  selectedIds={selectedIds}
-                  onToggle={toggleItem}
-                  onClear={() => setSelectedIds([])}
-                />
-                <div className="demo-specific-builder" id="selected-piece-builder">
-                  <OutfitPanel
-                    key={`specific-${specificResetKey}-${selectedIds.join("-")}`}
-                    mode="specific"
-                    brandId={brandId}
-                    catalogById={catalogById}
-                    mustIncludeIds={selectedIds}
-                    onClearSelection={() => setSelectedIds([])}
-                    photo={specificPhoto}
-                    photoShared={photoIsShared}
-                    onPhotoChange={(file) => updatePhoto("specific", file)}
+                </Reveal>
+                <RevealScale delay={0.1}>
+                  <CatalogPicker
+                    items={catalog.items}
+                    selectedIds={selectedIds}
+                    onToggle={toggleItem}
+                    onClear={() => setSelectedIds([])}
                   />
+                </RevealScale>
+                <div className="demo-specific-builder" id="selected-piece-builder">
+                  <RevealScale delay={0.15}>
+                    <OutfitPanel
+                      key={`specific-${specificResetKey}-${selectedIds.join("-")}`}
+                      mode="specific"
+                      brandId={brandId}
+                      catalogById={catalogById}
+                      mustIncludeIds={selectedIds}
+                      onClearSelection={() => setSelectedIds([])}
+                      photo={specificPhoto}
+                      photoShared={photoIsShared}
+                      onPhotoChange={(file) => updatePhoto("specific", file)}
+                    />
+                  </RevealScale>
                 </div>
               </div>
             </section>
-
           </>
         )}
       </main>
@@ -222,12 +232,12 @@ export default function StoreDemo({ brandId, catalog }: { brandId: string; catal
         </div>
       )}
 
-      <footer className="demo-footer">
+      <Reveal className="demo-footer" y={10}>
         <div className="demo-shell">
           <span>STYLD × {catalog.brand}</span>
           <p>Independent capability demo using public product imagery. Brand names and product assets remain the property of their owners.</p>
         </div>
-      </footer>
+      </Reveal>
     </div>
   );
 }

@@ -83,8 +83,10 @@
   place-items: center;
   background: var(--demo-ink);
   color: var(--demo-bg);
-  font-size: 15px;
-  letter-spacing: -0.08em;
+}
+.demo-mark-symbol svg {
+  width: 13px;
+  height: 16px;
 }
 .demo-nav-links { display: flex; align-items: center; gap: clamp(18px, 2.4vw, 32px); }
 .demo-nav-links a { position: relative; text-decoration: none; font-size: 13px; font-weight: 700; color: var(--demo-ink); }
@@ -264,15 +266,15 @@
 .demo-stylist-photo > img { width: 100%; height: 100%; position: absolute; inset: 0; object-fit: contain; object-position: center; background: #10100d; }
 .demo-stylist-photo.has-photo > span { position: absolute; right: 12px; bottom: 12px; left: 12px; z-index: 2; padding: 10px 12px; border: 1px solid var(--demo-ink); background: var(--demo-lime); color: var(--demo-ink); font-size: 12px; font-weight: 900; text-align: center; }
 .demo-photo-field { min-width: 0; display: grid; align-content: start; gap: 10px; }
-.demo-photo-field-meta { min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 14px; color: rgba(255, 255, 255, 0.7); font-size: 11px; font-weight: 800; }
+.demo-photo-field-meta { min-height: 38px; display: flex; align-items: center; justify-content: space-between; gap: 14px; color: rgba(255, 255, 255, 0.7); font-size: 12px; font-weight: 800; }
 .demo-photo-field-meta > span { display: inline-flex; align-items: center; gap: 7px; }
 .demo-photo-field-meta > span::before { width: 7px; height: 7px; content: ""; border-radius: 50%; background: var(--demo-lime); }
-.demo-field-clear { min-height: 34px; padding-inline: 12px; border: 1px solid rgba(255, 255, 255, 0.45); background: transparent; color: white; font-size: 11px; font-weight: 900; white-space: nowrap; }
+.demo-field-clear { min-height: 34px; padding-inline: 12px; border: 1px solid rgba(255, 255, 255, 0.45); background: transparent; color: white; font-size: 12px; font-weight: 900; white-space: nowrap; }
 .demo-field-clear:hover { border-color: var(--demo-lime); color: var(--demo-lime); }
 .demo-stylist-photo-prompt { width: 100%; height: 100%; min-height: 258px; display: grid; grid-template-columns: minmax(112px, 0.9fr) minmax(0, 1.1fr); gap: 16px; align-items: stretch; padding: 14px; color: white; }
 .demo-stylist-photo-example { position: relative; width: min(100%, 171px); aspect-ratio: 3 / 4; align-self: center; justify-self: center; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.34); background: #eeece6; }
 .demo-stylist-photo-example > img { object-fit: cover; object-position: center; }
-.demo-stylist-photo-example > span { position: absolute; top: 8px; left: 8px; z-index: 1; padding: 5px 7px; border: 1px solid var(--demo-ink); background: var(--demo-lime); color: var(--demo-ink); font-size: 9px; font-weight: 900; letter-spacing: 0.08em; line-height: 1; text-transform: uppercase; }
+.demo-stylist-photo-example > span { position: absolute; top: 8px; left: 8px; z-index: 1; padding: 5px 7px; border: 1px solid var(--demo-ink); background: var(--demo-lime); color: var(--demo-ink); font-size: 12px; font-weight: 900; letter-spacing: 0.08em; line-height: 1; text-transform: uppercase; }
 .demo-stylist-photo-copy { display: grid; align-content: center; justify-items: start; gap: 10px; text-align: left; }
 .demo-stylist-photo-copy svg { color: var(--demo-lime); }
 .demo-stylist-photo-copy strong { font-size: 18px; line-height: 1.1; }
@@ -293,18 +295,18 @@
 .demo-outfit-experience.is-specific .demo-stylist-panel { border: 0; }
 .demo-specific-plan { min-height: 258px; display: flex; flex-direction: column; padding: 22px; border: 1px solid rgba(255, 255, 255, 0.38); background: #181814; }
 .demo-specific-plan-head { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding-bottom: 14px; border-bottom: 1px solid rgba(255, 255, 255, 0.24); }
-.demo-specific-plan-head span { color: var(--demo-lime); font-size: 11px; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; }
-.demo-specific-plan-head strong { color: rgba(255, 255, 255, 0.72); font-size: 11px; text-transform: uppercase; }
+.demo-specific-plan-head span { color: var(--demo-lime); font-size: 12px; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; }
+.demo-specific-plan-head strong { color: rgba(255, 255, 255, 0.72); font-size: 12px; text-transform: uppercase; }
 .demo-specific-selection { min-height: 78px; display: flex; align-content: flex-start; flex-wrap: wrap; gap: 8px; padding-block: 17px; }
 .demo-specific-plan > p { max-width: 620px; margin: auto 0 16px; color: rgba(255, 255, 255, 0.7); font-size: 13px; line-height: 1.55; }
-.demo-specific-clear { min-height: 38px; align-self: flex-start; padding-inline: 13px; border: 1px solid rgba(255, 255, 255, 0.45); background: transparent; color: white; font-size: 11px; font-weight: 900; }
+.demo-specific-clear { min-height: 38px; align-self: flex-start; padding-inline: 13px; border: 1px solid rgba(255, 255, 255, 0.45); background: transparent; color: white; font-size: 12px; font-weight: 900; }
 .demo-outfit-experience.is-specific .demo-outfit-results { padding: 32px; border-top: 1px solid rgba(255, 255, 255, 0.34); }
 .demo-outfit-experience.is-specific .demo-outfit-grid { grid-template-columns: minmax(0, 640px); justify-content: center; }
 .demo-stylist-submit-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 2px; }
 .demo-stylist-submit-row p { max-width: 560px; margin: 0; color: rgba(255, 255, 255, 0.68); font-size: 13px; line-height: 1.55; }
 .demo-stylist-action { min-width: 292px; }
 .demo-stylist-action-group { min-width: 292px; display: grid; justify-items: stretch; gap: 8px; }
-.demo-stylist-action-hint { display: inline-flex; align-items: center; justify-content: flex-end; gap: 6px; color: var(--demo-lime); font-size: 11px; font-weight: 800; line-height: 1.35; text-align: right; }
+.demo-stylist-action-hint { display: inline-flex; align-items: center; justify-content: flex-end; gap: 6px; color: var(--demo-lime); font-size: 12px; font-weight: 800; line-height: 1.35; text-align: right; }
 .demo-stylist-action-group:hover .demo-stylist-action-hint { color: white; }
 .demo-error-line { display: flex; align-items: center; gap: 9px; margin: 0; padding: 15px 18px; border-top: 1px solid currentColor; color: #ffc0ce; font-size: 14px; font-weight: 700; line-height: 1.5; }
 .demo-spin { animation: demo-spin 800ms linear infinite; }
@@ -342,17 +344,17 @@
 .demo-outfit-card-head strong { color: var(--demo-lime); font-size: 12px; }
 .demo-outfit-card h3 { min-height: 56px; margin: 22px 0 16px; font-size: 27px; letter-spacing: -0.05em; line-height: 1.04; }
 .demo-outfit-reason { margin-bottom: 18px; padding: 13px 14px; border-left: 3px solid var(--demo-lime); background: rgba(217, 255, 99, 0.08); }
-.demo-outfit-reason > span { display: inline-flex; align-items: center; gap: 6px; color: var(--demo-lime); font-size: 10px; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; }
+.demo-outfit-reason > span { display: inline-flex; align-items: center; gap: 6px; color: var(--demo-lime); font-size: 12px; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; }
 .demo-outfit-reason p { margin: 7px 0 0; color: rgba(255, 255, 255, 0.82); font-size: 13px; line-height: 1.5; }
-.demo-outfit-shop-label { display: block; margin-bottom: 9px; color: var(--demo-lime); font-size: 10px; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; }
+.demo-outfit-shop-label { display: block; margin-bottom: 9px; color: var(--demo-lime); font-size: 12px; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; }
 .demo-outfit-items { display: grid; gap: 7px; margin-bottom: 18px; }
 .demo-outfit-product-link { min-width: 0; min-height: 56px; display: grid; grid-template-columns: 54px minmax(0, 1fr) auto; align-items: center; gap: 10px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.28); background: rgba(255, 255, 255, 0.06); color: white; text-decoration: none; }
 .demo-outfit-product-link:not(.is-unavailable):hover { border-color: var(--demo-lime); background: rgba(217, 255, 99, 0.1); }
 .demo-outfit-product-link.is-unavailable { color: rgba(255, 255, 255, 0.64); }
 .demo-outfit-thumb { width: 54px; position: relative; align-self: stretch; overflow: hidden; border-right: 1px solid rgba(255, 255, 255, 0.24); background: #eeece5; }
 .demo-outfit-thumb img { object-fit: cover; object-position: center top; }
-.demo-outfit-product-name { min-width: 0; padding-block: 8px; overflow: hidden; font-size: 11px; font-weight: 800; line-height: 1.35; text-overflow: ellipsis; }
-.demo-outfit-buy-action { display: inline-flex; align-items: center; gap: 4px; padding-right: 10px; color: var(--demo-lime); font-size: 10px; font-weight: 900; text-transform: uppercase; white-space: nowrap; }
+.demo-outfit-product-name { min-width: 0; padding-block: 8px; overflow: hidden; font-size: 12px; font-weight: 800; line-height: 1.35; text-overflow: ellipsis; }
+.demo-outfit-buy-action { display: inline-flex; align-items: center; gap: 4px; padding-right: 10px; color: var(--demo-lime); font-size: 12px; font-weight: 900; text-transform: uppercase; white-space: nowrap; }
 .demo-outfit-product-link.is-unavailable .demo-outfit-buy-action { color: rgba(255, 255, 255, 0.48); }
 
 .demo-tryon-section { padding-block: 90px; background: var(--demo-periwinkle); color: var(--demo-ink); }
@@ -600,7 +602,7 @@
   position: absolute; top: 10px; right: 10px; z-index: 2;
   min-height: 28px; display: inline-flex; align-items: center; gap: 5px; padding: 0 8px;
   border: 1px solid var(--demo-ink); background: white; color: var(--demo-ink);
-  font-size: 10px; font-weight: 900; letter-spacing: 0.04em; text-transform: uppercase;
+  font-size: 12px; font-weight: 900; letter-spacing: 0.04em; text-transform: uppercase;
   opacity: 0; transform: scale(0.8); transition: opacity 150ms ease, transform 150ms ease;
 }
 .picker-tile.is-selected .picker-tile-check {

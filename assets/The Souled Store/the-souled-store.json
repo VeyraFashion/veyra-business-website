@@ -1,0 +1,208 @@
+{
+  "brand": "The Souled Store",
+  "slug": "the-souled-store",
+  "audience": "men",
+  "source_urls": [
+    "https://www.thesouledstore.com/new-arrivals",
+    "https://www.thesouledstore.com/best-sellers"
+  ],
+  "wardrobe": [
+    {
+      "id": "souled-varsity-soft-mist",
+      "name": "Varsity T-shirt - Soft Mist",
+      "category": "top",
+      "colors": [
+        "soft mist"
+      ],
+      "tags": [
+        "v-neck",
+        "varsity",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "v-neck t-shirt",
+        "product_url": "https://www.thesouledstore.com/product/varsity-t-shirt-soft-mist-men-v-neck-t-shirts"
+      },
+      "image_path": null
+    },
+    {
+      "id": "souled-pearl-linen-shirt",
+      "name": "Cotton Linen Shirt - Pearl White",
+      "category": "top",
+      "colors": [
+        "pearl white"
+      ],
+      "tags": [
+        "cotton linen",
+        "breathable",
+        "smart casual"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "cotton-linen shirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-pearl-white-men-cotton-linen-shirts"
+      },
+      "image_path": null
+    },
+    {
+      "id": "souled-cityscape-shirt",
+      "name": "Relaxed-Fit Shirt - Cityscape",
+      "category": "top",
+      "colors": [
+        "multi"
+      ],
+      "tags": [
+        "relaxed",
+        "printed",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "relaxed shirt",
+        "product_url": "https://www.thesouledstore.com/product/relaxed-fit-shirt-cityscape-men"
+      },
+      "image_path": null
+    },
+    {
+      "id": "souled-aloe-cargo-denim",
+      "name": "Cargo Denim - Aloe Green",
+      "category": "bottom",
+      "colors": [
+        "aloe green"
+      ],
+      "tags": [
+        "cargo",
+        "denim",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "cargo jeans",
+        "product_url": "https://www.thesouledstore.com/product/cargo-denim-aloe-green-men-cargo-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "souled-dark-storm-jeans",
+      "name": "Straight-Fit Denim - Dark Storm",
+      "category": "bottom",
+      "colors": [
+        "dark blue"
+      ],
+      "tags": [
+        "denim",
+        "straight fit",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "straight jeans",
+        "product_url": "https://www.thesouledstore.com/product/straight-fit-denim-dark-storm-men-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "souled-ash-cargo-pants",
+      "name": "Solids Ash Grey Straight-Fit Cargo Pants",
+      "category": "bottom",
+      "colors": [
+        "ash grey"
+      ],
+      "tags": [
+        "cargo",
+        "straight fit",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "cargo pants",
+        "product_url": "https://www.thesouledstore.com/product/solids-ash-grey-straight-fit-mens-cargo-pants"
+      },
+      "image_path": null
+    },
+    {
+      "id": "souled-musafir-bomber",
+      "name": "Nomad Musafir Bomber Jacket",
+      "category": "outerwear",
+      "colors": [
+        "earth tone"
+      ],
+      "tags": [
+        "bomber",
+        "statement",
+        "layering"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "bomber jacket",
+        "product_url": "https://www.thesouledstore.com/product/nomad-musafir-men-bomber-jackets"
+      },
+      "image_path": null
+    },
+    {
+      "id": "souled-deadpool-high-tops",
+      "name": "Deadpool Utility Suit High-Top Sneakers",
+      "category": "footwear",
+      "colors": [
+        "red",
+        "black"
+      ],
+      "tags": [
+        "high top",
+        "graphic",
+        "statement"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "high-top sneakers",
+        "product_url": "https://www.thesouledstore.com/product/deadpool-utility-suit-men-high-top-sneakers"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "fandom_weekend_signature",
+      "occasion": "weekend",
+      "prompt": "Build a playful but grown-up casual look. Keep licensed or statement details focused rather than turning every piece into a competing theme.",
+      "mood": "expressive",
+      "weather_context": {
+        "temperature_c": 25,
+        "feels_like_c": 26,
+        "condition": "clear",
+        "wind_kph": 7
+      },
+      "preferences": {
+        "style": "polished fandom casual",
+        "avoid": [
+          "costume-like styling"
+        ]
+      },
+      "must_include_item_ids": [
+        "souled-varsity-soft-mist"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_layering",
+      "occasion": "casual",
+      "prompt": "Create a cold rainy city outfit and explicitly separate style layering from verified rain protection.",
+      "mood": "comfortable",
+      "weather_context": {
+        "temperature_c": 11,
+        "feels_like_c": 7,
+        "condition": "steady rain",
+        "precipitation_mm": 6,
+        "wind_kph": 24
+      },
+      "preferences": {
+        "style": "clean street casual"
+      },
+      "must_include_item_ids": [
+        "souled-dark-storm-jeans"
+      ],
+      "limit": 2
+    }
+  ]
+}

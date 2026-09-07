@@ -10,6 +10,7 @@ import HeroReveal from "@/components/home/HeroReveal";
 import MobileNav from "@/components/home/MobileNav";
 import RoiCalculator from "@/components/home/RoiCalculator";
 import { StoreInputsProvider } from "@/components/home/StoreInputs";
+import { Reveal, RevealGroup, RevealHero, RevealItem, RevealScale } from "@/components/Reveal";
 
 const TRY_ON_CODE = `// Queue the work and keep the PDP responsive
 POST /ai/jobs/try-on
@@ -78,37 +79,47 @@ export default function BusinessHome() {
         <div id="main-content">
           <section className="home-hero home-shell" aria-labelledby="hero-title">
             <div className="home-hero-copy">
-              <p className="home-overline">Virtual try-on + outfit intelligence for fashion commerce</p>
-              <h1 id="hero-title">Make &ldquo;Will this suit me?&rdquo; answerable &mdash; and measurable.</h1>
-              <p className="home-hero-lede">
-                Your shopper uses one photo and sees the garment on themselves, inside your
-                storefront. No re-platforming.
-              </p>
-              <div className="home-actions">
-                <a className="home-cta-primary" href="#book">
-                  Book a 20-minute walkthrough <ArrowRight size={17} aria-hidden="true" />
-                </a>
-                <a className="home-cta-quiet" href="#demo">
-                  See it in action <ArrowRight size={15} aria-hidden="true" />
-                </a>
-              </div>
+              <RevealHero delay={0}>
+                <p className="home-overline">Virtual try-on + outfit intelligence for fashion commerce</p>
+              </RevealHero>
+              <RevealHero delay={0.08}>
+                <h1 id="hero-title">Make &ldquo;Will this suit me?&rdquo; answerable &mdash; and measurable.</h1>
+              </RevealHero>
+              <RevealHero delay={0.16}>
+                <p className="home-hero-lede">
+                  Your shopper uses one photo and sees the garment on themselves, inside your
+                  storefront. No re-platforming.
+                </p>
+              </RevealHero>
+              <RevealHero delay={0.24}>
+                <div className="home-actions">
+                  <a className="home-cta-primary" href="#book">
+                    Book a 20-minute walkthrough <ArrowRight size={17} aria-hidden="true" />
+                  </a>
+                  <a className="home-cta-quiet" href="#demo">
+                    See it in action <ArrowRight size={15} aria-hidden="true" />
+                  </a>
+                </div>
+              </RevealHero>
             </div>
-            <HeroReveal />
+            <RevealHero delay={0.2} scale={0.98}>
+              <HeroReveal />
+            </RevealHero>
           </section>
 
           <div className="home-rail">
-            <div className="home-shell home-rail-inner">
-              <span>Your brand and interface stay in front</span>
+            <RevealGroup className="home-shell home-rail-inner" stagger={0.08}>
+              <RevealItem><span>Your brand and interface stay in front</span></RevealItem>
               <span aria-hidden="true">/</span>
-              <span>Start on one measurable surface</span>
+              <RevealItem><span>Start on one measurable surface</span></RevealItem>
               <span aria-hidden="true">/</span>
-              <span>Performance measured on <strong>your</strong> traffic</span>
-            </div>
+              <RevealItem><span>Performance measured on <strong>your</strong> traffic</span></RevealItem>
+            </RevealGroup>
           </div>
 
           <section className="home-cost" aria-labelledby="cost-title">
             <div className="home-shell home-cost-grid">
-              <div>
+              <Reveal>
                 <p className="home-overline is-lime">The cost of uncertainty</p>
                 <h2 id="cost-title">
                   Every garment a shopper can&rsquo;t picture on themselves is a return waiting
@@ -123,60 +134,66 @@ export default function BusinessHome() {
                   Figures beside this are arithmetic on the inputs shown, not a STYLD result.
                   Edit them in the calculator further down.
                 </p>
-              </div>
-              <CostOfUncertainty />
+              </Reveal>
+              <RevealScale delay={0.1}>
+                <CostOfUncertainty />
+              </RevealScale>
             </div>
           </section>
 
           <section className="home-section home-shell" id="demo" aria-labelledby="demo-title">
-            <div className="home-section-intro">
+            <Reveal className="home-section-intro">
               <p className="home-overline">See STYLD work</p>
               <h2 id="demo-title">Four moments. Four different outputs.</h2>
               <p>
                 Each tab shows what the shopper actually ends up looking at &mdash; not a
                 diagram of where a button would go.
               </p>
-            </div>
+            </Reveal>
 
-            <DemoShowcase />
+            <RevealScale scale={0.98} duration={0.65}>
+              <DemoShowcase />
+            </RevealScale>
 
-            <div className="home-demo-foot">
+            <Reveal className="home-demo-foot">
               <p>Want to see this on one of your own products?</p>
               <a href="#book">
                 Send us a product URL <ArrowRight size={17} aria-hidden="true" />
               </a>
-            </div>
+            </Reveal>
           </section>
 
           <section className="home-section home-difference" id="difference" aria-labelledby="difference-title">
             <div className="home-shell">
-              <div className="home-section-intro">
+              <Reveal className="home-section-intro">
                 <p className="home-overline">Why not just&hellip;</p>
                 <h2 id="difference-title">Recommendation engines don&rsquo;t know what an outfit is.</h2>
                 <p>
                   Most of these are already in your stack. Here&rsquo;s what each category
                   structurally can&rsquo;t do.
                 </p>
-              </div>
-              <ComparisonTable />
+              </Reveal>
+              <RevealScale delay={0.1}>
+                <ComparisonTable />
+              </RevealScale>
             </div>
           </section>
 
           <section className="home-section home-shell" id="evidence" aria-labelledby="evidence-title">
-            <div className="home-section-intro">
+            <Reveal className="home-section-intro">
               <p className="home-overline">Published retailer evidence</p>
               <h2 id="evidence-title">Three levers. What retailers have actually measured.</h2>
               <p>
                 Ordered by rigour, not by size &mdash; a randomised test is worth more to a
                 buying committee than a bigger number from a self-selected group.
               </p>
-            </div>
+            </Reveal>
             <EvidenceBlock />
           </section>
 
           <section className="home-section home-roi" id="roi" aria-labelledby="roi-title">
             <div className="home-shell">
-              <div className="home-section-intro">
+              <Reveal className="home-section-intro">
                 <p className="home-overline">Revenue opportunity</p>
                 <h2 id="roi-title">What could this be worth on your catalogue?</h2>
                 <p>
@@ -184,52 +201,54 @@ export default function BusinessHome() {
                   figures &mdash; a scenario model, which the pilot then replaces with
                   measurement.
                 </p>
-              </div>
-              <RoiCalculator />
+              </Reveal>
+              <RevealScale scale={0.98}>
+                <RoiCalculator />
+              </RevealScale>
             </div>
           </section>
 
           <section className="home-section home-live" id="live" aria-labelledby="live-title">
             <div className="home-shell">
-              <div className="home-section-intro">
+              <Reveal className="home-section-intro">
                 <p className="home-overline">Measurement, not a trial</p>
                 <h2 id="live-title">How it goes live.</h2>
                 <p>
                   Pilot design, integration, the API and data handling &mdash; in one place,
                   because they&rsquo;re one decision.
                 </p>
-              </div>
+              </Reveal>
 
               <div className="home-live-grid">
                 <div>
-                  <ol className="home-steps">
+                  <RevealGroup className="home-steps" stagger={0.08}>
                     {PILOT_STEPS.map((step) => (
-                      <li key={step.n}>
+                      <RevealItem key={step.n}>
                         <span className="home-step-n">{step.n}</span>
                         <div>
                           <strong>{step.title}</strong>
                           <p>{step.body}</p>
                         </div>
-                      </li>
+                      </RevealItem>
                     ))}
-                  </ol>
+                  </RevealGroup>
 
-                  <div className="home-kpi">
+                  <Reveal delay={0.15} className="home-kpi">
                     <span>Recommended executive KPI</span>
                     <strong>Incremental contribution per eligible session, after returns</strong>
-                  </div>
+                  </Reveal>
 
-                  <div className="home-pending">
+                  <Reveal delay={0.2} className="home-pending">
                     <span>[Content required]</span>
                     <p>
                       Pilot duration, commercial shape (pilot fee, per-render or per-session),
-                      and exit terms. Publish these once agreed &mdash; total silence on
-                      commercials stalls more deals than a number does.
+                      and exit terms. Publish these once agreed &mdash; do not fabricate commercial
+                      terms, and total silence on commercials stalls more deals than a number does.
                     </p>
-                  </div>
+                  </Reveal>
                 </div>
 
-                <div className="home-live-side">
+                <RevealScale delay={0.1} className="home-live-side">
                   <div className="home-api">
                     <p className="home-overline is-lime">For product and engineering</p>
                     <h3>Your customer sees the experience. Your team keeps control.</h3>
@@ -266,68 +285,33 @@ export default function BusinessHome() {
                       </li>
                     </ul>
                   </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section className="home-section home-shell" aria-labelledby="trust-title">
-            <div className="home-section-intro">
-              <p className="home-overline">Who you&rsquo;d be working with</p>
-              <h2 id="trust-title">
-                A small team, a narrow product, and a short list of design partners.
-              </h2>
-            </div>
-
-            <div className="home-trust-grid">
-              <div className="home-person">
-                <div className="home-person-photo" aria-hidden="true">Photo</div>
-                <strong>[Content required]</strong>
-                <p>
-                  Founder name, role, and one line of relevant background. This is the
-                  highest-trust-per-pixel element currently missing from the site.
-                </p>
-              </div>
-              <div className="home-person">
-                <div className="home-person-photo" aria-hidden="true">Photo</div>
-                <strong>[Content required]</strong>
-                <p>Second founder or technical lead. Do not fabricate names, titles or history.</p>
-              </div>
-              <div className="home-partner">
-                <p className="home-overline">Design-partner programme</p>
-                <h3>We&rsquo;re taking on a small number of brands for the coming season.</h3>
-                <p>
-                  A defined surface, a defined KPI, a randomised control, and preferential
-                  terms in exchange for measurement we can both learn from.
-                </p>
-                <p className="home-partner-pending">
-                  [Content required] &mdash; slot count, season dates and terms.
-                </p>
-                <a href="#book">
-                  Ask about a slot <ArrowRight size={16} aria-hidden="true" />
-                </a>
+                </RevealScale>
               </div>
             </div>
           </section>
 
           <section className="home-section home-faq-section" aria-labelledby="faq-title">
             <div className="home-shell home-faq-grid">
-              <div className="home-section-intro">
+              <Reveal className="home-section-intro">
                 <p className="home-overline">Useful questions</p>
                 <h2 id="faq-title">What a retail team should ask before a pilot.</h2>
-              </div>
-              <Faq />
+              </Reveal>
+              <RevealScale delay={0.1}>
+                <Faq />
+              </RevealScale>
             </div>
           </section>
 
           <section className="home-section home-book" id="book" aria-labelledby="book-title">
             <div className="home-shell">
-              <BookWalkthrough />
+              <RevealScale scale={0.98}>
+                <BookWalkthrough />
+              </RevealScale>
             </div>
           </section>
         </div>
 
-        <footer className="home-footer">
+        <Reveal className="home-footer" y={10}>
           <div className="home-shell home-footer-main">
             <div>
               <a className="home-mark home-mark-footer" href="#top">
@@ -353,7 +337,7 @@ export default function BusinessHome() {
             <span>&copy; 2026 STYLD</span>
             <span>Built for confidence, measured on real traffic.</span>
           </div>
-        </footer>
+        </Reveal>
       </main>
     </StoreInputsProvider>
   );
