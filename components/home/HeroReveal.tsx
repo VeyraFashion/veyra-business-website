@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import ContentSlot from "@/components/home/ContentSlot";
 
 /** Before/after comparison: your flat catalogue shot vs. the same garment on a shopper.
  *
@@ -21,18 +20,24 @@ export default function HeroReveal() {
       <div className="reveal-frame">
         {/* AFTER (base layer): the try-on result. */}
         <div className="reveal-after">
-          <ContentSlot label="Try-on result — the same garment on a real person" />
+          <Image
+            src="/brand-assets/static/result/brown_tshirt_res.png"
+            alt="Brown t-shirt virtual try-on result on shopper"
+            fill
+            sizes="(max-width: 1020px) 92vw, 640px"
+            style={{ objectFit: "contain", background: "#f0ede6" }}
+          />
         </div>
 
         {/* BEFORE: clipped from the left edge to the handle. */}
         <div className="reveal-before" style={{ clipPath: `inset(0 ${100 - reveal}% 0 0)` }}>
           <Image
-            src="/field-jacket.png"
-            alt="Olive field jacket, flat catalogue shot"
+            src="/brand-assets/static/sample/brown_tshirt.png"
+            alt="Brown t-shirt, flat catalogue shot"
             fill
             priority
             sizes="(max-width: 1020px) 92vw, 640px"
-            style={{ objectFit: "contain", padding: "8%" }}
+            style={{ objectFit: "contain", padding: "10%", background: "#f0ede6" }}
           />
         </div>
 
@@ -55,10 +60,6 @@ export default function HeroReveal() {
           <span>↔</span>
         </div>
       </div>
-      <figcaption className="reveal-caption">
-        Drag to compare. <strong>[Content required]</strong> — drop a real try-on still into
-        the right-hand panel. Use a brand-anonymised crop or your own shot garments.
-      </figcaption>
     </figure>
   );
 }

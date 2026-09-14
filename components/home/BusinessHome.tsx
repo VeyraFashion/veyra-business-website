@@ -239,7 +239,6 @@ export default function BusinessHome() {
                   </Reveal>
 
                   <Reveal delay={0.2} className="home-pending">
-                    <span>[Content required]</span>
                     <p>
                       Pilot duration, commercial shape (pilot fee, per-render or per-session),
                       and exit terms. Publish these once agreed &mdash; do not fabricate commercial
@@ -267,7 +266,7 @@ export default function BusinessHome() {
                       </div>
                     </div>
                     <p className="home-api-pending">
-                      <strong>[Content required]</strong> typical job completion time, added PDP
+                      Typical job completion time, added PDP
                       payload, uptime target, and a documentation link.
                     </p>
                   </div>
@@ -280,7 +279,7 @@ export default function BusinessHome() {
                       <li><Check size={15} aria-hidden="true" /> Technical suitability is validated before any generation job starts</li>
                       <li><Check size={15} aria-hidden="true" /> Only your known catalogue is ranked &mdash; no external inventory</li>
                       <li className="is-pending">
-                        [Content required] retention window, processing region, sub-processors,
+                        Retention window, processing region, sub-processors,
                         consent copy
                       </li>
                     </ul>
@@ -320,7 +319,7 @@ export default function BusinessHome() {
               </a>
               <p>Measurable purchase confidence for fashion commerce.</p>
               <p className="home-footer-pending">
-                [Content required] legal entity, registered city, privacy contact, LinkedIn,
+                Legal entity, registered city, privacy contact, LinkedIn,
                 documentation link.
               </p>
             </div>

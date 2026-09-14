@@ -340,7 +340,7 @@
 .reveal { margin: 0; position: relative; }
 .reveal-frame {
   position: relative; border: 1px solid var(--home-ink); background: #e4e1d7;
-  box-shadow: 18px 18px 0 var(--home-cobalt); aspect-ratio: 4 / 3.05; overflow: hidden;
+  box-shadow: 18px 18px 0 var(--home-cobalt); aspect-ratio: 3 / 4; overflow: hidden;
 }
 .reveal-after, .reveal-before { position: absolute; inset: 0; }
 .reveal-before { background: #e4e1d7; }

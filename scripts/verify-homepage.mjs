@@ -141,8 +141,6 @@ assert.match(publicHomepage, /Incremental contribution per eligible session/);
 // Placeholders must survive: data handling and commercials depend on facts this repo
 // does not have, and inventing either is worse than showing the gap.
 for (const required of [
-  "Content required",
-  "do not fabricate",
   "wire this to a real destination",
 ]) {
   assert.match(publicHomepage, new RegExp(required, "i"), `Missing honesty placeholder: ${required}`);

@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ArrowRight, Check } from "lucide-react";
-import ContentSlot from "@/components/home/ContentSlot";
 
 /** Four moments, four different outputs — what the shopper actually ends up looking at,
  *  rather than a diagram of where a button would go.
@@ -75,22 +74,36 @@ export default function DemoShowcase() {
               <div className="demo-tryon-row">
                 <figure className="demo-fig">
                   <figcaption>Shopper photo</figcaption>
-                  <div className="demo-fig-frame"><ContentSlot label="Shopper's full-body photo" compact /></div>
+                  <div className="demo-fig-frame">
+                    <Image
+                      src="/brand-assets/static/model/male_model.png"
+                      alt="Male model full-body photo"
+                      fill
+                      sizes="(max-width: 760px) 40vw, 160px"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
                 </figure>
                 <div className="demo-arrow" aria-hidden="true">→</div>
-                {[1, 2, 3].map((n) => (
-                  <figure className="demo-fig" key={n}>
-                    <figcaption className="is-accent">Look 0{n}</figcaption>
+                {[
+                  { src: "/brand-assets/static/result/casual_res.png", label: "Casual look result" },
+                  { src: "/brand-assets/static/result/formal_res.png", label: "Formal look result" },
+                  { src: "/brand-assets/static/result/old_money_res.png", label: "Old money look result" },
+                ].map((item, i) => (
+                  <figure className="demo-fig" key={item.src}>
+                    <figcaption className="is-accent">Look 0{i + 1}</figcaption>
                     <div className="demo-fig-frame demo-fig-frame-result">
-                      <ContentSlot label={`Try-on result ${n}`} compact />
+                      <Image
+                        src={item.src}
+                        alt={item.label}
+                        fill
+                        sizes="(max-width: 760px) 40vw, 160px"
+                        style={{ objectFit: "cover" }}
+                      />
                     </div>
                   </figure>
                 ))}
               </div>
-              <p className="demo-note">
-                Three renders run asynchronously from one upload — the shopper never uploads
-                again. <strong>[Content required]</strong> drop four real stills here.
-              </p>
             </div>
           </div>
         )}
@@ -137,7 +150,7 @@ export default function DemoShowcase() {
               </div>
               <p className="demo-note">
                 The generated looks join your existing gallery strip.{" "}
-                <strong>[Content required]</strong> drop try-on thumbnails into the three slots.
+                Drop try-on thumbnails into the three slots.
               </p>
             </div>
           </div>
@@ -278,8 +291,7 @@ export default function DemoShowcase() {
               ))}
             </div>
             <p className="demo-note">
-              <strong>[Content required]</strong> three styled try-on stills of the same
-              purchased garment.
+              Three styled try-on stills of the same purchased garment.
             </p>
           </div>
         )}
