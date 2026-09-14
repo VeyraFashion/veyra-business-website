@@ -5,6 +5,7 @@ import {
   evidenceByLever,
   type Lever,
 } from "@/lib/evidence";
+import { RevealGroup, RevealItem } from "@/components/Reveal";
 
 /** The site's ONLY evidence block.
  *
@@ -24,60 +25,64 @@ const LEVERS: { id: Lever; label: string; question: string }[] = [
 export default function EvidenceBlock() {
   return (
     <div className="ev">
-      <div className="ev-grid">
+      <RevealGroup className="ev-grid" stagger={0.08}>
         {LEVERS.map((lever) => (
-          <section className="ev-col" key={lever.id} aria-label={lever.label}>
-            <header className="ev-col-head">
-              <h3>{lever.label}</h3>
-              <p>{lever.question}</p>
-            </header>
+          <RevealItem className="ev-col" key={lever.id}>
+            <section aria-label={lever.label}>
+              <header className="ev-col-head">
+                <h3>{lever.label}</h3>
+                <p>{lever.question}</p>
+              </header>
 
-            {evidenceByLever(lever.id).map((item) => (
-              <article
-                className={item.emphasis === "primary" ? "ev-item" : "ev-item ev-item-secondary"}
-                key={item.id}
-              >
-                <strong className="ev-metric">{item.metric}</strong>
-                <em className="ev-label">{item.label}</em>
-                <div className="ev-source">
-                  <span className="ev-brand">{item.brand}</span>
-                  <span
-                    className={
-                      item.methodology === "adjacent_category"
-                        ? "ev-badge ev-badge-flag"
-                        : "ev-badge"
-                    }
-                  >
-                    {METHODOLOGY_LABEL[item.methodology]}
-                  </span>
-                </div>
-                {item.note && <p className="ev-note">{item.note}</p>}
-                <a href={item.sourceUrl} target="_blank" rel="noreferrer">
-                  Source <ArrowUpRight size={13} aria-hidden="true" />
-                </a>
-              </article>
-            ))}
-          </section>
+              {evidenceByLever(lever.id).map((item) => (
+                <article
+                  className={item.emphasis === "primary" ? "ev-item" : "ev-item ev-item-secondary"}
+                  key={item.id}
+                >
+                  <strong className="ev-metric">{item.metric}</strong>
+                  <em className="ev-label">{item.label}</em>
+                  <div className="ev-source">
+                    <span className="ev-brand">{item.brand}</span>
+                    <span
+                      className={
+                        item.methodology === "adjacent_category"
+                          ? "ev-badge ev-badge-flag"
+                          : "ev-badge"
+                      }
+                    >
+                      {METHODOLOGY_LABEL[item.methodology]}
+                    </span>
+                  </div>
+                  {item.note && <p className="ev-note">{item.note}</p>}
+                  <a href={item.sourceUrl} target="_blank" rel="noreferrer">
+                    Source <ArrowUpRight size={13} aria-hidden="true" />
+                  </a>
+                </article>
+              ))}
+            </section>
+          </RevealItem>
         ))}
 
-        <section className="ev-col ev-col-yours" aria-label="What we will measure on yours">
-          <header className="ev-col-head">
-            <h3 className="is-lime">Yours</h3>
-            <p>And what will we measure?</p>
-          </header>
-          <div className="ev-yours-body">
-            <p className="ev-yours-lead">None of the numbers to the left are ours.</p>
-            <p className="ev-yours-copy">
-              They tell you the category opportunity. A STYLD pilot tells you the answer for
-              your catalogue, your shoppers and your economics — against a randomised control
-              where your traffic allows it.
-            </p>
-            <p className="ev-yours-kicker">
-              We are the vendor willing to run a control group against ourselves.
-            </p>
-          </div>
-        </section>
-      </div>
+        <RevealItem className="ev-col ev-col-yours">
+          <section aria-label="What we will measure on yours">
+            <header className="ev-col-head">
+              <h3 className="is-lime">Yours</h3>
+              <p>And what will we measure?</p>
+            </header>
+            <div className="ev-yours-body">
+              <p className="ev-yours-lead">None of the numbers to the left are ours.</p>
+              <p className="ev-yours-copy">
+                They tell you the category opportunity. A STYLD pilot tells you the answer for
+                your catalogue, your shoppers and your economics — against a randomised control
+                where your traffic allows it.
+              </p>
+              <p className="ev-yours-kicker">
+                We are the vendor willing to run a control group against ourselves.
+              </p>
+            </div>
+          </section>
+        </RevealItem>
+      </RevealGroup>
 
       <details className="ev-disclosure">
         <summary>Methodology and disclosure</summary>

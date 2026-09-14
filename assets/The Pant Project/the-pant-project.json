@@ -1,0 +1,217 @@
+{
+  "brand": "The Pant Project",
+  "slug": "the-pant-project",
+  "audience": "men",
+  "source_urls": [
+    "https://pantproject.com/collections/ready-to-wear-pants-collection"
+  ],
+  "wardrobe": [
+    {
+      "id": "pant-everyday-black-formal",
+      "name": "Everyday Black Slim Fit Stretch Formal Pants",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "formal",
+        "work",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "slim formal trousers",
+        "product_url": "https://pantproject.com/products/everyday-black-slim-fit-stretch-formal-pants"
+      },
+      "image_path": null
+    },
+    {
+      "id": "pant-inklock-black-jeans",
+      "name": "Inklock No Fade Black Relaxed Fit Jeans",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "denim",
+        "relaxed",
+        "no fade",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "relaxed jeans",
+        "product_url": "https://pantproject.com/products/inklock-black-no-fade-relaxed-fit-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "pant-brisk-water-repellent",
+      "name": "Brisk Black Water Repellent Relaxed Fit Stretch Formal Pants",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "formal",
+        "water repellent",
+        "stretch",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "water-repellent formal trousers",
+        "product_url": "https://pantproject.com/products/brisk-black-water-repellant-relaxed-fit-stretch-formal-pant"
+      },
+      "image_path": null
+    },
+    {
+      "id": "pant-malai-black",
+      "name": "Malai Black Soft-Touch Slim Fit Power Stretch Pants",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "soft touch",
+        "power stretch",
+        "work"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "power-stretch trousers",
+        "product_url": "https://pantproject.com/products/malai-black-soft-touch-slim-fit-power-stretch-pants"
+      },
+      "image_path": null
+    },
+    {
+      "id": "pant-deep-black-stretch",
+      "name": "Deep Black Slim Fit Power Stretch Pants",
+      "category": "bottom",
+      "colors": [
+        "deep black"
+      ],
+      "tags": [
+        "power stretch",
+        "slim",
+        "work"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "slim stretch trousers",
+        "product_url": "https://pantproject.com/products/deep-black-slim-fit-power-stretch-pants"
+      },
+      "image_path": null
+    },
+    {
+      "id": "pant-daily-navy-formal",
+      "name": "Daily Navy Slim Fit Stretch Formal Pants",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "formal",
+        "stretch",
+        "work"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "slim formal trousers",
+        "product_url": "https://pantproject.com/products/navy-blue-slim-fit-stretch-formal-pants"
+      },
+      "image_path": null
+    },
+    {
+      "id": "pant-ecru-relaxed-jeans",
+      "name": "Ecru Beige Relaxed Fit Jeans",
+      "category": "bottom",
+      "colors": [
+        "ecru beige"
+      ],
+      "tags": [
+        "denim",
+        "relaxed",
+        "smart casual"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "relaxed jeans",
+        "product_url": "https://pantproject.com/products/ecru-beige-relaxed-fit-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "pant-dark-grey-stretch",
+      "name": "Dark Grey Slim Fit Power Stretch Pants",
+      "category": "bottom",
+      "colors": [
+        "dark grey"
+      ],
+      "tags": [
+        "power stretch",
+        "slim",
+        "work"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "slim stretch trousers",
+        "product_url": "https://pantproject.com/products/dark-grey-slim-fit-power-stretch-pants"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "work_gap_signature",
+      "occasion": "work",
+      "prompt": "Build around the required trousers. Do not invent a shirt or shoes; identify the exact missing slots needed for a credible office look.",
+      "mood": "authoritative",
+      "weather_context": {
+        "temperature_c": 25,
+        "feels_like_c": 26,
+        "condition": "clear",
+        "wind_kph": 5
+      },
+      "preferences": {
+        "style": "modern professional",
+        "workplace": "business casual"
+      },
+      "must_include_item_ids": [
+        "pant-daily-navy-formal"
+      ],
+      "expected_missing_slots": [
+        "base_top"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_gap",
+      "occasion": "travel",
+      "prompt": "Use the water-repellent pants but be precise that bottomwear alone is not a complete cold rainy travel outfit.",
+      "mood": "practical",
+      "weather_context": {
+        "temperature_c": 9,
+        "feels_like_c": 5,
+        "condition": "heavy rain and wind",
+        "precipitation_mm": 10,
+        "wind_kph": 31
+      },
+      "preferences": {
+        "style": "functional minimal",
+        "priorities": [
+          "weather protection",
+          "mobility"
+        ]
+      },
+      "must_include_item_ids": [
+        "pant-brisk-water-repellent"
+      ],
+      "expected_missing_slots": [
+        "base_top",
+        "outerwear"
+      ],
+      "limit": 2
+    }
+  ]
+}

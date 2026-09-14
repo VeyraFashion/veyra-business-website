@@ -33,7 +33,7 @@ export default function BookWalkthrough() {
           Request the walkthrough <ArrowRight size={17} aria-hidden="true" />
         </button>
         <p className="book-note" id="book-form-note">
-          <strong>[Content required]</strong> wire this to a real destination — a scheduling
+          Wire this to a real destination — a scheduling
           link or a form endpoint — plus a fallback email address. Until then the button is
           disabled rather than silently discarding what someone types.
         </p>

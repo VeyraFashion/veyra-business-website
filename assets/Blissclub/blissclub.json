@@ -1,0 +1,217 @@
+{
+  "brand": "Blissclub",
+  "slug": "blissclub",
+  "audience": "women",
+  "source_urls": [
+    "https://blissclub.com/collections/all",
+    "https://blissclub.com/pages/activewear"
+  ],
+  "wardrobe": [
+    {
+      "id": "bliss-aerocool-classic-tee",
+      "name": "AeroCool Training Classic Tee",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "gym",
+        "training",
+        "quick-dry",
+        "breathable"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "technical training t-shirt",
+        "fit": "classic",
+        "product_url": "https://blissclub.com/products/aerocool-training-classic-tee"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bliss-aerocool-crossback-tank",
+      "name": "AeroCool Training Crossback Tank",
+      "category": "top",
+      "colors": [
+        "lilac"
+      ],
+      "tags": [
+        "gym",
+        "training",
+        "quick-dry",
+        "sleeveless"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "technical training tank",
+        "fit": "crossback",
+        "product_url": "https://blissclub.com/products/aerocool-nylon-crossback-tank-top-for-workout-and-running"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bliss-ultimate-tank",
+      "name": "Ultimate Tank",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "casual",
+        "layering",
+        "breathable"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "fitted tank",
+        "fabric": "CloudSoft",
+        "product_url": "https://blissclub.com/products/ultimate-tank"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bliss-airmelt-skorts",
+      "name": "AirMelt Skorts",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "gym",
+        "training",
+        "run",
+        "shorts"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "technical skort",
+        "product_url": "https://blissclub.com/products/airmelt-skorts"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bliss-airmelt-joggers",
+      "name": "AirMelt Joggers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "walk",
+        "travel",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "joggers",
+        "fit": "straight",
+        "product_url": "https://blissclub.com/products/airmelt-joggers"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bliss-amp-flare-pants",
+      "name": "AM:PM Cotton Flare Pants",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "citywear",
+        "work",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "cotton flare pants",
+        "product_url": "https://blissclub.com/products/am-pm-cotton-flare-pants"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bliss-aerlight-packable-jacket",
+      "name": "AerLight Packable Jacket",
+      "category": "outerwear",
+      "colors": [
+        "blush pink"
+      ],
+      "tags": [
+        "lightweight",
+        "packable",
+        "travel",
+        "run"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "lightweight jacket",
+        "fabric": "polyester",
+        "product_url": "https://blissclub.com/products/lightweight-packable-polyester-jacket-with-back-pocket-and-ponytail-hole"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bliss-airmelt-zippered-jacket",
+      "name": "AirMelt Zippered Jacket",
+      "category": "outerwear",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "walk",
+        "travel",
+        "layering"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "zippered jacket",
+        "product_url": "https://blissclub.com/products/airmelt-zippered-jacket"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "hot_gym_signature",
+      "occasion": "gym",
+      "prompt": "Create genuinely performance-ready strength-training looks; avoid decorative or heat-trapping layers.",
+      "mood": "focused",
+      "weather_context": {
+        "temperature_c": 33,
+        "feels_like_c": 37,
+        "condition": "hot and humid",
+        "humidity_percent": 78
+      },
+      "preferences": {
+        "style": "sleek activewear",
+        "priorities": [
+          "mobility",
+          "sweat management"
+        ]
+      },
+      "must_include_item_ids": [
+        "bliss-aerocool-classic-tee"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_layering",
+      "occasion": "casual",
+      "prompt": "Build a practical, composed errands look and be explicit about any protection this wardrobe cannot provide.",
+      "mood": "comfortable",
+      "weather_context": {
+        "temperature_c": 11,
+        "feels_like_c": 8,
+        "condition": "steady rain",
+        "precipitation_mm": 7,
+        "wind_kph": 24
+      },
+      "preferences": {
+        "style": "clean athleisure"
+      },
+      "must_include_item_ids": [
+        "bliss-airmelt-joggers"
+      ],
+      "limit": 2
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "brand": "FREAKINS",
+  "slug": "freakins",
+  "audience": "women",
+  "source_urls": [
+    "https://freakins.com/collections/all-pr",
+    "https://freakins.com/collections/womens-tops-tees-shirts"
+  ],
+  "wardrobe": [
+    {
+      "id": "freakins-jet-black-wide-jeans",
+      "name": "Jet Black High-Rise Stretchable Wide-Leg Jeans",
+      "category": "bottom",
+      "colors": [
+        "jet black"
+      ],
+      "tags": [
+        "denim",
+        "wide leg",
+        "high rise",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "wide-leg jeans",
+        "fabric": "cotton blend stretch denim",
+        "product_url": "https://freakins.com/products/women-jet-black-high-rise-stretchable-wide-leg-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "freakins-black-bootcut-jeans",
+      "name": "Black High-Rise Stretchable Bootcut Jeans",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "denim",
+        "bootcut",
+        "high rise",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "bootcut jeans",
+        "fabric": "cotton blend stretch denim",
+        "product_url": "https://freakins.com/products/women-black-high-rise-stretchable-bootcut-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "freakins-light-indigo-floral-wide-jeans",
+      "name": "Light Indigo Floral High-Rise Stretchable Wide-Leg Jeans",
+      "category": "bottom",
+      "colors": [
+        "light indigo"
+      ],
+      "tags": [
+        "denim",
+        "floral",
+        "wide leg",
+        "high rise",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "floral wide-leg jeans",
+        "fabric": "cotton blend stretch denim",
+        "product_url": "https://freakins.com/products/women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "freakins-blue-straight-jeans",
+      "name": "Blue High-Rise Stretchable Straight Jeans",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "denim",
+        "straight",
+        "high rise",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "straight jeans",
+        "fabric": "cotton blend stretch denim",
+        "product_url": "https://freakins.com/products/women-blue-high-rise-stretchable-straight-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "freakins-indigo-wide-jeans",
+      "name": "Indigo High-Rise Stretchable Wide-Leg Jeans",
+      "category": "bottom",
+      "colors": [
+        "indigo"
+      ],
+      "tags": [
+        "denim",
+        "wide leg",
+        "high rise",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "wide-leg jeans",
+        "fabric": "cotton blend stretch denim",
+        "product_url": "https://freakins.com/products/women-indigo-high-rise-stretchable-wide-leg-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "freakins-mid-blue-wide-jeans",
+      "name": "Mid Blue High-Rise Stretchable Wide-Leg Jeans",
+      "category": "bottom",
+      "colors": [
+        "mid blue"
+      ],
+      "tags": [
+        "denim",
+        "wide leg",
+        "high rise",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "wide-leg jeans",
+        "fabric": "cotton blend stretch denim",
+        "product_url": "https://freakins.com/products/women-mid-blue-high-rise-stretchable-wide-leg-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "freakins-dark-indigo-bootcut-jeans",
+      "name": "Dark Indigo High-Rise Stretchable Bootcut Jeans",
+      "category": "bottom",
+      "colors": [
+        "dark indigo"
+      ],
+      "tags": [
+        "denim",
+        "bootcut",
+        "high rise",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "bootcut jeans",
+        "fabric": "cotton blend stretch denim",
+        "product_url": "https://freakins.com/products/women-dark-indigo-high-rise-stretchable-bootcut-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "freakins-curve-blue-slouchy-jeans",
+      "name": "Curve Blue High-Rise Stretchable Slouchy Jeans",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "denim",
+        "slouchy",
+        "high rise",
+        "curve",
+        "stretch"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "slouchy jeans",
+        "fabric": "cotton blend stretch denim",
+        "product_url": "https://freakins.com/products/curve-blue-high-rise-stretchable-slouchy-jeans"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "night_out_signature",
+      "occasion": "party",
+      "prompt": "Build around the required jeans for a night out. Do not invent a top, shoes, or accessories; describe the missing top precisely enough to complete the silhouette.",
+      "mood": "edgy",
+      "weather_context": {
+        "temperature_c": 24,
+        "feels_like_c": 25,
+        "condition": "clear evening",
+        "wind_kph": 5
+      },
+      "preferences": {
+        "style": "dark contemporary",
+        "priorities": [
+          "strong silhouette",
+          "movement comfort"
+        ]
+      },
+      "must_include_item_ids": [
+        "freakins-black-bootcut-jeans"
+      ],
+      "expected_missing_slots": [
+        "base_top"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_layering",
+      "occasion": "casual",
+      "prompt": "Use the required jeans but clearly identify the missing base top and weatherproof outerwear rather than inventing them.",
+      "mood": "relaxed",
+      "weather_context": {
+        "temperature_c": 11,
+        "feels_like_c": 8,
+        "condition": "rain",
+        "precipitation_mm": 6,
+        "wind_kph": 22
+      },
+      "preferences": {
+        "style": "minimal denim"
+      },
+      "must_include_item_ids": [
+        "freakins-jet-black-wide-jeans"
+      ],
+      "expected_missing_slots": [
+        "base_top",
+        "outerwear"
+      ],
+      "limit": 2
+    }
+  ]
+}

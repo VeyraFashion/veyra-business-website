@@ -1,0 +1,214 @@
+{
+  "brand": "Urban Monkey",
+  "slug": "urban-monkey",
+  "audience": "men/unisex",
+  "source_urls": [
+    "https://www.urbanmonkey.com/collections/all"
+  ],
+  "wardrobe": [
+    {
+      "id": "urban-le-classique-black",
+      "name": "Le Classique Boxy Shirt - Black",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "boxy",
+        "camp collar",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "boxy camp-collar shirt",
+        "fabric": "cotton poplin",
+        "product_url": "https://www.urbanmonkey.com/products/le-classique-boxy-shirt-black"
+      },
+      "image_path": null
+    },
+    {
+      "id": "urban-le-classique-sage",
+      "name": "Le Classique Boxy Shirt - Sage Green",
+      "category": "top",
+      "colors": [
+        "sage green"
+      ],
+      "tags": [
+        "boxy",
+        "camp collar",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "boxy camp-collar shirt",
+        "fabric": "cotton poplin",
+        "product_url": "https://www.urbanmonkey.com/products/le-classique-boxy-shirt-sage-green"
+      },
+      "image_path": null
+    },
+    {
+      "id": "urban-vintage-moss-shirt",
+      "name": "Vintage Moss Shirt",
+      "category": "top",
+      "colors": [
+        "moss green"
+      ],
+      "tags": [
+        "check",
+        "textured",
+        "vintage"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "check shirt",
+        "fabric": "cotton dobby",
+        "product_url": "https://www.urbanmonkey.com/products/vintage-moss-shirt"
+      },
+      "image_path": null
+    },
+    {
+      "id": "urban-wide-leg-trousers",
+      "name": "Relaxed Wide-Leg Trousers - Black",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "wide leg",
+        "relaxed",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "wide-leg trousers",
+        "product_url": "https://www.urbanmonkey.com/products/relaxed-wide-leg-trousers-black"
+      },
+      "image_path": null
+    },
+    {
+      "id": "urban-adjustable-cargo",
+      "name": "Adjustable Cargo Pants - Black",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "cargo",
+        "techwear",
+        "utility"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "cargo pants",
+        "product_url": "https://www.urbanmonkey.com/products/techwear-cargo-pants-001"
+      },
+      "image_path": null
+    },
+    {
+      "id": "urban-commuter-jacket",
+      "name": "The Commuter - JK02",
+      "category": "outerwear",
+      "colors": [
+        "olive"
+      ],
+      "tags": [
+        "utility",
+        "ripstop",
+        "commuter"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "utility jacket",
+        "fabric": "ripstop nylon",
+        "product_url": "https://www.urbanmonkey.com/products/the-commuter-jk02"
+      },
+      "image_path": null
+    },
+    {
+      "id": "urban-concept-jacket",
+      "name": "Concept Jacket 001",
+      "category": "outerwear",
+      "colors": [
+        "multi"
+      ],
+      "tags": [
+        "patchwork",
+        "limited edition",
+        "statement"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "patchwork jacket",
+        "product_url": "https://www.urbanmonkey.com/products/concept-jacket-001"
+      },
+      "image_path": null
+    },
+    {
+      "id": "urban-utility-cap",
+      "name": "Utility Black 5-Panel Dad Cap",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "cap",
+        "utility",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "cap",
+        "product_url": "https://www.urbanmonkey.com/products/utility"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "creative_weekend_signature",
+      "occasion": "weekend",
+      "prompt": "Build intentional contemporary streetwear with disciplined proportions and only one statement layer.",
+      "mood": "creative",
+      "weather_context": {
+        "temperature_c": 22,
+        "feels_like_c": 22,
+        "condition": "overcast",
+        "wind_kph": 12
+      },
+      "preferences": {
+        "style": "utility streetwear",
+        "avoid": [
+          "competing prints"
+        ]
+      },
+      "must_include_item_ids": [
+        "urban-le-classique-sage"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_layering",
+      "occasion": "outdoor",
+      "prompt": "Create an exposed-city walking look and distinguish ripstop durability from confirmed waterproofing.",
+      "mood": "functional",
+      "weather_context": {
+        "temperature_c": 10,
+        "feels_like_c": 6,
+        "condition": "rain and gusts",
+        "precipitation_mm": 7,
+        "wind_kph": 34
+      },
+      "preferences": {
+        "style": "technical utility",
+        "priorities": [
+          "movement",
+          "weather safety"
+        ]
+      },
+      "must_include_item_ids": [
+        "urban-commuter-jacket"
+      ],
+      "limit": 2
+    }
+  ]
+}

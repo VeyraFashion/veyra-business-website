@@ -1,0 +1,208 @@
+{
+  "brand": "BEWAKOOF",
+  "slug": "bewakoof",
+  "audience": "men",
+  "source_urls": [
+    "https://www.bewakoof.com/men-clothing"
+  ],
+  "wardrobe": [
+    {
+      "id": "bewakoof-black-linen-shirt",
+      "name": "Men's Jet Black Cotton Linen Shirt",
+      "category": "top",
+      "colors": [
+        "jet black"
+      ],
+      "tags": [
+        "cotton linen",
+        "smart casual",
+        "breathable"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "cotton-linen shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-shirt-men"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-textured-shirt",
+      "name": "Men's Off White and Black Textured Oversized Shirt",
+      "category": "top",
+      "colors": [
+        "off white",
+        "black"
+      ],
+      "tags": [
+        "textured",
+        "oversized",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "oversized shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-black-striped-oversized-shirt-men-black-plain"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-black-oversized-tee",
+      "name": "Men's Black Oversized T-shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "cotton",
+        "oversized",
+        "basic"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "oversized t-shirt",
+        "product_url": "https://www.bewakoof.com/p/men-black-plain-plain-t-shirt"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-champ-graphic-tee",
+      "name": "Men's Jet Black Champ Graphic Oversized T-shirt",
+      "category": "top",
+      "colors": [
+        "jet black"
+      ],
+      "tags": [
+        "graphic",
+        "oversized",
+        "streetwear"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "graphic t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-champ-graphic-printed-oversized-t-shirt"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-grey-joggers",
+      "name": "Men's Grey Joggers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "terry cotton",
+        "casual",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "joggers",
+        "product_url": "https://www.bewakoof.com/p/mens-grey-joggers-73"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-black-cargo-jeans",
+      "name": "Men's Black Baggy Fit Cargo Mid-Rise Jeans",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "denim",
+        "cargo",
+        "baggy"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "cargo jeans",
+        "product_url": "https://www.bewakoof.com/p/mens-black-regular-fit-denim"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-navy-shorts",
+      "name": "Men's Navy Blue Shorts",
+      "category": "bottom",
+      "colors": [
+        "navy blue"
+      ],
+      "tags": [
+        "shorts",
+        "casual",
+        "summer"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "casual shorts",
+        "product_url": "https://www.bewakoof.com/p/mens-plain-casual-short"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-windcheater",
+      "name": "Men's White and Blue Color Block Hooded Windcheater Jacket",
+      "category": "outerwear",
+      "colors": [
+        "white",
+        "blue"
+      ],
+      "tags": [
+        "windcheater",
+        "hooded",
+        "lightweight"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "hooded windbreaker",
+        "product_url": "https://www.bewakoof.com/p/mens-white-grey-color-block-windcheater-jacket"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "casual_signature",
+      "occasion": "casual",
+      "prompt": "Create elevated everyday looks from accessible streetwear basics; control oversized proportions so the outfit feels intentional.",
+      "mood": "easygoing",
+      "weather_context": {
+        "temperature_c": 29,
+        "feels_like_c": 32,
+        "condition": "sunny and humid",
+        "humidity_percent": 70
+      },
+      "preferences": {
+        "style": "relaxed streetwear",
+        "priorities": [
+          "breathability"
+        ]
+      },
+      "must_include_item_ids": [
+        "bewakoof-textured-shirt"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_layering",
+      "occasion": "casual",
+      "prompt": "Build a rainy commute look and assess whether the windcheater offers enough warmth for the stated temperature.",
+      "mood": "practical",
+      "weather_context": {
+        "temperature_c": 10,
+        "feels_like_c": 6,
+        "condition": "rain and wind",
+        "precipitation_mm": 7,
+        "wind_kph": 29
+      },
+      "preferences": {
+        "style": "clean casual"
+      },
+      "must_include_item_ids": [
+        "bewakoof-windcheater"
+      ],
+      "limit": 2
+    }
+  ]
+}

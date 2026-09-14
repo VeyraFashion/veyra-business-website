@@ -1,0 +1,210 @@
+{
+  "brand": "NEWME",
+  "slug": "newme",
+  "audience": "women",
+  "source_urls": [
+    "https://www.newme.asia/collection/denim-products",
+    "https://www.newme.asia/womens-collection"
+  ],
+  "wardrobe": [
+    {
+      "id": "newme-light-brown-halter",
+      "name": "Light Brown Solid Halter Top",
+      "category": "top",
+      "colors": [
+        "light brown"
+      ],
+      "tags": [
+        "party",
+        "halter",
+        "fitted"
+      ],
+      "metadata": {
+        "brand": "NEWME",
+        "subcategory": "halter blouse",
+        "product_url": "https://www.newme.asia/product/light-brown-solid-halter-top"
+      },
+      "image_path": null
+    },
+    {
+      "id": "newme-light-pink-striped-shirt",
+      "name": "Light Pink Striped Shirt",
+      "category": "top",
+      "colors": [
+        "light pink",
+        "striped"
+      ],
+      "tags": [
+        "oversized",
+        "everyday",
+        "layering"
+      ],
+      "metadata": {
+        "brand": "NEWME",
+        "subcategory": "oversized shirt",
+        "product_url": "https://www.newme.asia/product/light-pink-striped-shirt-7"
+      },
+      "image_path": null
+    },
+    {
+      "id": "newme-black-regular-tee",
+      "name": "Black Round Neck Regular T-shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "basic",
+        "casual",
+        "regular fit"
+      ],
+      "metadata": {
+        "brand": "NEWME",
+        "subcategory": "round-neck t-shirt",
+        "product_url": "https://www.newme.asia/product/black-round-neck-regular-tshirt"
+      },
+      "image_path": null
+    },
+    {
+      "id": "newme-wide-leg-jeans",
+      "name": "Mid Rise Relaxed Fit Wide Legged Jeans",
+      "category": "bottom",
+      "colors": [
+        "light blue"
+      ],
+      "tags": [
+        "denim",
+        "wide leg",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "NEWME",
+        "subcategory": "wide-leg jeans",
+        "fit": "relaxed",
+        "product_url": "https://www.newme.asia/product/midrise-relaxed-fit-wide-legged-jeans"
+      },
+      "image_path": null
+    },
+    {
+      "id": "newme-denim-midi-skirt",
+      "name": "Denim Asymmetric Slit Midi Skirt",
+      "category": "bottom",
+      "colors": [
+        "light blue"
+      ],
+      "tags": [
+        "denim",
+        "midi",
+        "asymmetric"
+      ],
+      "metadata": {
+        "brand": "NEWME",
+        "subcategory": "midi skirt",
+        "product_url": "https://www.newme.asia/product/denim-asymmetric-slit-midi-skirt"
+      },
+      "image_path": null
+    },
+    {
+      "id": "newme-checkered-pants",
+      "name": "Dark Blue Checkered High-Rise Pants",
+      "category": "bottom",
+      "colors": [
+        "dark blue"
+      ],
+      "tags": [
+        "check",
+        "high rise",
+        "barrel fit"
+      ],
+      "metadata": {
+        "brand": "NEWME",
+        "subcategory": "barrel trousers",
+        "product_url": "https://www.newme.asia/product/dark-blue-checkered-high-rise-pants"
+      },
+      "image_path": null
+    },
+    {
+      "id": "newme-striped-mini-dress",
+      "name": "Yellow Striped Mini Dress With Detachable Scarf",
+      "category": "full_body",
+      "colors": [
+        "yellow",
+        "striped"
+      ],
+      "tags": [
+        "mini dress",
+        "bodycon",
+        "statement"
+      ],
+      "metadata": {
+        "brand": "NEWME",
+        "subcategory": "mini dress",
+        "product_url": "https://www.newme.asia/product/yellow-striped-mini-dress-with-detachable-scarf"
+      },
+      "image_path": null
+    },
+    {
+      "id": "newme-denim-vest",
+      "name": "Denim Vest",
+      "category": "outerwear",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "denim",
+        "sleeveless",
+        "layering"
+      ],
+      "metadata": {
+        "brand": "NEWME",
+        "subcategory": "denim vest",
+        "product_url": "https://www.newme.asia/product/denim-vest-over-cotton-shirt"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "party_signature",
+      "occasion": "party",
+      "prompt": "Build polished fashion-forward evening looks with one focal point; avoid combining competing statement pieces.",
+      "mood": "playful",
+      "weather_context": {
+        "temperature_c": 26,
+        "feels_like_c": 27,
+        "condition": "clear evening",
+        "wind_kph": 6
+      },
+      "preferences": {
+        "style": "trend-led but refined",
+        "avoid": [
+          "over-accessorizing"
+        ]
+      },
+      "must_include_item_ids": [
+        "newme-light-brown-halter"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_layering",
+      "occasion": "casual",
+      "prompt": "Create a cold rainy daytime look and explicitly call out where the fashion layer is not weatherproof.",
+      "mood": "practical",
+      "weather_context": {
+        "temperature_c": 10,
+        "feels_like_c": 7,
+        "condition": "rain",
+        "precipitation_mm": 8,
+        "wind_kph": 25
+      },
+      "preferences": {
+        "style": "relaxed contemporary"
+      },
+      "must_include_item_ids": [
+        "newme-wide-leg-jeans"
+      ],
+      "limit": 2
+    }
+  ]
+}

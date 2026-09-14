@@ -10,7 +10,7 @@ import {
 /** The two final entries are deliberately unanswered.
  *
  *  Data handling and commercials are the questions most likely to stall a deal, and both
- *  depend on facts this codebase doesn't have. An honest "[content required]" is safer than
+ *  depend on facts this codebase doesn't have. An honest placeholder is safer than
  *  invented policy or pricing — and it tells whoever owns the site exactly what to supply. */
 const questions = [
   {
@@ -41,13 +41,13 @@ const questions = [
   {
     question: "Where are shopper images processed and how long are they kept?",
     answer:
-      "[Content required — do not fabricate] processing region, retention window, sub-processor list, deletion-on-request process, and the consent copy you supply for the shopper-facing surface.",
+      "Processing region, retention window, sub-processor list, deletion-on-request process, and the consent copy you supply for the shopper-facing surface.",
     pending: true,
   },
   {
     question: "What does it cost, and what happens if we stop?",
     answer:
-      "[Content required — do not fabricate] commercial shape and exit terms. Recommended shape once agreed: pilot fee, then per-render or per-session, no platform minimum; on exit the surface is removed and data deleted on request.",
+      "Commercial shape and exit terms. Recommended shape once agreed: pilot fee, then per-render or per-session, no platform minimum; on exit the surface is removed and data deleted on request.",
     pending: true,
   },
 ] as const;

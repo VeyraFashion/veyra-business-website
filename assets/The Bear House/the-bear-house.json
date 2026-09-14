@@ -1,0 +1,221 @@
+{
+  "brand": "The Bear House",
+  "slug": "the-bear-house",
+  "audience": "men",
+  "source_urls": [
+    "https://thebearhouse.com/collections/all",
+    "https://thebearhouse.com/pages/sitemap"
+  ],
+  "wardrobe": [
+    {
+      "id": "bear-abed-check-shirt",
+      "name": "ABED-GR Green-Grey Herringbone Check Shirt",
+      "category": "top",
+      "colors": [
+        "green",
+        "grey"
+      ],
+      "tags": [
+        "cotton blend",
+        "checks",
+        "smart casual"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "button-down shirt",
+        "fit": "slim",
+        "fabric": "cotton polyester",
+        "product_url": "https://thebearhouse.com/products/tbh-abed-gr"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bear-abies-black-tee",
+      "name": "ABIES-BK Black Bear Typography T-shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "cotton",
+        "crew neck",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "graphic t-shirt",
+        "fit": "regular",
+        "product_url": "https://thebearhouse.com/products/abies-bk"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bear-adent-olive-polo",
+      "name": "ADENT Olive Textured Knit Polo",
+      "category": "top",
+      "colors": [
+        "olive"
+      ],
+      "tags": [
+        "knit",
+        "textured",
+        "smart casual"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "knit polo",
+        "fit": "slim",
+        "fabric": "cotton",
+        "product_url": "https://thebearhouse.com/products/adent"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bear-adame-blue-jeans",
+      "name": "ADAME Light-Fade Blue Jeans",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "denim",
+        "light fade",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "skinny jeans",
+        "product_url": "https://thebearhouse.com/products/adame"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bear-adlai-navy-trousers",
+      "name": "ADLAI Navy Pleated Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "pleated",
+        "formal",
+        "work"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "formal trousers",
+        "fit": "regular",
+        "product_url": "https://thebearhouse.com/products/adlai"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bear-ardi-black-cargo",
+      "name": "ARDI Black Relaxed Cargo Pants",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "cargo",
+        "utility",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "cargo pants",
+        "fabric": "nylon",
+        "product_url": "https://thebearhouse.com/products/ardi"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bear-anun-navy-jacket",
+      "name": "ANUN Navy Mock-Collar Jacket",
+      "category": "outerwear",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "mock collar",
+        "zip",
+        "layering"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "zip jacket",
+        "fit": "regular",
+        "fabric": "polyester",
+        "product_url": "https://thebearhouse.com/products/anun"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bear-zephy-black-sneakers",
+      "name": "ZEPHY Black Suede Sneakers",
+      "category": "footwear",
+      "colors": [
+        "black",
+        "white"
+      ],
+      "tags": [
+        "sneakers",
+        "suede",
+        "casual",
+        "travel"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "lace-up sneakers",
+        "product_url": "https://thebearhouse.com/products/zephy"
+      },
+      "image_path": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "smart_work_signature",
+      "occasion": "work",
+      "prompt": "Create polished contemporary office looks that balance authority, texture, and all-day comfort.",
+      "mood": "composed",
+      "weather_context": {
+        "temperature_c": 23,
+        "feels_like_c": 23,
+        "condition": "clear",
+        "wind_kph": 7
+      },
+      "preferences": {
+        "style": "smart casual",
+        "workplace": "creative office"
+      },
+      "must_include_item_ids": [
+        "bear-abed-check-shirt"
+      ],
+      "limit": 3
+    },
+    {
+      "id": "cold_rain_layering",
+      "occasion": "travel",
+      "prompt": "Build a rainy cool-weather airport-to-city look; do not overstate water resistance.",
+      "mood": "practical",
+      "weather_context": {
+        "temperature_c": 12,
+        "feels_like_c": 9,
+        "condition": "rain and wind",
+        "precipitation_mm": 4,
+        "wind_kph": 26
+      },
+      "preferences": {
+        "style": "minimal utility",
+        "priorities": [
+          "walking comfort",
+          "layerability"
+        ]
+      },
+      "must_include_item_ids": [
+        "bear-ardi-black-cargo"
+      ],
+      "limit": 2
+    }
+  ]
+}
