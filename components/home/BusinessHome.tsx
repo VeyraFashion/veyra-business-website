@@ -130,10 +130,6 @@ export default function BusinessHome() {
                   product photo can&rsquo;t settle. The revenue leaves your P&amp;L twice: once
                   as the order you never won, and again as the parcel you pay to bring back.
                 </p>
-                <p className="home-cost-note">
-                  Figures beside this are arithmetic on the inputs shown, not a STYLD result.
-                  Edit them in the calculator further down.
-                </p>
               </Reveal>
               <RevealScale delay={0.1}>
                 <CostOfUncertainty />

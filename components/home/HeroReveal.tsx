@@ -24,6 +24,8 @@ export default function HeroReveal() {
             src="/brand-assets/static/result/brown_tshirt_res.png"
             alt="Brown t-shirt virtual try-on result on shopper"
             fill
+            priority
+            loading="eager"
             sizes="(max-width: 1020px) 92vw, 640px"
             style={{ objectFit: "contain", background: "#f0ede6" }}
           />
