@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ArrowRight, Check } from "lucide-react";
+import ContentSlot from "@/components/home/ContentSlot";
 
 /** Four moments, four different outputs — what the shopper actually ends up looking at,
  *  rather than a diagram of where a button would go.
