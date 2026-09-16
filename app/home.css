@@ -338,9 +338,13 @@
 
 /* ---- Hero before/after reveal ---- */
 .reveal { margin: 0; position: relative; }
+/* The canvas is sized as a fraction of its grid column rather than a fixed max-width, so
+   the 30% reduction holds at every viewport instead of going inert once the column itself
+   drops below a pixel cap. margin-left keeps its right edge flush with the shell. */
 .reveal-frame {
-  position: relative; border: 1px solid var(--home-ink); background: #e4e1d7;
-  box-shadow: 18px 18px 0 var(--home-cobalt); aspect-ratio: 3 / 4; overflow: hidden;
+  position: relative; width: 70%; margin-left: auto;
+  border: 1px solid var(--home-ink); background: #e4e1d7;
+  box-shadow: 13px 13px 0 var(--home-cobalt); aspect-ratio: 3 / 4; overflow: hidden;
 }
 .reveal-after, .reveal-before { position: absolute; inset: 0; }
 .reveal-before { background: #e4e1d7; }
@@ -447,8 +451,6 @@
 }
 .demo-stage { padding: 38px 40px; }
 .demo-pad { padding: 44px 44px 40px; }
-.business-home .demo-note { margin: 16px 0 0; font-size: 12px; line-height: 1.55; color: var(--home-muted); }
-.demo-note strong { color: var(--home-ink); font-weight: 800; }
 
 .demo-tryon-row { display: grid; grid-template-columns: 0.85fr 12px 1fr 1fr 1fr; gap: 14px; align-items: stretch; }
 .demo-fig { margin: 0; display: flex; flex-direction: column; }
@@ -524,17 +526,25 @@
 .demo-look-missing header { border-bottom-style: dashed; border-bottom-color: rgba(47,80,245,.4); }
 .demo-look-missing header strong { color: var(--home-cobalt); }
 
-.demo-ways { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.demo-way { border: 1px solid var(--home-ink); background: var(--home-bg); }
-.demo-way-head { padding: 12px 16px; border-bottom: 1px solid var(--home-line); font-size: 13px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
-.demo-way-head.is-ink { background: var(--home-ink); color: #fff; }
-.demo-way-head.is-cobalt { background: var(--home-cobalt); color: #fff; }
-.demo-way-head.is-peri { background: var(--home-periwinkle); color: var(--home-ink); }
-.demo-way-image { position: relative; aspect-ratio: 4/5; background: #e4e1d7; border-bottom: 1px solid var(--home-line); }
-.demo-way-copy { padding: 14px 16px; }
-.business-home .demo-way-copy p { margin: 0 0 10px; font-size: 13px; line-height: 1.55; color: #3f3f39; }
-.demo-way-items { display: flex; gap: 7px; }
-.demo-way-thumb { width: 42px; aspect-ratio: 3/4; border: 1px solid rgba(23,23,19,.3); background: #e4e1d7; }
+/* ---- Tab 04: conversational restyling ---- */
+.demo-chat-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 48px; align-items: start; }
+.demo-chat { display: grid; grid-template-rows: auto 1fr auto; border: 1px solid var(--home-ink); background: var(--home-bg); }
+.demo-chat-bar { display: flex; align-items: center; gap: 10px; padding: 11px 16px; border-bottom: 1px solid var(--home-ink); background: var(--home-ink); color: #fff; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.demo-chat-bar-note { margin-left: auto; color: var(--home-lime); letter-spacing: 0.04em; }
+
+/* Capped so a long exchange scrolls inside the panel instead of stretching the tab. */
+.demo-chat-log { display: grid; gap: 15px; align-content: start; padding: 18px; }
+.demo-chat-msg { display: grid; gap: 9px; max-width: 88%; }
+.demo-chat-msg.is-shopper { justify-self: end; justify-items: end; }
+.business-home .demo-chat-bubble { margin: 0; padding: 11px 14px; border: 1px solid var(--home-ink); font-size: 13.5px; line-height: 1.55; }
+.is-styld .demo-chat-bubble { background: var(--home-paper); color: #3f3f39; }
+.is-shopper .demo-chat-bubble { background: var(--home-cobalt); border-color: var(--home-cobalt); color: #fff; }
+.demo-chat-items { display: flex; gap: 8px; }
+.demo-chat-thumb { width: 54px; aspect-ratio: 3/4; border: 1px solid var(--home-ink); background: #e4e1d7; }
+
+.demo-chat-form { display: flex; align-items: stretch; border-top: 1px solid var(--home-ink); }
+.demo-chat-input { flex: 1; min-width: 0; display: flex; align-items: center; min-height: 48px; padding: 0 16px; font-size: 13.5px; color: var(--home-muted); }
+.demo-chat-send { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 18px; border-left: 1px solid var(--home-ink); background: var(--home-lime); color: var(--home-ink); font-size: 13px; font-weight: 800; }
 
 .home-demo-foot {
   display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
@@ -639,29 +649,29 @@
 .roi-cta { display: grid; grid-template-columns: 1fr auto; gap: 22px; align-items: center; padding: 24px 28px; border-bottom: 1px solid rgba(255,255,255,.22); }
 .roi-cta strong { display: block; margin-bottom: 6px; font-size: 16px; }
 .business-home .roi-cta p { margin: 0; max-width: 52ch; font-size: 13.5px; line-height: 1.55; color: rgba(255,255,255,.7); }
-.roi-cta-button {
+/* The booking form's submit shares this rule rather than copying it, so the two CTAs
+   cannot drift apart. Anything appended here applies to both. */
+.roi-cta-button, .book-submit {
   display: inline-flex; align-items: center; gap: 9px; min-height: 50px; padding: 0 22px;
   border: 1px solid var(--home-lime); background: var(--home-lime);
   color: var(--home-ink) !important; font-size: 14px; font-weight: 800; text-decoration: none; white-space: nowrap;
 }
-.roi-cta-button:hover { background: var(--home-paper); border-color: var(--home-paper); }
-.business-home .roi-disclaimer { margin: 0; padding: 18px 28px; font-size: 12px; line-height: 1.6; color: rgba(255,255,255,.58); }
+.roi-cta-button:hover, .book-submit:not(:disabled):hover { background: var(--home-paper); border-color: var(--home-paper); }
 
 /* ---- Go live ---- */
 .home-live { background: var(--home-periwinkle); }
 .home-live .home-section-intro > p:not(.home-overline) { color: rgba(23,23,19,.74); }
 .home-live-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 56px 80px; align-items: start; }
 .home-steps { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--home-ink); }
-.home-steps li { display: grid; grid-template-columns: 44px 1fr; gap: 18px; padding: 22px 0; border-bottom: 1px solid rgba(23,23,19,.36); }
+/* RevealGroup/RevealItem render divs, not a ul/li, so this targets the direct children.
+   Keeping the li selector alongside means the rule survives a revert to real list markup. */
+.home-steps li, .home-steps > div { display: grid; grid-template-columns: 44px 1fr; gap: 18px; padding: 22px 0; border-bottom: 1px solid rgba(23,23,19,.36); }
 .home-step-n { font-size: 12px; font-weight: 900; }
 .home-steps strong { display: block; margin-bottom: 5px; font-size: 15.5px; }
 .business-home .home-steps p { margin: 0; font-size: 13.5px; line-height: 1.55; color: rgba(23,23,19,.72); }
 .home-kpi { margin-top: 26px; padding: 18px 20px; border: 1px solid var(--home-ink); background: var(--home-bg); }
 .home-kpi span { display: block; margin-bottom: 6px; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
 .home-kpi strong { font-size: 15px; font-weight: 800; line-height: 1.35; }
-.home-pending { margin-top: 16px; padding: 18px 20px; border: 1px dashed rgba(23,23,19,.5); }
-.home-pending span { display: block; margin-bottom: 8px; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--home-cobalt); }
-.business-home .home-pending p { margin: 0; font-size: 13px; line-height: 1.55; color: rgba(23,23,19,.74); }
 .home-live-side { display: grid; gap: 18px; }
 .home-api { border: 1px solid var(--home-ink); background: var(--home-cobalt); color: #fff; padding: 26px 24px; }
 .home-api h3 { max-width: 26ch; margin-bottom: 14px; font-size: 22px; font-weight: 800; letter-spacing: -0.04em; line-height: 1.1; }
@@ -670,14 +680,6 @@
 .home-code pre { margin: 0; padding: 22px 18px; overflow-x: auto; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; line-height: 1.75; color: #f5f4ee; }
 .home-code-foot { min-height: 52px; display: flex; align-items: center; justify-content: space-between; padding: 0 16px; border-top: 1px solid rgba(255,255,255,.18); color: rgba(255,255,255,.76); font-size: 12px; font-weight: 800; }
 .home-code-foot > span { display: inline-flex; align-items: center; gap: 8px; }
-.business-home .home-api-pending { margin: 18px 0 0; font-size: 12px; line-height: 1.55; color: rgba(255,255,255,.6); }
-.home-api-pending strong { color: var(--home-lime); font-weight: 800; }
-.home-data { border: 1px solid var(--home-ink); background: var(--home-bg); padding: 24px; }
-.home-data h3 { margin-bottom: 16px; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
-.home-data ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
-.home-data li { display: flex; gap: 10px; font-size: 13.5px; line-height: 1.5; }
-.home-data svg { flex: 0 0 auto; margin-top: 2px; color: var(--home-cobalt); }
-.home-data li.is-pending { color: var(--home-cobalt); font-weight: 800; }
 
 /* ---- Trust ---- */
 .home-trust-grid { display: grid; grid-template-columns: 1fr 1fr 1.1fr; gap: 18px; }
@@ -705,22 +707,18 @@
 .book-fields input { min-height: 48px; padding: 0 14px; border: 1px solid rgba(255,255,255,.4); background: var(--home-ink); color: #fff; font-size: 14px; }
 .book-fields input::placeholder { color: rgba(255,255,255,.5); }
 .book-fields input:focus-visible { outline: 3px solid var(--home-lime); outline-offset: 2px; }
-.book-submit {
-  display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%; min-height: 54px;
-  border: 1px solid var(--home-lime); background: var(--home-lime); color: var(--home-ink);
-  cursor: pointer; font-size: 15px; font-weight: 800;
-}
+/* The calculator CTA is an <a>, this is a <button>, so `.business-home button { font: inherit }`
+   (0,1,1) outranks the shared rule above (0,1,0) and would reset the type. Restated here at
+   matching specificity so both CTAs actually render identically. */
+.business-home .book-submit { font-size: 14px; font-weight: 800; }
+.book-submit { cursor: pointer; }
 .book-submit:disabled { opacity: .55; cursor: not-allowed; }
-.business-home .book-note { margin: 16px 0 0; font-size: 12px; line-height: 1.6; color: rgba(255,255,255,.6); }
-.book-note strong { color: var(--home-lime); font-weight: 800; }
-
-/* ---- Footer additions ---- */
-.business-home .home-footer-pending { margin: 0; max-width: 40ch; font-size: 12.5px; line-height: 1.6; color: var(--home-cobalt); font-weight: 800; }
 
 /* ---- Responsive ---- */
 @media (max-width: 1020px) {
   .home-hero, .home-cost-grid, .demo-split, .demo-outfit, .roi-grid, .home-live-grid,
-  .book-grid, .demo-pdp { grid-template-columns: 1fr; }
+  .book-grid, .demo-pdp, .demo-chat-grid { grid-template-columns: 1fr; }
+  .reveal-frame { margin-inline: auto; }
   .demo-copy { border-right: 0; border-bottom: 1px solid var(--home-line); padding-bottom: 32px; }
   .ev-grid { grid-template-columns: 1fr 1fr; }
   .ev-col:nth-child(2n) { border-right: 0; }
@@ -733,19 +731,20 @@
 
 @media (max-width: 760px) {
   .home-cost, .home-live, .home-book { padding-block: 60px; }
-  .demo-tabs, .demo-ways, .roi-cards { grid-template-columns: 1fr; }
+  .demo-tabs, .roi-cards { grid-template-columns: 1fr; }
   .demo-tabs button { border-right: 0; border-bottom: 1px solid var(--home-line); }
   .demo-tabs button:last-child { border-bottom: 0; }
   .roi-card { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.22); }
   .roi-card:last-child { border-bottom: 0; }
   .roi-cta, .home-demo-foot { grid-template-columns: 1fr; }
-  .roi-cta-button, .home-demo-foot a { width: 100%; justify-content: center; }
+  .roi-cta-button, .book-submit, .home-demo-foot a { width: 100%; justify-content: center; }
   .demo-stage, .demo-pad, .demo-copy { padding: 28px 22px; }
   .ev-grid, .home-trust-grid { grid-template-columns: 1fr; }
   .ev-col { border-right: 0; border-bottom: 1px solid var(--home-ink); }
   .ev-col:last-child { border-bottom: 0; }
   .demo-tryon-row { grid-template-columns: 1fr 1fr; }
   .roi-inputs, .book-card { padding: 22px 20px; }
+  .reveal-frame { width: 100%; box-shadow: 9px 9px 0 var(--home-cobalt); }
   .roi-headline, .roi-cta { padding-inline: 20px; }
 }
 

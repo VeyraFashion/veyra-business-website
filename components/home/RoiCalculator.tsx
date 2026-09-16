@@ -201,11 +201,6 @@ export default function RoiCalculator({ bookHref = "#book" }: { bookHref?: strin
             Book a walkthrough <ArrowRight size={17} aria-hidden="true" />
           </a>
         </div>
-
-        <p className="roi-disclaimer">
-          Editable scenario assumptions informed by published retail evidence. Not a guarantee
-          of STYLD performance.
-        </p>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ const TABS = [
   { id: "tryon", n: "01", label: "Virtual try-on" },
   { id: "pdp", n: "02", label: "Product page" },
   { id: "outfit", n: "03", label: "Complete the outfit" },
-  { id: "ways", n: "04", label: "Style it three ways" },
+  { id: "ways", n: "04", label: "Restyle by chat" },
 ] as const;
 
 type TabId = (typeof TABS)[number]["id"];
@@ -149,10 +149,6 @@ export default function DemoShowcase() {
                   </div>
                 </div>
               </div>
-              <p className="demo-note">
-                The generated looks join your existing gallery strip.{" "}
-                Drop try-on thumbnails into the three slots.
-              </p>
             </div>
           </div>
         )}
@@ -256,47 +252,95 @@ export default function DemoShowcase() {
 
         {active === "ways" && (
           <div className="demo-pad">
-            <div className="demo-copy demo-copy-flush demo-copy-wide">
-              <p className="home-overline">After purchase</p>
-              <h3>Give the purchase more than one first wear.</h3>
-              <p>
-                One delivered item, three contexts. The follow-up is useful rather than
-                promotional — and every companion piece is live in your catalogue.
-              </p>
+            <div className="demo-chat-grid">
+              <div className="demo-copy demo-copy-flush">
+                <p className="home-overline">Conversational restyling</p>
+                <h3>The shopper doesn&rsquo;t like it. Now what?</h3>
+                <p>
+                  A ranked grid is a dead end when the answer is &ldquo;not for the office&rdquo;.
+                  Here the shopper says it in their own words and the look is rebuilt around the
+                  same garment — every companion piece still live in your catalogue.
+                </p>
+                <div className="demo-chip">Same shirt, three answers</div>
+              </div>
+
+              <ChatPanel />
             </div>
-            <div className="demo-ways">
-              {[
-                { head: "Monday · Office", tone: "ink", body: "Tucked, with straight-fit denim and Chelsea boots.", items: ["jeans-washed-straight-fit", "shoes-classic-chelsea-boots"], slot: "Denim shirt styled for office" },
-                { head: "Friday · Evening", tone: "cobalt", body: "Open over a base tee, sleeves pushed, field jacket carried.", items: ["shirt-denim-regular-fit"], jacket: true, slot: "Denim shirt styled for evening" },
-                { head: "Sunday · Weekend", tone: "peri", body: "Loose over baggy denim with tan sneakers.", items: ["jeans-washed-straight-fit", "shoes-terra-casual-sneakers-tan"], slot: "Denim shirt styled for weekend" },
-              ].map((way) => (
-                <article className="demo-way" key={way.head}>
-                  <header className={`demo-way-head is-${way.tone}`}>{way.head}</header>
-                  <div className="demo-way-image"><ContentSlot label={way.slot} compact /></div>
-                  <div className="demo-way-copy">
-                    <p>{way.body}</p>
-                    <div className="demo-way-items">
-                      {way.jacket && (
-                        <div className="demo-way-thumb">
-                          <Image src="/field-jacket.png" alt="" width={42} height={56} style={{ objectFit: "contain", width: "100%", height: "100%", padding: 3 }} />
-                        </div>
-                      )}
-                      {way.items.map((f) => (
-                        <div className="demo-way-thumb" key={f}>
-                          <Image src={`${P}/${f}.png`} alt="" width={42} height={56} style={{ objectFit: "cover", width: "100%", height: "100%" }} />
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-            <p className="demo-note">
-              Three styled try-on stills of the same purchased garment.
-            </p>
           </div>
         )}
       </div>
     </>
+  );
+}
+
+/** One worked exchange, shown rather than simulated — the same approach as the other three
+ *  tabs. Each reply's thumbnails are real catalogue files, the ones tab 03 ranks. */
+const TRANSCRIPT: {
+  from: "shopper" | "styld";
+  text: string;
+  items?: string[];
+  jacket?: boolean;
+}[] = [
+  {
+    from: "styld",
+    text: "Your denim shirt, styled for a desk day — tucked, with straight-fit denim and Chelsea boots.",
+    items: ["jeans-washed-straight-fit", "shoes-classic-chelsea-boots"],
+  },
+  { from: "shopper", text: "It's for dinner on Friday, not the office." },
+  {
+    from: "styld",
+    text: "Then wear it open over a base tee, sleeves pushed, with the field jacket carried for when it cools off.",
+    items: ["shirt-denim-regular-fit"],
+    jacket: true,
+  },
+  { from: "shopper", text: "Something I can wear on Sunday too?" },
+  {
+    from: "styld",
+    text: "Loose over baggy denim with tan sneakers. Nothing in this one needs ironing.",
+    items: ["jeans-washed-straight-fit", "shoes-terra-casual-sneakers-tan"],
+  },
+];
+
+function ChatPanel() {
+  return (
+    <div className="demo-chat">
+      <div className="demo-chat-bar">
+        <span className="demo-status-dot" aria-hidden="true" />
+        <span>Styling chat</span>
+        <span className="demo-chat-bar-note">Same shirt, rebuilt</span>
+      </div>
+
+      <div className="demo-chat-log">
+        {TRANSCRIPT.map((message, index) => (
+          <div
+            key={`${message.from}-${index}`}
+            className={message.from === "shopper" ? "demo-chat-msg is-shopper" : "demo-chat-msg is-styld"}
+          >
+            <p className="demo-chat-bubble">{message.text}</p>
+            {message.items && (
+              <div className="demo-chat-items">
+                {message.jacket && (
+                  <div className="demo-chat-thumb">
+                    <Image src="/field-jacket.png" alt="" width={54} height={72} style={{ objectFit: "contain", width: "100%", height: "100%", padding: 4 }} />
+                  </div>
+                )}
+                {message.items.map((file) => (
+                  <div className="demo-chat-thumb" key={file}>
+                    <Image src={`${P}/${file}.png`} alt="" width={54} height={72} style={{ objectFit: "cover", width: "100%", height: "100%" }} />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* A drawn composer, like the "Add to bag" control in the product-page tab: it shows
+          where the shopper types without pretending this page is a live session. */}
+      <div className="demo-chat-form" aria-hidden="true">
+        <span className="demo-chat-input">Where are you wearing it?</span>
+        <span className="demo-chat-send">Send <ArrowRight size={15} /></span>
+      </div>
+    </div>
   );
 }

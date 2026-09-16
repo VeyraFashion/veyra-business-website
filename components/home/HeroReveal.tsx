@@ -1,7 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import { usePrefersReducedMotion } from "@/lib/use-reduced-motion";
+
+const MIN = 4;
+const MAX = 96;
+const MID = (MIN + MAX) / 2;
+const AMPLITUDE = (MAX - MIN) / 2;
+
+/** One full there-and-back cycle. A quarter of this is a single edge-to-edge pass, so the
+ *  sweep reads as a demonstration rather than a fidget. */
+const CYCLE_MS = 11000;
 
 /** Before/after comparison: your flat catalogue shot vs. the same garment on a shopper.
  *
@@ -11,12 +21,61 @@ import Image from "next/image";
  *
  *  A full-bleed range input sits invisibly over the frame as the control: it gives keyboard
  *  operation, an accessible name and touch support for free, which a custom pointer handler
- *  would each have to reimplement. */
+ *  would each have to reimplement.
+ *
+ *  It sweeps on its own until someone touches it, which is what makes the comparison legible
+ *  to a visitor who never thinks to drag anything. The first manual input hands control over
+ *  for good — resuming the animation under someone's cursor would fight them. */
 export default function HeroReveal() {
   const [reveal, setReveal] = useState(50);
+  const [autoplay, setAutoplay] = useState(true);
+  const figureRef = useRef<HTMLElement>(null);
+  const reduced = usePrefersReducedMotion();
+
+  useEffect(() => {
+    if (!autoplay || reduced) return;
+    const node = figureRef.current;
+    if (!node) return;
+
+    let frame = 0;
+    let elapsed = 0;
+    let previous: number | null = null;
+    let visible = true;
+
+    // Offscreen time is not accumulated, so scrolling back finds the sweep where it was
+    // rather than jumped forward by however long the hero was out of view.
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        visible = entry.isIntersecting;
+        previous = null;
+      },
+      { threshold: 0.1 },
+    );
+    observer.observe(node);
+
+    const tick = (now: number) => {
+      if (visible) {
+        if (previous !== null) elapsed += now - previous;
+        previous = now;
+        // Sine rather than a linear bounce: it eases at both edges, so the turnarounds
+        // don't snap. Starts at MID travelling right.
+        setReveal(MID + AMPLITUDE * Math.sin((2 * Math.PI * elapsed) / CYCLE_MS));
+      }
+      frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+
+    return () => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+    };
+  }, [autoplay, reduced]);
+
+  /** Any real input — drag, tap or arrow key — ends the animation permanently. */
+  const takeOver = () => setAutoplay(false);
 
   return (
-    <figure className="reveal">
+    <figure className="reveal" ref={figureRef}>
       <div className="reveal-frame">
         {/* AFTER (base layer): the try-on result. */}
         <div className="reveal-after">
@@ -26,7 +85,7 @@ export default function HeroReveal() {
             fill
             priority
             loading="eager"
-            sizes="(max-width: 1020px) 92vw, 640px"
+            sizes="(max-width: 760px) 92vw, (max-width: 1020px) 66vw, 452px"
             style={{ objectFit: "contain", background: "#f0ede6" }}
           />
         </div>
@@ -38,7 +97,7 @@ export default function HeroReveal() {
             alt="Brown t-shirt, flat catalogue shot"
             fill
             priority
-            sizes="(max-width: 1020px) 92vw, 640px"
+            sizes="(max-width: 760px) 92vw, (max-width: 1020px) 66vw, 452px"
             style={{ objectFit: "contain", padding: "10%", background: "#f0ede6" }}
           />
         </div>
@@ -50,11 +109,16 @@ export default function HeroReveal() {
         <input
           className="reveal-input"
           type="range"
-          min={4}
-          max={96}
+          min={MIN}
+          max={MAX}
           step={0.5}
           value={reveal}
-          onChange={(event) => setReveal(Number(event.target.value))}
+          onChange={(event) => {
+            takeOver();
+            setReveal(Number(event.target.value));
+          }}
+          onPointerDown={takeOver}
+          onKeyDown={takeOver}
           aria-label="Drag to compare the catalogue shot with the try-on result"
         />
 

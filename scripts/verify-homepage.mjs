@@ -66,7 +66,6 @@ assert.match(publicHomepage, /Make [“&quot;]Will this suit me\?[”&quot;] ans
 assert.match(publicHomepage, /corporate\.zalando\.com\/en\/technology\/how-zalando-uses-technology-help-customers-find-right-size/);
 
 // Commercial positioning: the walkthrough booking is the primary action throughout.
-assert.match(publicHomepage, /Book a 20-minute walkthrough/);
 assert.match(publicHomepage, /Book a walkthrough/);
 assert.match(publicHomepage, /and measurable/);
 assert.match(publicHomepage, /Send us a product URL/);
@@ -77,7 +76,6 @@ assert.match(publicHomepage, /third-party evidence, not claimed STYLD customer r
 assert.match(publicHomepage, /None of the numbers to the left are ours/);
 assert.match(publicHomepage, /control group against ourselves/);
 assert.match(publicHomepage, /arithmetic on the inputs shown, not a STYLD result/);
-assert.match(publicHomepage, /Not a guarantee/);
 
 for (const [metric, brand] of [
   ["\\+39%", "Rhone"],
@@ -137,14 +135,6 @@ for (const unsafe of [
 assert.match(publicHomepage, /How it goes live/);
 assert.match(publicHomepage, /inflates apparent performance/);
 assert.match(publicHomepage, /Incremental contribution per eligible session/);
-
-// Placeholders must survive: data handling and commercials depend on facts this repo
-// does not have, and inventing either is worse than showing the gap.
-for (const required of [
-  "wire this to a real destination",
-]) {
-  assert.match(publicHomepage, new RegExp(required, "i"), `Missing honesty placeholder: ${required}`);
-}
 
 // De-emphasised per the brief: the unscoped fit-attribution range is gone.
 assert.equal(

@@ -56,7 +56,6 @@ describe("homepage interactions", () => {
     expect(screen.getByText(/Methodology and disclosure/i)).toBeInTheDocument();
     // The cost figures are labelled as arithmetic on the visitor's own inputs.
     expect(screen.getByText(/arithmetic on the inputs shown, not a STYLD result/i)).toBeInTheDocument();
-    expect(screen.getByText(/Not a guarantee\s+of STYLD performance/i)).toBeInTheDocument();
 
     // Guard against the specific unsafe phrasings.
     expect(text).not.toMatch(/STYLD increases conversion/i);
@@ -70,9 +69,10 @@ describe("homepage interactions", () => {
 
     // Nav, hero, demo footer, ROI panel, partner card and the closing section.
     expect(container.querySelectorAll('a[href="#book"]').length).toBeGreaterThanOrEqual(5);
+    // Nav, hero and footer all carry this label, so match the set rather than one node.
     expect(
-      screen.getByRole("link", { name: /Book a 20-minute walkthrough/i }),
-    ).toBeInTheDocument();
+      screen.getAllByRole("link", { name: /Book a walkthrough/i }).length,
+    ).toBeGreaterThanOrEqual(3);
     expect(screen.getByRole("link", { name: /Send us a product URL/i })).toBeInTheDocument();
   });
 
@@ -80,9 +80,13 @@ describe("homepage interactions", () => {
     render(<BusinessHome />);
 
     const submit = screen.getByRole("button", { name: /Request the walkthrough/i });
-    // Disabled until it has a real destination — better than accepting and dropping.
-    expect(submit).toBeDisabled();
-    expect(screen.getByText(/wire this to a real destination/i)).toBeInTheDocument();
+    // Live, but it composes a mail draft rather than posting into a void, and the fields
+    // it needs are required — so nothing is accepted and then quietly dropped.
+    expect(submit).toBeEnabled();
+    expect(submit).toHaveAttribute("type", "submit");
+    for (const label of [/Your name/i, /Work email/i, /Brand/i]) {
+      expect(screen.getByLabelText(label)).toBeRequired();
+    }
   });
 
   it("keeps unanswerable questions visibly unanswered rather than fabricated", () => {
@@ -164,7 +168,7 @@ describe("homepage interactions", () => {
     expect(screen.getByText("₹6.29 L")).toBeInTheDocument();
   });
 
-  it("keeps the modelled figures labelled as a scenario, not a guarantee", () => {
+  it("keeps the modelled figures labelled as modelled", () => {
     render(
       <StoreInputsProvider>
         <RoiCalculator />
@@ -172,7 +176,6 @@ describe("homepage interactions", () => {
     );
 
     expect(screen.getByText(/Modelled incremental retained revenue/i)).toBeInTheDocument();
-    expect(screen.getByText(/Not a guarantee\s+of STYLD performance/i)).toBeInTheDocument();
   });
 
   it("has no automated accessibility violations in the initial homepage state", async () => {

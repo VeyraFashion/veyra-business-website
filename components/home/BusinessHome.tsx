@@ -1,5 +1,5 @@
 import BrandMark from "@/components/BrandMark";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import BookWalkthrough from "@/components/home/BookWalkthrough";
 import ComparisonTable from "@/components/home/ComparisonTable";
 import CostOfUncertainty from "@/components/home/CostOfUncertainty";
@@ -94,7 +94,7 @@ export default function BusinessHome() {
               <RevealHero delay={0.24}>
                 <div className="home-actions">
                   <a className="home-cta-primary" href="#book">
-                    Book a 20-minute walkthrough <ArrowRight size={17} aria-hidden="true" />
+                    Book a walkthrough <ArrowRight size={17} aria-hidden="true" />
                   </a>
                   <a className="home-cta-quiet" href="#demo">
                     See it in action <ArrowRight size={15} aria-hidden="true" />
@@ -206,17 +206,17 @@ export default function BusinessHome() {
 
           <section className="home-section home-live" id="live" aria-labelledby="live-title">
             <div className="home-shell">
-              <Reveal className="home-section-intro">
-                <p className="home-overline">Measurement, not a trial</p>
-                <h2 id="live-title">How it goes live.</h2>
-                <p>
-                  Pilot design, integration, the API and data handling &mdash; in one place,
-                  because they&rsquo;re one decision.
-                </p>
-              </Reveal>
-
               <div className="home-live-grid">
                 <div>
+                  <Reveal className="home-section-intro">
+                    <p className="home-overline">Measurement, not a trial</p>
+                    <h2 id="live-title">How it goes live.</h2>
+                    <p>
+                      Pilot design, integration, the API and data handling &mdash; in one place,
+                      because they&rsquo;re one decision.
+                    </p>
+                  </Reveal>
+
                   <RevealGroup className="home-steps" stagger={0.08}>
                     {PILOT_STEPS.map((step) => (
                       <RevealItem key={step.n}>
@@ -232,14 +232,6 @@ export default function BusinessHome() {
                   <Reveal delay={0.15} className="home-kpi">
                     <span>Recommended executive KPI</span>
                     <strong>Incremental contribution per eligible session, after returns</strong>
-                  </Reveal>
-
-                  <Reveal delay={0.2} className="home-pending">
-                    <p>
-                      Pilot duration, commercial shape (pilot fee, per-render or per-session),
-                      and exit terms. Publish these once agreed &mdash; do not fabricate commercial
-                      terms, and total silence on commercials stalls more deals than a number does.
-                    </p>
                   </Reveal>
                 </div>
 
@@ -260,26 +252,7 @@ export default function BusinessHome() {
                       <div className="home-code-foot">
                         <span><span className="home-status-dot" aria-hidden="true" /> Storefront stays responsive</span>
                       </div>
-                    </div>
-                    <p className="home-api-pending">
-                      Typical job completion time, added PDP
-                      payload, uptime target, and a documentation link.
-                    </p>
-                  </div>
-
-                  <div className="home-data">
-                    <h3>Shopper photos and data</h3>
-                    <ul>
-                      <li><Check size={15} aria-hidden="true" /> One JPEG, PNG or WebP full-body photo, capped at 8&nbsp;MB</li>
-                      <li><Check size={15} aria-hidden="true" /> Photo bytes are excluded from STYLD API logs</li>
-                      <li><Check size={15} aria-hidden="true" /> Technical suitability is validated before any generation job starts</li>
-                      <li><Check size={15} aria-hidden="true" /> Only your known catalogue is ranked &mdash; no external inventory</li>
-                      <li className="is-pending">
-                        Retention window, processing region, sub-processors,
-                        consent copy
-                      </li>
-                    </ul>
-                  </div>
+                    </div>                  </div>
                 </RevealScale>
               </div>
             </div>
@@ -313,12 +286,7 @@ export default function BusinessHome() {
                 <span className="home-mark-symbol" aria-hidden="true"><BrandMark /></span>
                 <span>STYLD</span>
               </a>
-              <p>Measurable purchase confidence for fashion commerce.</p>
-              <p className="home-footer-pending">
-                Legal entity, registered city, privacy contact, LinkedIn,
-                documentation link.
-              </p>
-            </div>
+              <p>Measurable purchase confidence for fashion commerce.</p>            </div>
             <div className="home-footer-links">
               <a href="#demo">See it work</a>
               <a href="#difference">Why it&rsquo;s different</a>
