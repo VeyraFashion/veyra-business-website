@@ -9,8 +9,8 @@ const layoutSource = await readFile(path.join(root, "app/layout.tsx"), "utf8");
 const homeCss = await readFile(path.join(root, "app/home.css"), "utf8");
 const demoCss = await readFile(path.join(root, "app/demo.css"), "utf8");
 const legacyAndDemoCss = await readFile(path.join(root, "app/theme.css"), "utf8");
-const demoSource = await readFile(path.join(root, "components/demo/StoreDemo.tsx"), "utf8");
-const outfitPanelSource = await readFile(path.join(root, "components/demo/OutfitPanel.tsx"), "utf8");
+const demoSource = await readFile(path.join(root, "components/demo2/BrandDemo2.tsx"), "utf8");
+const outfitPanelSource = await readFile(path.join(root, "components/demo2/StylingRoom.tsx"), "utf8");
 const catalogPickerSource = await readFile(path.join(root, "components/demo/CatalogPicker.tsx"), "utf8");
 const tryOnPanelSource = await readFile(path.join(root, "components/demo/TryOnPanel.tsx"), "utf8");
 const aiClientSource = await readFile(path.join(root, "lib/veyra-ai.ts"), "utf8");
@@ -175,7 +175,8 @@ assert.match(demoCss, /@media \(prefers-reduced-motion: reduce\)/);
 assert.match(demoCss, /\.picker-tile-name[\s\S]*color: var\(--demo-ink\) !important/);
 assert.match(demoSource, /Live catalog intelligence/);
 assert.match(demoSource, /Complete looks\. Already on you\./);
-assert.match(demoSource, /Receive your try-ons/);
+// The room still has to promise the shopper a result, not just a process.
+assert.match(outfitPanelSource, /Receive complete looks on you/);
 assert.match(outfitPanelSource, /Create looks on me/);
 assert.match(outfitPanelSource, /Checking your photo and composing your looks/);
 assert.match(outfitPanelSource, /photoAssessment\.status === "needs_new_photo"/);
@@ -183,7 +184,7 @@ assert.match(outfitPanelSource, /Promise\.allSettled/);
 
 // The shopper-facing copy must not promise a fixed look count: the ranker can return
 // fewer than it asks for, so "3 looks" was a promise the product couldn't always keep.
-for (const [label, source] of [["StoreDemo", demoSource], ["OutfitPanel", outfitPanelSource]]) {
+for (const [label, source] of [["BrandDemo2", demoSource], ["StylingRoom", outfitPanelSource]]) {
   assert.doesNotMatch(
     source,
     /(three|3)\s+(new\s+)?(complete\s+)?(looks|try-ons|outfits)/i,
