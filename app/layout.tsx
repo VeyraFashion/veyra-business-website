@@ -4,6 +4,7 @@ import "./tailwind.css";
 import "./theme.css";
 import "./home.css";
 import "./demo.css";
+import "./demo2.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import CardSpotlight from "@/components/CardSpotlight";
 import DemoReturnChip from "@/components/DemoReturnChip";

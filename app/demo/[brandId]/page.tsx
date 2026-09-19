@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { resolveBrand } from "@/lib/brands";
 import { loadCatalogForBrand } from "@/lib/catalog";
-import StoreDemo from "@/components/demo/StoreDemo";
+import BrandDemo2 from "@/components/demo2/BrandDemo2";
 
 export async function generateMetadata({
   params,
@@ -31,5 +31,5 @@ export default async function BrandDemoPage({
   if (!entry) notFound();
 
   const catalog = loadCatalogForBrand(entry);
-  return <StoreDemo brandId={brandId} catalog={catalog} />;
+  return <BrandDemo2 brandId={brandId} catalog={catalog} />;
 }
