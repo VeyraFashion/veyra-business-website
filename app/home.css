@@ -461,10 +461,12 @@
 .demo-fig { margin: 0; display: flex; flex-direction: column; }
 .demo-fig figcaption { margin-bottom: 9px; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--home-muted); }
 .demo-fig figcaption.is-accent { color: var(--home-cobalt); }
-/* aspect-ratio, not min-height. A fixed 330px height in a ~140px-wide column forced these
-   frames to 0.40 against 0.75 sources, so object-fit: cover was throwing away up to 68%
-   of each photo — you saw a vertical strip of a person. */
-.demo-fig-frame { position: relative; aspect-ratio: 3 / 4; border: 1px solid var(--home-ink); background: #fff; }
+/* aspect-ratio, not min-height: a fixed 330px height in a ~140px-wide column forced these
+   frames to 0.40 and object-fit: cover threw away up to 68% of each photo.
+   2:3 because that is what the renders natively are. Padding them to 3:4 instead put white
+   bars down both sides of a photograph — visible as bars, since unlike the studio product
+   shots these have a real scene behind the subject. */
+.demo-fig-frame { position: relative; aspect-ratio: 2 / 3; border: 1px solid var(--home-ink); background: #fff; }
 .demo-fig-frame-result { box-shadow: 6px 6px 0 var(--home-periwinkle); }
 .demo-arrow { display: grid; place-items: center; padding-top: 26px; font-size: 18px; font-weight: 800; color: var(--home-muted); }
 
@@ -488,7 +490,7 @@
  * shopper would meet it: the product, with themselves in it tucked alongside. */
 .demo-pdp-tryon {
   position: absolute; right: 14px; bottom: 14px; z-index: 2;
-  width: clamp(84px, 28%, 118px); aspect-ratio: 3 / 4; margin: 0; overflow: hidden;
+  width: clamp(84px, 28%, 118px); aspect-ratio: 2 / 3; margin: 0; overflow: hidden;
   border: 1px solid var(--home-ink); background: #fff;
 }
 
