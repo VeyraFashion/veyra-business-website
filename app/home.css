@@ -433,7 +433,10 @@
 .demo-tabs button.is-active { background: var(--home-cobalt); color: #fff; }
 .demo-tabs button:focus-visible { outline: 3px solid var(--home-cobalt); outline-offset: -3px; }
 .demo-panel { border: 1px solid var(--home-ink); background: var(--home-paper); }
-.demo-split { display: grid; grid-template-columns: 0.8fr 1.2fr; min-height: 520px; }
+/* Both halves centre in the 520px band. The try-on row is shorter now that its frames
+   follow a 3:4 aspect instead of a fixed 330px height, and top-anchoring left it
+   stranded above a large void. */
+.demo-split { display: grid; grid-template-columns: 0.8fr 1.2fr; min-height: 520px; align-items: center; }
 .demo-copy { align-self: center; padding: 48px 44px; border-right: 1px solid var(--home-line); }
 .demo-copy-flush { padding: 0; border-right: 0; }
 .demo-copy-wide { max-width: 56ch; margin-bottom: 32px; }
@@ -452,11 +455,16 @@
 .demo-stage { padding: 38px 40px; }
 .demo-pad { padding: 44px 44px 40px; }
 
-.demo-tryon-row { display: grid; grid-template-columns: 0.85fr 12px 1fr 1fr 1fr; gap: 14px; align-items: stretch; }
+/* Equal columns: the 0.85fr photo column made its frame a different shape from the three
+   results beside it. */
+.demo-tryon-row { display: grid; grid-template-columns: 1fr 12px 1fr 1fr 1fr; gap: 14px; align-items: start; }
 .demo-fig { margin: 0; display: flex; flex-direction: column; }
 .demo-fig figcaption { margin-bottom: 9px; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--home-muted); }
 .demo-fig figcaption.is-accent { color: var(--home-cobalt); }
-.demo-fig-frame { position: relative; flex: 1; min-height: 330px; border: 1px solid var(--home-ink); background: #e4e1d7; }
+/* aspect-ratio, not min-height. A fixed 330px height in a ~140px-wide column forced these
+   frames to 0.40 against 0.75 sources, so object-fit: cover was throwing away up to 68%
+   of each photo — you saw a vertical strip of a person. */
+.demo-fig-frame { position: relative; aspect-ratio: 3 / 4; border: 1px solid var(--home-ink); background: #fff; }
 .demo-fig-frame-result { box-shadow: 6px 6px 0 var(--home-periwinkle); }
 .demo-arrow { display: grid; place-items: center; padding-top: 26px; font-size: 18px; font-weight: 800; color: var(--home-muted); }
 
@@ -468,14 +476,22 @@
 .demo-browser-bar > span[aria-hidden="true"] { width: 8px; height: 8px; background: rgba(23,23,19,.28); }
 .demo-url { flex: 1; margin-left: 8px; padding: 4px 9px; background: var(--home-paper); font-size: 12px; color: var(--home-muted); }
 .demo-pdp { display: grid; grid-template-columns: 1.15fr 0.85fr; }
-.demo-pdp-image { position: relative; min-height: 400px; background: #dedbd2; border-right: 1px solid var(--home-line); }
-.demo-pdp-thumbs {
-  position: absolute; left: 0; right: 0; bottom: 0; display: grid;
-  grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 12px;
-  background: linear-gradient(to top, rgba(23,23,19,.14), transparent);
+/* White, not #dedbd2. The product image is object-fit: contain with 24px padding, so this
+   background IS the padding a visitor sees around the garment — the grey read as the image
+   not fitting its canvas. */
+.demo-pdp-image { position: relative; min-height: 400px; background: #fff; border-right: 1px solid var(--home-line); }
+/* The try-on render, corner-mounted over the product shot.
+ *
+ * This was a three-up gallery strip where only the first frame held anything — the other two
+ * were placeholders for renders nobody has produced. One real output in the corner carries
+ * the point better than one real output flanked by two empty boxes, and it reads the way a
+ * shopper would meet it: the product, with themselves in it tucked alongside. */
+.demo-pdp-tryon {
+  position: absolute; right: 14px; bottom: 14px; z-index: 2;
+  width: clamp(84px, 28%, 118px); aspect-ratio: 3 / 4; margin: 0; overflow: hidden;
+  border: 1px solid var(--home-ink); background: #fff;
 }
-.demo-thumb { position: relative; aspect-ratio: 3/4; border: 1px solid rgba(23,23,19,.3); background: #e4e1d7; opacity: .75; }
-.demo-thumb.is-active { border-color: var(--home-ink); opacity: 1; }
+
 .demo-pdp-copy { align-self: center; padding: 28px 24px; }
 .business-home .demo-pdp-code { margin-bottom: 10px; font-size: 12px; letter-spacing: 0.14em; color: var(--home-muted); }
 .demo-pdp-copy h4 { margin-bottom: 8px; font-size: 23px; font-weight: 800; letter-spacing: -0.045em; }
@@ -498,7 +514,7 @@
 .demo-input-card { border: 1px solid var(--home-ink); background: var(--home-bg); padding: 18px 18px 16px; }
 .business-home .demo-input-head { margin-bottom: 12px; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--home-muted); }
 .demo-input-item { display: flex; gap: 12px; align-items: center; margin-bottom: 14px; }
-.demo-input-thumb { width: 56px; aspect-ratio: 3/4; flex-shrink: 0; border: 1px solid var(--home-ink); background: #e4e1d7; }
+.demo-input-thumb { width: 56px; aspect-ratio: 3/4; flex-shrink: 0; border: 1px solid var(--home-ink); background: #fff; }
 .demo-input-item strong { display: block; font-size: 13.5px; font-weight: 800; }
 .demo-input-item span { font-size: 12.5px; color: var(--home-muted); }
 .demo-input-tags { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -517,8 +533,10 @@
 .demo-look-body-plain { grid-template-columns: 1fr; }
 .business-home .demo-look-body p { margin: 0 0 8px; font-size: 13px; line-height: 1.55; color: #3f3f39; }
 .business-home .demo-look-body-plain p { margin: 0; }
-.demo-look-items { display: flex; gap: 8px; }
-.demo-look-thumb { width: 62px; aspect-ratio: 3/4; border: 1px solid var(--home-ink); background: #e4e1d7; }
+/* align-items, because the default stretch beats the thumbs' own aspect-ratio: at narrow
+   widths the row grows tall and the 3/4 frames were being pulled to 62x227. */
+.demo-look-items { display: flex; align-items: flex-start; gap: 8px; }
+.demo-look-thumb { width: 62px; aspect-ratio: 3/4; border: 1px solid var(--home-ink); background: #fff; }
 .demo-look-tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .demo-look-tags span { padding: 3px 7px; border: 1px solid var(--home-line-strong); font-size: 12px; font-weight: 800; color: var(--home-muted); }
 .demo-look-tags .is-lime { background: var(--home-lime); border-color: var(--home-lime); color: var(--home-ink) !important; }
@@ -540,7 +558,7 @@
 .is-styld .demo-chat-bubble { background: var(--home-paper); color: #3f3f39; }
 .is-shopper .demo-chat-bubble { background: var(--home-cobalt); border-color: var(--home-cobalt); color: #fff; }
 .demo-chat-items { display: flex; gap: 8px; }
-.demo-chat-thumb { width: 54px; aspect-ratio: 3/4; border: 1px solid var(--home-ink); background: #e4e1d7; }
+.demo-chat-thumb { width: 54px; aspect-ratio: 3/4; border: 1px solid var(--home-ink); background: #fff; }
 
 .demo-chat-form { display: flex; align-items: stretch; border-top: 1px solid var(--home-ink); }
 .demo-chat-input { flex: 1; min-width: 0; display: flex; align-items: center; min-height: 48px; padding: 0 16px; font-size: 13.5px; color: var(--home-muted); }
@@ -605,21 +623,79 @@
 
 /* ---- ROI ---- */
 .home-roi { background: var(--home-paper); border-block: 1px solid var(--home-ink); }
-.roi-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 20px; align-items: start; }
+/* stretch, not start: the two panels were different heights and the row ended ragged.
+   The output becomes a column whose card block takes the slack, so its CTA sits on the
+   same baseline as the bottom of the inputs. */
+.roi-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 20px; align-items: stretch; }
+.roi-output { display: grid; grid-template-rows: auto 1fr auto; }
+
 .roi-inputs { border: 1px solid var(--home-ink); background: var(--home-bg); padding: 26px; }
 .roi-panel-title { margin: 0 0 22px; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
-.roi-field { margin-bottom: 22px; }
-.roi-field-label { display: block; margin-bottom: 8px; font-size: 13px; font-weight: 800; }
-.roi-field-row { display: flex; align-items: stretch; border: 1px solid var(--home-ink); background: var(--home-paper); }
-.roi-field-affix { display: grid; place-items: center; padding-inline: 12px; background: var(--home-ink); color: var(--home-paper); font-size: 13px; font-weight: 900; }
-.roi-slider { flex: 1; min-width: 0; margin: 0 12px; accent-color: var(--home-cobalt); }
-.roi-slider:focus-visible { outline: 3px solid var(--home-cobalt); outline-offset: 3px; }
-.roi-field-value { display: grid; place-items: center; padding-inline: 13px; font-size: 14px; font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.roi-disclosure {
-  display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; padding: 9px 0;
-  border: 0; background: transparent; cursor: pointer; font-size: 13px; font-weight: 800; color: var(--home-cobalt);
+/* ---- Calculator inputs ----
+ *
+ * These were native range inputs with nothing but `accent-color` on them: a hairline grey
+ * track and a small round thumb, in a page that has no rounded corners anywhere else. They
+ * were also the only control here you could not read at a glance, because the number sat off
+ * to the right of the track instead of with its label.
+ *
+ * So: the value moves up next to the label where it is read, and the control is drawn in the
+ * page's own language — square thumb, ink border, cobalt fill behind it. The fill percentage
+ * comes in as --roi-fill from the component, which matches the thumb exactly because a range
+ * input positions its thumb linearly in (value - min) / (max - min). */
+.roi-field { margin-bottom: 24px; }
+.roi-field-head { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; margin-bottom: 10px; }
+.roi-field-label { font-size: 13px; font-weight: 800; }
+.roi-field-value {
+  font-size: 19px; font-weight: 800; letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--home-cobalt);
 }
-.roi-disclosure:hover { text-decoration: underline; text-underline-offset: 4px; }
+/* A fixed first column, so the return-rate track (which has no currency box) starts
+   on the same line as the two that do. */
+.roi-field-row { display: grid; grid-template-columns: 30px minmax(0, 1fr); align-items: center; gap: 12px; }
+.roi-field-affix {
+  grid-column: 1; display: grid; place-items: center; width: 30px; height: 30px;
+  border: 1px solid var(--home-ink); background: var(--home-ink); color: var(--home-paper);
+  font-size: 13px; font-weight: 900;
+}
+
+/* The input is 44px tall so the whole strip is a comfortable target — the visible track is
+   drawn inside it. Guidance flags the default ~14px thumb as an accessibility problem. */
+.roi-slider {
+  grid-column: 2; min-width: 0; height: 44px; margin: 0; padding: 0;
+  background: transparent; -webkit-appearance: none; appearance: none; cursor: pointer;
+}
+.roi-slider::-webkit-slider-runnable-track {
+  height: 10px; border: 1px solid var(--home-ink);
+  background: linear-gradient(to right, var(--home-cobalt) 0 var(--roi-fill, 0%), var(--home-paper) var(--roi-fill, 0%) 100%);
+}
+.roi-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 22px; height: 22px; margin-top: -7px; border-radius: 0;
+  border: 1px solid var(--home-ink); background: var(--home-lime);
+  box-shadow: 2px 2px 0 var(--home-ink);
+}
+.roi-slider:active::-webkit-slider-thumb { background: var(--home-cobalt); box-shadow: 1px 1px 0 var(--home-ink); }
+.roi-slider::-moz-range-track { height: 10px; border: 1px solid var(--home-ink); background: var(--home-paper); }
+.roi-slider::-moz-range-progress { height: 10px; border: 1px solid var(--home-ink); background: var(--home-cobalt); }
+.roi-slider::-moz-range-thumb {
+  width: 20px; height: 20px; border-radius: 0;
+  border: 1px solid var(--home-ink); background: var(--home-lime);
+}
+.roi-slider:focus-visible { outline: 3px solid var(--home-cobalt); outline-offset: 3px; }
+/* "Inputs that look like plain text" is the named anti-pattern; this now carries a box and a
+   sign so it reads as something you can open. */
+.roi-disclosure {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 40px; padding: 0 14px 0 0;
+  border: 0; background: none; color: var(--home-ink);
+  font-size: 13px; font-weight: 800; cursor: pointer;
+}
+.roi-disclosure::before {
+  content: "+"; display: grid; place-items: center; width: 26px; height: 26px; flex: 0 0 auto;
+  border: 1px solid var(--home-line-strong); font-size: 15px; font-weight: 800; line-height: 1;
+}
+.roi-disclosure[aria-expanded="true"]::before { content: "−"; border-color: var(--home-ink); background: var(--home-lime); }
+.roi-disclosure:hover::before { border-color: var(--home-ink); }
+.roi-disclosure:focus-visible { outline: 3px solid var(--home-cobalt); outline-offset: 3px; }
 .roi-advanced { margin-top: 12px; padding-top: 20px; border-top: 1px dashed var(--home-line-strong); }
 .business-home .roi-hint { margin: 8px 0 0; font-size: 12px; line-height: 1.5; color: var(--home-muted); }
 .roi-scenario { margin-top: 26px; padding-top: 22px; border-top: 1px solid var(--home-line); }
@@ -640,12 +716,31 @@
 .roi-headline-label { display: block; margin-bottom: 12px; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: var(--home-lime); }
 .roi-headline strong { display: block; font-size: clamp(38px, 5vw, 66px); font-weight: 800; letter-spacing: -0.07em; line-height: 0.9; font-variant-numeric: tabular-nums; }
 .roi-headline-note { display: block; margin-top: 10px; max-width: 44ch; font-size: 14px; line-height: 1.5; color: rgba(255,255,255,.7); }
-.roi-cards { display: grid; grid-template-columns: repeat(2, 1fr); border-bottom: 1px solid rgba(255,255,255,.22); }
-.roi-card { padding: 20px; border-right: 1px solid rgba(255,255,255,.22); border-bottom: 1px solid rgba(255,255,255,.22); }
+/* The four result cards.
+ *
+ * These are the payoff of the whole calculator, so the number carries the card: set large and
+ * centred, with the label under it big enough to read but plainly subordinate — roughly a
+ * third of the number's size, which is what keeps the pair reading as one figure rather than
+ * two competing lines. The card block takes the panel's spare height, so the numbers sit
+ * optically centred in their cells instead of hugging the top. */
+.roi-cards { display: grid; grid-template-columns: repeat(2, 1fr); align-content: stretch; border-bottom: 1px solid rgba(255,255,255,.22); }
+.roi-card {
+  display: grid; align-content: center; justify-items: center; text-align: center;
+  gap: 10px; padding: 28px 20px;
+  border-right: 1px solid rgba(255,255,255,.22); border-bottom: 1px solid rgba(255,255,255,.22);
+}
 .roi-card:nth-child(2n) { border-right: 0; }
 .roi-card:nth-last-child(-n+2) { border-bottom: 0; }
-.roi-card strong { display: block; font-size: clamp(19px, 2vw, 25px); font-weight: 800; letter-spacing: -0.05em; font-variant-numeric: tabular-nums; }
-.roi-card span { display: block; margin-top: 7px; font-size: 12.5px; font-weight: 700; color: rgba(255,255,255,.78); }
+.roi-card strong {
+  display: block; font-size: clamp(30px, 3.4vw, 44px); font-weight: 800;
+  letter-spacing: -0.055em; line-height: 1; font-variant-numeric: tabular-nums;
+}
+/* Bounded so a long label wraps to a tidy stack under the number instead of running the
+   full width of the cell and pulling the eye sideways. */
+.roi-card span {
+  display: block; margin: 0; max-width: 22ch;
+  font-size: 14px; font-weight: 700; line-height: 1.4; color: rgba(255,255,255,.78);
+}
 .roi-cta { display: grid; grid-template-columns: 1fr auto; gap: 22px; align-items: center; padding: 24px 28px; border-bottom: 1px solid rgba(255,255,255,.22); }
 .roi-cta strong { display: block; margin-bottom: 6px; font-size: 16px; }
 .business-home .roi-cta p { margin: 0; max-width: 52ch; font-size: 13.5px; line-height: 1.55; color: rgba(255,255,255,.7); }

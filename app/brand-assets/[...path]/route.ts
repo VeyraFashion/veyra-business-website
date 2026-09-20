@@ -17,7 +17,7 @@ const MIME_BY_EXT: Record<string, string> = {
 /** Serves files directly out of /assets/<Brand>/... (product images living next to each
  *  brand's catalog JSON) — this repo's actual source of truth for brand imagery, not a
  *  copy staged under public/. Read-only, image files only. */
-export async function GET(_req: NextRequest, { params }: { params: Promise<{ path: string[] }> }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ path: string[] }> }) {
   const { path: segments } = await params;
   if (!segments || segments.length === 0) {
     return new NextResponse("Not found", { status: 404 });
@@ -49,12 +49,29 @@ export async function GET(_req: NextRequest, { params }: { params: Promise<{ pat
     return new NextResponse("Not found", { status: 404 });
   }
 
+  // These are served by path with no content hash, so they are emphatically NOT immutable —
+  // and the previous `max-age=31536000, immutable` meant replacing a file changed nothing a
+  // visitor could see for a year. Next's image optimizer honours upstream cache headers too,
+  // so a stale asset stuck in both its cache and the browser's.
+  //
+  // An ETag from mtime + size lets a repeat request settle as a cheap 304 while an edited
+  // file is picked up on the next load.
+  const etag = `W/"${stat.size.toString(16)}-${stat.mtimeMs.toString(16)}"`;
+  if (req.headers.get("if-none-match") === etag) {
+    return new NextResponse(null, {
+      status: 304,
+      headers: { ETag: etag, "Cache-Control": "public, max-age=300, must-revalidate" },
+    });
+  }
+
   const body = fs.readFileSync(target);
   return new NextResponse(new Uint8Array(body), {
     headers: {
       "Content-Type": contentType,
       "Content-Length": String(stat.size),
-      "Cache-Control": "public, max-age=31536000, immutable",
+      ETag: etag,
+      "Last-Modified": new Date(stat.mtimeMs).toUTCString(),
+      "Cache-Control": "public, max-age=300, must-revalidate",
     },
   });
 }

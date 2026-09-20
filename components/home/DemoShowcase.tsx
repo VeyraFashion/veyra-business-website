@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Image from "next/image";
 import { ArrowRight, Check } from "lucide-react";
-import ContentSlot from "@/components/home/ContentSlot";
 
 /** Four moments, four different outputs — what the shopper actually ends up looking at,
  *  rather than a diagram of where a button would go.
@@ -129,10 +128,18 @@ export default function DemoShowcase() {
                 <div className="demo-pdp">
                   <div className="demo-pdp-image">
                     <Image src="/field-jacket.png" alt="Field jacket" fill sizes="(max-width: 760px) 90vw, 380px" style={{ objectFit: "contain", padding: 24 }} />
-                    <div className="demo-pdp-thumbs">
-                      <div className="demo-thumb is-active"><ContentSlot label="On you" compact /></div>
-                      <div className="demo-thumb"><ContentSlot label="Alt" compact /></div>
-                      <div className="demo-thumb"><ContentSlot label="Alt" compact /></div>
+                    {/* The STYLD render of this same jacket, sat over the product shot the way
+                        an extra gallery image would be. It replaced three gallery slots, two of
+                        which were placeholders for renders that do not exist — one real output
+                        says more than one real output beside two empty frames. */}
+                    <div className="demo-pdp-tryon">
+                      <Image
+                        src="/brand-assets/static/result/field_jacket_res.png"
+                        alt="The field jacket worn by a shopper, rendered by STYLD"
+                        fill
+                        sizes="(max-width: 760px) 30vw, 120px"
+                        style={{ objectFit: "cover", objectPosition: "center top" }}
+                      />
                     </div>
                   </div>
                   <div className="demo-pdp-copy">

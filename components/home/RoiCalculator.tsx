@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useState } from "react";
+import { type CSSProperties, useId, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import { SCENARIOS, formatInrCompact } from "@/lib/roi";
 import { useStoreInputs } from "@/components/home/StoreInputs";
@@ -28,11 +28,18 @@ function SliderRow({
   onChange: (next: number) => void;
 }) {
   const id = useId();
+  // How far along the track the thumb sits. A range input positions its thumb linearly in
+  // (value - min) / (max - min), so the same ratio paints a fill that tracks it exactly.
+  const fill = max > min ? ((value - min) / (max - min)) * 100 : 0;
+
   return (
     <div className="roi-field">
-      <label className="roi-field-label" htmlFor={id}>
-        {label}
-      </label>
+      <div className="roi-field-head">
+        <label className="roi-field-label" htmlFor={id}>
+          {label}
+        </label>
+        <output className="roi-field-value" htmlFor={id}>{display}</output>
+      </div>
       <div className="roi-field-row">
         {prefix && <span className="roi-field-affix" aria-hidden="true">{prefix}</span>}
         <input
@@ -44,8 +51,8 @@ function SliderRow({
           step={step}
           value={value}
           onChange={(event) => onChange(Number(event.target.value))}
+          style={{ "--roi-fill": `${fill}%` } as CSSProperties}
         />
-        <span className="roi-field-value">{display}</span>
       </div>
     </div>
   );
