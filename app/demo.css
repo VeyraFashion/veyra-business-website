@@ -351,7 +351,9 @@
 .demo-outfit-product-link { min-width: 0; min-height: 56px; display: grid; grid-template-columns: 54px minmax(0, 1fr) auto; align-items: center; gap: 10px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.28); background: rgba(255, 255, 255, 0.06); color: white; text-decoration: none; }
 .demo-outfit-product-link:not(.is-unavailable):hover { border-color: var(--demo-lime); background: rgba(217, 255, 99, 0.1); }
 .demo-outfit-product-link.is-unavailable { color: rgba(255, 255, 255, 0.64); }
-.demo-outfit-thumb { width: 54px; position: relative; align-self: stretch; overflow: hidden; border-right: 1px solid rgba(255, 255, 255, 0.24); background: #eeece5; }
+/* align-self: stretch gave this whatever height the row happened to be, so the garment was
+   cropped to an arbitrary aspect. Pinned to the catalogue's 2:3. */
+.demo-outfit-thumb { width: 54px; position: relative; aspect-ratio: 2 / 3; align-self: center; overflow: hidden; border-right: 1px solid rgba(255, 255, 255, 0.24); background: #eeece5; }
 .demo-outfit-thumb img { object-fit: cover; object-position: center top; }
 .demo-outfit-product-name { min-width: 0; padding-block: 8px; overflow: hidden; font-size: 12px; font-weight: 800; line-height: 1.35; text-overflow: ellipsis; }
 .demo-outfit-buy-action { display: inline-flex; align-items: center; gap: 4px; padding-right: 10px; color: var(--demo-lime); font-size: 12px; font-weight: 900; text-transform: uppercase; white-space: nowrap; }
@@ -593,7 +595,10 @@
 .picker-tile.is-selected { border-color: var(--demo-cobalt); box-shadow: 8px 8px 0 var(--demo-cobalt); }
 
 .picker-tile-image {
-  position: relative; display: block; aspect-ratio: 4 / 5; overflow: hidden;
+  /* 2/3, matching the catalogue. Every one of the 92 SNITCH images is 800x1200, so a 4/5
+     tile was cropping ~17% off each garment for no reason. Matching the frame to the
+     source beats padding 92 photographs. */
+  position: relative; display: block; aspect-ratio: 2 / 3; overflow: hidden;
   background: #e4e1d8; border-bottom: 1px solid var(--demo-line);
 }
 .picker-tile-image img { object-fit: cover; object-position: center top; transition: transform 350ms ease; }
