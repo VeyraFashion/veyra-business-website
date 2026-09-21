@@ -138,7 +138,7 @@ describe("homepage interactions", () => {
 
     await user.click(trigger);
     expect(trigger).toHaveAttribute("aria-expanded", "true");
-    expect(screen.getByText(/styld adds an intelligence and image layer/i)).toBeVisible();
+    expect(screen.getByText(/it sits behind the storefront you already have/i)).toBeVisible();
 
     await user.click(trigger);
     expect(trigger).toHaveAttribute("aria-expanded", "false");
