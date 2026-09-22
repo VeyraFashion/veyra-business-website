@@ -10,44 +10,41 @@ import {
 /** The two final entries are deliberately unanswered.
  *
  *  Data handling and commercials are the questions most likely to stall a deal, and both
- *  depend on facts this codebase doesn't have. An honest placeholder is safer than
- *  invented policy or pricing — and it tells whoever owns the site exactly what to supply. */
+ *  depend on facts this codebase doesn't have. Each one says plainly that the answer comes
+ *  in writing and lists what it will contain — honest, but still a promise someone has to
+ *  keep. Whoever owns the site should replace both with the real region, retention window,
+ *  sub-processor list and commercial terms, then drop the `pending` flag. */
 const questions = [
   {
     question: "How does STYLD fit into our storefront or app?",
     answer:
-      "STYLD adds an intelligence and image layer behind your experience. Your team can use the API directly or begin with a focused surface while keeping your existing product pages, cart, identity and analytics in place.",
+      "It sits behind the storefront you already have. Your team calls our API from a page that already exists — a product page, the cart, or a single category — and the shopper never leaves your interface. Product pages, checkout, logins and analytics stay exactly as they are, so there is nothing to re-platform.",
   },
   {
     question: "What does a shopper need to upload?",
     answer:
-      "A single suitable full-body photo, capped at 8 MB. It creates a reusable avatar for future try-ons, and the interface explains what is needed and how the image is used. Cropped, angled, obstructed or multi-person photos get retake guidance before any generation begins.",
+      "One full-body photo. They upload it once and it becomes a reusable avatar, so every try-on after that is a single tap. The photo is checked before anything is generated: if it is cropped, taken at a sharp angle, partly obstructed, or has more than one person in it, the shopper is asked to retake it rather than handed a poor result.",
   },
   {
-    question: "Can a shopper try multiple garments together?",
+    question: "Can a shopper try on a full outfit, or only one item?",
     answer:
-      "Yes — a base top, a bottom or full-body garment, an outerwear layer and footwear. Each combination is validated against garment-role rules before the image job starts.",
-  },
-  {
-    question: "How do you keep generated images trustworthy?",
-    answer:
-      "Source analysis, garment-role checks, constrained generation, then a second visual review for colour, pattern, logo, texture, construction and framing. Review notes travel with every result.",
+      "A full outfit. A top, a bottom or a single full-body piece such as a dress, an outerwear layer, and footwear. Every garment carries a role, and the combination is checked against those roles before the image job starts — so two items can never compete for the same layer.",
   },
   {
     question: "What should the first pilot measure?",
     answer:
-      "Choose one primary behaviour before launch: try-on activation, add-to-cart, conversion, contribution margin or return behaviour. Published studies give context; your own catalogue and traffic give the decision-ready number.",
+      "Agree one primary metric before launch and treat the rest as secondary reporting. Pick from try-on activation, add-to-cart, conversion, contribution margin, or return rate. Published retailer studies tell you what is plausible; only your own catalogue and traffic produce the number a buying committee can actually decide on.",
   },
   {
-    question: "Where are shopper images processed and how long are they kept?",
+    question: "Where are shopper images processed, and how long are they kept?",
     answer:
-      "Processing region, retention window, sub-processor list, deletion-on-request process, and the consent copy you supply for the shopper-facing surface.",
+      "You get this in writing before a pilot begins, because it belongs in your contract rather than on a marketing page. It covers the processing region, how long a shopper's images and avatar are retained, the full sub-processor list, how a deletion request is handled and how quickly, and the consent wording shown on the shopper-facing surface. Ask for it on the walkthrough and it comes back as a document your legal and security teams can review.",
     pending: true,
   },
   {
     question: "What does it cost, and what happens if we stop?",
     answer:
-      "Commercial shape and exit terms. Recommended shape once agreed: pilot fee, then per-render or per-session, no platform minimum; on exit the surface is removed and data deleted on request.",
+      "We quote per pilot instead of publishing a list price, because the number depends on your catalogue size and render volume. The shape we propose: a fixed pilot fee, then usage-based pricing per render or per session, with no platform minimum. If you stop, the surface is removed from your storefront and shopper data is deleted on request — no exit period to serve out.",
     pending: true,
   },
 ] as const;
