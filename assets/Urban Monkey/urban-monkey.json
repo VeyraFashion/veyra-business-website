@@ -161,54 +161,2576 @@
         "product_url": "https://www.urbanmonkey.com/products/utility"
       },
       "image_path": null
+    },
+    {
+      "id": "urban-monkey-paradise-pocket",
+      "name": "Paradise Pocket",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100",
+        "100 cotton denim",
+        "5",
+        "all headwear",
+        "baseball cap",
+        "blue",
+        "blue cap",
+        "breakfast club caps"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/paradise-pocket",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-paradise-pocket",
+        "catalog_product_id": "10313920020761"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_11th_June1397.jpg?v=1781517049",
+      "image_path": "images/urban-monkey-paradise-pocket.jpg"
+    },
+    {
+      "id": "urban-monkey-sunday-trucker",
+      "name": "Sunday Trucker",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "adjustable strap",
+        "all headwear",
+        "black cap",
+        "black dad cap",
+        "black skull",
+        "black trucker cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/sunday-trucker",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-sunday-trucker",
+        "catalog_product_id": "10313920905497"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_11th_June1396.jpg?v=1781517040",
+      "image_path": "images/urban-monkey-sunday-trucker.jpg"
+    },
+    {
+      "id": "urban-monkey-smiley-daisy",
+      "name": "Smiley Daisy",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "adjustable strap",
+        "all headwear",
+        "baseball cap",
+        "beach please",
+        "belt loops",
+        "best seller"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/smiley-daisy",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-smiley-daisy",
+        "catalog_product_id": "10313920872729"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_11th_June1404.jpg?v=1781517049",
+      "image_path": "images/urban-monkey-smiley-daisy.jpg"
+    },
+    {
+      "id": "urban-monkey-matcha",
+      "name": "Matcha",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "adjustable strap",
+        "all headwear",
+        "arched matcha varsity embroidery",
+        "baseball cap",
+        "breakfast club caps",
+        "color cream",
+        "corduroy"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/matcha",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-matcha",
+        "catalog_product_id": "10313920413977"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_11th_June1407.jpg?v=1781517036",
+      "image_path": "images/urban-monkey-matcha.jpg"
+    },
+    {
+      "id": "urban-monkey-brunch-club",
+      "name": "Brunch Club",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "adjustable strap",
+        "all headwear",
+        "baseball cap",
+        "baseball dad cap",
+        "beige",
+        "beige baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/brunch-club",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-brunch-club",
+        "catalog_product_id": "10313920676121"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_11th_June1412.jpg?v=1781517049",
+      "image_path": "images/urban-monkey-brunch-club.jpg"
+    },
+    {
+      "id": "urban-monkey-tea-and-toast",
+      "name": "Tea and Toast",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "adjustable strap",
+        "all headwear",
+        "baseball cap",
+        "baseball dad cap",
+        "beige",
+        "beige baseball cap",
+        "beige baseball dad cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/tea-and-toast",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-tea-and-toast",
+        "catalog_product_id": "10313920282905"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_11th_June1400.jpg?v=1781517049",
+      "image_path": "images/urban-monkey-tea-and-toast.jpg"
+    },
+    {
+      "id": "urban-monkey-breakfast-club",
+      "name": "Breakfast Club",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "adjustable strap",
+        "all",
+        "all headwear",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/breakfast-club",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-breakfast-club",
+        "catalog_product_id": "10313920184601"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_11th_June1403.jpg?v=1781517313",
+      "image_path": "images/urban-monkey-breakfast-club.jpg"
+    },
+    {
+      "id": "urban-monkey-candy-land",
+      "name": "Candy Land",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "5",
+        "airport looks",
+        "bottom",
+        "bottoms",
+        "boxer",
+        "boxers",
+        "candy land",
+        "casual"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Boxers",
+        "product_url": "https://www.urbanmonkey.com/products/candy-land",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-candy-land",
+        "catalog_product_id": "8460894077209"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/pink-print-boxers-front.jpg?v=1690956108",
+      "image_path": "images/urban-monkey-candy-land.jpg"
+    },
+    {
+      "id": "urban-monkey-lazy",
+      "name": "Lazy",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "5",
+        "airport looks",
+        "bottom",
+        "bottoms",
+        "boxer",
+        "boxers",
+        "casual",
+        "clothing"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Boxers",
+        "product_url": "https://www.urbanmonkey.com/products/lazy",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-lazy",
+        "catalog_product_id": "8460917342489"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/green-print-boxer-back-463297.jpg?v=1733830141",
+      "image_path": "images/urban-monkey-lazy.jpg"
+    },
+    {
+      "id": "urban-monkey-offline",
+      "name": "Offline",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "5",
+        "airport looks",
+        "bottom",
+        "bottoms",
+        "boxer",
+        "boxers",
+        "casual",
+        "clothing"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Boxers",
+        "product_url": "https://www.urbanmonkey.com/products/offline",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-offline",
+        "catalog_product_id": "8460942737689"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/offline-um23a-bx-002-s-990410.jpg?v=1734935565",
+      "image_path": "images/urban-monkey-offline.jpg"
+    },
+    {
+      "id": "urban-monkey-easy",
+      "name": "Easy",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "5",
+        "airport looks",
+        "bottoms",
+        "boxer",
+        "boxers",
+        "casual",
+        "clothing",
+        "color purple"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Boxers",
+        "product_url": "https://www.urbanmonkey.com/products/easy",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-easy",
+        "catalog_product_id": "8460879823129"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/violet-print-boxers-front-479990.jpg?v=1733829637",
+      "image_path": "images/urban-monkey-easy.jpg"
+    },
+    {
+      "id": "urban-monkey-old-english",
+      "name": "Old English",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "billions 002",
+        "everyday essentials",
+        "friends of summer caps",
+        "hats caps",
+        "low top snapback"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Snapback Caps",
+        "product_url": "https://www.urbanmonkey.com/products/old-english",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-old-english",
+        "catalog_product_id": "10206200299801"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/old_english_dark_red_suede_snapback_03.jpg?v=1776413124",
+      "image_path": "images/urban-monkey-old-english.jpg"
+    },
+    {
+      "id": "urban-monkey-woof-club",
+      "name": "Woof Club",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/woof-club",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-woof-club",
+        "catalog_product_id": "10206201544985"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/woof_club_black_baseball_dad_cap_03.jpg?v=1776413105",
+      "image_path": "images/urban-monkey-woof-club.jpg"
+    },
+    {
+      "id": "urban-monkey-utopia",
+      "name": "Utopia",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/utopia",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-utopia",
+        "catalog_product_id": "10206203379993"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/utopia_white_baseball_suede_cap_03.jpg?v=1776413073",
+      "image_path": "images/urban-monkey-utopia.jpg"
+    },
+    {
+      "id": "urban-monkey-dry-day",
+      "name": "Dry Day",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/dry-day",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-dry-day",
+        "catalog_product_id": "10206205411609"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Dry_Day_Green_Baseball_Dad_Cap_03.jpg?v=1776413023",
+      "image_path": "images/urban-monkey-dry-day.jpg"
+    },
+    {
+      "id": "urban-monkey-do-not-disturb",
+      "name": "Do Not Disturb",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/do-not-disturb",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-do-not-disturb",
+        "catalog_product_id": "10206209540377"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Donotdisturb_white_cotton_baseball_dad_cap_04.jpg?v=1776412985",
+      "image_path": "images/urban-monkey-do-not-disturb.jpg"
+    },
+    {
+      "id": "urban-monkey-chrome-stars",
+      "name": "Chrome Stars",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/chrome-stars",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-chrome-stars",
+        "catalog_product_id": "10206211539225"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Chrome_stars_black_leather_cap_04.jpg?v=1776412968",
+      "image_path": "images/urban-monkey-chrome-stars.jpg"
+    },
+    {
+      "id": "urban-monkey-court-side",
+      "name": "Court Side",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "athleisure",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/court-side",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-court-side",
+        "catalog_product_id": "10206215373081"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Court_side_white_cotton_baseball_cap_04.jpg?v=1776412781",
+      "image_path": "images/urban-monkey-court-side.jpg"
+    },
+    {
+      "id": "urban-monkey-street-dept",
+      "name": "Street Dept.",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "baseball trucker cap",
+        "black",
+        "black baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/street-dept",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-street-dept",
+        "catalog_product_id": "10206217797913"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Street_Dept_Black_Denim_Trucker_Cap_03.jpg?v=1776412737",
+      "image_path": "images/urban-monkey-street-dept.jpg"
+    },
+    {
+      "id": "urban-monkey-incognito",
+      "name": "Incognito",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "athleisure",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/incognito",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-incognito",
+        "catalog_product_id": "10206219993369"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Incognoti_black_baseball_dad_cap_03_60b38a54-2621-4cfb-b0a6-bc57b58561e1.jpg?v=1778206378",
+      "image_path": "images/urban-monkey-incognito.jpg"
+    },
+    {
+      "id": "urban-monkey-hellfire",
+      "name": "Hellfire",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/hellfire",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-hellfire",
+        "catalog_product_id": "10206221893913"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Hellfire_black_baseball_cap_03_9099adab-a097-490b-935d-7d708ad34f7c.jpg?v=1778206407",
+      "image_path": "images/urban-monkey-hellfire.jpg"
+    },
+    {
+      "id": "urban-monkey-soft-life-checks-002",
+      "name": "Soft Life Checks // 002",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton twill",
+        "5",
+        "brown",
+        "brown shirts",
+        "button down style",
+        "check shirts",
+        "clothing",
+        "corduroy shirts"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/soft-life-checks-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-soft-life-checks-002",
+        "catalog_product_id": "10319181316377"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/s2_07_84a0052f-6a40-4add-a5ad-d54b55727578.jpg?v=1777256417",
+      "image_path": "images/urban-monkey-soft-life-checks-002.jpg"
+    },
+    {
+      "id": "urban-monkey-soft-life-checks-001",
+      "name": "Soft Life Checks // 001",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton dobby",
+        "5",
+        "button down style",
+        "check shirts",
+        "clothing",
+        "corduroy shirts",
+        "ecru",
+        "ecru shirts"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/soft-life-checks-001",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-soft-life-checks-001",
+        "catalog_product_id": "10319177613593"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/04_7db789ba-62c3-43b5-b1b2-d9d8124fc5bf.jpg?v=1777256404",
+      "image_path": "images/urban-monkey-soft-life-checks-001.jpg"
+    },
+    {
+      "id": "urban-monkey-marga-shorts",
+      "name": "Marga Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "100 cotton dobby",
+        "2 side pockets",
+        "5",
+        "bottoms",
+        "brown",
+        "brown shorts",
+        "casual shorts",
+        "clothing"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shorts",
+        "product_url": "https://www.urbanmonkey.com/products/marga-shorts",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-marga-shorts",
+        "catalog_product_id": "10301103636761"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/14_c823b65b-730a-4266-ad8d-36fcc9ed45eb.png?v=1775029365",
+      "image_path": "images/urban-monkey-marga-shorts.png"
+    },
+    {
+      "id": "urban-monkey-marga-relaxed-pants",
+      "name": "Marga Relaxed Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "100 cotton dobby",
+        "2 side pockets",
+        "5",
+        "bottoms",
+        "brown",
+        "brown shorts",
+        "casual shorts",
+        "clothing"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Pants",
+        "product_url": "https://www.urbanmonkey.com/products/marga-relaxed-pants",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-marga-relaxed-pants",
+        "catalog_product_id": "10301104062745"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/2_7b8eade0-5bff-443c-a9b0-25806f685f9a.png?v=1775029249",
+      "image_path": "images/urban-monkey-marga-relaxed-pants.png"
+    },
+    {
+      "id": "urban-monkey-prana-camp-shirt",
+      "name": "Prana Camp Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "clothing",
+        "creme",
+        "drop shoulder shirts",
+        "half sleeve shirt",
+        "half sleeve shirts",
+        "half sleeves"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/prana-camp-shirt",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-prana-camp-shirt",
+        "catalog_product_id": "10301102817561"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/7_ac810095-9f25-4e44-9792-101ada7181d9.png?v=1775214016",
+      "image_path": "images/urban-monkey-prana-camp-shirt.png"
+    },
+    {
+      "id": "urban-monkey-denim-short-sleeves-shirt",
+      "name": "Denim Short Sleeves Shirt",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "100 denim cotton",
+        "5",
+        "best seller",
+        "black denim shirt",
+        "black shirt",
+        "clothing",
+        "cotton denim shacket",
+        "denim shirt"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/denim-short-sleeves-shirt",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-denim-short-sleeves-shirt",
+        "catalog_product_id": "10279966802201"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/5_e20b4280-3ed2-49d6-ad42-0cf52f11c33d.png?v=1773640438",
+      "image_path": "images/urban-monkey-denim-short-sleeves-shirt.png"
+    },
+    {
+      "id": "urban-monkey-denim-full-sleeves-shirt",
+      "name": "Denim Full Sleeves Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 denim cotton",
+        "5",
+        "best seller",
+        "clothing",
+        "cotton twill denim",
+        "denim maroon",
+        "denim shirt",
+        "denim shirt for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/denim-full-sleeves-shirt",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-denim-full-sleeves-shirt",
+        "catalog_product_id": "10279966114073"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/1_a8c4029c-b806-4db9-97c2-a2e5b1eaca33.png?v=1773639955",
+      "image_path": "images/urban-monkey-denim-full-sleeves-shirt.png"
+    },
+    {
+      "id": "urban-monkey-hooded-denim-shirt",
+      "name": "Hooded Denim Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 denim cotton",
+        "5",
+        "best seller",
+        "blue denim shirt",
+        "blue shirt",
+        "clothing",
+        "denim hoodie",
+        "denim hoodie shirt"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/hooded-denim-shirt",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-hooded-denim-shirt",
+        "catalog_product_id": "10279966474521"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Web_res_for_website_2026-2_865e992a-92bc-4499-91ff-24d13cfcb60d.png?v=1773663296",
+      "image_path": "images/urban-monkey-hooded-denim-shirt.png"
+    },
+    {
+      "id": "urban-monkey-assault-002",
+      "name": "RV X UM Assault // 002",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "collab",
+        "color red",
+        "curved brim",
+        "discontinued",
+        "friday mood",
+        "hats caps"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Snapback Caps",
+        "product_url": "https://www.urbanmonkey.com/products/assault-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-assault-002",
+        "catalog_product_id": "10291969622297"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/1_b02d9a87-f960-4baf-a679-235ce7ce1877.png?v=1773136848",
+      "image_path": "images/urban-monkey-assault-002.png"
+    },
+    {
+      "id": "urban-monkey-fire-fury",
+      "name": "Fire fury",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball cap",
+        "color neon",
+        "dad cap",
+        "discontinued",
+        "hats caps",
+        "limited edition"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/fire-fury",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-fire-fury",
+        "catalog_product_id": "4547416031316"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/products/fire-fury-right.jpg?v=1623405736",
+      "image_path": "images/urban-monkey-fire-fury.jpg"
+    },
+    {
+      "id": "urban-monkey-never-stop-playin-002",
+      "name": "Never Stop Playin\u2019 // 002",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "athleisure",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/never-stop-playin-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-never-stop-playin-002",
+        "catalog_product_id": "10025650585881"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Never_Stop_Playing_Nylong_Sports_Cap_03.jpg?v=1773048765",
+      "image_path": "images/urban-monkey-never-stop-playin-002.jpg"
+    },
+    {
+      "id": "urban-monkey-changes-1",
+      "name": "Changes",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/changes-1",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-changes-1",
+        "catalog_product_id": "10025643966745"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Changes_black_leather_baseball_cap_03.jpg?v=1772606658",
+      "image_path": "images/urban-monkey-changes-1.jpg"
+    },
+    {
+      "id": "urban-monkey-cardio-audio-1",
+      "name": "Cardio Audio",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/cardio-audio-1",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-cardio-audio-1",
+        "catalog_product_id": "10025644622105"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Cardio_Audio_Purple_Baseball_Cap_03.jpg?v=1773048144",
+      "image_path": "images/urban-monkey-cardio-audio-1.jpg"
+    },
+    {
+      "id": "urban-monkey-chains",
+      "name": "Chains",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/chains",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-chains",
+        "catalog_product_id": "10025645900057"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Chains_Black_Baseball_Cap_03.jpg?v=1773048250",
+      "image_path": "images/urban-monkey-chains.jpg"
+    },
+    {
+      "id": "urban-monkey-choco-drip",
+      "name": "Choco Drip",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/choco-drip",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-choco-drip",
+        "catalog_product_id": "10025647210777"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Brown_Leather_Baseball_cap_03.jpg?v=1772607078",
+      "image_path": "images/urban-monkey-choco-drip.jpg"
+    },
+    {
+      "id": "urban-monkey-dragonfly",
+      "name": "Dragonfly",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/dragonfly",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-dragonfly",
+        "catalog_product_id": "10025648161049"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Dragonfly_0ff_white_baseball_dad_cap_00.jpg?v=1773048534",
+      "image_path": "images/urban-monkey-dragonfly.jpg"
+    },
+    {
+      "id": "urban-monkey-fresh",
+      "name": "Fresh",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/fresh",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-fresh",
+        "catalog_product_id": "10025648849177"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Fresh_0ff_white_baseball_dad_cap_03.jpg?v=1773048691",
+      "image_path": "images/urban-monkey-fresh.jpg"
+    },
+    {
+      "id": "urban-monkey-founders-club-002",
+      "name": "Founders Club // 002",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/founders-club-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-founders-club-002",
+        "catalog_product_id": "10025649799449"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Founders_Club_Green_Baseball_Dad_Cap_03.jpg?v=1773048621",
+      "image_path": "images/urban-monkey-founders-club-002.jpg"
+    },
+    {
+      "id": "urban-monkey-power-play-002",
+      "name": "Power Play // 002",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5 panel cap for men",
+        "5 panel dad cap",
+        "5 pannel cap",
+        "5",
+        "all headwear",
+        "athleisure",
+        "baseball",
+        "baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/power-play-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-power-play-002",
+        "catalog_product_id": "10025652289817"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Power_Play_Sports_Cap_03.jpg?v=1773048864",
+      "image_path": "images/urban-monkey-power-play-002.jpg"
+    },
+    {
+      "id": "urban-monkey-goofy",
+      "name": "Goofy",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "blue baseball cap",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/goofy",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-goofy",
+        "catalog_product_id": "9784312529177"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/goofy-24bck211-owh-164749.jpg?v=1740828156",
+      "image_path": "images/urban-monkey-goofy.jpg"
+    },
+    {
+      "id": "urban-monkey-ghost-trucker",
+      "name": "Ghost Trucker",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black blue"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/ghost-trucker",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-ghost-trucker",
+        "catalog_product_id": "10017660240153"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_22_oct1922.jpg?v=1772610985",
+      "image_path": "images/urban-monkey-ghost-trucker.jpg"
+    },
+    {
+      "id": "urban-monkey-founders-club-001",
+      "name": "Founders Club // 001",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/founders-club-001",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-founders-club-001",
+        "catalog_product_id": "10017660567833"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_22_oct1913.jpg?v=1772100242",
+      "image_path": "images/urban-monkey-founders-club-001.jpg"
+    },
+    {
+      "id": "urban-monkey-task-force",
+      "name": "Task Force",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "camo",
+        "camo baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/task-force",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-task-force",
+        "catalog_product_id": "10017660764441"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_22_oct1912.jpg?v=1772612464",
+      "image_path": "images/urban-monkey-task-force.jpg"
+    },
+    {
+      "id": "urban-monkey-ghost-racer",
+      "name": "Ghost Racer",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black white cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/ghost-racer",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-ghost-racer",
+        "catalog_product_id": "10017660961049"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_22_oct1888_9e516c8f-c71d-4c9d-af78-cea15f601e92.jpg?v=1772610698",
+      "image_path": "images/urban-monkey-ghost-racer.jpg"
+    },
+    {
+      "id": "urban-monkey-letterman-trucker",
+      "name": "Letterman Trucker",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/letterman-trucker",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-letterman-trucker",
+        "catalog_product_id": "10017660141849"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_22_oct1921.jpg?v=1772612270",
+      "image_path": "images/urban-monkey-letterman-trucker.jpg"
+    },
+    {
+      "id": "urban-monkey-mr-rager-1",
+      "name": "Mr. Rager",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/mr-rager-1",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-mr-rager-1",
+        "catalog_product_id": "10017660076313"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_22_oct1939.jpg?v=1776409065",
+      "image_path": "images/urban-monkey-mr-rager-1.jpg"
+    },
+    {
+      "id": "urban-monkey-idgaf-trucker",
+      "name": "Idgaf Trucker",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "brown",
+        "brown baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/idgaf-trucker",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-idgaf-trucker",
+        "catalog_product_id": "10017661190425"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_22_oct1915.jpg?v=1772611248",
+      "image_path": "images/urban-monkey-idgaf-trucker.jpg"
+    },
+    {
+      "id": "urban-monkey-dune-patch-foldable-camper-cap",
+      "name": "Dune Patch // Foldable Camper Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5 panel",
+        "5",
+        "all headwear",
+        "athleisure",
+        "beige",
+        "beige cap",
+        "beige dad cap",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/dune-patch-foldable-camper-cap",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-dune-patch-foldable-camper-cap",
+        "catalog_product_id": "10017661255961"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_22_oct1872.jpg?v=1776252932",
+      "image_path": "images/urban-monkey-dune-patch-foldable-camper-cap.jpg"
+    },
+    {
+      "id": "urban-monkey-avenger-005",
+      "name": "avenger // 005",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 uv protection",
+        "5",
+        "anti glare",
+        "casual",
+        "celebrity",
+        "classic monkeys",
+        "classy",
+        "discontinued"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Sunglasses",
+        "product_url": "https://www.urbanmonkey.com/products/avenger-005",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-avenger-005",
+        "catalog_product_id": "6700753682516"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/avenger-001-front.jpg?v=1632135100",
+      "image_path": "images/urban-monkey-avenger-005.jpg"
+    },
+    {
+      "id": "urban-monkey-cargo-parachute-skirt-black",
+      "name": "Cargo Parachute Skirt // Black",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "100 nylon",
+        "5",
+        "black",
+        "black collection",
+        "black skirt",
+        "bottoms",
+        "clothing",
+        "color black"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Pants",
+        "product_url": "https://www.urbanmonkey.com/products/cargo-parachute-skirt-black",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-cargo-parachute-skirt-black",
+        "catalog_product_id": "10013719626009"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Womens_Cargo_parachute_skirt_01.jpg?v=1774840244",
+      "image_path": "images/urban-monkey-cargo-parachute-skirt-black.jpg"
+    },
+    {
+      "id": "urban-monkey-dreamer-tshirt",
+      "name": "Dreamer",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "blue",
+        "box fit",
+        "clothing",
+        "color blue",
+        "cotton t shirt",
+        "dis"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel T-Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/dreamer-tshirt",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-dreamer-tshirt",
+        "catalog_product_id": "10214030835993"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/4_38284d3f-eb4a-4d24-b8e6-65afb86f9cc1.png?v=1770006895",
+      "image_path": "images/urban-monkey-dreamer-tshirt.png"
+    },
+    {
+      "id": "urban-monkey-laptop-bag-002",
+      "name": "Laptop Bag // 002",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 polyester",
+        "18",
+        "accessories",
+        "black",
+        "black bag",
+        "black collection",
+        "black laptop bag",
+        "color black"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Acc_bags",
+        "product_url": "https://www.urbanmonkey.com/products/laptop-bag-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-laptop-bag-002",
+        "catalog_product_id": "10220730646809"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/13_2b01bd9d-be40-4db5-a155-da321667a089.png?v=1770014779",
+      "image_path": "images/urban-monkey-laptop-bag-002.png"
+    },
+    {
+      "id": "urban-monkey-mini-sling-bag-001",
+      "name": "Mini Sling Bag // 001",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "18",
+        "accessories",
+        "black collection",
+        "black sling",
+        "black sling bag",
+        "crossbody sling bag",
+        "feb capsule 26",
+        "feb capsule 26 systms"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Acc_bags",
+        "product_url": "https://www.urbanmonkey.com/products/mini-sling-bag-001",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-mini-sling-bag-001",
+        "catalog_product_id": "10238824808729"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/3_f2eef945-9426-4a80-b64b-2507afc8a718.png?v=1770027374",
+      "image_path": "images/urban-monkey-mini-sling-bag-001.png"
+    },
+    {
+      "id": "urban-monkey-metamorph-full-sleeve-shirt",
+      "name": "Metamorph // Full Sleeve Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "5",
+        "check shirts",
+        "clothing",
+        "corduroy shirts",
+        "feb capsule 26",
+        "feb capsule 26 core",
+        "metamorph full sleeve shirt",
+        "multi color shirts"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/metamorph-full-sleeve-shirt",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-metamorph-full-sleeve-shirt",
+        "catalog_product_id": "10233874415897"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/1_556c4ab5-4b1f-4f02-9dda-77bfb8925ff9.png?v=1770010437",
+      "image_path": "images/urban-monkey-metamorph-full-sleeve-shirt.png"
+    },
+    {
+      "id": "urban-monkey-volcano-full-sleeve-t-shirt",
+      "name": "Volcano // Full Sleeve T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "acid wash",
+        "clothing",
+        "color red",
+        "cotton t shirt",
+        "discontinued",
+        "feb capsule 26"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel T-Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/volcano-full-sleeve-t-shirt",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-volcano-full-sleeve-t-shirt",
+        "catalog_product_id": "10214030803225"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/4_f6966ac0-9f4e-4e58-8478-8e734b693d16.png?v=1770007789",
+      "image_path": "images/urban-monkey-volcano-full-sleeve-t-shirt.png"
+    },
+    {
+      "id": "urban-monkey-graphite-full-sleeve-t-shirt",
+      "name": "Graphite // Full Sleeve T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "acid wash",
+        "black",
+        "black tshirt",
+        "clothing",
+        "color black",
+        "cotton t shirt"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel T-Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/graphite-full-sleeve-t-shirt",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-graphite-full-sleeve-t-shirt",
+        "catalog_product_id": "10214031163673"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/5_15fd9bc8-7123-498b-85f7-c0726dc10d52.png?v=1770007167",
+      "image_path": "images/urban-monkey-graphite-full-sleeve-t-shirt.png"
+    },
+    {
+      "id": "urban-monkey-leggo-monkey",
+      "name": "Leggo Monkey",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "box fit",
+        "clothing",
+        "color white",
+        "cotton t shirt",
+        "discontinued",
+        "feb capsule 26"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel T-Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/leggo-monkey",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-leggo-monkey",
+        "catalog_product_id": "10214032376089"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/3_cb8c642c-5bbb-4314-b62d-58c62a2e0b9c.png?v=1770006440",
+      "image_path": "images/urban-monkey-leggo-monkey.png"
+    },
+    {
+      "id": "urban-monkey-monkeyverse",
+      "name": "Monkeyverse",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "black",
+        "black tshirt",
+        "box fit",
+        "clothing",
+        "color black",
+        "cotton t shirt"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel T-Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/monkeyverse",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-monkeyverse",
+        "catalog_product_id": "10214032933145"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/WEB_RES_images_for_um_website_02_08f928a3-5b25-4433-8949-cdb9f806fdaa.png?v=1770026938",
+      "image_path": "images/urban-monkey-monkeyverse.png"
+    },
+    {
+      "id": "urban-monkey-amigoz",
+      "name": "Amigoz",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "box fit",
+        "clothing",
+        "color cream",
+        "cotton t shirt",
+        "cream tshirt",
+        "discontinued"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel T-Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/amigoz",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-amigoz",
+        "catalog_product_id": "10214033359129"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/2_2480e324-e2b4-4fdb-bfd1-d5826ae2d02a.png?v=1770009303",
+      "image_path": "images/urban-monkey-amigoz.png"
+    },
+    {
+      "id": "urban-monkey-zip-up-shirt-black",
+      "name": "Zip Up Shirt // Black",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "5",
+        "black",
+        "black collection",
+        "black shirts",
+        "clothing",
+        "color black",
+        "drop shoulder",
+        "half sleeve shirts"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Apparel Shirt",
+        "product_url": "https://www.urbanmonkey.com/products/zip-up-shirt-black",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-zip-up-shirt-black",
+        "catalog_product_id": "10220053037337"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Zip_Up_Shirt_Black_12.jpg?v=1767930512",
+      "image_path": "images/urban-monkey-zip-up-shirt-black.jpg"
+    },
+    {
+      "id": "urban-monkey-good-morning-blues-by-khatra",
+      "name": "Good morning Blues_By Khatra",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "100 cotton cap",
+        "5",
+        "all headwear",
+        "baseball cap",
+        "blue snapback cap",
+        "collection mixtape",
+        "color white"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Snapback Caps",
+        "product_url": "https://www.urbanmonkey.com/products/good-morning-blues-by-khatra",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-good-morning-blues-by-khatra",
+        "catalog_product_id": "10017661616409"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_Caps_0132_5cd040b6-8888-4b71-819e-f18ab5aa3cd1.jpg?v=1767770293",
+      "image_path": "images/urban-monkey-good-morning-blues-by-khatra.jpg"
+    },
+    {
+      "id": "urban-monkey-malice-by-bhaukal",
+      "name": "Malice_By Bhaukal",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "bhaukal",
+        "brown cap",
+        "collection mixtape",
+        "color brown",
+        "color purple"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Snapback Caps",
+        "product_url": "https://www.urbanmonkey.com/products/malice-by-bhaukal",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-malice-by-bhaukal",
+        "catalog_product_id": "10017661681945"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/UM_Caps_0134.jpg?v=1767780770",
+      "image_path": "images/urban-monkey-malice-by-bhaukal.jpg"
+    },
+    {
+      "id": "urban-monkey-earthbound",
+      "name": "Earthbound",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 water resistant nylon",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "baseball dad cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/earthbound",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-earthbound",
+        "catalog_product_id": "9976884920601"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/earthbound_vintage_brown_baseball_dad_cap_04.jpg?v=1765780831",
+      "image_path": "images/urban-monkey-earthbound.jpg"
+    },
+    {
+      "id": "urban-monkey-red-mist",
+      "name": "Red Mist",
+      "category": "accessory",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/red-mist",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-red-mist",
+        "catalog_product_id": "9976884363545"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/red_mist_suede_baseball_cap_04.jpg?v=1765780302",
+      "image_path": "images/urban-monkey-red-mist.jpg"
+    },
+    {
+      "id": "urban-monkey-frostbite",
+      "name": "Frostbite",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "blue",
+        "blue cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/frostbite",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-frostbite",
+        "catalog_product_id": "9976884625689"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/frostbite_super_suede_white_blue_baseball_cap_04.jpg?v=1770204735",
+      "image_path": "images/urban-monkey-frostbite.jpg"
+    },
+    {
+      "id": "urban-monkey-idgaf-002",
+      "name": "Idgaf // 002",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/idgaf-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-idgaf-002",
+        "catalog_product_id": "9976883970329"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/idgaf_vinyage_brown_baseball_cap_04.jpg?v=1765780395",
+      "image_path": "images/urban-monkey-idgaf-002.jpg"
+    },
+    {
+      "id": "urban-monkey-foldable-outdoor-cap-with-pocket-white-1",
+      "name": "Foldable outdoor baseball cap with pocket // white",
+      "category": "accessory",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "100 water resistant nylon",
+        "5",
+        "all headwear",
+        "athleisure",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/foldable-outdoor-cap-with-pocket-white-1",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-foldable-outdoor-cap-with-pocket-white-1",
+        "catalog_product_id": "9976883249433"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Foldable_Outdoor_Cap_Poacket_White_baseball_014.jpg?v=1776402128",
+      "image_path": "images/urban-monkey-foldable-outdoor-cap-with-pocket-white-1.jpg"
+    },
+    {
+      "id": "urban-monkey-tidebreaker",
+      "name": "Tidebreaker",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "baseball trucker cap",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/tidebreaker",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-tidebreaker",
+        "catalog_product_id": "9976883740953"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Tidebreaker_blue_black_turcker_baseball_cap_04.jpg?v=1770204660",
+      "image_path": "images/urban-monkey-tidebreaker.jpg"
+    },
+    {
+      "id": "urban-monkey-i-am",
+      "name": "I Am",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "blue"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/i-am",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-i-am",
+        "catalog_product_id": "9976884166937"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/iam_white_cotton_baseball_cap_04.jpg?v=1770201161",
+      "image_path": "images/urban-monkey-i-am.jpg"
+    },
+    {
+      "id": "urban-monkey-terrastrike",
+      "name": "Terrastrike",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "brown"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/terrastrike",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-terrastrike",
+        "catalog_product_id": "9976885379353"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/terrastrike_brown_baseball_cap_04.jpg?v=1765780793",
+      "image_path": "images/urban-monkey-terrastrike.jpg"
+    },
+    {
+      "id": "urban-monkey-voltage",
+      "name": "Voltage",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "baseball trucker cap",
+        "black"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/voltage",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-voltage",
+        "catalog_product_id": "9994721689881"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/voltage_black_purple_trucker_baseball_cap_04.jpg?v=1770204709",
+      "image_path": "images/urban-monkey-voltage.jpg"
+    },
+    {
+      "id": "urban-monkey-khel-cap",
+      "name": "Khel",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "beige",
+        "beige cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/khel-cap",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-khel-cap",
+        "catalog_product_id": "9976883478809"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/khel_off_white_suede_baseball_cap_04.jpg?v=1770204476",
+      "image_path": "images/urban-monkey-khel-cap.jpg"
+    },
+    {
+      "id": "urban-monkey-signature-suede-001",
+      "name": "Signature Suede // 001",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "caps for men",
+        "caps for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/signature-suede-001",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-signature-suede-001",
+        "catalog_product_id": "9976882987289"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/signature_suede_white_blue_baseball_cap_04.jpg?v=1765780666",
+      "image_path": "images/urban-monkey-signature-suede-001.jpg"
+    },
+    {
+      "id": "urban-monkey-bone-by-khatra",
+      "name": "Bone_By Khatra",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "100 cotton cap",
+        "5",
+        "all headwear",
+        "baseball cap",
+        "baseball dad cap",
+        "black",
+        "black cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/bone-by-khatra",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-bone-by-khatra",
+        "catalog_product_id": "10017661518105"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/bone_black_baseball_cap_04.jpg?v=1770204722",
+      "image_path": "images/urban-monkey-bone-by-khatra.jpg"
+    },
+    {
+      "id": "urban-monkey-sarvasreshth-by-screenseva",
+      "name": "Sarvasreshth_by Screenseva",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/sarvasreshth-by-screenseva",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-sarvasreshth-by-screenseva",
+        "catalog_product_id": "10017661321497"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/sarvashresth_nlack_baseball_cap_04.jpg?v=1770201197",
+      "image_path": "images/urban-monkey-sarvasreshth-by-screenseva.jpg"
+    },
+    {
+      "id": "urban-monkey-pack-of-2-puffer-bags-neon-on-black",
+      "name": "Pack of 2 Puffer bags // Neon On Black",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "18",
+        "accessories",
+        "backpack",
+        "black",
+        "black backpack",
+        "black bag",
+        "black collection",
+        "black duffle bag"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Acc_bags",
+        "product_url": "https://www.urbanmonkey.com/products/pack-of-2-puffer-bags-neon-on-black",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-pack-of-2-puffer-bags-neon-on-black",
+        "catalog_product_id": "10209488470297"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/SETTNEON.jpg?v=1764758075",
+      "image_path": "images/urban-monkey-pack-of-2-puffer-bags-neon-on-black.jpg"
+    },
+    {
+      "id": "urban-monkey-pack-of-2-puffer-bags-black-on-black",
+      "name": "Pack of 2 Puffer bags // Black On Black",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "18",
+        "accessories",
+        "backpack",
+        "black",
+        "black backpack",
+        "black bag",
+        "black duffle bag",
+        "black laptop bag"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Acc_bags",
+        "product_url": "https://www.urbanmonkey.com/products/pack-of-2-puffer-bags-black-on-black",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-pack-of-2-puffer-bags-black-on-black",
+        "catalog_product_id": "10209489125657"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/SETTBLACKKK.jpg?v=1764758904",
+      "image_path": "images/urban-monkey-pack-of-2-puffer-bags-black-on-black.jpg"
+    },
+    {
+      "id": "urban-monkey-puffer-duffle-bag-neon-on-black",
+      "name": "Puffer Duffle Bag // Neon On Black",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "18",
+        "accessories",
+        "backpack",
+        "black",
+        "black backpack",
+        "black bag",
+        "black collection",
+        "black duffle bag"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Acc_bags",
+        "product_url": "https://www.urbanmonkey.com/products/puffer-duffle-bag-neon-on-black",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-puffer-duffle-bag-neon-on-black",
+        "catalog_product_id": "9978605338905"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/12_a5513815-6cfc-4a4e-843b-f21a13f64f4e.jpg?v=1770030791",
+      "image_path": "images/urban-monkey-puffer-duffle-bag-neon-on-black.jpg"
+    },
+    {
+      "id": "urban-monkey-puffer-shoulder-bag-neon-on-black",
+      "name": "Puffer Shoulder Bag // Neon On Black",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "18",
+        "accessories",
+        "backpack",
+        "black",
+        "black backpack",
+        "black bag",
+        "black collection",
+        "black duffle bag"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Acc_bags",
+        "product_url": "https://www.urbanmonkey.com/products/puffer-shoulder-bag-neon-on-black",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-puffer-shoulder-bag-neon-on-black",
+        "catalog_product_id": "9978605404441"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/1_2a1d7d9e-d23f-4c4e-9ff1-2a86757c75a4.jpg?v=1765177054",
+      "image_path": "images/urban-monkey-puffer-shoulder-bag-neon-on-black.jpg"
+    },
+    {
+      "id": "urban-monkey-puffer-duffle-bag-black-on-black",
+      "name": "Puffer Duffle Bag // Black On Black",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "18",
+        "accessories",
+        "backpack",
+        "black",
+        "black backpack",
+        "black bag",
+        "black collection",
+        "black duffle bag"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Acc_bags",
+        "product_url": "https://www.urbanmonkey.com/products/puffer-duffle-bag-black-on-black",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-puffer-duffle-bag-black-on-black",
+        "catalog_product_id": "9978605502745"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/1_4a0e43ab-bd1a-4df4-b8fe-8af9c9a38e86.jpg?v=1764735039",
+      "image_path": "images/urban-monkey-puffer-duffle-bag-black-on-black.jpg"
+    },
+    {
+      "id": "urban-monkey-puffer-shoulder-bag-black-on-black",
+      "name": "Puffer Shoulder Bag // Black On Black",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "18",
+        "accessories",
+        "backpack",
+        "black",
+        "black backpack",
+        "black bag",
+        "black collection",
+        "black duffle bag"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Acc_bags",
+        "product_url": "https://www.urbanmonkey.com/products/puffer-shoulder-bag-black-on-black",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-puffer-shoulder-bag-black-on-black",
+        "catalog_product_id": "9978605535513"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/1_72ccb276-cd10-439b-b446-cc9ab93204ec.jpg?v=1764758490",
+      "image_path": "images/urban-monkey-puffer-shoulder-bag-black-on-black.jpg"
+    },
+    {
+      "id": "urban-monkey-metal-monkey-003",
+      "name": "Metal Monkey // 003",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "color orange",
+        "dad cap",
+        "discontinued",
+        "hats caps",
+        "metal monkey"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/metal-monkey-003",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-metal-monkey-003",
+        "catalog_product_id": "9955075162393"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/MetalMonkey_Orange_Baseball_cap_04.jpg?v=1770207619",
+      "image_path": "images/urban-monkey-metal-monkey-003.jpg"
+    },
+    {
+      "id": "urban-monkey-um-basics-001",
+      "name": "UM Basics // 001",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black baseball",
+        "color black"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/um-basics-001",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-um-basics-001",
+        "catalog_product_id": "9955079684377"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/um_basic_suede_black_baseball_cap_04.jpg?v=1763976849",
+      "image_path": "images/urban-monkey-um-basics-001.jpg"
+    },
+    {
+      "id": "urban-monkey-antardrishti-cap",
+      "name": "Antardrishti",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "caps",
+        "caps for men",
+        "caps for women",
+        "color green",
+        "dad cap for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/antardrishti-cap",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-antardrishti-cap",
+        "catalog_product_id": "9955076505881"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Antardrishti_green_eveil_eye_baseball_cap_04.jpg?v=1770209854",
+      "image_path": "images/urban-monkey-antardrishti-cap.jpg"
+    },
+    {
+      "id": "urban-monkey-trucker-monkey-005",
+      "name": "Trucker Monkey // 005",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "baseball cap",
+        "color green",
+        "color white",
+        "green",
+        "green white baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/trucker-monkey-005",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-trucker-monkey-005",
+        "catalog_product_id": "9955069591833"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/white_green_trucker_monkey_baseball_cap_04.jpg?v=1763976783",
+      "image_path": "images/urban-monkey-trucker-monkey-005.jpg"
+    },
+    {
+      "id": "urban-monkey-sofa-king-lazy-002",
+      "name": "Sofa-king Lazy // 002",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "brown baseball cap",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/sofa-king-lazy-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-sofa-king-lazy-002",
+        "catalog_product_id": "9955078439193"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/sofaking_lazy_cat_pink_suede_baseball_cap_04.jpg?v=1763976765",
+      "image_path": "images/urban-monkey-sofa-king-lazy-002.jpg"
+    },
+    {
+      "id": "urban-monkey-ek-anek",
+      "name": "Ek Anek",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "brown",
+        "brown baseball cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/ek-anek",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-ek-anek",
+        "catalog_product_id": "9955075817753"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/ekanek_green_trucker_baseball_cap_04.jpg?v=1770207469",
+      "image_path": "images/urban-monkey-ek-anek.jpg"
+    },
+    {
+      "id": "urban-monkey-black-mist",
+      "name": "Black Mist",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "5",
+        "all headwear",
+        "baseball cap",
+        "baseball cap for men",
+        "baseball cap for women",
+        "black",
+        "black baseball cap",
+        "black cap"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Baseball Caps",
+        "product_url": "https://www.urbanmonkey.com/products/black-mist",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-black-mist",
+        "catalog_product_id": "9955079061785"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Black_mist_suede_baseball_cap_03.jpg?v=1770207659",
+      "image_path": "images/urban-monkey-black-mist.jpg"
+    },
+    {
+      "id": "urban-monkey-flamin-hot",
+      "name": "Flamin\u2019 Hot",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "caps for men",
+        "caps for women",
+        "color red",
+        "dad cap",
+        "dad cap for men",
+        "dad cap for women"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/flamin-hot",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-flamin-hot",
+        "catalog_product_id": "9955074310425"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/red_baseball_cap_flaminghot_05.jpg?v=1770207611",
+      "image_path": "images/urban-monkey-flamin-hot.jpg"
+    },
+    {
+      "id": "urban-monkey-stay-balanced",
+      "name": "Stay Balanced",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "caps",
+        "caps for men",
+        "caps for women",
+        "color grey",
+        "color purple"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/stay-balanced",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-stay-balanced",
+        "catalog_product_id": "9955069690137"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/stay_balanced_baseball_dad_cap_04.jpg?v=1770207639",
+      "image_path": "images/urban-monkey-stay-balanced.jpg"
+    },
+    {
+      "id": "urban-monkey-moon-landing-002",
+      "name": "Moon Landing // 002",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "100 cotton",
+        "5",
+        "all headwear",
+        "blue",
+        "blue cap",
+        "blue dad cap",
+        "caps",
+        "caps for men"
+      ],
+      "metadata": {
+        "brand": "Urban Monkey",
+        "subcategory": "Dad Caps",
+        "product_url": "https://www.urbanmonkey.com/products/moon-landing-002",
+        "catalog_source": "https://www.urbanmonkey.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "urban-monkey-moon-landing-002",
+        "catalog_product_id": "9997701251353"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0661/7423/files/Moon_landing_blue_baseball_dad_cap_04.jpg?v=1770207630",
+      "image_path": "images/urban-monkey-moon-landing-002.jpg"
     }
   ],
   "scenarios": [
     {
-      "id": "creative_weekend_signature",
-      "occasion": "weekend",
-      "prompt": "Build intentional contemporary streetwear with disciplined proportions and only one statement layer.",
-      "mood": "creative",
+      "id": "design_festival_panel",
+      "occasion": "work",
+      "prompt": "The user is speaking on a design-festival panel, being photographed, and attending an informal mixer afterward. Make the required patchwork concept jacket the single editorial statement while preserving clean seated proportions and credible professional intent. If the jacket comes off, the base outfit must still feel resolved; do not add imaginary shoes.",
+      "mood": "creative authority",
       "weather_context": {
         "temperature_c": 22,
         "feels_like_c": 22,
-        "condition": "overcast",
-        "wind_kph": 12
+        "condition": "air-conditioned auditorium and mild outdoor courtyard",
+        "wind_kph": 10
       },
       "preferences": {
-        "style": "utility streetwear",
+        "style": "editorial utility streetwear",
+        "priorities": [
+          "camera-read",
+          "panel-stage comfort"
+        ],
         "avoid": [
           "competing prints"
         ]
       },
       "must_include_item_ids": [
-        "urban-le-classique-sage"
+        "urban-concept-jacket"
       ],
       "limit": 3
     },
     {
-      "id": "cold_rain_layering",
+      "id": "all_day_city_photowalk",
       "occasion": "outdoor",
-      "prompt": "Create an exposed-city walking look and distinguish ripstop durability from confirmed waterproofing.",
-      "mood": "functional",
+      "prompt": "Build an outfit for an 18,000-step city photo walk involving crowded transit, repeated crouching for shots, afternoon sun, and a breezier waterfront at dusk. The required adjustable cargos and utility cap should feel functional without becoming a tactical costume. Account for mobility, pocket bulk, sun exposure, and silhouette from multiple camera angles.",
+      "mood": "observant and agile",
       "weather_context": {
-        "temperature_c": 10,
-        "feels_like_c": 6,
-        "condition": "rain and gusts",
-        "precipitation_mm": 7,
-        "wind_kph": 34
+        "temperature_c": 26,
+        "feels_like_c": 27,
+        "condition": "bright afternoon becoming breezy at the waterfront",
+        "wind_kph": 19,
+        "humidity_percent": 52
       },
       "preferences": {
-        "style": "technical utility",
+        "style": "restrained technical streetwear",
         "priorities": [
-          "movement",
-          "weather safety"
+          "walking",
+          "crouching mobility",
+          "sun management"
         ]
       },
       "must_include_item_ids": [
-        "urban-commuter-jacket"
+        "urban-adjustable-cargo",
+        "urban-utility-cap"
       ],
-      "limit": 2
+      "wear_history": [
+        "urban-le-classique-sage"
+      ],
+      "limit": 3
     }
-  ]
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 217,
+    "curated_items_preserved": 8
+  }
 }

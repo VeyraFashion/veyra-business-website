@@ -22,7 +22,6 @@ const BOTH: ModelId[] = ["male", "female"];
  *    SNITCH          all 100 of its product URLs sit under a men- path segment
  *    FREAKINS        product URLs read /women-*, and the cuts are women's denim throughout
  *    NEWME           halter tops, midi skirts, a mini dress — womenswear, no ambiguity
- *    Blissclub       skorts and crossback tanks; women's activewear
  *    The Bear House  menswear tailoring and shirting throughout
  *
  *  Deliberately NOT listed, despite their sample catalogues here being men's only:
@@ -30,12 +29,16 @@ const BOTH: ModelId[] = ["male", "female"];
  *    repo happen to hold eight men's items each, which says what was scraped, not what the
  *    brand sells. Pinning them to male from that sample would quietly become wrong the day
  *    the full catalogue lands. `inferFromCatalogue` below handles them correctly either way.
- *    Bonkers Corner, The Pant Project, Urban Monkey — mixed or unisex ranges. */
+ *    Bonkers Corner, The Pant Project, Urban Monkey — mixed or unisex ranges.
+ *
+ *  Blissclub was pinned to female off an 8-item placeholder catalogue (skorts, crossback
+ *  tanks). The real 92-item catalogue tells a different story: tags include "mens top",
+ *  "mens polo size", "mens jacket size" alongside women's activewear like "Ultimate Dress"
+ *  and "BareButter™ Skirt" — it's a both-gender brand, so it's deliberately absent here too. */
 const BY_BRAND: Partial<Record<string, ModelId[]>> = {
   SNITCH: ["male"],
   FREAKINS: ["female"],
   NEWME: ["female"],
-  Blissclub: ["female"],
   "The Bear House": ["male"],
 };
 

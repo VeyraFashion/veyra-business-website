@@ -167,25 +167,2413 @@
         "product_url": "https://blissclub.com/products/airmelt-zippered-jacket"
       },
       "image_path": null
+    },
+    {
+      "id": "blissclub-zenims-shirt",
+      "name": "Zenims\u2122 Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 15",
+        "deal of the week"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/zenims-shirt",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-zenims-shirt",
+        "catalog_product_id": "9581952434432"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/zenims-shirt-6778423.jpg?v=1785938959",
+      "image_path": "images/blissclub-zenims-shirt.jpg"
+    },
+    {
+      "id": "blissclub-wide-leg-zenims",
+      "name": "Wide Leg Zenims\u2122",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 15"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Slit flare pants",
+        "product_url": "https://blissclub.com/products/wide-leg-zenims",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-wide-leg-zenims",
+        "catalog_product_id": "9580842713344"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/wide-leg-zenims-8444096.jpg?v=1785938959",
+      "image_path": "images/blissclub-wide-leg-zenims.jpg"
+    },
+    {
+      "id": "blissclub-zenimstm-flare-pants",
+      "name": "Flared Zenims\u2122",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 15"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Slit flare pants",
+        "product_url": "https://blissclub.com/products/zenims\u2122-flare-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-zenimstm-flare-pants",
+        "catalog_product_id": "9580750307584"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/Zenims_Lifestyle0010_3.jpg?v=1785995092",
+      "image_path": "images/blissclub-zenimstm-flare-pants.jpg"
+    },
+    {
+      "id": "blissclub-cotton-pro-tee-slim-fit",
+      "name": "Cotton Pro Tee - Slim Fit",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cqz cpmt",
+        "mens top",
+        "new",
+        "new launches",
+        "option badges new",
+        "tops",
+        "cotton",
+        "slim"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "top",
+        "product_url": "https://blissclub.com/products/cotton-pro-tee-slim-fit",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-cotton-pro-tee-slim-fit",
+        "catalog_product_id": "9494109880576"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/cotton-pro-tee-slim-fit-7783409.jpg?v=1782267137",
+      "image_path": "images/blissclub-cotton-pro-tee-slim-fit.jpg"
+    },
+    {
+      "id": "blissclub-the-legendary-pants-straight-fit",
+      "name": "The Legendary Pants - Straight Fit",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "mens bottom",
+        "mens legendary pant",
+        "new",
+        "new launches",
+        "option badges new",
+        "straight"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "bottom",
+        "product_url": "https://blissclub.com/products/the-legendary-pants-straight-fit",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-legendary-pants-straight-fit",
+        "catalog_product_id": "9547762073856"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-legendary-pants-straight-fit-1122892.jpg?v=1783991312",
+      "image_path": "images/blissclub-the-legendary-pants-straight-fit.jpg"
+    },
+    {
+      "id": "blissclub-the-cloud-shorts",
+      "name": "The Cloud Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "mens shorts size",
+        "mens bottom",
+        "new",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "bottom",
+        "product_url": "https://blissclub.com/products/the-cloud-shorts",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-cloud-shorts",
+        "catalog_product_id": "9499112538368"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-cloud-shorts-9920994.jpg?v=1782897137",
+      "image_path": "images/blissclub-the-cloud-shorts.jpg"
+    },
+    {
+      "id": "blissclub-the-cotton-pro-muscle-tee",
+      "name": "The Cotton Pro Muscle Tee",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cqz cpmt",
+        "mens top",
+        "new",
+        "new launches",
+        "option badges new",
+        "tops",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "top",
+        "product_url": "https://blissclub.com/products/the-cotton-pro-muscle-tee",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-cotton-pro-muscle-tee",
+        "catalog_product_id": "9500571369728"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-cotton-pro-muscle-tee-6970737.jpg?v=1782897136",
+      "image_path": "images/blissclub-the-cotton-pro-muscle-tee.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-sailor-pants",
+      "name": "Ultimate Sailor Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "citywear",
+        "deal zone",
+        "new launches",
+        "option badges new",
+        "straight"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Sailor Pants",
+        "product_url": "https://blissclub.com/products/ultimate-sailor-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-sailor-pants",
+        "catalog_product_id": "9464383865088"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-sailor-pants-2220023.jpg?v=1781848396",
+      "image_path": "images/blissclub-ultimate-sailor-pants.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-dress",
+      "name": "Ultimate Dress",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "citywear",
+        "deal zone",
+        "new launches",
+        "option badges new",
+        "straight"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Sailor Pants",
+        "product_url": "https://blissclub.com/products/ultimate-dress",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-dress",
+        "catalog_product_id": "9464433115392"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-dress-4029765.jpg?v=1781848396",
+      "image_path": "images/blissclub-ultimate-dress.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-crop-jacket",
+      "name": "Ultimate Crop Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "new",
+        "opt",
+        "option badges new",
+        "option badges new colours",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/ultimate-crop-jacket",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-crop-jacket",
+        "catalog_product_id": "9465078808832"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-crop-jacket-1850133.jpg?v=1781848396",
+      "image_path": "images/blissclub-ultimate-crop-jacket.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-half-zip",
+      "name": "Ultimate Half Zip",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "deal zone",
+        "jackets hoodies",
+        "new launches",
+        "option badges new",
+        "straight",
+        "travel",
+        "walk"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "joggers",
+        "product_url": "https://blissclub.com/products/ultimate-half-zip",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-half-zip",
+        "catalog_product_id": "9465084379392"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-half-zip-9355035.jpg?v=1781848395",
+      "image_path": "images/blissclub-ultimate-half-zip.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-bomber-jacket",
+      "name": "Ultimate Bomber Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "new",
+        "opt",
+        "option badges new",
+        "option badges new colours",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/ultimate-bomber-jacket",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-bomber-jacket",
+        "catalog_product_id": "9465093521664"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-bomber-jacket-5961690.jpg?v=1781848396",
+      "image_path": "images/blissclub-ultimate-bomber-jacket.jpg"
+    },
+    {
+      "id": "blissclub-cloud-box-pleated-korean-pant",
+      "name": "Cloud Box Pleated Korean Pant",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "b2g1",
+        "bestsellers under 999",
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 7 8 9"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Leggings",
+        "product_url": "https://blissclub.com/products/cloud-box-pleated-korean-pant",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-cloud-box-pleated-korean-pant",
+        "catalog_product_id": "9465174229248"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/cloud-box-pleated-korean-pant-3283940.jpg?v=1781848396",
+      "image_path": "images/blissclub-cloud-box-pleated-korean-pant.jpg"
+    },
+    {
+      "id": "blissclub-cloud-korean-active-wide-pants",
+      "name": "Cloud Korean Active Wide Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "b2g1",
+        "bestsellers under 999",
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 7 8 9"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Leggings",
+        "product_url": "https://blissclub.com/products/cloud-korean-active-wide-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-cloud-korean-active-wide-pants",
+        "catalog_product_id": "9467710636288"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/cloud-korean-active-wide-pants-4245205.jpg?v=1781848455",
+      "image_path": "images/blissclub-cloud-korean-active-wide-pants.jpg"
+    },
+    {
+      "id": "blissclub-cloud-baby-tee",
+      "name": "Cloud Baby Tee",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottomwear",
+        "coordset bottom",
+        "deal zone",
+        "new launches",
+        "option badges new",
+        "straight",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "straight_pants",
+        "product_url": "https://blissclub.com/products/cloud-baby-tee",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-cloud-baby-tee",
+        "catalog_product_id": "9467730788608"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/cloud-baby-tee-4055362.jpg?v=1781848396",
+      "image_path": "images/blissclub-cloud-baby-tee.jpg"
+    },
+    {
+      "id": "blissclub-cloud-tank",
+      "name": "Cloud Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bra",
+        "deal zone",
+        "exclude collection",
+        "innerwear",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Bra",
+        "product_url": "https://blissclub.com/products/cloud-tank",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-cloud-tank",
+        "catalog_product_id": "9467739603200"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/cloud-tank-9286539.jpg?v=1781848396",
+      "image_path": "images/blissclub-cloud-tank.jpg"
+    },
+    {
+      "id": "blissclub-barebutterskirt",
+      "name": "BareButter\u2122 Skirt",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "colo",
+        "coordset bottom",
+        "deal zone",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "straight_pants",
+        "product_url": "https://blissclub.com/products/barebutterskirt",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-barebutterskirt",
+        "catalog_product_id": "9439785484544"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/barebutter-skirt-1546367.jpg?v=1781848395",
+      "image_path": "images/blissclub-barebutterskirt.jpg"
+    },
+    {
+      "id": "blissclub-ribsupreme-straight-pants",
+      "name": "RibSupreme\u2122 Straight Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "deal zone",
+        "new launches",
+        "option badges new",
+        "straight",
+        "travel"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "straight_pants",
+        "product_url": "https://blissclub.com/products/ribsupreme-straight-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ribsupreme-straight-pants",
+        "catalog_product_id": "9420949061888"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ribsupreme-straight-pants-6321300.jpg?v=1781848395",
+      "image_path": "images/blissclub-ribsupreme-straight-pants.jpg"
+    },
+    {
+      "id": "blissclub-airmelt-wide-leg-pants",
+      "name": "AirMelt\u2122 Wide Leg Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops",
+        "wide leg"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/airmelt-wide-leg-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-airmelt-wide-leg-pants",
+        "catalog_product_id": "9420901220608"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/airmelt-wide-leg-pants-3799275.jpg?v=1781848396",
+      "image_path": "images/blissclub-airmelt-wide-leg-pants.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-kick-flare-lite",
+      "name": "Ultimate Kick Flare - Lite",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 15"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Slit flare pants",
+        "product_url": "https://blissclub.com/products/ultimate-kick-flare-lite",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-kick-flare-lite",
+        "catalog_product_id": "9405254762752"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-kick-flare-lite-7813780.jpg?v=1781848395",
+      "image_path": "images/blissclub-ultimate-kick-flare-lite.jpg"
+    },
+    {
+      "id": "blissclub-everflow-tank",
+      "name": "EverFlow\u2122 Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/everflow-tank",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-everflow-tank",
+        "catalog_product_id": "9393126834432"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/everflow-tank-8443065.jpg?v=1781848468",
+      "image_path": "images/blissclub-everflow-tank.jpg"
+    },
+    {
+      "id": "blissclub-everflow-knotpants",
+      "name": "EverFlow\u2122 Knot Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/everflow-knotpants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-everflow-knotpants",
+        "catalog_product_id": "9395499008256"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/everflow-knot-pants-8349643.jpg?v=1781848466",
+      "image_path": "images/blissclub-everflow-knotpants.jpg"
+    },
+    {
+      "id": "blissclub-cloud-korean-pants",
+      "name": "Cloud Korean Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "b2g1",
+        "bestsellers under 999",
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 7 8 9"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Leggings",
+        "product_url": "https://blissclub.com/products/cloud-korean-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-cloud-korean-pants",
+        "catalog_product_id": "9396336853248"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/cloud-korean-pants-4637434.jpg?v=1781848466",
+      "image_path": "images/blissclub-cloud-korean-pants.jpg"
+    },
+    {
+      "id": "blissclub-blissentials-v-neck-bra-top",
+      "name": "Blissentials V- Neck Racerback Built In Bra Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bra",
+        "deal zone",
+        "exclude collection",
+        "innerwear",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Bra",
+        "product_url": "https://blissclub.com/products/blissentials-v-neck-bra-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-blissentials-v-neck-bra-top",
+        "catalog_product_id": "9397168800000"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/blissentials-v-neck-racerback-built-in-bra-top-2203880.jpg?v=1781848466",
+      "image_path": "images/blissclub-blissentials-v-neck-bra-top.jpg"
+    },
+    {
+      "id": "blissclub-blissentials-round-neck-bra-top",
+      "name": "Blissentials Round Neck Built In Bra Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bra",
+        "deal zone",
+        "exclude collection",
+        "innerwear",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Bra",
+        "product_url": "https://blissclub.com/products/blissentials-round-neck-bra-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-blissentials-round-neck-bra-top",
+        "catalog_product_id": "9398391767296"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/blissentials-round-neck-built-in-bra-top-9197661.jpg?v=1781848466",
+      "image_path": "images/blissclub-blissentials-round-neck-bra-top.jpg"
+    },
+    {
+      "id": "blissclub-blissentials-square-neck-bra-top",
+      "name": "Blissentials Square Neck Built In Bra Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bra",
+        "deal zone",
+        "exclude collection",
+        "innerwear",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Bra",
+        "product_url": "https://blissclub.com/products/blissentials-square-neck-bra-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-blissentials-square-neck-bra-top",
+        "catalog_product_id": "9398401925376"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/blissentials-square-neck-built-in-bra-top-9185237.jpg?v=1781848466",
+      "image_path": "images/blissclub-blissentials-square-neck-bra-top.jpg"
+    },
+    {
+      "id": "blissclub-blissentials-crop-tank",
+      "name": "Blissentials Crop Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "option badges new colours",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/blissentials-crop-tank",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-blissentials-crop-tank",
+        "catalog_product_id": "9398430335232"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/blissentials-crop-tank-8965183.jpg?v=1781848466",
+      "image_path": "images/blissclub-blissentials-crop-tank.jpg"
+    },
+    {
+      "id": "blissclub-blissentials-round-neck-henley-tank",
+      "name": "Blissentials Round Neck Henley Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "option badges new colours",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/blissentials-round-neck-henley-tank",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-blissentials-round-neck-henley-tank",
+        "catalog_product_id": "9398462775552"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/blissentials-round-neck-henley-tank-2730459.jpg?v=1781848397",
+      "image_path": "images/blissclub-blissentials-round-neck-henley-tank.jpg"
+    },
+    {
+      "id": "blissclub-the-cotton-pro-tee-cotton-pro",
+      "name": "The Cotton Pro Tee -  Regular Fit",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "mens cotton pro size",
+        "mens top",
+        "new",
+        "new launches",
+        "option badges new",
+        "tops",
+        "cotton",
+        "regular"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "top",
+        "product_url": "https://blissclub.com/products/the-cotton-pro-tee-cotton-pro",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-cotton-pro-tee-cotton-pro",
+        "catalog_product_id": "9279879315712"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-cotton-pro-tee-7386841.jpg?v=1781848538",
+      "image_path": "images/blissclub-the-cotton-pro-tee-cotton-pro.jpg"
+    },
+    {
+      "id": "blissclub-the-cloud-polo",
+      "name": "The Cloud Polo",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "mens polo size",
+        "mens top",
+        "new",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "top",
+        "product_url": "https://blissclub.com/products/the-cloud-polo",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-cloud-polo",
+        "catalog_product_id": "9279791595776"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-cloud-polo-1301950.jpg?v=1781848938",
+      "image_path": "images/blissclub-the-cloud-polo.jpg"
+    },
+    {
+      "id": "blissclub-the-legendary-jacket",
+      "name": "The Legendary Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "hide model",
+        "mens jacket size",
+        "mens top",
+        "new",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "outerwear",
+        "product_url": "https://blissclub.com/products/the-legendary-jacket",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-legendary-jacket",
+        "catalog_product_id": "9279785795840"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-legendary-jacket-1010292.jpg?v=1781848651",
+      "image_path": "images/blissclub-the-legendary-jacket.jpg"
+    },
+    {
+      "id": "blissclub-the-legendary-pants",
+      "name": "The Legendary Pants - Tapered Fit",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "mens bottom",
+        "mens legendary pant",
+        "new",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "bottom",
+        "product_url": "https://blissclub.com/products/the-legendary-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-legendary-pants",
+        "catalog_product_id": "9279752798464"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/test-product2-8986543.jpg?v=1781848455",
+      "image_path": "images/blissclub-the-legendary-pants.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-printed-leggings",
+      "name": "Ultimate Printed Leggings",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Leggings",
+        "product_url": "https://blissclub.com/products/ultimate-printed-leggings",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-printed-leggings",
+        "catalog_product_id": "9327940075776"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-printed-leggings-5711748.jpg?v=1781848405",
+      "image_path": "images/blissclub-ultimate-printed-leggings.jpg"
+    },
+    {
+      "id": "blissclub-airmelt-apple-hem-tee",
+      "name": "AirMelt \u2122 Apple Hem Tee",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "deal zone",
+        "exclude collection",
+        "new launches",
+        "option badges restocked",
+        "shorts tanks",
+        "tops",
+        "tops tees"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/airmelt-apple-hem-tee",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-airmelt-apple-hem-tee",
+        "catalog_product_id": "9118500618496"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/airmelt-apple-hem-tee-1886637.jpg?v=1781848787",
+      "image_path": "images/blissclub-airmelt-apple-hem-tee.jpg"
+    },
+    {
+      "id": "blissclub-quote-leggings",
+      "name": "Ultimate Quote Leggings",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Leggings",
+        "product_url": "https://blissclub.com/products/quote-leggings",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-quote-leggings",
+        "catalog_product_id": "9238053945600"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-quote-leggings-6227295.jpg?v=1781848476",
+      "image_path": "images/blissclub-quote-leggings.jpg"
+    },
+    {
+      "id": "blissclub-petal-rib-wide-leg-pants",
+      "name": "PetalRib\u2122 Wide Leg Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops",
+        "wide leg"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/petal-rib-wide-leg-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-petal-rib-wide-leg-pants",
+        "catalog_product_id": "9316027760896"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/petalrib-wide-leg-pants-2377716.jpg?v=1781848466",
+      "image_path": "images/blissclub-petal-rib-wide-leg-pants.jpg"
+    },
+    {
+      "id": "blissclub-petal-rib-crop-jacket",
+      "name": "PetalRib\u2122 Crop Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "new",
+        "opt",
+        "option badges new",
+        "option badges new colours",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/petal-rib-crop-jacket",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-petal-rib-crop-jacket",
+        "catalog_product_id": "9316013605120"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/petalrib-crop-jacket-1213216.jpg?v=1781848465",
+      "image_path": "images/blissclub-petal-rib-crop-jacket.jpg"
+    },
+    {
+      "id": "blissclub-petalrib-flare-pants",
+      "name": "PetalRib\u2122 Flare Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/petalrib-flare-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-petalrib-flare-pants",
+        "catalog_product_id": "9313480081664"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/petalrib-flare-pants-1454904.jpg?v=1781848466",
+      "image_path": "images/blissclub-petalrib-flare-pants.jpg"
+    },
+    {
+      "id": "blissclub-petalrib-slit-sleeve-top",
+      "name": "PetalRib\u2122 Slit Sleeve Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/petalrib-slit-sleeve-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-petalrib-slit-sleeve-top",
+        "catalog_product_id": "9313244971264"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/petalrib-slit-sleeve-top-4867089.jpg?v=1781848466",
+      "image_path": "images/blissclub-petalrib-slit-sleeve-top.jpg"
+    },
+    {
+      "id": "blissclub-petalrib-tank",
+      "name": "PetalRib\u2122 Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "option badges new colours",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/petalrib-tank",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-petalrib-tank",
+        "catalog_product_id": "9313169965312"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/petalrib-tank-8459219.jpg?v=1781848475",
+      "image_path": "images/blissclub-petalrib-tank.jpg"
+    },
+    {
+      "id": "blissclub-bliss-swim-dress-racerback",
+      "name": "Bliss Swim Dress - Racerback",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "b2g1",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bliss swim collection",
+        "buy 2 get 1 free",
+        "extra 20 on fast movers",
+        "flat 20 off",
+        "new launches"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Swimwear",
+        "product_url": "https://blissclub.com/products/bliss-swim-dress-racerback",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-bliss-swim-dress-racerback",
+        "catalog_product_id": "8461251576064"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/bliss-swim-dress-racerback-9705716.jpg?v=1781849687",
+      "image_path": "images/blissclub-bliss-swim-dress-racerback.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-cuffed-joggers",
+      "name": "Ultimate Cuffed Joggers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "joggers",
+        "product_url": "https://blissclub.com/products/ultimate-cuffed-joggers",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-cuffed-joggers",
+        "catalog_product_id": "9249958592768"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-cuffed-joggers-3816801.jpg?v=1781848476",
+      "image_path": "images/blissclub-ultimate-cuffed-joggers.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-top",
+      "name": "Ultimate Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "option badges new",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/ultimate-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-top",
+        "catalog_product_id": "9230779777280"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-top-8483462.jpg?v=1781848476",
+      "image_path": "images/blissclub-ultimate-top.jpg"
+    },
+    {
+      "id": "blissclub-yoga-flare-pants-with-polyester-fabric-and-hidden-back-pocket",
+      "name": "Ultimate Flare Pants - Lite",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 15"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Slit flare pants",
+        "product_url": "https://blissclub.com/products/yoga-flare-pants-with-polyester-fabric-and-hidden-back-pocket",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-yoga-flare-pants-with-polyester-fabric-and-hidden-back-pocket",
+        "catalog_product_id": "9238111158528"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/test-product-color-hide-8887275.jpg?v=1781848635",
+      "image_path": "images/blissclub-yoga-flare-pants-with-polyester-fabric-and-hidden-back-pocket.jpg"
+    },
+    {
+      "id": "blissclub-last-tee-graphic-boyfriend-copy",
+      "name": "The Last Tee Graphic - Boyfriend",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 2 get 1 free",
+        "citywear"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/last-tee-graphic-boyfriend-copy",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-last-tee-graphic-boyfriend-copy",
+        "catalog_product_id": "9162840572160"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-last-tee-graphic-boyfriend-3253877.jpg?v=1781848476",
+      "image_path": "images/blissclub-last-tee-graphic-boyfriend-copy.jpg"
+    },
+    {
+      "id": "blissclub-last-tee-graphic-boyfriend",
+      "name": "Last Tee Graphic - Boyfriend",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 2 get 1 free",
+        "citywear"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/last-tee-graphic-boyfriend",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-last-tee-graphic-boyfriend",
+        "catalog_product_id": "9127291945216"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-last-tee-graphic-boyfriend-3253877.jpg?v=1781848476",
+      "image_path": "images/blissclub-last-tee-graphic-boyfriend.jpg"
+    },
+    {
+      "id": "blissclub-barebutter-flare-pants",
+      "name": "BareButter\u2122 Flare Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "coordset bottom",
+        "deal zone",
+        "new launches",
+        "option badges new",
+        "option badges restocked"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "straight_pants",
+        "product_url": "https://blissclub.com/products/barebutter-flare-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-barebutter-flare-pants",
+        "catalog_product_id": "9203171754240"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/barebutter-flare-pants-2636703.jpg?v=1781848537",
+      "image_path": "images/blissclub-barebutter-flare-pants.jpg"
+    },
+    {
+      "id": "blissclub-barebutter-hoodie",
+      "name": "BareButter\u2122 Hoodie",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "coordset top",
+        "deal zone",
+        "jackets hoodies",
+        "new launches",
+        "option badges restocked",
+        "travel",
+        "walk"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/barebutter-hoodie",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-barebutter-hoodie",
+        "catalog_product_id": "9203172081920"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/barebutter-hoodie-8752439.jpg?v=1781848476",
+      "image_path": "images/blissclub-barebutter-hoodie.jpg"
+    },
+    {
+      "id": "blissclub-barebutter-tank",
+      "name": "BareButter\u2122 Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "coordset top",
+        "deal zone",
+        "jackets hoodies",
+        "new launches",
+        "option badges restocked",
+        "travel",
+        "walk"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/barebutter-tank",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-barebutter-tank",
+        "catalog_product_id": "9203172376832"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/barebutter-tank-2072869.jpg?v=1781848476",
+      "image_path": "images/blissclub-barebutter-tank.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-all-day-joggers-tall",
+      "name": "Ultimate All Day Joggers Tall",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "b2g1",
+        "bestsellers under 999",
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "deal zone"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Leggings",
+        "product_url": "https://blissclub.com/products/ultimate-all-day-joggers-tall",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-all-day-joggers-tall",
+        "catalog_product_id": "9190164529408"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-all-day-joggers-tall-8129898.jpg?v=1781848537",
+      "image_path": "images/blissclub-ultimate-all-day-joggers-tall.jpg"
+    },
+    {
+      "id": "blissclub-blissterrytm-half-zip",
+      "name": "BlissTerry\u2122 Cotton Pullover with Zipper",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottomwear",
+        "coordset bottom",
+        "deal zone",
+        "halfpe",
+        "jackets hoodies",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "joggers",
+        "product_url": "https://blissclub.com/products/blissterry\u2122-half-zip",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-blissterrytm-half-zip",
+        "catalog_product_id": "9179624145152"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/blissterry-cotton-pullover-with-zipper-6701663.jpg?v=1781848540",
+      "image_path": "images/blissclub-blissterrytm-half-zip.jpg"
+    },
+    {
+      "id": "blissclub-blissterrytm-straight-pants",
+      "name": "BlissTerry\u2122 Cotton Straight Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "coordset bottom",
+        "deal zone",
+        "halfpe",
+        "new launches",
+        "option badges new"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "joggers",
+        "product_url": "https://blissclub.com/products/blissterry\u2122-straight-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-blissterrytm-straight-pants",
+        "catalog_product_id": "9182085284096"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/blissterry-cotton-straight-pants-4229878.jpg?v=1781848539",
+      "image_path": "images/blissclub-blissterrytm-straight-pants.jpg"
+    },
+    {
+      "id": "blissclub-blissterrytm-joggers",
+      "name": "BlissTerry\u2122 Cotton Joggers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "coordset bottom",
+        "deal zone",
+        "halfpe",
+        "liq",
+        "new launches"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "joggers",
+        "product_url": "https://blissclub.com/products/blissterry\u2122-joggers",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-blissterrytm-joggers",
+        "catalog_product_id": "9179611463936"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/blissterry-cotton-joggers-9925451.jpg?v=1781848539",
+      "image_path": "images/blissclub-blissterrytm-joggers.jpg"
+    },
+    {
+      "id": "blissclub-the-move-all-day-pointelle-top",
+      "name": "The Move All Day Pointelle Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 1 get 1 free",
+        "buy 2 get 1",
+        "buy 2 get 1 free",
+        "citywear"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/the-move-all-day-pointelle-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-move-all-day-pointelle-top",
+        "catalog_product_id": "9169764974848"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-move-all-day-pointelle-top-3853555.jpg?v=1781848540",
+      "image_path": "images/blissclub-the-move-all-day-pointelle-top.jpg"
+    },
+    {
+      "id": "blissclub-last-tee-oversized-copy",
+      "name": "The Last Tee - Oversized",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bestsellers under 999",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 2 get 1 free",
+        "colorhide 10",
+        "deal of the week",
+        "deal zone"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/last-tee-oversized-copy",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-last-tee-oversized-copy",
+        "catalog_product_id": "9161789636864"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-last-tee-oversized-6967401.jpg?v=1781848476",
+      "image_path": "images/blissclub-last-tee-oversized-copy.jpg"
+    },
+    {
+      "id": "blissclub-do-it-all-skorts-copy",
+      "name": "The Do-It All Skorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms",
+        "bottomwear",
+        "buy 1 get 1 free",
+        "buy 2 get 1 free",
+        "exclude collection"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Melange flare pants",
+        "product_url": "https://blissclub.com/products/do-it-all-skorts-copy",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-do-it-all-skorts-copy",
+        "catalog_product_id": "9161690251520"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-do-it-all-skorts-5470806.jpg?v=1781848476",
+      "image_path": "images/blissclub-do-it-all-skorts-copy.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-sculpt-straight-pants-copy",
+      "name": "Ultimate Sculpt Straight Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear",
+        "deal of the week",
+        "deal zone"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "straight_pants",
+        "product_url": "https://blissclub.com/products/ultimate-sculpt-straight-pants-copy",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-sculpt-straight-pants-copy",
+        "catalog_product_id": "9159688225024"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-sculpt-straight-pants-8564742.jpg?v=1781848547",
+      "image_path": "images/blissclub-ultimate-sculpt-straight-pants-copy.jpg"
+    },
+    {
+      "id": "blissclub-move-all-day-hoodie-crop-copy",
+      "name": "The Move All Day Hoodie - Crop",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b1g1 limited stock",
+        "b2g1",
+        "black friday",
+        "bliss deals",
+        "bliss hot list sale",
+        "buy 1 get 1 free",
+        "buy 2 get 1"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/move-all-day-hoodie-crop-copy",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-move-all-day-hoodie-crop-copy",
+        "catalog_product_id": "9159642087680"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-move-all-day-hoodie-crop-7989802.jpg?v=1781848548",
+      "image_path": "images/blissclub-move-all-day-hoodie-crop-copy.jpg"
+    },
+    {
+      "id": "blissclub-cotton-pro-classic-shirt-copy",
+      "name": "The Cotton Pro Classic Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "citywear",
+        "deal zone",
+        "exclude collection",
+        "new launches",
+        "tops",
+        "tops tees",
+        "walk"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/cotton-pro-classic-shirt-copy",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-cotton-pro-classic-shirt-copy",
+        "catalog_product_id": "9159210664192"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-cotton-pro-classic-shirt-1248605.jpg?v=1781848548",
+      "image_path": "images/blissclub-cotton-pro-classic-shirt-copy.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-straight-tailored-trousers",
+      "name": "Ultimate Straight Trousers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "b2g1",
+        "bliss deals",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Flare_pants",
+        "product_url": "https://blissclub.com/products/ultimate-straight-tailored-trousers",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-straight-tailored-trousers",
+        "catalog_product_id": "9140948435200"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-straight-trousers-7171017.jpg?v=1781848548",
+      "image_path": "images/blissclub-ultimate-straight-tailored-trousers.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-flared-tailored-trousers",
+      "name": "Ultimate Flared Trousers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "b2g1",
+        "bliss deals",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "citywear"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Flare_pants",
+        "product_url": "https://blissclub.com/products/ultimate-flared-tailored-trousers",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-flared-tailored-trousers",
+        "catalog_product_id": "9137179721984"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-flared-trousers-8732562.jpg?v=1781848665",
+      "image_path": "images/blissclub-ultimate-flared-tailored-trousers.jpg"
+    },
+    {
+      "id": "blissclub-limitless-stretch-city-skirt",
+      "name": "Ultimate Stretch Pencil Skirt",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "deal of the week",
+        "exclude collection",
+        "halfpe",
+        "lowest prices ever"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Melange flare pants",
+        "product_url": "https://blissclub.com/products/limitless-stretch-city-skirt",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-limitless-stretch-city-skirt",
+        "catalog_product_id": "9136755704064"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-stretch-pencil-skirt-2984197.jpg?v=1781848666",
+      "image_path": "images/blissclub-limitless-stretch-city-skirt.jpg"
+    },
+    {
+      "id": "blissclub-high-waisted-cotton-flare-pants-with-4-pockets",
+      "name": "The Groove-In Cotton Flare Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bestsellers under 999",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "cotton_flare",
+        "product_url": "https://blissclub.com/products/high-waisted-cotton-flare-pants-with-4-pockets",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-high-waisted-cotton-flare-pants-with-4-pockets",
+        "catalog_product_id": "8200511488256"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-groove-in-cotton-flare-pants-8823349.jpg?v=1781849987",
+      "image_path": "images/blissclub-high-waisted-cotton-flare-pants-with-4-pockets.jpg"
+    },
+    {
+      "id": "blissclub-groove-in-cotton-flare-pants-regular-and-tall",
+      "name": "The Groove-In Cotton Flare Pants Tall",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bottoms",
+        "bottomwear",
+        "citywear",
+        "colorhide 6 7 8",
+        "deal zone",
+        "exclude collection",
+        "flares"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "cotton_flare",
+        "product_url": "https://blissclub.com/products/groove-in-cotton-flare-pants-regular-and-tall",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-groove-in-cotton-flare-pants-regular-and-tall",
+        "catalog_product_id": "8228800135424"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-groove-in-cotton-flare-pants-tall-4756299.jpg?v=1781849929",
+      "image_path": "images/blissclub-groove-in-cotton-flare-pants-regular-and-tall.jpg"
+    },
+    {
+      "id": "blissclub-work-to-wine-twill-dart-pants",
+      "name": "Work-To-Wine Twill Wide Dart Pants",
+      "category": "bottom",
+      "colors": [
+        "wine"
+      ],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Slit flare pants",
+        "product_url": "https://blissclub.com/products/work-to-wine-twill-dart-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-work-to-wine-twill-dart-pants",
+        "catalog_product_id": "9135977234688"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/work-to-wine-twill-wide-dart-pants-7387890.jpg?v=1781848717",
+      "image_path": "images/blissclub-work-to-wine-twill-dart-pants.jpg"
+    },
+    {
+      "id": "blissclub-work-to-wine-drawstring-pants",
+      "name": "Work-To-Wine Twill Drawstring Pants",
+      "category": "bottom",
+      "colors": [
+        "wine"
+      ],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Slit flare pants",
+        "product_url": "https://blissclub.com/products/work-to-wine-drawstring-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-work-to-wine-drawstring-pants",
+        "catalog_product_id": "9133249396992"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/work-to-wine-twill-drawstring-pants-8303644.jpg?v=1781848716",
+      "image_path": "images/blissclub-work-to-wine-drawstring-pants.jpg"
+    },
+    {
+      "id": "blissclub-classic-pique-polo-2-0",
+      "name": "Classic Pique Polo",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "buy 2 get 1 free",
+        "citywear",
+        "deal zone",
+        "exclude collection",
+        "lowest prices ever",
+        "new launches",
+        "pay day deals"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/classic-pique-polo-2-0",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-classic-pique-polo-2-0",
+        "catalog_product_id": "9131617517824"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/classic-pique-polo-6110261.jpg?v=1781848723",
+      "image_path": "images/blissclub-classic-pique-polo-2-0.jpg"
+    },
+    {
+      "id": "blissclub-classic-pique-polo-copy",
+      "name": "Classic Pique Sleeveless Polo",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "buy 2 get 1 free",
+        "citywear",
+        "deal zone",
+        "exclude collection",
+        "lowest prices ever",
+        "new launches",
+        "pay day deals"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/classic-pique-polo-copy",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-classic-pique-polo-copy",
+        "catalog_product_id": "9129247244544"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/classic-pique-sleeveless-polo-9653354.jpg?v=1781848725",
+      "image_path": "images/blissclub-classic-pique-polo-copy.jpg"
+    },
+    {
+      "id": "blissclub-last-tee-polo-copy-1",
+      "name": "The Last Tee - Polo",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bliss deals",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 2 get 1 free",
+        "citywear",
+        "deal zone",
+        "exclude collection"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/last-tee-polo-copy-1",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-last-tee-polo-copy-1",
+        "catalog_product_id": "9130043605248"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-last-tee-polo-1046988.jpg?v=1781848724",
+      "image_path": "images/blissclub-last-tee-polo-copy-1.jpg"
+    },
+    {
+      "id": "blissclub-the-move-all-day-hoodie",
+      "name": "The Move All Day Hoodie",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 1 get 1 free",
+        "buy 2 get 1"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/the-move-all-day-hoodie",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-move-all-day-hoodie",
+        "catalog_product_id": "9130122412288"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-move-all-day-hoodie-1325125.jpg?v=1781848723",
+      "image_path": "images/blissclub-the-move-all-day-hoodie.jpg"
+    },
+    {
+      "id": "blissclub-the-classic-pique-polo",
+      "name": "The Classic Pique Buttoned Polo",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "buy 2 get 1 free",
+        "citywear",
+        "deal zone",
+        "exclude collection",
+        "lowest prices ever",
+        "new launches",
+        "option badges fast movers"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/the-classic-pique-polo",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-classic-pique-polo",
+        "catalog_product_id": "9130116710656"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-classic-pique-buttoned-polo-3098589.jpg?v=1781848723",
+      "image_path": "images/blissclub-the-classic-pique-polo.jpg"
+    },
+    {
+      "id": "blissclub-the-softest-tee-boxy-crop-1",
+      "name": "The Softest Tee - Boxy Crop",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "buy 2 get 1 free",
+        "citywear",
+        "colorhide 5 6",
+        "deal of the week",
+        "deal zone"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/the-softest-tee-boxy-crop-1",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-softest-tee-boxy-crop-1",
+        "catalog_product_id": "9130111795456"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/the-softest-tee-boxy-crop-1439774.jpg?v=1781848724",
+      "image_path": "images/blissclub-the-softest-tee-boxy-crop-1.jpg"
+    },
+    {
+      "id": "blissclub-last-tee-sleeveless-long-slit-top",
+      "name": "Last Tee Sleeveless Long Slit Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 2 get 1 free",
+        "citywear"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/last-tee-sleeveless-long-slit-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-last-tee-sleeveless-long-slit-top",
+        "catalog_product_id": "9129193701632"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/last-tee-sleeveless-long-slit-top-4430818.jpg?v=1781848725",
+      "image_path": "images/blissclub-last-tee-sleeveless-long-slit-top.jpg"
+    },
+    {
+      "id": "blissclub-move-all-day-collared-shrug",
+      "name": "Move All Day Collared Shrug",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bliss in the city",
+        "bliss in the city sale",
+        "deal zone",
+        "flat 15 off",
+        "flat 20 off",
+        "new launches"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/move-all-day-collared-shrug",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-move-all-day-collared-shrug",
+        "catalog_product_id": "9127974633728"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/move-all-day-collared-shrug-2160720.jpg?v=1781848726",
+      "image_path": "images/blissclub-move-all-day-collared-shrug.jpg"
+    },
+    {
+      "id": "blissclub-am-pm-korean-tailored-trousers",
+      "name": "AM:PM Korean Cotton Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Slit flare pants",
+        "product_url": "https://blissclub.com/products/am-pm-korean-tailored-trousers",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-am-pm-korean-tailored-trousers",
+        "catalog_product_id": "9127469154560"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ampm-korean-cotton-pants-9974015.jpg?v=1781848727",
+      "image_path": "images/blissclub-am-pm-korean-tailored-trousers.jpg"
+    },
+    {
+      "id": "blissclub-last-tee-graphic-round-neck",
+      "name": "Last Tee Graphic - Round Neck",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 2 get 1 free",
+        "citywear"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/last-tee-graphic-round-neck",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-last-tee-graphic-round-neck",
+        "catalog_product_id": "9127309050112"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/last-tee-graphic-round-neck-1468101.jpg?v=1781848727",
+      "image_path": "images/blissclub-last-tee-graphic-round-neck.jpg"
+    },
+    {
+      "id": "blissclub-airmelt-short",
+      "name": "AirMelt\u2122 Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "coordset bottom",
+        "deal zone",
+        "new launches",
+        "option badges restocked",
+        "straight"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "straight_pants",
+        "product_url": "https://blissclub.com/products/airmelt-short",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-airmelt-short",
+        "catalog_product_id": "9123418407168"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/airmelt-shorts-2842125.jpg?v=1781848727",
+      "image_path": "images/blissclub-airmelt-short.jpg"
+    },
+    {
+      "id": "blissclub-airmelt-crop-tee",
+      "name": "AirMelt\u2122 Crop Tee",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottomwear",
+        "coordset bottom",
+        "deal zone",
+        "new launches",
+        "option badges restocked",
+        "straight",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "straight_pants",
+        "product_url": "https://blissclub.com/products/airmelt-crop-tee",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-airmelt-crop-tee",
+        "catalog_product_id": "9123362799872"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/airmelt-crop-tee-9358398.jpg?v=1781848727",
+      "image_path": "images/blissclub-airmelt-crop-tee.jpg"
+    },
+    {
+      "id": "blissclub-airmelt-flare-pants-lite",
+      "name": "AirMelt\u2122 Flare Pants - Lite",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bottoms",
+        "bottomwear",
+        "colorhide 4",
+        "coordset bottom",
+        "deal zone",
+        "new launches",
+        "option badge pricedrop"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "straight_pants",
+        "product_url": "https://blissclub.com/products/airmelt-flare-pants-lite",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-airmelt-flare-pants-lite",
+        "catalog_product_id": "9123222782208"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/airmelt-flare-pants-lite-6560671.jpg?v=1781848898",
+      "image_path": "images/blissclub-airmelt-flare-pants-lite.jpg"
+    },
+    {
+      "id": "blissclub-move-all-day-ribbed-pants",
+      "name": "All Day Cotton Ribbed Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms",
+        "bottomwear",
+        "deal of the week",
+        "deal zone",
+        "extra 20 on fast movers"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Leggings",
+        "product_url": "https://blissclub.com/products/move-all-day-ribbed-pants",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-move-all-day-ribbed-pants",
+        "catalog_product_id": "9119770542336"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/all-day-cotton-ribbed-pants-2803568.jpg?v=1781848786",
+      "image_path": "images/blissclub-move-all-day-ribbed-pants.jpg"
+    },
+    {
+      "id": "blissclub-am-pm-dress",
+      "name": "AM:PM Dress",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bestsellers under 999",
+        "bliss deals",
+        "bliss hot list sale",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bottoms"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Leggings",
+        "product_url": "https://blissclub.com/products/am-pm-dress",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-am-pm-dress",
+        "catalog_product_id": "9114158792960"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ampm-dress-4932690.jpg?v=1781848840",
+      "image_path": "images/blissclub-am-pm-dress.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-skorts",
+      "name": "Ultimate Skorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "deal of the week",
+        "exclude collection",
+        "lowest prices ever",
+        "new launches"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Melange flare pants",
+        "product_url": "https://blissclub.com/products/ultimate-skorts",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-skorts",
+        "catalog_product_id": "9114097418496"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-skorts-5467582.jpg?v=1781848841",
+      "image_path": "images/blissclub-ultimate-skorts.jpg"
+    },
+    {
+      "id": "blissclub-ultimate-shorts",
+      "name": "Ultimate Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "bestsellers under 999",
+        "bottoms",
+        "bottomwear",
+        "buy 2 get 1 free",
+        "colorhide 7",
+        "deal of the week",
+        "exclude collection"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Melange flare pants",
+        "product_url": "https://blissclub.com/products/ultimate-shorts",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ultimate-shorts",
+        "catalog_product_id": "9113600065792"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ultimate-shorts-7541508.jpg?v=1781848841",
+      "image_path": "images/blissclub-ultimate-shorts.jpg"
+    },
+    {
+      "id": "blissclub-move-all-day-hooded-shrug",
+      "name": "Move All Day Hooded Shrug",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bliss in the city",
+        "bliss in the city sale",
+        "deal zone",
+        "flat 15 off",
+        "flat 20 off",
+        "new launches"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/move-all-day-hooded-shrug",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-move-all-day-hooded-shrug",
+        "catalog_product_id": "9107280462080"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/move-all-day-hooded-shrug-1258863.jpg?v=1781848843",
+      "image_path": "images/blissclub-move-all-day-hooded-shrug.jpg"
+    },
+    {
+      "id": "blissclub-move-all-day-rib-tank",
+      "name": "Move All Day Rib Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 1 get 1 free",
+        "buy 2 get 1",
+        "buy 2 get 1 free",
+        "deal zone"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/move-all-day-rib-tank",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-move-all-day-rib-tank",
+        "catalog_product_id": "9107067928832"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/move-all-day-rib-tank-7635206.jpg?v=1781848843",
+      "image_path": "images/blissclub-move-all-day-rib-tank.jpg"
+    },
+    {
+      "id": "blissclub-cotton-pro-sleeveless-work-top",
+      "name": "Cotton Pro Sleeveless Work Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "citywear",
+        "deal zone",
+        "exclude collection",
+        "new launches",
+        "tops",
+        "tops tees",
+        "walk"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Crop-top",
+        "product_url": "https://blissclub.com/products/cotton-pro-sleeveless-work-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-cotton-pro-sleeveless-work-top",
+        "catalog_product_id": "9105812128000"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/cotton-pro-sleeveless-work-top-3986861.jpg?v=1781848843",
+      "image_path": "images/blissclub-cotton-pro-sleeveless-work-top.jpg"
+    },
+    {
+      "id": "blissclub-move-all-day-cap-sleeves-top",
+      "name": "Move All Day Cap Sleeves Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 1 get 1 free",
+        "buy 2 get 1",
+        "buy 2 get 1 free",
+        "deal zone"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/move-all-day-cap-sleeves-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-move-all-day-cap-sleeves-top",
+        "catalog_product_id": "9100791447808"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/move-all-day-cap-sleeves-top-7715456.jpg?v=1781848844",
+      "image_path": "images/blissclub-move-all-day-cap-sleeves-top.jpg"
+    },
+    {
+      "id": "blissclub-full-sleeve-cotton-sweatshirt-with-round-neck-and-side-slits",
+      "name": "Move All Day CottonKnit Top Full Sleeves",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b1g1 limited stock",
+        "black friday",
+        "bliss deals",
+        "bliss hot list sale",
+        "buy 1 get 1 free",
+        "buy 2 get 1",
+        "buy 2 get 1 free"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/full-sleeve-cotton-sweatshirt-with-round-neck-and-side-slits",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-full-sleeve-cotton-sweatshirt-with-round-neck-and-side-slits",
+        "catalog_product_id": "8266012852480"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/move-all-day-cottonknit-top-full-sleeves-9837527.jpg?v=1781849866",
+      "image_path": "images/blissclub-full-sleeve-cotton-sweatshirt-with-round-neck-and-side-slits.jpg"
+    },
+    {
+      "id": "blissclub-move-all-day-sleeveless-top",
+      "name": "Move All Day Sleeveless Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "all day wear",
+        "b2g1",
+        "bliss in the city",
+        "bliss in the city sale",
+        "buy 1 get 1 free",
+        "buy 2 get 1",
+        "buy 2 get 1 free",
+        "deal zone"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/move-all-day-sleeveless-top",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-move-all-day-sleeveless-top",
+        "catalog_product_id": "9099981095168"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/move-all-day-sleeveless-top-4792457.jpg?v=1781848845",
+      "image_path": "images/blissclub-move-all-day-sleeveless-top.jpg"
+    },
+    {
+      "id": "blissclub-the-bliss-swim-full-sleeve-dress",
+      "name": "Bliss Swim Full Sleeve Dress",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "b2g1",
+        "bliss in the city",
+        "bliss in the city sale",
+        "bliss swim collection",
+        "buy 2 get 1 free",
+        "extra 20 on fast movers",
+        "flat 20 off",
+        "new launches"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Swimwear",
+        "product_url": "https://blissclub.com/products/the-bliss-swim-full-sleeve-dress",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-the-bliss-swim-full-sleeve-dress",
+        "catalog_product_id": "9076844790016"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/bliss-swim-full-sleeve-dress-2866057.jpg?v=1781848901",
+      "image_path": "images/blissclub-the-bliss-swim-full-sleeve-dress.jpg"
+    },
+    {
+      "id": "blissclub-ribsupreme-tank",
+      "name": "RibSupreme\u2122 Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "colorhide 4",
+        "deal zone",
+        "exclude collection",
+        "new launches",
+        "option badges restocked",
+        "shorts tanks",
+        "tops"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "modal_tee",
+        "product_url": "https://blissclub.com/products/ribsupreme-tank",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ribsupreme-tank",
+        "catalog_product_id": "9067367727360"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ribsupreme-tank-6130253.jpg?v=1784349668",
+      "image_path": "images/blissclub-ribsupreme-tank.jpg"
+    },
+    {
+      "id": "blissclub-ribsupreme-jacket",
+      "name": "RibSupreme\u2122 Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "bliss deals",
+        "deal zone",
+        "jackets hoodies",
+        "new launches",
+        "option badges restocked",
+        "travel",
+        "walk"
+      ],
+      "metadata": {
+        "brand": "Blissclub",
+        "subcategory": "Outerwear",
+        "product_url": "https://blissclub.com/products/ribsupreme-jacket",
+        "catalog_source": "https://blissclub.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "blissclub-ribsupreme-jacket",
+        "catalog_product_id": "9066986832128"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0404/0196/1115/files/ribsupreme-jacket-5754789.jpg?v=1784349667",
+      "image_path": "images/blissclub-ribsupreme-jacket.jpg"
     }
   ],
   "scenarios": [
     {
-      "id": "hot_gym_signature",
+      "id": "strength_training_then_brunch",
       "occasion": "gym",
-      "prompt": "Create genuinely performance-ready strength-training looks; avoid decorative or heat-trapping layers.",
+      "prompt": "The user has a 75-minute lower-body strength session at 8 a.m., then is meeting friends at a relaxed caf\u00e9 without going home. Build looks around the required tee that remain genuinely training-safe during squats and deadlifts, then explain the smallest post-workout styling adjustment supported by this wardrobe. Do not disguise non-technical pieces as performance wear.",
       "mood": "focused",
       "weather_context": {
-        "temperature_c": 33,
-        "feels_like_c": 37,
-        "condition": "hot and humid",
-        "humidity_percent": 78
+        "temperature_c": 28,
+        "feels_like_c": 30,
+        "condition": "indoor gym followed by a shaded caf\u00e9 walk",
+        "humidity_percent": 64
       },
       "preferences": {
         "style": "sleek activewear",
         "priorities": [
-          "mobility",
-          "sweat management"
+          "deep range of motion",
+          "sweat management",
+          "credible caf\u00e9 transition"
+        ],
+        "avoid": [
+          "decorative gym layers"
         ]
       },
       "must_include_item_ids": [
@@ -194,24 +2582,38 @@
       "limit": 3
     },
     {
-      "id": "cold_rain_layering",
-      "occasion": "casual",
-      "prompt": "Build a practical, composed errands look and be explicit about any protection this wardrobe cannot provide.",
-      "mood": "comfortable",
+      "id": "overnight_flight_and_city_arrival",
+      "occasion": "travel",
+      "prompt": "Style the required joggers for a nine-hour overnight flight, an early baggage-claim wait, and a direct casual lunch after hotel check-in. Account for sitting comfort, cabin temperature changes, secure practical layering, and looking composed on arrival. Do not recommend any unlisted bag, compression layer, or footwear as owned.",
+      "mood": "calm and polished",
       "weather_context": {
-        "temperature_c": 11,
-        "feels_like_c": 8,
-        "condition": "steady rain",
-        "precipitation_mm": 7,
-        "wind_kph": 24
+        "temperature_c": 22,
+        "feels_like_c": 22,
+        "condition": "cool air-conditioned cabin followed by a mild dry city arrival",
+        "wind_kph": 9
       },
       "preferences": {
-        "style": "clean athleisure"
+        "style": "clean travel athleisure",
+        "priorities": [
+          "long-duration sitting",
+          "layerability",
+          "arrival polish"
+        ]
       },
       "must_include_item_ids": [
         "bliss-airmelt-joggers"
       ],
-      "limit": 2
+      "wear_history": [
+        "bliss-aerocool-classic-tee"
+      ],
+      "limit": 3
     }
-  ]
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 181,
+    "curated_items_preserved": 8
+  }
 }

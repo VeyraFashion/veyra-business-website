@@ -159,50 +159,1580 @@
         "product_url": "https://www.thesouledstore.com/product/deadpool-utility-suit-men-high-top-sneakers"
       },
       "image_path": null
+    },
+    {
+      "id": "the-souled-store-marvel-comic-strip-boxer-shorts",
+      "name": "Marvel Comic Strip Boxer Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "marvel-comic-strip-boxer-shorts",
+        "product_url": "https://www.thesouledstore.com/product/marvel-comic-strip-boxer-shorts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-maroon-melange-tshirt",
+      "name": "Solids Maroon Melange Tshirt",
+      "category": "top",
+      "colors": [
+        "maroon"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-maroon-melange-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-maroon-melange-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-black-tshirt",
+      "name": "Solids Black Tshirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-black-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-black-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-navy-blue-tshirt",
+      "name": "Solids Navy Blue Tshirt",
+      "category": "top",
+      "colors": [
+        "navy",
+        "blue"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-navy-blue-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-navy-blue-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-navy-blue-melange-tshirt",
+      "name": "Solids Navy Blue Melange Tshirt",
+      "category": "top",
+      "colors": [
+        "navy",
+        "blue"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-navy-blue-melange-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-navy-blue-melange-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-sky-blue-tshirt",
+      "name": "Solids Sky Blue Tshirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-sky-blue-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-sky-blue-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-white-tshirt",
+      "name": "Solids White Tshirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-white-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-white-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-superman-the-classic-symbol-tshirt",
+      "name": "Superman The Classic Symbol Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "superman-the-classic-symbol-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/superman-the-classic-symbol-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-marine-melange-tshirt",
+      "name": "Solids Marine Melange Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-marine-melange-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-marine-melange-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-burgundy-tshirt",
+      "name": "Solids Burgundy Tshirt",
+      "category": "top",
+      "colors": [
+        "burgundy"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-burgundy-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-burgundy-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-donald-duck-stripes-tshirt",
+      "name": "Donald Duck Stripes Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "donald-duck-stripes-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/donald-duck-stripes-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-thats-what-she-said-tshirt",
+      "name": "Thats What She Said Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "thats-what-she-said-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/thats-what-she-said-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-superman-iconic-emblem-tshirt",
+      "name": "Superman Iconic Emblem Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "superman-iconic-emblem-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/superman-iconic-emblem-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-sage-green-tshirt",
+      "name": "Solids Sage Green Tshirt",
+      "category": "top",
+      "colors": [
+        "green",
+        "sage"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-sage-green-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-sage-green-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-batman-3d-logo-tshirt",
+      "name": "Batman 3D Logo Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "batman-3d-logo-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/batman-3d-logo-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-looney-tunes-90s-kid-sweatshirt",
+      "name": "Looney Tunes 90S Kid Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "looney-tunes-90s-kid-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/looney-tunes-90s-kid-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-black-men-sweatshirts",
+      "name": "Solids Black Sweatshirts",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-black-men-sweatshirts",
+        "product_url": "https://www.thesouledstore.com/product/solids-black-men-sweatshirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tom-and-jerry-angry-tom-tshirt",
+      "name": "Tom And Jerry Angry Tom Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tom-and-jerry-angry-tom-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/tom-and-jerry-angry-tom-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-iron-man-first-flight-drop-cut-mens-tshirt",
+      "name": "Iron Man First Flight Drop Cut Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "iron-man-first-flight-drop-cut-mens-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/iron-man-first-flight-drop-cut-mens-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-batman-wayne-industries-drop-cut-mens-tshirt",
+      "name": "Batman Wayne Industries Drop Cut Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "batman-wayne-industries-drop-cut-mens-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/batman-wayne-industries-drop-cut-mens-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-stay-magical-women-joggers",
+      "name": "Stay Magical Joggers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "stay-magical-women-joggers",
+        "product_url": "https://www.thesouledstore.com/product/stay-magical-women-joggers",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-batman-the-dark-knight-vest",
+      "name": "Batman The Dark Knight Vest",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "batman-the-dark-knight-vest",
+        "product_url": "https://www.thesouledstore.com/product/batman-the-dark-knight-vest",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-donald-duck-happy-face-tshirt",
+      "name": "Donald Duck Happy Face Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "donald-duck-happy-face-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/donald-duck-happy-face-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-bottle-green-tshirt",
+      "name": "Solids Bottle Green Tshirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-bottle-green-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-bottle-green-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-looney-tunes-90s-kid-boxer-shorts",
+      "name": "Looney Tunes 90S Kid Boxer Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "looney-tunes-90s-kid-boxer-shorts",
+        "product_url": "https://www.thesouledstore.com/product/looney-tunes-90s-kid-boxer-shorts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-batman-chibi-boxer-short",
+      "name": "Batman Chibi Boxer Short",
+      "category": "bottom",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "batman-chibi-boxer-short",
+        "product_url": "https://www.thesouledstore.com/product/batman-chibi-boxer-short",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-nerdy-equations-tshirt",
+      "name": "Nerdy Equations Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "nerdy-equations-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/nerdy-equations-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-looney-tunes-daffy-duck-sweatshirt",
+      "name": "Looney Tunes Daffy Duck Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "looney-tunes-daffy-duck-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/looney-tunes-daffy-duck-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tom-and-jerry-catch-me-if-you-can-sweatshirt",
+      "name": "Tom And Jerry Catch Me If You Can Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tom-and-jerry-catch-me-if-you-can-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/tom-and-jerry-catch-me-if-you-can-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-white-supima-cotton-half-sleeve-tshirt",
+      "name": "White Supima Cotton Half Sleeve Tshirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "white-supima-cotton-half-sleeve-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/white-supima-cotton-half-sleeve-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tom-and-jerry-cheese-the-day-tshirt",
+      "name": "Tom And Jerry Cheese The Day Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tom-and-jerry-cheese-the-day-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/tom-and-jerry-cheese-the-day-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-powerpuff-girls-the-trio-women-joggers",
+      "name": "Powerpuff Girls The Trio Joggers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "powerpuff-girls-the-trio-women-joggers",
+        "product_url": "https://www.thesouledstore.com/product/powerpuff-girls-the-trio-women-joggers",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-supima-cotton-denim-blue-half-sleeve-t-shirts",
+      "name": "Supima Cotton Denim Blue Half Sleeve T Shirts",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "cotton",
+        "denim"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "supima-cotton-denim-blue-half-sleeve-t-shirts",
+        "product_url": "https://www.thesouledstore.com/product/supima-cotton-denim-blue-half-sleeve-t-shirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-supima-cotton-chocolate-brown-half-sleeve-t-shirts",
+      "name": "Supima Cotton Chocolate Brown Half Sleeve T Shirts",
+      "category": "top",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "supima-cotton-chocolate-brown-half-sleeve-t-shirts",
+        "product_url": "https://www.thesouledstore.com/product/supima-cotton-chocolate-brown-half-sleeve-t-shirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-supima-cotton-sage-green-half-sleeve-t-shirts",
+      "name": "Supima Cotton Sage Green Half Sleeve T Shirts",
+      "category": "top",
+      "colors": [
+        "green",
+        "sage"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "supima-cotton-sage-green-half-sleeve-t-shirts",
+        "product_url": "https://www.thesouledstore.com/product/supima-cotton-sage-green-half-sleeve-t-shirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-supima-cotton-salmon-half-sleeve-t-shirts",
+      "name": "Supima Cotton Salmon Half Sleeve T Shirts",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "supima-cotton-salmon-half-sleeve-t-shirts",
+        "product_url": "https://www.thesouledstore.com/product/supima-cotton-salmon-half-sleeve-t-shirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-or-e-sports-black-tshirt",
+      "name": "Or E Sports Black Tshirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "or-e-sports-black-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/or-e-sports-black-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-black-pajamas",
+      "name": "Solids Black Pajamas",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-black-pajamas",
+        "product_url": "https://www.thesouledstore.com/product/solids-black-pajamas",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-green-grass-supima-cotton-half-sleeve-tshirt",
+      "name": "Green Grass Supima Cotton Half Sleeve Tshirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "green-grass-supima-cotton-half-sleeve-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/green-grass-supima-cotton-half-sleeve-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-monster-mania-supima-cotton-half-sleeve-tshirt",
+      "name": "Monster Mania Supima Cotton Half Sleeve Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "monster-mania-supima-cotton-half-sleeve-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/monster-mania-supima-cotton-half-sleeve-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-dc-girl-gang-womens-hawaiian-shirt",
+      "name": "Dc Girl Gang Hawaiian Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "dc-girl-gang-womens-hawaiian-shirt",
+        "product_url": "https://www.thesouledstore.com/product/dc-girl-gang-womens-hawaiian-shirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-sunflower-pattern-women-hawaiian-shirts",
+      "name": "Sunflower Pattern Hawaiian Shirts",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "sunflower-pattern-women-hawaiian-shirts",
+        "product_url": "https://www.thesouledstore.com/product/sunflower-pattern-women-hawaiian-shirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-courage-same-shit-tshirt",
+      "name": "Courage Same Shit Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "courage-same-shit-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/courage-same-shit-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-smoke-grey-pajama",
+      "name": "Solids Smoke Grey Pajama",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-smoke-grey-pajama",
+        "product_url": "https://www.thesouledstore.com/product/solids-smoke-grey-pajama",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-mauve-women-summer-shorts",
+      "name": "Solids Mauve Summer Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-mauve-women-summer-shorts",
+        "product_url": "https://www.thesouledstore.com/product/solids-mauve-women-summer-shorts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-friends-i-ll-be-there-for-you-tshirt",
+      "name": "Friends I Ll Be There For You Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "friends-i-ll-be-there-for-you-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/friends-i-ll-be-there-for-you-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-supima-cotton-nude-pink-drop-cut-tshirt",
+      "name": "Supima Cotton Nude Pink Drop Cut Tshirt",
+      "category": "top",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "supima-cotton-nude-pink-drop-cut-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/supima-cotton-nude-pink-drop-cut-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-supima-cotton-tss-since-2013-half-sleeve-tshirt",
+      "name": "Supima Cotton Tss Since 2013 Half Sleeve Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "supima-cotton-tss-since-2013-half-sleeve-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/supima-cotton-tss-since-2013-half-sleeve-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-step-hem-grey-camo-tshirt",
+      "name": "Solids Step Hem Grey Camo Tshirt",
+      "category": "top",
+      "colors": [
+        "grey"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-step-hem-grey-camo-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-step-hem-grey-camo-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-step-hem-grey-melange-tshirt",
+      "name": "Solids Step Hem Grey Melange Tshirt",
+      "category": "top",
+      "colors": [
+        "grey"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-step-hem-grey-melange-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-step-hem-grey-melange-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-oversized-midnight-black-tshirt",
+      "name": "Solids Oversized Midnight Black Tshirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-oversized-midnight-black-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-oversized-midnight-black-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-oversized-nude-pink-tshirt",
+      "name": "Solids Oversized Nude Pink Tshirt",
+      "category": "top",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-oversized-nude-pink-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-oversized-nude-pink-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-microsoft-azure-supima-cotton-half-sleeve-dark-blue-tshirt",
+      "name": "Microsoft Azure Supima Cotton Half Sleeve Dark Blue Tshirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "microsoft-azure-supima-cotton-half-sleeve-dark-blue-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/microsoft-azure-supima-cotton-half-sleeve-dark-blue-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-batman-batmobile-boxer-shorts",
+      "name": "Batman Batmobile Boxer Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "batman-batmobile-boxer-shorts",
+        "product_url": "https://www.thesouledstore.com/product/batman-batmobile-boxer-shorts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-star-wars-rule-the-galaxy-oversized-tshirt",
+      "name": "Star Wars Rule The Galaxy Oversized Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "star-wars-rule-the-galaxy-oversized-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/star-wars-rule-the-galaxy-oversized-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-rick-and-morty-aw-geez-oversized-tshirt",
+      "name": "Rick And Morty Aw Geez Oversized Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "rick-and-morty-aw-geez-oversized-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/rick-and-morty-aw-geez-oversized-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-supima-cotton-half-sleeve-brick-red-tshirt",
+      "name": "Supima Cotton Half Sleeve Brick Red Tshirt",
+      "category": "top",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "supima-cotton-half-sleeve-brick-red-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/supima-cotton-half-sleeve-brick-red-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-supima-drop-cut-steel-grey-drop-cut-tshirt",
+      "name": "Supima Drop Cut Steel Grey Drop Cut Tshirt",
+      "category": "top",
+      "colors": [
+        "grey"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "supima-drop-cut-steel-grey-drop-cut-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/supima-drop-cut-steel-grey-drop-cut-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-captain-america-character-mens-sweatshirt",
+      "name": "Captain America Character Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "captain-america-character-mens-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/captain-america-character-mens-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-superman-man-of-steel-mens-sweatshirt",
+      "name": "Superman Man Of Steel Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "superman-man-of-steel-mens-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/superman-man-of-steel-mens-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-dexter-pattern-mens-sweatshirt",
+      "name": "Dexter Pattern Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "dexter-pattern-mens-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/dexter-pattern-mens-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-good-vibes-only-mens-winter-sweatshirt",
+      "name": "Good Vibes Only Winter Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "good-vibes-only-mens-winter-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/good-vibes-only-mens-winter-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tie-dye-blue-spiral-vortex-mens-sweatshirt",
+      "name": "Tie Dye Blue Spiral Vortex Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "blue"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tie-dye-blue-spiral-vortex-mens-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/tie-dye-blue-spiral-vortex-mens-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tie-dye-sunset-mens-sweatshirt",
+      "name": "Tie Dye Sunset Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tie-dye-sunset-mens-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/tie-dye-sunset-mens-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tie-dye-black-storm-mens-hoodies",
+      "name": "Tie Dye Black Storm Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tie-dye-black-storm-mens-hoodies",
+        "product_url": "https://www.thesouledstore.com/product/tie-dye-black-storm-mens-hoodies",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tie-dye-black-flame-mens-hoodies",
+      "name": "Tie Dye Black Flame Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tie-dye-black-flame-mens-hoodies",
+        "product_url": "https://www.thesouledstore.com/product/tie-dye-black-flame-mens-hoodies",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-batman-logo-tie-dye-mens-hoodies",
+      "name": "Batman Logo Tie Dye Hoodies",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "batman-logo-tie-dye-mens-hoodies",
+        "product_url": "https://www.thesouledstore.com/product/batman-logo-tie-dye-mens-hoodies",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-wanderlust-mens-hoodies",
+      "name": "Wanderlust Hoodies",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "wanderlust-mens-hoodies",
+        "product_url": "https://www.thesouledstore.com/product/wanderlust-mens-hoodies",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-sage-green-women-sweatshirt",
+      "name": "Solids Sage Green Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "green",
+        "sage"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-sage-green-women-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-sage-green-women-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-plum-melange-women-sweatshirt",
+      "name": "Solids Plum Melange Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-plum-melange-women-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/solids-plum-melange-women-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-black-panther-wakanda-forever-mens-denim-jacket",
+      "name": "Black Panther Wakanda Forever Denim Jacket",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "denim"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "black-panther-wakanda-forever-mens-denim-jacket",
+        "product_url": "https://www.thesouledstore.com/product/black-panther-wakanda-forever-mens-denim-jacket",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-pomegranate-turtle-neck-mens-knitted-sweaters",
+      "name": "Solids Pomegranate Turtle Neck Knitted Sweaters",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-pomegranate-turtle-neck-mens-knitted-sweaters",
+        "product_url": "https://www.thesouledstore.com/product/solids-pomegranate-turtle-neck-mens-knitted-sweaters",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-batman-classic-logo-mens-puffer-jackets",
+      "name": "Batman Classic Logo Puffer Jackets",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "batman-classic-logo-mens-puffer-jackets",
+        "product_url": "https://www.thesouledstore.com/product/batman-classic-logo-mens-puffer-jackets",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-ppg-girl-power-women-denim-jacket",
+      "name": "Ppg Girl Power Denim Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "denim"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "ppg-girl-power-women-denim-jacket",
+        "product_url": "https://www.thesouledstore.com/product/ppg-girl-power-women-denim-jacket",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-disney-jackets-women-denim-jacket",
+      "name": "Disney Jackets Denim Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "denim"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "disney-jackets-women-denim-jacket",
+        "product_url": "https://www.thesouledstore.com/product/disney-jackets-women-denim-jacket",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-cartoon-network-stuck-in-90s-women-denim-jacket",
+      "name": "Cartoon Network Stuck In 90S Denim Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "denim"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "cartoon-network-stuck-in-90s-women-denim-jacket",
+        "product_url": "https://www.thesouledstore.com/product/cartoon-network-stuck-in-90s-women-denim-jacket",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-ppg-buttercup-women-hoodie",
+      "name": "Ppg Buttercup Hoodie",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "ppg-buttercup-women-hoodie",
+        "product_url": "https://www.thesouledstore.com/product/ppg-buttercup-women-hoodie",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tie-dye-blue-myst-women-hoodie",
+      "name": "Tie Dye Blue Myst Hoodie",
+      "category": "outerwear",
+      "colors": [
+        "blue"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tie-dye-blue-myst-women-hoodie",
+        "product_url": "https://www.thesouledstore.com/product/tie-dye-blue-myst-women-hoodie",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tie-dye-pink-women-jogger",
+      "name": "Tie Dye Pink Jogger",
+      "category": "bottom",
+      "colors": [
+        "pink"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tie-dye-pink-women-jogger",
+        "product_url": "https://www.thesouledstore.com/product/tie-dye-pink-women-jogger",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-looney-tunes-bugs-and-lola-pattern-women-sweatshirt",
+      "name": "Looney Tunes Bugs And Lola Pattern Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "looney-tunes-bugs-and-lola-pattern-women-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/looney-tunes-bugs-and-lola-pattern-women-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-looney-tunes-daffy-duck-women-sweatshirt",
+      "name": "Looney Tunes Daffy Duck Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "looney-tunes-daffy-duck-women-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/looney-tunes-daffy-duck-women-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-harry-potter-gryffindor-sigil-women-sweatshirt",
+      "name": "Harry Potter Gryffindor Sigil Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "harry-potter-gryffindor-sigil-women-sweatshirt",
+        "product_url": "https://www.thesouledstore.com/product/harry-potter-gryffindor-sigil-women-sweatshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-tie-dye-rainbow-women-sweatshirt-womens",
+      "name": "Tie Dye Rainbow Sweatshirt",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "tie-dye-rainbow-women-sweatshirt-womens",
+        "product_url": "https://www.thesouledstore.com/product/tie-dye-rainbow-women-sweatshirt-womens",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-peanuts-hug-womens-knitted-sweaters",
+      "name": "Peanuts Hug Knitted Sweaters",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "peanuts-hug-womens-knitted-sweaters",
+        "product_url": "https://www.thesouledstore.com/product/peanuts-hug-womens-knitted-sweaters",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-black-panther-panther-power-boxer-shorts",
+      "name": "Black Panther Panther Power Boxer Shorts",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "black-panther-panther-power-boxer-shorts",
+        "product_url": "https://www.thesouledstore.com/product/black-panther-panther-power-boxer-shorts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solid-mauve-oversized-tshirts",
+      "name": "Solid Mauve Oversized Tshirts",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solid-mauve-oversized-tshirts",
+        "product_url": "https://www.thesouledstore.com/product/solid-mauve-oversized-tshirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solid-denim-blue-oversized-tshirts",
+      "name": "Solid Denim Blue Oversized Tshirts",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "denim",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solid-denim-blue-oversized-tshirts",
+        "product_url": "https://www.thesouledstore.com/product/solid-denim-blue-oversized-tshirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solid-mushroom-oversized-tshirts",
+      "name": "Solid Mushroom Oversized Tshirts",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solid-mushroom-oversized-tshirts",
+        "product_url": "https://www.thesouledstore.com/product/solid-mushroom-oversized-tshirts",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-ribbed-shorts-navy",
+      "name": "Ribbed Shorts Navy",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "ribbed-shorts-navy",
+        "product_url": "https://www.thesouledstore.com/product/ribbed-shorts-navy",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-peanuts-trippy-vibes-womens-oversized-tshirt",
+      "name": "Peanuts Trippy Vibes Oversized Tshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "peanuts-trippy-vibes-womens-oversized-tshirt",
+        "product_url": "https://www.thesouledstore.com/product/peanuts-trippy-vibes-womens-oversized-tshirt",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-mandarin-polo-sage-green-new",
+      "name": "Solids Mandarin Polo Sage Green New",
+      "category": "top",
+      "colors": [
+        "green",
+        "sage"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-mandarin-polo-sage-green-new",
+        "product_url": "https://www.thesouledstore.com/product/solids-mandarin-polo-sage-green-new",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-souled-store-solids-dusty-pink-women-twill-cargo-joggers",
+      "name": "Solids Dusty Pink Twill Cargo Joggers",
+      "category": "bottom",
+      "colors": [
+        "pink"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "The Souled Store",
+        "subcategory": "solids-dusty-pink-women-twill-cargo-joggers",
+        "product_url": "https://www.thesouledstore.com/product/solids-dusty-pink-women-twill-cargo-joggers",
+        "catalog_source": "https://www.thesouledstore.com/sitemap.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
     }
   ],
   "scenarios": [
     {
-      "id": "fandom_weekend_signature",
+      "id": "comic_convention_without_costume",
       "occasion": "weekend",
-      "prompt": "Build a playful but grown-up casual look. Keep licensed or statement details focused rather than turning every piece into a competing theme.",
-      "mood": "expressive",
+      "prompt": "The user is spending six hours at a comic convention but explicitly does not want a costume. Build around the required Deadpool high-tops as the only licensed focal point, keeping the rest grown-up, comfortable for queues, and coherent in photographs. Do not combine every graphic or statement item merely because the setting is fandom-related.",
+      "mood": "playful and self-aware",
       "weather_context": {
-        "temperature_c": 25,
-        "feels_like_c": 26,
-        "condition": "clear",
-        "wind_kph": 7
+        "temperature_c": 24,
+        "feels_like_c": 24,
+        "condition": "air-conditioned exhibition halls with short outdoor queues",
+        "wind_kph": 6
       },
       "preferences": {
         "style": "polished fandom casual",
+        "priorities": [
+          "six-hour comfort",
+          "one licensed focal point"
+        ],
         "avoid": [
-          "costume-like styling"
+          "costume-like styling",
+          "theme stacking"
         ]
       },
       "must_include_item_ids": [
-        "souled-varsity-soft-mist"
+        "souled-deadpool-high-tops"
       ],
       "limit": 3
     },
     {
-      "id": "cold_rain_layering",
-      "occasion": "casual",
-      "prompt": "Create a cold rainy city outfit and explicitly separate style layering from verified rain protection.",
-      "mood": "comfortable",
+      "id": "casual_friday_then_live_gig",
+      "occasion": "work",
+      "prompt": "Create a genuine desk-to-live-gig outfit: casual Friday at a design studio, dinner with coworkers, then a small music venue. The required pearl cotton-linen shirt must remain office-credible while the evening layer adds personality. Explain how to transition using only listed garments and keep the bomber, printed shirt, and graphic shoes from competing.",
+      "mood": "creative and adaptable",
       "weather_context": {
-        "temperature_c": 11,
-        "feels_like_c": 7,
-        "condition": "steady rain",
-        "precipitation_mm": 6,
-        "wind_kph": 24
+        "temperature_c": 23,
+        "feels_like_c": 23,
+        "condition": "air-conditioned office followed by a dry evening",
+        "wind_kph": 10
       },
       "preferences": {
-        "style": "clean street casual"
+        "style": "creative smart casual",
+        "priorities": [
+          "desk-to-evening transition"
+        ],
+        "avoid": [
+          "multiple novelty focal points"
+        ]
       },
       "must_include_item_ids": [
+        "souled-pearl-linen-shirt"
+      ],
+      "wear_history": [
         "souled-dark-storm-jeans"
       ],
-      "limit": 2
+      "limit": 3
     }
-  ]
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 6153,
+    "curated_items_preserved": 8
+  }
 }

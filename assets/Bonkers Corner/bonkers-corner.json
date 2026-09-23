@@ -160,50 +160,2319 @@
         "product_url": "https://www.bonkerscorner.com/collections/founders-wardrobe/products/baller-pro-racer-jacket"
       },
       "image_path": null
+    },
+    {
+      "id": "bonkers-corner-edge-line-baggy-fit-jeans",
+      "name": "Edge Line Baggy Fit Jeans",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "denim",
+        "men",
+        "men s bottoms",
+        "new in"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/edge-line-baggy-fit-jeans",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-edge-line-baggy-fit-jeans",
+        "catalog_product_id": "15260377907564"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/EdgeLineBaggyFitJeans_2.jpg?v=1787568639",
+      "image_path": "images/bonkers-corner-edge-line-baggy-fit-jeans.jpg"
+    },
+    {
+      "id": "bonkers-corner-dash-denim-jacket",
+      "name": "Dash Denim Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "denim",
+        "jacket",
+        "new in",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "outerwear",
+        "product_url": "https://www.bonkerscorner.com/products/dash-denim-jacket",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-dash-denim-jacket",
+        "catalog_product_id": "15260369322348"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Dashdenimjacket_8.jpg?v=1787567371",
+      "image_path": "images/bonkers-corner-dash-denim-jacket.jpg"
+    },
+    {
+      "id": "bonkers-corner-motion-frequency-jacket",
+      "name": "Motion Frequency Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "jacket",
+        "men",
+        "new in",
+        "redbull"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "outerwear",
+        "product_url": "https://www.bonkerscorner.com/products/motion-frequency-jacket",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-motion-frequency-jacket",
+        "catalog_product_id": "15182835614060"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/File14.png?v=1787391971",
+      "image_path": "images/bonkers-corner-motion-frequency-jacket.png"
+    },
+    {
+      "id": "bonkers-corner-motion-frequency-jacket-1",
+      "name": "Motion Frequency Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "jacket",
+        "new in",
+        "redbull",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "outerwear",
+        "product_url": "https://www.bonkerscorner.com/products/motion-frequency-jacket-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-motion-frequency-jacket-1",
+        "catalog_product_id": "15182835876204"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/File12.png?v=1787391761",
+      "image_path": "images/bonkers-corner-motion-frequency-jacket-1.png"
+    },
+    {
+      "id": "bonkers-corner-iced-latte-cap",
+      "name": "Iced Latte Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/iced-latte-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-iced-latte-cap",
+        "catalog_product_id": "15256056725868"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/A1_7ab9fa09-159d-44a8-b47d-76487c4bc699.png?v=1787299339",
+      "image_path": "images/bonkers-corner-iced-latte-cap.png"
+    },
+    {
+      "id": "bonkers-corner-blissful-blue-loose-fit-joggers-1",
+      "name": "Blissful Blue Loose Fit Joggers",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "joggers",
+        "men",
+        "men s bottoms",
+        "new in",
+        "track pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/blissful-blue-loose-fit-joggers-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-blissful-blue-loose-fit-joggers-1",
+        "catalog_product_id": "15257752043884"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BlissfulBlueLooseFitJoggers_1_148f9233-4125-451b-b9d7-cc06e8942d86.jpg?v=1787295206",
+      "image_path": "images/bonkers-corner-blissful-blue-loose-fit-joggers-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-society-script-cap",
+      "name": "Society Script Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/society-script-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-society-script-cap",
+        "catalog_product_id": "15256716542316"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/04_0003_17.png?v=1787293082",
+      "image_path": "images/bonkers-corner-society-script-cap.png"
+    },
+    {
+      "id": "bonkers-corner-flushing-pink-trackline-joggers",
+      "name": "Flushing Pink Trackline Joggers",
+      "category": "bottom",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "joggers",
+        "men",
+        "men s bottoms",
+        "new in",
+        "track pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/flushing-pink-trackline-joggers",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-flushing-pink-trackline-joggers",
+        "catalog_product_id": "15257736184172"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/FlushingPinktracklinejoggers_7.jpg?v=1787286820",
+      "image_path": "images/bonkers-corner-flushing-pink-trackline-joggers.jpg"
+    },
+    {
+      "id": "bonkers-corner-flushing-pink-trackline-joggers-1",
+      "name": "Flushing Pink Trackline Joggers",
+      "category": "bottom",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "bottoms",
+        "joggers",
+        "new in",
+        "track pants",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/flushing-pink-trackline-joggers-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-flushing-pink-trackline-joggers-1",
+        "catalog_product_id": "15257736610156"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/FlushingPinktracklinejoggers_7_c288977d-3d5b-410f-8406-9da9ec31539d.jpg?v=1787287393",
+      "image_path": "images/bonkers-corner-flushing-pink-trackline-joggers-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-moddy-blue-trackline-joggers-1",
+      "name": "Moddy Blue Trackline Joggers",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "joggers",
+        "men",
+        "men s bottoms",
+        "new in",
+        "track pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/moddy-blue-trackline-joggers-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-moddy-blue-trackline-joggers-1",
+        "catalog_product_id": "15257735823724"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/ModdyBlueTracklineJoggers_9_0a463989-82ed-4371-b610-31e19d713ce8.jpg?v=1787286397",
+      "image_path": "images/bonkers-corner-moddy-blue-trackline-joggers-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-moddy-blue-trackline-joggers",
+      "name": "Moddy Blue Trackline Joggers",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "bottoms",
+        "joggers",
+        "new in",
+        "track pants",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/moddy-blue-trackline-joggers",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-moddy-blue-trackline-joggers",
+        "catalog_product_id": "15257250234732"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/ModdyBlueTracklineJoggers.jpg?v=1787284477",
+      "image_path": "images/bonkers-corner-moddy-blue-trackline-joggers.jpg"
+    },
+    {
+      "id": "bonkers-corner-blissful-blue-loose-fit-joggers",
+      "name": "Blissful Blue Loose Fit Joggers",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "bottoms",
+        "joggers",
+        "new in",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/blissful-blue-loose-fit-joggers",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-blissful-blue-loose-fit-joggers",
+        "catalog_product_id": "15246585266540"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BlissfulBlueLooseFitJoggers_3.jpg?v=1787223799",
+      "image_path": "images/bonkers-corner-blissful-blue-loose-fit-joggers.jpg"
+    },
+    {
+      "id": "bonkers-corner-blush-ballet-mood-dress",
+      "name": "Blush Ballet Mood Dress",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "new in",
+        "summer society",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "full_body",
+        "product_url": "https://www.bonkerscorner.com/products/blush-ballet-mood-dress",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-blush-ballet-mood-dress",
+        "catalog_product_id": "15091247645036"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/S5-250.jpg?v=1787227973",
+      "image_path": "images/bonkers-corner-blush-ballet-mood-dress.jpg"
+    },
+    {
+      "id": "bonkers-corner-call-me-oversized-t-shirt",
+      "name": "Call Me Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "men",
+        "new in",
+        "oversized t shirt",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/call-me-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-call-me-oversized-t-shirt",
+        "catalog_product_id": "15257200755052"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/CallMeOversizedT-shirt_3.jpg?v=1787226908",
+      "image_path": "images/bonkers-corner-call-me-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-kid-98-cap",
+      "name": "Kid 98 Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/kid-98-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-kid-98-cap",
+        "catalog_product_id": "15256742199660"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/01_f0bc4625-2505-4593-bdda-b2925af63756.png?v=1787293179",
+      "image_path": "images/bonkers-corner-kid-98-cap.png"
+    },
+    {
+      "id": "bonkers-corner-black-society-98-cap",
+      "name": "Black Society 98 Cap",
+      "category": "accessory",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/black-society-98-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-black-society-98-cap",
+        "catalog_product_id": "15256733679980"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BlackSociety98Cap_1.png?v=1787208904",
+      "image_path": "images/bonkers-corner-black-society-98-cap.png"
+    },
+    {
+      "id": "bonkers-corner-beige-society-98-cap",
+      "name": "Beige Society 98 Cap",
+      "category": "accessory",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/beige-society-98-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-beige-society-98-cap",
+        "catalog_product_id": "15256724046188"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BeigeSociety98Cap_3.png?v=1787208724",
+      "image_path": "images/bonkers-corner-beige-society-98-cap.png"
+    },
+    {
+      "id": "bonkers-corner-no-cap-kid-cap",
+      "name": "No Cap Kid Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/no-cap-kid-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-no-cap-kid-cap",
+        "catalog_product_id": "15256707596652"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/NoCapKidCap_5.png?v=1787209810",
+      "image_path": "images/bonkers-corner-no-cap-kid-cap.png"
+    },
+    {
+      "id": "bonkers-corner-pinstripe-kid-cap",
+      "name": "Pinstripe Kid Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/pinstripe-kid-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-pinstripe-kid-cap",
+        "catalog_product_id": "15256694194540"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/PinstripeKidCap_1.png?v=1787209865",
+      "image_path": "images/bonkers-corner-pinstripe-kid-cap.png"
+    },
+    {
+      "id": "bonkers-corner-coffee-addict-cap",
+      "name": "Coffee Addict Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/coffee-addict-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-coffee-addict-cap",
+        "catalog_product_id": "15256690393452"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/CoffeeAddictCap_3.png?v=1787209111",
+      "image_path": "images/bonkers-corner-coffee-addict-cap.png"
+    },
+    {
+      "id": "bonkers-corner-highly-caffeinated-cap",
+      "name": "Highly Caffeinated Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/highly-caffeinated-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-highly-caffeinated-cap",
+        "catalog_product_id": "15256680300908"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/HighlyCaffeinatedCap_2.png?v=1787209697",
+      "image_path": "images/bonkers-corner-highly-caffeinated-cap.png"
+    },
+    {
+      "id": "bonkers-corner-coffee-club-cap",
+      "name": "Coffee Club Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/coffee-club-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-coffee-club-cap",
+        "catalog_product_id": "15256661131628"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/CoffeeClubCap_3.png?v=1787209357",
+      "image_path": "images/bonkers-corner-coffee-club-cap.png"
+    },
+    {
+      "id": "bonkers-corner-brew-it-cap",
+      "name": "Brew It Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/brew-it-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-brew-it-cap",
+        "catalog_product_id": "15256659493228"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BrewItCap_2.png?v=1787208973",
+      "image_path": "images/bonkers-corner-brew-it-cap.png"
+    },
+    {
+      "id": "bonkers-corner-coffee-run-cap",
+      "name": "Coffee Run Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/coffee-run-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-coffee-run-cap",
+        "catalog_product_id": "15256659296620"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/CoffeeRunCap_3.png?v=1787209648",
+      "image_path": "images/bonkers-corner-coffee-run-cap.png"
+    },
+    {
+      "id": "bonkers-corner-purrfect-brew-cap",
+      "name": "Purrfect Brew Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/purrfect-brew-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-purrfect-brew-cap",
+        "catalog_product_id": "15256658903404"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/04_a3f0a06d-f55e-4ccb-8280-960693de916e.png?v=1787210002",
+      "image_path": "images/bonkers-corner-purrfect-brew-cap.png"
+    },
+    {
+      "id": "bonkers-corner-coffee-over-chaos-cap",
+      "name": "Coffee Over Chaos Cap",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "non returnable",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "accessory",
+        "product_url": "https://www.bonkerscorner.com/products/coffee-over-chaos-cap",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-coffee-over-chaos-cap",
+        "catalog_product_id": "15256657002860"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/CoffeeOverChaosCap_3.png?v=1787209536",
+      "image_path": "images/bonkers-corner-coffee-over-chaos-cap.png"
+    },
+    {
+      "id": "bonkers-corner-soft-drama-ruffle-dress",
+      "name": "Soft Drama Ruffle Dress",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "new in",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "full_body",
+        "product_url": "https://www.bonkerscorner.com/products/soft-drama-ruffle-dress",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-soft-drama-ruffle-dress",
+        "catalog_product_id": "15256047976812"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BonkersCorner24-03-2026-50350.jpg?v=1787141278",
+      "image_path": "images/bonkers-corner-soft-drama-ruffle-dress.jpg"
+    },
+    {
+      "id": "bonkers-corner-dark-ash-denim-jacket",
+      "name": "Dark Ash Denim Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "denim",
+        "jacket",
+        "men",
+        "new in"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "outerwear",
+        "product_url": "https://www.bonkerscorner.com/products/dark-ash-denim-jacket",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-dark-ash-denim-jacket",
+        "catalog_product_id": "15256027955564"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/DarkAshDenimJacket_4.jpg?v=1787139243",
+      "image_path": "images/bonkers-corner-dark-ash-denim-jacket.jpg"
+    },
+    {
+      "id": "bonkers-corner-light-ash-denim-jacket",
+      "name": "Light Ash Denim Jacket",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "denim",
+        "jacket",
+        "men",
+        "new in"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "outerwear",
+        "product_url": "https://www.bonkerscorner.com/products/light-ash-denim-jacket",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-light-ash-denim-jacket",
+        "catalog_product_id": "15256028807532"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Seedream5_0Pro-Aprofessionalhigh-endfashionphotoshootrenderedinultra-highresolutionwith_7.jpg?v=1787139484",
+      "image_path": "images/bonkers-corner-light-ash-denim-jacket.jpg"
+    },
+    {
+      "id": "bonkers-corner-black-rival-stripe-polo",
+      "name": "Black Rival Stripe Polo",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "polo",
+        "stripes"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/black-rival-stripe-polo",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-black-rival-stripe-polo",
+        "catalog_product_id": "15163499774316"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BlackRivalStripePolo_9_3ccf0610-1442-42b4-ac60-4dfe956e6292.jpg?v=1781777247",
+      "image_path": "images/bonkers-corner-black-rival-stripe-polo.jpg"
+    },
+    {
+      "id": "bonkers-corner-black-rival-stripe-polo-1",
+      "name": "Black Rival Stripe Polo",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "new in",
+        "polo women",
+        "stripes",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/black-rival-stripe-polo-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-black-rival-stripe-polo-1",
+        "catalog_product_id": "15163517501804"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BlackRivalStripePolo_1.jpg?v=1781777478",
+      "image_path": "images/bonkers-corner-black-rival-stripe-polo-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-midnight-ballet-mood-dress",
+      "name": "Midnight Ballet Mood Dress",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "new in",
+        "summer society",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "full_body",
+        "product_url": "https://www.bonkerscorner.com/products/midnight-ballet-mood-dress",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-midnight-ballet-mood-dress",
+        "catalog_product_id": "15253528379756"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/11_a52a6163-7ed1-4b29-ab70-48b616ddef35.jpg?v=1787031642",
+      "image_path": "images/bonkers-corner-midnight-ballet-mood-dress.jpg"
+    },
+    {
+      "id": "bonkers-corner-steel-blue-tie-back-crop-top",
+      "name": "Steel Blue Tie-Back Crop Top",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "new in",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/steel-blue-tie-back-crop-top",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-steel-blue-tie-back-crop-top",
+        "catalog_product_id": "15246564589932"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/SteelBlueTie-BackCropTop_1.png?v=1786620505",
+      "image_path": "images/bonkers-corner-steel-blue-tie-back-crop-top.png"
+    },
+    {
+      "id": "bonkers-corner-real-slim-oversized-polo-jersey-1",
+      "name": "Real Slim Oversized Polo Jersey",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "jersey",
+        "new in",
+        "polo women",
+        "stadium anthem",
+        "women",
+        "slim",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/real-slim-oversized-polo-jersey-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-real-slim-oversized-polo-jersey-1",
+        "catalog_product_id": "15246500888940"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/RealSlimOversizedPoloJerseyWomen_1.jpg?v=1786603661",
+      "image_path": "images/bonkers-corner-real-slim-oversized-polo-jersey-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-real-slim-oversized-polo-jersey",
+      "name": "Real Slim Oversized Polo Jersey",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "jersey",
+        "men",
+        "new in",
+        "polo",
+        "stadium anthem",
+        "slim",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/real-slim-oversized-polo-jersey",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-real-slim-oversized-polo-jersey",
+        "catalog_product_id": "15246439022956"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/RealSlimOversizedPoloJersey_8.jpg?v=1786595169",
+      "image_path": "images/bonkers-corner-real-slim-oversized-polo-jersey.jpg"
+    },
+    {
+      "id": "bonkers-corner-off-the-grid-oversized-t-shirt-1",
+      "name": "Off The Grid Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "men",
+        "new in",
+        "oversized t shirt",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/off-the-grid-oversized-t-shirt-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-off-the-grid-oversized-t-shirt-1",
+        "catalog_product_id": "15221857747308"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/OffTheGridOversizedT-shirt_6.jpg?v=1785402583",
+      "image_path": "images/bonkers-corner-off-the-grid-oversized-t-shirt-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-grey-pinstriped-loose-fit-trousers",
+      "name": "Grey Pinstriped Loose Fit Trousers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "bottoms",
+        "new in",
+        "out of office",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/grey-pinstriped-loose-fit-trousers",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-grey-pinstriped-loose-fit-trousers",
+        "catalog_product_id": "14959785640300"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/GreyPinstripeSculptVest_11_983d61bb-d50e-441b-8f52-eaf376b4de41.jpg?v=1786441095",
+      "image_path": "images/bonkers-corner-grey-pinstriped-loose-fit-trousers.jpg"
+    },
+    {
+      "id": "bonkers-corner-grey-pinstripe-sculpt-vest",
+      "name": "Grey Pinstripe Sculpt Vest",
+      "category": "top",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "new in",
+        "out of office",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/grey-pinstripe-sculpt-vest",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-grey-pinstripe-sculpt-vest",
+        "catalog_product_id": "14959765487980"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Untitled_design_7.png?v=1786451071",
+      "image_path": "images/bonkers-corner-grey-pinstripe-sculpt-vest.png"
+    },
+    {
+      "id": "bonkers-corner-navy-pinstriped-loose-fit-trousers",
+      "name": "Navy Pinstriped Loose Fit Trousers",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "bottoms",
+        "new in",
+        "out of office",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/navy-pinstriped-loose-fit-trousers",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-navy-pinstriped-loose-fit-trousers",
+        "catalog_product_id": "14959779643756"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/NavyPinstripeSculptVest_9_dd06abae-b038-4b33-8abf-8fcf766595d8.jpg?v=1786442776",
+      "image_path": "images/bonkers-corner-navy-pinstriped-loose-fit-trousers.jpg"
+    },
+    {
+      "id": "bonkers-corner-navy-pinstripe-sculpt-vest",
+      "name": "Navy Pinstripe Sculpt Vest",
+      "category": "top",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "new in",
+        "out of office",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/navy-pinstripe-sculpt-vest",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-navy-pinstripe-sculpt-vest",
+        "catalog_product_id": "14959750119788"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Untitleddesign_5.png?v=1786447072",
+      "image_path": "images/bonkers-corner-navy-pinstripe-sculpt-vest.png"
+    },
+    {
+      "id": "bonkers-corner-everyday-sailor-stripe-oversized-t-shirt",
+      "name": "Everyday Sailor Stripe Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "men",
+        "new in",
+        "oversized t shirt",
+        "stripes",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/everyday-sailor-stripe-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-everyday-sailor-stripe-oversized-t-shirt",
+        "catalog_product_id": "15233193410924"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/EverydaySailorStripeOversized_T-shirtMen_jpg.jpg?v=1786093957",
+      "image_path": "images/bonkers-corner-everyday-sailor-stripe-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-midnight-pine-stripe-oversized-t-shirt",
+      "name": "Midnight Pine Stripe Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "men",
+        "new in",
+        "oversized t shirt",
+        "stripes",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/midnight-pine-stripe-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-midnight-pine-stripe-oversized-t-shirt",
+        "catalog_product_id": "15169231585644"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/MidnightPineStripeOversizedT-shirt_1_853b459a-56bf-46f0-b394-914f3a61e725.jpg?v=1786084585",
+      "image_path": "images/bonkers-corner-midnight-pine-stripe-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-sky-stripe-oversized-t-shirt",
+      "name": "Sky Stripe Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "men",
+        "new in",
+        "oversized t shirt",
+        "stripes",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/sky-stripe-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-sky-stripe-oversized-t-shirt",
+        "catalog_product_id": "15163323482476"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/SkyStripeOversizedT-shirt_7.jpg?v=1782898822",
+      "image_path": "images/bonkers-corner-sky-stripe-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-everyday-sailor-stripe-oversized-t-shirt-1",
+      "name": "Everyday Sailor Stripe Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bestseller latest",
+        "dancers",
+        "new in",
+        "oversized t shirt women",
+        "stripes",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/everyday-sailor-stripe-oversized-t-shirt-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-everyday-sailor-stripe-oversized-t-shirt-1",
+        "catalog_product_id": "15233200587116"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/EverydaySailorStripeOversizedT-shirt_5.jpg?v=1786083989",
+      "image_path": "images/bonkers-corner-everyday-sailor-stripe-oversized-t-shirt-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-relaxed-fit-black-corduroy-pants",
+      "name": "Relaxed Fit Black Corduroy Pants",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "bottoms",
+        "corduroy",
+        "men",
+        "men s bottoms",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/relaxed-fit-black-corduroy-pants",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-relaxed-fit-black-corduroy-pants",
+        "catalog_product_id": "15230999331180"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/RelaxedFitBlackCorduroyPants_5.jpg?v=1785929603",
+      "image_path": "images/bonkers-corner-relaxed-fit-black-corduroy-pants.jpg"
+    },
+    {
+      "id": "bonkers-corner-shadow-star-long-sleeve-t-shirt-1",
+      "name": "Shadow Star Long Sleeve T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "faded collection",
+        "new in",
+        "oversized t shirt women",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/shadow-star-long-sleeve-t-shirt-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-shadow-star-long-sleeve-t-shirt-1",
+        "catalog_product_id": "15230949949804"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/ShadowStarLongSleeveT-shirt4.jpg?v=1785921585",
+      "image_path": "images/bonkers-corner-shadow-star-long-sleeve-t-shirt-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-ivy-green-rugby-polo-1",
+      "name": "Ivy Green Rugby Polo",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "new in",
+        "polo women",
+        "stripes",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/ivy-green-rugby-polo-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-ivy-green-rugby-polo-1",
+        "catalog_product_id": "15167087444332"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/IvyGreenRugbyPolo_3_210fd05b-3312-4794-bf27-bb1e9f280140.jpg?v=1785737932",
+      "image_path": "images/bonkers-corner-ivy-green-rugby-polo-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-ivy-green-rugby-polo",
+      "name": "Ivy Green Rugby Polo",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "polo",
+        "stripes"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/ivy-green-rugby-polo",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-ivy-green-rugby-polo",
+        "catalog_product_id": "15167054709100"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/IvyGreenRugbyPolo_3.jpg?v=1785737805",
+      "image_path": "images/bonkers-corner-ivy-green-rugby-polo.jpg"
+    },
+    {
+      "id": "bonkers-corner-corner-web-shorts-1",
+      "name": "Corner Web Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bottoms",
+        "launch",
+        "marvel",
+        "new in",
+        "shorts",
+        "spiderman",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/corner-web-shorts-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-corner-web-shorts-1",
+        "catalog_product_id": "15222070116716"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/313.png?v=1785834385",
+      "image_path": "images/bonkers-corner-corner-web-shorts-1.png"
+    },
+    {
+      "id": "bonkers-corner-downtown-muse-drape-halter-top",
+      "name": "Downtown Muse Drape Halter Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "new in",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/downtown-muse-drape-halter-top",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-downtown-muse-drape-halter-top",
+        "catalog_product_id": "15227598209388"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/DowntownMuseDrapeHalterTop_5.jpg?v=1785758357",
+      "image_path": "images/bonkers-corner-downtown-muse-drape-halter-top.jpg"
+    },
+    {
+      "id": "bonkers-corner-sand-soft-fade-ribbed-tank",
+      "name": "Sand Soft Fade Ribbed Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "faded collection",
+        "new in",
+        "non returnable",
+        "tanks camisole",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/sand-soft-fade-ribbed-tank",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-sand-soft-fade-ribbed-tank",
+        "catalog_product_id": "15227508621676"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Bonkers_Corner_X_SpiderMan_22-07-20268627.jpg?v=1785830628",
+      "image_path": "images/bonkers-corner-sand-soft-fade-ribbed-tank.jpg"
+    },
+    {
+      "id": "bonkers-corner-rose-soft-fade-ribbed-tank",
+      "name": "Rose Soft Fade Ribbed Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "faded collection",
+        "new in",
+        "non returnable",
+        "tanks camisole",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/rose-soft-fade-ribbed-tank",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-rose-soft-fade-ribbed-tank",
+        "catalog_product_id": "15227490763116"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/RoseSoftFadeRibbedTank_1.jpg?v=1785754420",
+      "image_path": "images/bonkers-corner-rose-soft-fade-ribbed-tank.jpg"
+    },
+    {
+      "id": "bonkers-corner-buttercup-track-pants-1",
+      "name": "Buttercup Track Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bottoms",
+        "joggers",
+        "new in",
+        "track pants",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/buttercup-track-pants-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-buttercup-track-pants-1",
+        "catalog_product_id": "15227078377836"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/ButtercupTrackPants_15.jpg?v=1785752831",
+      "image_path": "images/bonkers-corner-buttercup-track-pants-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-buttercup-track-pants",
+      "name": "Buttercup Track Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bottoms",
+        "joggers",
+        "men",
+        "new in",
+        "pants",
+        "track pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/buttercup-track-pants",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-buttercup-track-pants",
+        "catalog_product_id": "15227068154220"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/ButtercupTrackPants_1.jpg?v=1785741224",
+      "image_path": "images/bonkers-corner-buttercup-track-pants.jpg"
+    },
+    {
+      "id": "bonkers-corner-ice-blue-track-pants-1",
+      "name": "Ice Blue Track Pants",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "bottoms",
+        "joggers",
+        "new in",
+        "pants",
+        "track pants",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/ice-blue-track-pants-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-ice-blue-track-pants-1",
+        "catalog_product_id": "15227043250540"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/IceBlueTrackPants_3_079c6b30-78ee-4ded-beaf-05151d4156bc.jpg?v=1785738469",
+      "image_path": "images/bonkers-corner-ice-blue-track-pants-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-sunshine-yellow-loose-fit-joggers",
+      "name": "Sunshine Yellow Loose Fit Joggers",
+      "category": "bottom",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "bottoms",
+        "dancers",
+        "joggers",
+        "new in",
+        "track pants",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/sunshine-yellow-loose-fit-joggers",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-sunshine-yellow-loose-fit-joggers",
+        "catalog_product_id": "15227032174956"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/329.png?v=1786016324",
+      "image_path": "images/bonkers-corner-sunshine-yellow-loose-fit-joggers.png"
+    },
+    {
+      "id": "bonkers-corner-sunshine-yellow-loose-fit-jogger",
+      "name": "Sunshine Yellow Loose Fit Joggers",
+      "category": "bottom",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "dancers",
+        "joggers",
+        "men",
+        "men s bottoms",
+        "new in",
+        "track pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/sunshine-yellow-loose-fit-jogger",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-sunshine-yellow-loose-fit-jogger",
+        "catalog_product_id": "15227027128684"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/338.png?v=1786081566",
+      "image_path": "images/bonkers-corner-sunshine-yellow-loose-fit-jogger.png"
+    },
+    {
+      "id": "bonkers-corner-jelly-bean-tank",
+      "name": "Jelly Bean Tank",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "baby doll",
+        "new in",
+        "non returnable",
+        "summer society",
+        "tanks camisole",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/jelly-bean-tank",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-jelly-bean-tank",
+        "catalog_product_id": "15223439720812"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/JellyBeanTank_9.jpg?v=1785496652",
+      "image_path": "images/bonkers-corner-jelly-bean-tank.jpg"
+    },
+    {
+      "id": "bonkers-corner-hard-to-understand-oversized-t-shirt",
+      "name": "Hard To Understand Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "oversized t shirt",
+        "oversized t shirt women",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/hard-to-understand-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-hard-to-understand-oversized-t-shirt",
+        "catalog_product_id": "15223336960364"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/D_1.jpg?v=1785495564",
+      "image_path": "images/bonkers-corner-hard-to-understand-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-music-over-people-oversized-t-shirt",
+      "name": "Music Over People Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "oversized t shirt",
+        "oversized t shirt women",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/music-over-people-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-music-over-people-oversized-t-shirt",
+        "catalog_product_id": "15223336337772"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/D_2.jpg?v=1785495509",
+      "image_path": "images/bonkers-corner-music-over-people-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-dance-off-oversized-t-shirt-1",
+      "name": "Dance Off Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "new in",
+        "oversized t shirt women",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/dance-off-oversized-t-shirt-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-dance-off-oversized-t-shirt-1",
+        "catalog_product_id": "15162821771628"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/DanceOffOversizedT-shirt_4.jpg?v=1785496136",
+      "image_path": "images/bonkers-corner-dance-off-oversized-t-shirt-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-bonkers-arcade-oversized-t-shirt-1",
+      "name": "Bonkers Arcade Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "faded collection",
+        "new in",
+        "oversized t shirt women",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/bonkers-arcade-oversized-t-shirt-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-bonkers-arcade-oversized-t-shirt-1",
+        "catalog_product_id": "15181937508716"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BonkersArcadeOversizedT-shirt_1.jpg?v=1785495878",
+      "image_path": "images/bonkers-corner-bonkers-arcade-oversized-t-shirt-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-emotionally-distilled-oversized-t-shirt-1",
+      "name": "Emotionally Distilled Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "new in",
+        "oversized t shirt women",
+        "unapologetic collection",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/emotionally-distilled-oversized-t-shirt-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-emotionally-distilled-oversized-t-shirt-1",
+        "catalog_product_id": "15223406494060"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/EmotionallyDistilledOversizedT-shirt3.jpg?v=1785494464",
+      "image_path": "images/bonkers-corner-emotionally-distilled-oversized-t-shirt-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-emotionally-distilled-oversized-t-shirt",
+      "name": "Emotionally Distilled Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "oversized t shirt",
+        "unapologetic collection",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/emotionally-distilled-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-emotionally-distilled-oversized-t-shirt",
+        "catalog_product_id": "15223392338284"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BonkersCornerLB0715.jpg?v=1785494147",
+      "image_path": "images/bonkers-corner-emotionally-distilled-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-unsupervised-oversized-t-shirt",
+      "name": "Unsupervised Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "faded collection",
+        "men",
+        "new in",
+        "oversized t shirt",
+        "unapologetic collection",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/unsupervised-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-unsupervised-oversized-t-shirt",
+        "catalog_product_id": "15223377789292"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/UnsupervisedOversizedT-shirt2.jpg?v=1785492826",
+      "image_path": "images/bonkers-corner-unsupervised-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-moss-arc-barrel-pants",
+      "name": "Moss Arc Barrel Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "cargo",
+        "men",
+        "men s bottoms",
+        "pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/moss-arc-barrel-pants",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-moss-arc-barrel-pants",
+        "catalog_product_id": "15223365894508"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/MossArcBarrelPants_5.jpg?v=1785492102",
+      "image_path": "images/bonkers-corner-moss-arc-barrel-pants.jpg"
+    },
+    {
+      "id": "bonkers-corner-rhythm-in-control-hoodie-1",
+      "name": "Rhythm In Control Hoodie",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "hoodie",
+        "new in",
+        "sweatshirts hoodies",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "outerwear",
+        "product_url": "https://www.bonkerscorner.com/products/rhythm-in-control-hoodie-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-rhythm-in-control-hoodie-1",
+        "catalog_product_id": "15209455419756"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/RhythmInControlHoodie6.jpg?v=1785490224",
+      "image_path": "images/bonkers-corner-rhythm-in-control-hoodie-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-rhythm-in-control-hoodie",
+      "name": "Rhythm In Control Hoodie",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "hoodie",
+        "men",
+        "new in",
+        "sweatshirts hoodies"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "outerwear",
+        "product_url": "https://www.bonkerscorner.com/products/rhythm-in-control-hoodie",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-rhythm-in-control-hoodie",
+        "catalog_product_id": "15204966793580"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/RhythmInControlHoodie_5.jpg?v=1785490025",
+      "image_path": "images/bonkers-corner-rhythm-in-control-hoodie.jpg"
+    },
+    {
+      "id": "bonkers-corner-dusty-rose-relaxed-fit-shirt",
+      "name": "Dusty Rose Relaxed Fit Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "relaxed fit shirt",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/dusty-rose-relaxed-fit-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-dusty-rose-relaxed-fit-shirt",
+        "catalog_product_id": "15216457220460"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/DustyRoseRelaxedFitShirt_3.jpg?v=1785151694",
+      "image_path": "images/bonkers-corner-dusty-rose-relaxed-fit-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-pastel-sage-relaxed-fit-shirt",
+      "name": "Pastel Sage Relaxed Fit Shirt",
+      "category": "top",
+      "colors": [
+        "sage"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "relaxed fit shirt",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/pastel-sage-relaxed-fit-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-pastel-sage-relaxed-fit-shirt",
+        "catalog_product_id": "15216400073068"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/PastelSageRelaxedFitShirt_2.jpg?v=1785151063",
+      "image_path": "images/bonkers-corner-pastel-sage-relaxed-fit-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-true-black-relaxed-fit-shirt",
+      "name": "True Black Relaxed Fit Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "relaxed fit shirt",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/true-black-relaxed-fit-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-true-black-relaxed-fit-shirt",
+        "catalog_product_id": "15216352067948"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/TrueBlackRelaxedFitShirt_2.jpg?v=1785150732",
+      "image_path": "images/bonkers-corner-true-black-relaxed-fit-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-corner-web-shorts",
+      "name": "Corner Web Shorts",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bottoms",
+        "launch",
+        "marvel",
+        "men",
+        "men s shorts",
+        "new in",
+        "spiderman"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/corner-web-shorts",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-corner-web-shorts",
+        "catalog_product_id": "15221979808108"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Corner_Web_Shorts_men.png?v=1785824443",
+      "image_path": "images/bonkers-corner-corner-web-shorts.png"
+    },
+    {
+      "id": "bonkers-corner-its-not-clocking-oversized-t-shirt",
+      "name": "Its Not Clocking Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "men",
+        "new in",
+        "oversized t shirt",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/its-not-clocking-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-its-not-clocking-oversized-t-shirt",
+        "catalog_product_id": "15217491214700"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/NotClockingOversizedT-shirtMEN_2.png?v=1785410041",
+      "image_path": "images/bonkers-corner-its-not-clocking-oversized-t-shirt.png"
+    },
+    {
+      "id": "bonkers-corner-brown-vintage-faded-tank-1",
+      "name": "Brown Vintage Faded Tank",
+      "category": "top",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "dancers",
+        "faded collection",
+        "new in",
+        "tanks camisole",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/brown-vintage-faded-tank-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-brown-vintage-faded-tank-1",
+        "catalog_product_id": "15217449042284"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BrownVintageFadedTank_2.jpg?v=1785303889",
+      "image_path": "images/bonkers-corner-brown-vintage-faded-tank-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-its-not-clocking-oversized-t-shirt-1",
+      "name": "Its Not Clocking Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "new in",
+        "oversized t shirt women",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/its-not-clocking-oversized-t-shirt-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-its-not-clocking-oversized-t-shirt-1",
+        "catalog_product_id": "15222051635564"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/NotClockingOversizedT-shirt_1.png?v=1785409806",
+      "image_path": "images/bonkers-corner-its-not-clocking-oversized-t-shirt-1.png"
+    },
+    {
+      "id": "bonkers-corner-urban-camo-halter-top",
+      "name": "Urban Camo Halter Top",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "new in",
+        "tanks camisole",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/urban-camo-halter-top",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-urban-camo-halter-top",
+        "catalog_product_id": "15181402308972"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BonkersCornerXSpiderMan22-07-20269355.jpg?v=1785405590",
+      "image_path": "images/bonkers-corner-urban-camo-halter-top.jpg"
+    },
+    {
+      "id": "bonkers-corner-off-the-grid-oversized-t-shirt",
+      "name": "Off The Grid Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "dancers",
+        "new in",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/off-the-grid-oversized-t-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-off-the-grid-oversized-t-shirt",
+        "catalog_product_id": "15221597864300"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Off_The_Grid_Oversized_T-shirt_4.jpg?v=1785399181",
+      "image_path": "images/bonkers-corner-off-the-grid-oversized-t-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-pink-cloud-faded-loose-fit-pants-1",
+      "name": "Pink Cloud Faded Loose Fit Pants",
+      "category": "bottom",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "dancers",
+        "faded collection",
+        "joggers",
+        "men",
+        "men s bottoms",
+        "new in",
+        "track pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/pink-cloud-faded-loose-fit-pants-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-pink-cloud-faded-loose-fit-pants-1",
+        "catalog_product_id": "15221390803308"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/PinkCloudFadedLooseFitPantsMEN_1.jpg?v=1785398201",
+      "image_path": "images/bonkers-corner-pink-cloud-faded-loose-fit-pants-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-black-ember-stripe-rugby-polo",
+      "name": "Black Ember Stripe Rugby Polo",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "dancers",
+        "men",
+        "new in",
+        "polo",
+        "stripes"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/black-ember-stripe-rugby-polo",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-black-ember-stripe-rugby-polo",
+        "catalog_product_id": "15163303362924"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BlackEmberStripeRugbyPolo_2.jpg?v=1784714195",
+      "image_path": "images/bonkers-corner-black-ember-stripe-rugby-polo.jpg"
+    },
+    {
+      "id": "bonkers-corner-black-ember-stripe-rugby-polo-1",
+      "name": "Black Ember Stripe Rugby Polo",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "dancers",
+        "new in",
+        "polo women",
+        "stripes",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/black-ember-stripe-rugby-polo-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-black-ember-stripe-rugby-polo-1",
+        "catalog_product_id": "15163336065388"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BlackEmberStripeRugbyPolo_1_ef1acefb-6f9d-4b67-965b-f110eb8cc9e5.jpg?v=1785395333",
+      "image_path": "images/bonkers-corner-black-ember-stripe-rugby-polo-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-webhead-oversized-t-shirt-1",
+      "name": "Webhead Oversized T-shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "marvel",
+        "new in",
+        "oversized t shirt women",
+        "spiderman",
+        "women",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/webhead-oversized-t-shirt-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-webhead-oversized-t-shirt-1",
+        "catalog_product_id": "15192374673772"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/WebheadOversizedT-shirt_1_d526f45f-267e-4a0d-ab60-6b62108f8e51.jpg?v=1785394622",
+      "image_path": "images/bonkers-corner-webhead-oversized-t-shirt-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-off-grid-denim-cargo",
+      "name": "Off Grid Denim Cargo",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "cargo",
+        "denim",
+        "men",
+        "men s bottoms",
+        "pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/off-grid-denim-cargo",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-off-grid-denim-cargo",
+        "catalog_product_id": "15214727627116"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BonkersMan08-07-2026-1017.jpg?v=1785134410",
+      "image_path": "images/bonkers-corner-off-grid-denim-cargo.jpg"
+    },
+    {
+      "id": "bonkers-corner-fuchsia-fever-co-ord-set",
+      "name": "Fuchsia Fever Co-ord Set",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "co ord sets",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "full_body",
+        "product_url": "https://www.bonkerscorner.com/products/fuchsia-fever-co-ord-set",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-fuchsia-fever-co-ord-set",
+        "catalog_product_id": "15217451041132"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/FuchsiaFeverCo-ordSet_4.png?v=1785305114",
+      "image_path": "images/bonkers-corner-fuchsia-fever-co-ord-set.png"
+    },
+    {
+      "id": "bonkers-corner-brown-vintage-faded-tank",
+      "name": "Brown Vintage Faded Tank",
+      "category": "top",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "dancers",
+        "faded collection",
+        "men",
+        "new in",
+        "vest tank men"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/brown-vintage-faded-tank",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-brown-vintage-faded-tank",
+        "catalog_product_id": "15217446879596"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BrownVintageFadedTankmen_1.jpg?v=1785303544",
+      "image_path": "images/bonkers-corner-brown-vintage-faded-tank.jpg"
+    },
+    {
+      "id": "bonkers-corner-pink-cloud-linen-shirt",
+      "name": "Pink Cloud Linen Shirt",
+      "category": "top",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "relaxed fit shirt",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/pink-cloud-linen-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-pink-cloud-linen-shirt",
+        "catalog_product_id": "15217080402284"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/PinkCloudLinenShirt_15.jpg?v=1785234311",
+      "image_path": "images/bonkers-corner-pink-cloud-linen-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-warm-yellow-relaxed-fit-shirt",
+      "name": "Warm Yellow Relaxed Fit Shirt",
+      "category": "top",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "relaxed fit shirt",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/warm-yellow-relaxed-fit-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-warm-yellow-relaxed-fit-shirt",
+        "catalog_product_id": "15216997138796"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/WarmYellowRelaxedFitShirt_2.jpg?v=1785233308",
+      "image_path": "images/bonkers-corner-warm-yellow-relaxed-fit-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-soft-blue-relaxed-fit-shirt",
+      "name": "Soft Blue Relaxed Fit Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "relaxed fit shirt",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/soft-blue-relaxed-fit-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-soft-blue-relaxed-fit-shirt",
+        "catalog_product_id": "15216995139948"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/SoftBlueRelaxedFitShirt_9.jpg?v=1785232866",
+      "image_path": "images/bonkers-corner-soft-blue-relaxed-fit-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-classic-white-relaxed-fit-shirt",
+      "name": "Classic White Relaxed Fit Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "relaxed fit shirt",
+        "relaxed"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/classic-white-relaxed-fit-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-classic-white-relaxed-fit-shirt",
+        "catalog_product_id": "15216970269036"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/ClassicWhiteRelaxedFitShirt_9.jpg?v=1785230893",
+      "image_path": "images/bonkers-corner-classic-white-relaxed-fit-shirt.jpg"
+    },
+    {
+      "id": "bonkers-corner-blue-soft-fade-ribbed-tank",
+      "name": "Blue Soft Fade Ribbed Tank",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "faded collection",
+        "new in",
+        "non returnable",
+        "tanks camisole",
+        "tops",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/blue-soft-fade-ribbed-tank",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-blue-soft-fade-ribbed-tank",
+        "catalog_product_id": "15213546471788"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/BonkersCornerXSpiderMan22-07-20268497.jpg?v=1785390598",
+      "image_path": "images/bonkers-corner-blue-soft-fade-ribbed-tank.jpg"
+    },
+    {
+      "id": "bonkers-corner-mint-ease-loose-fit-joggers-1",
+      "name": "Mint Ease Loose Fit Joggers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "bottoms",
+        "joggers",
+        "new in",
+        "track pants",
+        "women"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/mint-ease-loose-fit-joggers-1",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-mint-ease-loose-fit-joggers-1",
+        "catalog_product_id": "15216900473196"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/MintEaseLooseFitJoggers_7.jpg?v=1785394121",
+      "image_path": "images/bonkers-corner-mint-ease-loose-fit-joggers-1.jpg"
+    },
+    {
+      "id": "bonkers-corner-mint-ease-loose-fit-joggers",
+      "name": "Mint Ease Loose Fit Joggers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "joggers",
+        "men",
+        "men s bottoms",
+        "new in",
+        "track pants"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "bottom",
+        "product_url": "https://www.bonkerscorner.com/products/mint-ease-loose-fit-joggers",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-mint-ease-loose-fit-joggers",
+        "catalog_product_id": "15216461119852"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/MintEaseLooseFitJoggers.jpg?v=1785151953",
+      "image_path": "images/bonkers-corner-mint-ease-loose-fit-joggers.jpg"
+    },
+    {
+      "id": "bonkers-corner-blue-haze-linen-shirt",
+      "name": "Blue Haze Linen Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "men",
+        "new in",
+        "relaxed fit shirt",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "Bonkers Corner",
+        "subcategory": "top",
+        "product_url": "https://www.bonkerscorner.com/products/blue-haze-linen-shirt",
+        "catalog_source": "https://www.bonkerscorner.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "bonkers-corner-blue-haze-linen-shirt",
+        "catalog_product_id": "15216222077292"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0653/0541/1684/files/Blue_Haze_Linen_Shirt_9.jpg?v=1785149956",
+      "image_path": "images/bonkers-corner-blue-haze-linen-shirt.jpg"
     }
   ],
   "scenarios": [
     {
-      "id": "weekend_streetwear_signature",
-      "occasion": "weekend",
-      "prompt": "Style a confident contemporary streetwear look with controlled volume and one clear focal point.",
-      "mood": "confident",
+      "id": "indie_concert_floor",
+      "occasion": "party",
+      "prompt": "The user is attending a crowded standing-room indie concert from 7 p.m. to midnight and wants the required racer jacket to be the single visual headline. Build outfits that survive four hours of standing and movement, manage the jacket's volume, and still look intentional if the jacket comes off. Avoid stacking unrelated graphics or pretending the wardrobe contains shoes.",
+      "mood": "high-energy",
       "weather_context": {
-        "temperature_c": 24,
-        "feels_like_c": 25,
-        "condition": "partly cloudy",
-        "wind_kph": 8
+        "temperature_c": 21,
+        "feels_like_c": 21,
+        "condition": "dry evening with a warm crowded indoor venue",
+        "wind_kph": 10
       },
       "preferences": {
-        "style": "graphic streetwear",
+        "style": "disciplined statement streetwear",
+        "priorities": [
+          "movement",
+          "one focal point"
+        ],
         "avoid": [
-          "over-layering"
+          "competing graphics",
+          "bulky double layers"
         ]
       },
       "must_include_item_ids": [
-        "bonkers-sports-dept-tee"
+        "bonkers-baller-racer-jacket"
       ],
       "limit": 3
     },
     {
-      "id": "cold_rain_layering",
-      "occasion": "casual",
-      "prompt": "Build a cold rainy city look; distinguish warmth from actual rain protection and report gaps honestly.",
-      "mood": "bold",
+      "id": "art_gallery_first_date",
+      "occasion": "date night",
+      "prompt": "Create a first-date look for a contemporary art gallery opening followed by a small wine bar. The required red knit polo should feel confident and conversational, not costume-like. Balance its color and neckline, keep the silhouette suitable for walking and seated drinks, and identify missing finishing pieces without inventing ownership.",
+      "mood": "confident but approachable",
       "weather_context": {
-        "temperature_c": 10,
-        "feels_like_c": 7,
-        "condition": "rain and wind",
-        "precipitation_mm": 6,
-        "wind_kph": 28
+        "temperature_c": 23,
+        "feels_like_c": 23,
+        "condition": "dry evening with air-conditioned interiors",
+        "wind_kph": 7
       },
       "preferences": {
-        "style": "dark streetwear"
+        "style": "creative smart casual",
+        "avoid": [
+          "all-over graphics",
+          "overly sporty combinations"
+        ]
       },
       "must_include_item_ids": [
-        "bonkers-black-utility-denim"
+        "bonkers-red-knit-polo"
       ],
-      "limit": 2
+      "wear_history": [
+        "bonkers-black-joggers"
+      ],
+      "limit": 3
     }
-  ]
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 236,
+    "curated_items_preserved": 8
+  }
 }

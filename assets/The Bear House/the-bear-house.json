@@ -170,23 +170,2511 @@
         "product_url": "https://thebearhouse.com/products/zephy"
       },
       "image_path": null
+    },
+    {
+      "id": "the-bear-house-yuncos-mc",
+      "name": "YUNCOS-MC",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "button down collar",
+        "casual",
+        "check",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "multi",
+        "plain"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/yuncos-mc",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-yuncos-mc",
+        "catalog_product_id": "9310922932475"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-YUNCOS-MC_2.jpg?v=1778220476",
+      "image_path": "images/the-bear-house-yuncos-mc.jpg"
+    },
+    {
+      "id": "the-bear-house-ligh-bl",
+      "name": "LIGH-BL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "button",
+        "casual",
+        "cotton",
+        "full sleeve",
+        "knitted",
+        "made in india",
+        "navy"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Polo",
+        "product_url": "https://thebearhouse.com/products/ligh-bl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-ligh-bl",
+        "catalog_product_id": "9258292936955"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/POL-LIGH-BL_1.jpg?v=1772004874",
+      "image_path": "images/the-bear-house-ligh-bl.jpg"
+    },
+    {
+      "id": "the-bear-house-tbh-rumako-gr",
+      "name": "RUMAKO-GR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "belgium cyprusregularfit",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/tbh-rumako-gr",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tbh-rumako-gr",
+        "catalog_product_id": "9195173609723"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-RUMAKO-GR_1.jpg?v=1766559436",
+      "image_path": "images/the-bear-house-tbh-rumako-gr.jpg"
+    },
+    {
+      "id": "the-bear-house-tbh-histro-mc",
+      "name": "HISTRO-MC",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton blend",
+        "ethopiarelaxfit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/tbh-histro-mc",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tbh-histro-mc",
+        "catalog_product_id": "9195173118203"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-HISTRO-MC_1.jpg?v=1766486603",
+      "image_path": "images/the-bear-house-tbh-histro-mc.jpg"
+    },
+    {
+      "id": "the-bear-house-olla",
+      "name": "OLLA",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "belgium cyprusregularfit",
+        "brown",
+        "casual",
+        "collection casual outings",
+        "collection print play",
+        "collection smart casual",
+        "collection street wear"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/olla",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-olla",
+        "catalog_product_id": "9190720766203"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-OLLA-BR_1.jpg?v=1765536666",
+      "image_path": "images/the-bear-house-olla.jpg"
+    },
+    {
+      "id": "the-bear-house-gield",
+      "name": "GIELD",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "beige",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton blend",
+        "full sleeve",
+        "made in india",
+        "plain"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/gield",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-gield",
+        "catalog_product_id": "9174673719547"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-GIELD-BG_1.jpg?v=1763200461",
+      "image_path": "images/the-bear-house-gield.jpg"
+    },
+    {
+      "id": "the-bear-house-cyan",
+      "name": "CYAN",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "black",
+        "button",
+        "casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "collection winter layering"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Polo",
+        "product_url": "https://thebearhouse.com/products/cyan",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-cyan",
+        "catalog_product_id": "9173693006075"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/POL-CYAN-BK_1.jpg?v=1763112848",
+      "image_path": "images/the-bear-house-cyan.jpg"
+    },
+    {
+      "id": "the-bear-house-ember",
+      "name": "EMBER",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton",
+        "half sleeve",
+        "knitted",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/ember",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-ember",
+        "catalog_product_id": "9149852352763"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-EMBER-WH_1.jpg?v=1761293363",
+      "image_path": "images/the-bear-house-ember.jpg"
+    },
+    {
+      "id": "the-bear-house-vibe-1",
+      "name": "VIBE",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "cotton",
+        "half sleeve",
+        "knitted",
+        "made in india",
+        "only 2xl 3xl",
+        "purple"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/vibe-1",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-vibe-1",
+        "catalog_product_id": "9149797171451"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-VIBE-PL_1.jpg?v=1761288689",
+      "image_path": "images/the-bear-house-vibe-1.jpg"
+    },
+    {
+      "id": "the-bear-house-ille",
+      "name": "ILLE",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "button",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton",
+        "half sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Polo",
+        "product_url": "https://thebearhouse.com/products/ille",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-ille",
+        "catalog_product_id": "9102232453371"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/POL-ILLE-MR_1.jpg?v=1757406723",
+      "image_path": "images/the-bear-house-ille.jpg"
+    },
+    {
+      "id": "the-bear-house-dura",
+      "name": "DURA",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "collection print play",
+        "collection street wear",
+        "cotton",
+        "cream",
+        "half sleeve",
+        "knitted",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/dura",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-dura",
+        "catalog_product_id": "9089584267515"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-DURA-CR_1.jpg?v=1757334884",
+      "image_path": "images/the-bear-house-dura.jpg"
+    },
+    {
+      "id": "the-bear-house-vale-1",
+      "name": "VALE",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "blue",
+        "button and zip",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection travel",
+        "collection winter layering",
+        "cotton blend"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Jeans",
+        "product_url": "https://thebearhouse.com/products/vale-1",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-vale-1",
+        "catalog_product_id": "9037915914491"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/DBN-VALE-MB_1.jpg?v=1757336471",
+      "image_path": "images/the-bear-house-vale-1.jpg"
+    },
+    {
+      "id": "the-bear-house-plosh",
+      "name": "PLOSH",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "boss",
+        "casual",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton linen"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/plosh",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-plosh",
+        "catalog_product_id": "9003840143611"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/BHD.jpg?v=1757402127",
+      "image_path": "images/the-bear-house-plosh.jpg"
+    },
+    {
+      "id": "the-bear-house-perid",
+      "name": "PERID",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "boss",
+        "casual",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton linen"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/perid",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-perid",
+        "catalog_product_id": "9003833295099"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/MANDO_PERID2.jpg?v=1757402565",
+      "image_path": "images/the-bear-house-perid.jpg"
+    },
+    {
+      "id": "the-bear-house-stico",
+      "name": "STICO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "beige",
+        "boss",
+        "casual",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton linen"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/stico",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-stico",
+        "catalog_product_id": "9003832574203"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/STICO4.jpg?v=1757402766",
+      "image_path": "images/the-bear-house-stico.jpg"
+    },
+    {
+      "id": "the-bear-house-dawg",
+      "name": "Dawg",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "bdaysale2025",
+        "casual",
+        "collection old money",
+        "collection relaxed evenings",
+        "collection winter layering",
+        "cotton",
+        "credstyle",
+        "delistedstyles"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Sweatshirt",
+        "product_url": "https://thebearhouse.com/products/dawg",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-dawg",
+        "catalog_product_id": "8264482685179"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-DAWG-TL_1.jpg?v=1757343309",
+      "image_path": "images/the-bear-house-dawg.jpg"
+    },
+    {
+      "id": "the-bear-house-vail",
+      "name": "VAIL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "blue",
+        "button down collar",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/vail",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-vail",
+        "catalog_product_id": "9176933433595"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-VAIL-BL_1.jpg?v=1763531022",
+      "image_path": "images/the-bear-house-vail.jpg"
+    },
+    {
+      "id": "the-bear-house-veloro-gr",
+      "name": "VELORO-GR",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "90041000",
+        "casual",
+        "green",
+        "lgsy non exchangeable",
+        "lgsy non returnable",
+        "made in china",
+        "polycarbonate",
+        "rectangle sunglasses"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Sunglasses",
+        "product_url": "https://thebearhouse.com/products/veloro-gr",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-veloro-gr",
+        "catalog_product_id": "9304314708219"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/VELORO-GR-1.jpg?v=1777373242",
+      "image_path": "images/the-bear-house-veloro-gr.jpg"
+    },
+    {
+      "id": "the-bear-house-karin-mr",
+      "name": "KARIN-MR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "cotton",
+        "half sleeve",
+        "knitted",
+        "made in india",
+        "maroon",
+        "only 2xl 3xl"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Polo",
+        "product_url": "https://thebearhouse.com/products/karin-mr",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-karin-mr",
+        "catalog_product_id": "9284793762043"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/POL-KARIN-MR_1.jpg?v=1775627033",
+      "image_path": "images/the-bear-house-karin-mr.jpg"
+    },
+    {
+      "id": "the-bear-house-tiko-bl",
+      "name": "TIKO-BL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "bear play",
+        "blue",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Polo",
+        "product_url": "https://thebearhouse.com/products/tiko-bl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tiko-bl",
+        "catalog_product_id": "9245644521723"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/POL-TIKO-BL_1.jpg?v=1770986924",
+      "image_path": "images/the-bear-house-tiko-bl.jpg"
+    },
+    {
+      "id": "the-bear-house-trapo-mr",
+      "name": "TRAPO-MR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "belgium cyprusregularfit",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/trapo-mr",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-trapo-mr",
+        "catalog_product_id": "9208973590779"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-TRAPO-MR_1.jpg?v=1767599274",
+      "image_path": "images/the-bear-house-trapo-mr.jpg"
+    },
+    {
+      "id": "the-bear-house-tbh-vargo-mt",
+      "name": "VARGO-MT",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "ethopiarelaxfit",
+        "full sleeve",
+        "made in india",
+        "mustard"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/tbh-vargo-mt",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tbh-vargo-mt",
+        "catalog_product_id": "9201985323259"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-VARGO-MT_1.jpg?v=1767011730",
+      "image_path": "images/the-bear-house-tbh-vargo-mt.jpg"
+    },
+    {
+      "id": "the-bear-house-norawd",
+      "name": "NORAWD",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "beige",
+        "belgium cyprusregularfit",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "full sleeve",
+        "made in india",
+        "plain"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/norawd",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-norawd",
+        "catalog_product_id": "9190716735739"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-NORAWD-BG_1.jpg?v=1765535483",
+      "image_path": "images/the-bear-house-norawd.jpg"
+    },
+    {
+      "id": "the-bear-house-lazandro",
+      "name": "LAZANDRO",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "62034200",
+        "button and zip",
+        "cargo",
+        "casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "collection street wear"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Cargo",
+        "product_url": "https://thebearhouse.com/products/lazandro",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-lazandro",
+        "catalog_product_id": "9189627232507"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/CAR-LAZANDRO-GY_1.jpg?v=1765344955",
+      "image_path": "images/the-bear-house-lazandro.jpg"
+    },
+    {
+      "id": "the-bear-house-orael",
+      "name": "ORAEL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "full sleeve",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/orael",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-orael",
+        "catalog_product_id": "9153817903355"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-ORAEL-MC_1.jpg?v=1761728283",
+      "image_path": "images/the-bear-house-orael.jpg"
+    },
+    {
+      "id": "the-bear-house-halo",
+      "name": "HALO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "cotton",
+        "half sleeve",
+        "knitted",
+        "made in india",
+        "only 2xl 3xl",
+        "peach"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/halo",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-halo",
+        "catalog_product_id": "9149850878203"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-HALO-PC_1.jpg?v=1761293010",
+      "image_path": "images/the-bear-house-halo.jpg"
+    },
+    {
+      "id": "the-bear-house-hailo",
+      "name": "HAILO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton",
+        "flannel",
+        "flannel checks"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/hailo",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-hailo",
+        "catalog_product_id": "9136232464635"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-HAILO-BL_1.jpg?v=1760597224",
+      "image_path": "images/the-bear-house-hailo.jpg"
+    },
+    {
+      "id": "the-bear-house-wurko",
+      "name": "WURKO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection formal look",
+        "collection minimalist",
+        "collection smart casual",
+        "cream",
+        "formal",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/wurko",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-wurko",
+        "catalog_product_id": "9110245572859"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-WURKO-CR_1.jpg?v=1758196664",
+      "image_path": "images/the-bear-house-wurko.jpg"
+    },
+    {
+      "id": "the-bear-house-wesley",
+      "name": "WESLEY",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection classics",
+        "collection formal look",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton",
+        "formal"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/wesley",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-wesley",
+        "catalog_product_id": "9096416887035"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-WESLEY-BL_1.jpg?v=1756819673",
+      "image_path": "images/the-bear-house-wesley.jpg"
+    },
+    {
+      "id": "the-bear-house-trohis",
+      "name": "TROHIS",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "belgium cyprusregularfit",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton blend",
+        "flannel"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/trohis",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-trohis",
+        "catalog_product_id": "9092310171899"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-TROHIS-MC_1.jpg?v=1757334755",
+      "image_path": "images/the-bear-house-trohis.jpg"
+    },
+    {
+      "id": "the-bear-house-maddock",
+      "name": "MADDOCK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bdaysale2025",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection formal look",
+        "collection minimalist",
+        "collection smart casual",
+        "formal",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/maddock",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-maddock",
+        "catalog_product_id": "9070838644987"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-MADDOCK-GR_1.jpg?v=1757335382",
+      "image_path": "images/the-bear-house-maddock.jpg"
+    },
+    {
+      "id": "the-bear-house-olarco",
+      "name": "OLARCO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton",
+        "flannel",
+        "flannel checks"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/olarco",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-olarco",
+        "catalog_product_id": "9064863203579"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-OLARCO-RD_1.jpg?v=1757335494",
+      "image_path": "images/the-bear-house-olarco.jpg"
+    },
+    {
+      "id": "the-bear-house-mateo-1",
+      "name": "MATEO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "blue",
+        "casual",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "full sleeve",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/mateo-1",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-mateo-1",
+        "catalog_product_id": "9053692526843"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-MATEO-BL_1.jpg?v=1757335850",
+      "image_path": "images/the-bear-house-mateo-1.jpg"
+    },
+    {
+      "id": "the-bear-house-lowke",
+      "name": "LOWKE",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton",
+        "flannel",
+        "flannel checks"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/lowke",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-lowke",
+        "catalog_product_id": "9042829967611"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-LOWKE-MR_1.jpg?v=1757336215",
+      "image_path": "images/the-bear-house-lowke.jpg"
+    },
+    {
+      "id": "the-bear-house-greko",
+      "name": "Greko",
+      "category": "accessory",
+      "colors": [],
+      "tags": [
+        "blue",
+        "bucket hat",
+        "cap",
+        "casual",
+        "collection street wear",
+        "collection travel",
+        "lgsy non exchangeable",
+        "lgsy non returnable"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Cap",
+        "product_url": "https://thebearhouse.com/products/greko",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-greko",
+        "catalog_product_id": "8676986290427"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/1_9be46213-0675-4195-974a-b743a9a71767.jpg?v=1757341396",
+      "image_path": "images/the-bear-house-greko.jpg"
+    },
+    {
+      "id": "the-bear-house-aiden-mc",
+      "name": "AIDEN-MC",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "check",
+        "cotton",
+        "flannel",
+        "flannel checks",
+        "flannel tag",
+        "full sleeve",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/aiden-mc",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-aiden-mc",
+        "catalog_product_id": "9375302811899"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/ONL-AIDEN-MC-M_1-Copy.webp?v=1784794459",
+      "image_path": "images/the-bear-house-aiden-mc.jpg"
+    },
+    {
+      "id": "the-bear-house-smiro-pk",
+      "name": "SMIRO-PK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "button down collar",
+        "casual",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "peach",
+        "plain",
+        "sale"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/smiro-pk",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-smiro-pk",
+        "catalog_product_id": "9337841058043"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/FFD-SMIRO-PK_1.webp?v=1780652625",
+      "image_path": "images/the-bear-house-smiro-pk.jpg"
+    },
+    {
+      "id": "the-bear-house-madga-pk",
+      "name": "MADGA-PK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "button down collar",
+        "casual",
+        "check",
+        "cotton",
+        "flannel",
+        "flannel checks",
+        "flannel tag",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/madga-pk",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-madga-pk",
+        "catalog_product_id": "9310963499259"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/ONL-MADGA-PK_1.jpg?v=1778221554",
+      "image_path": "images/the-bear-house-madga-pk.jpg"
+    },
+    {
+      "id": "the-bear-house-clue-bl",
+      "name": "CLUE-BL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "button down collar",
+        "casual",
+        "check",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "multi",
+        "plain"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/clue-bl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-clue-bl",
+        "catalog_product_id": "9283694854395"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/FFD-CLUE-BL_1.jpg?v=1775461134",
+      "image_path": "images/the-bear-house-clue-bl.jpg"
+    },
+    {
+      "id": "the-bear-house-mazin-bk",
+      "name": "MAZIN-BK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "black",
+        "casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton",
+        "highneckregularfit",
+        "knitted"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-Shirt",
+        "product_url": "https://thebearhouse.com/products/mazin-bk",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-mazin-bk",
+        "catalog_product_id": "9239825154299"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-MAZIN-BK-M_6.jpg?v=1770721957",
+      "image_path": "images/the-bear-house-mazin-bk.jpg"
+    },
+    {
+      "id": "the-bear-house-tbh-lwazi-bl",
+      "name": "LWAZI-BL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "blue",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "corduroy",
+        "ethopiarelaxfit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/tbh-lwazi-bl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tbh-lwazi-bl",
+        "catalog_product_id": "9201986470139"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-LWAZI-BL_1.jpg?v=1767009980",
+      "image_path": "images/the-bear-house-tbh-lwazi-bl.jpg"
+    },
+    {
+      "id": "the-bear-house-tehua",
+      "name": "TEHUA",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "cotton",
+        "half sleeve",
+        "knitted",
+        "made in india",
+        "only 2xl 3xl",
+        "purple"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/tehua",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tehua",
+        "catalog_product_id": "9192290550011"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-TEHUA-PL_1.jpg?v=1765878622",
+      "image_path": "images/the-bear-house-tehua.jpg"
+    },
+    {
+      "id": "the-bear-house-kofi",
+      "name": "KOFI",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "corduroy",
+        "full sleeve",
+        "grey"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/kofi",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-kofi",
+        "catalog_product_id": "9175534698747"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-KOFI-GY_1.jpg?v=1763371111",
+      "image_path": "images/the-bear-house-kofi.jpg"
+    },
+    {
+      "id": "the-bear-house-willacs",
+      "name": "WILLACS",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "brown",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Polo",
+        "product_url": "https://thebearhouse.com/products/willacs",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-willacs",
+        "catalog_product_id": "9173577138427"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/POL-WILLACS-BR_1.jpg?v=1763103690",
+      "image_path": "images/the-bear-house-willacs.jpg"
+    },
+    {
+      "id": "the-bear-house-gurved",
+      "name": "GURVED",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "boss",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "full sleeve",
+        "green",
+        "lyocell"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/gurved",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-gurved",
+        "catalog_product_id": "9165667664123"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-GURVED-GR_1.jpg?v=1762420722",
+      "image_path": "images/the-bear-house-gurved.jpg"
+    },
+    {
+      "id": "the-bear-house-brask",
+      "name": "BRASK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "cotton",
+        "grey",
+        "half sleeve",
+        "knitted",
+        "made in india",
+        "round",
+        "roundneckslimfit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/brask",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-brask",
+        "catalog_product_id": "9151579947259"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-BRASK-BL_1.jpg?v=1761550410",
+      "image_path": "images/the-bear-house-brask.jpg"
+    },
+    {
+      "id": "the-bear-house-falls",
+      "name": "FALLS",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton",
+        "full sleeve",
+        "korearelaxfit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/falls",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-falls",
+        "catalog_product_id": "9148708913403"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-FALLS-PK_1.jpg?v=1761202621",
+      "image_path": "images/the-bear-house-falls.jpg"
+    },
+    {
+      "id": "the-bear-house-murav",
+      "name": "MURAV",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "beige",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection formal look",
+        "collection minimalist",
+        "collection smart casual",
+        "formal",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/murav",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-murav",
+        "catalog_product_id": "9110239215867"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-MURAV-BG_1.jpg?v=1758196047",
+      "image_path": "images/the-bear-house-murav.jpg"
+    },
+    {
+      "id": "the-bear-house-kurlo",
+      "name": "KURLO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection formal look",
+        "collection minimalist",
+        "collection smart casual",
+        "formal",
+        "full sleeve",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/kurlo",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-kurlo",
+        "catalog_product_id": "9110236135675"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-KURLO-YL_1.jpg?v=1758195474",
+      "image_path": "images/the-bear-house-kurlo.jpg"
+    },
+    {
+      "id": "the-bear-house-jerem",
+      "name": "JEREM",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "beige",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection formal look",
+        "collection minimalist",
+        "collection smart casual",
+        "formal",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/jerem",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-jerem",
+        "catalog_product_id": "9110234792187"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-JEREM-BG_1.jpg?v=1758195287",
+      "image_path": "images/the-bear-house-jerem.jpg"
+    },
+    {
+      "id": "the-bear-house-neykol",
+      "name": "NEYKOL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bdaysale2025",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton blend",
+        "full sleeve",
+        "green"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/neykol",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-neykol",
+        "catalog_product_id": "9092236574971"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-NEYKOL-GR_1.jpg?v=1757334777",
+      "image_path": "images/the-bear-house-neykol.jpg"
+    },
+    {
+      "id": "the-bear-house-romani",
+      "name": "ROMANI",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "bdaysale2025",
+        "bowling collar",
+        "campshirtrelaxfit",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/romani",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-romani",
+        "catalog_product_id": "9089117749499"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-ROMANI-PK_1.jpg?v=1757334947",
+      "image_path": "images/the-bear-house-romani.jpg"
+    },
+    {
+      "id": "the-bear-house-sevar",
+      "name": "SEVAR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "blue",
+        "button down collar",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/sevar",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-sevar",
+        "catalog_product_id": "9075096617211"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-SEVAR-BL_1.jpg?v=1757335173",
+      "image_path": "images/the-bear-house-sevar.jpg"
+    },
+    {
+      "id": "the-bear-house-ana",
+      "name": "ANA",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "button and zip",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection travel",
+        "collection winter layering",
+        "cotton blend",
+        "denimslimfit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Jeans",
+        "product_url": "https://thebearhouse.com/products/ana",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-ana",
+        "catalog_product_id": "9075038322939"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/DBN-ANA-MB_1.jpg?v=1757335193",
+      "image_path": "images/the-bear-house-ana.jpg"
+    },
+    {
+      "id": "the-bear-house-skio",
+      "name": "SKIO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "blue",
+        "check",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection classics",
+        "collection formal look",
+        "collection smart casual",
+        "cotton blend"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/skio",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-skio",
+        "catalog_product_id": "9073703321851"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-SKIO-BL_1.jpg?v=1757335220",
+      "image_path": "images/the-bear-house-skio.jpg"
+    },
+    {
+      "id": "the-bear-house-luca",
+      "name": "LUCA",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection classics",
+        "collection formal look",
+        "collection minimalist",
+        "collection smart casual",
+        "formal",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/luca",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-luca",
+        "catalog_product_id": "9073692475643"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-LUCA-WH_1.jpg?v=1757335225",
+      "image_path": "images/the-bear-house-luca.jpg"
+    },
+    {
+      "id": "the-bear-house-toon",
+      "name": "TOON",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "black",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "full sleeve",
+        "korearelaxfit",
+        "made in india",
+        "plain"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/toon",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-toon",
+        "catalog_product_id": "9042181325051"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-TOON-BK_1.jpg?v=1757336263",
+      "image_path": "images/the-bear-house-toon.jpg"
+    },
+    {
+      "id": "the-bear-house-osakai",
+      "name": "OSAKAI",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton",
+        "flannel",
+        "flannel checks"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/osakai",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-osakai",
+        "catalog_product_id": "9034851287291"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/SFD-OSAKAI-RD-M_1.jpg?v=1757336676",
+      "image_path": "images/the-bear-house-osakai.jpg"
+    },
+    {
+      "id": "the-bear-house-flont",
+      "name": "FLONT",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "button down collar",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "plain"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/flont",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-flont",
+        "catalog_product_id": "9009287135483"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-FLONT-WH_1.jpg?v=1757337431",
+      "image_path": "images/the-bear-house-flont.jpg"
+    },
+    {
+      "id": "the-bear-house-arloz",
+      "name": "ARLOZ",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton",
+        "full sleeve",
+        "grey"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/arloz",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-arloz",
+        "catalog_product_id": "8940562612475"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-ARLOZ-GY_1.jpg?v=1738130283",
+      "image_path": "images/the-bear-house-arloz.jpg"
+    },
+    {
+      "id": "the-bear-house-xinor",
+      "name": "XINOR",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "blue",
+        "boss",
+        "button and zip",
+        "casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "collection travel"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Jeans",
+        "product_url": "https://thebearhouse.com/products/xinor",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-xinor",
+        "catalog_product_id": "8925107650811"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/DNM-XINOR-MB_1.jpg?v=1757339518",
+      "image_path": "images/the-bear-house-xinor.jpg"
+    },
+    {
+      "id": "the-bear-house-amplify",
+      "name": "AMPLIFY",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bbs sale",
+        "bdaysale2025",
+        "black",
+        "boss",
+        "casual",
+        "collection street wear",
+        "cotton",
+        "delistedstyles"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/amplify",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-amplify",
+        "catalog_product_id": "8587340742907"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-AMPLIFY-BK_1.jpg?v=1753864300",
+      "image_path": "images/the-bear-house-amplify.jpg"
+    },
+    {
+      "id": "the-bear-house-bigel",
+      "name": "Bigel",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bbs sale",
+        "bdaysale2025",
+        "boss",
+        "casual",
+        "collection street wear",
+        "cotton",
+        "delistedstyles",
+        "half sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/bigel",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-bigel",
+        "catalog_product_id": "8348313190651"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-BIGEL-BK_1.jpg?v=1753864904",
+      "image_path": "images/the-bear-house-bigel.jpg"
+    },
+    {
+      "id": "the-bear-house-rulo-gr",
+      "name": "RULO-GR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "62052000",
+        "belgium cyprusregularfit",
+        "casual",
+        "cotton blend",
+        "green",
+        "half sleeve",
+        "made in india",
+        "new"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/rulo-gr",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-rulo-gr",
+        "catalog_product_id": "9388935250171"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-RULO-GR_1.webp?v=1786528899",
+      "image_path": "images/the-bear-house-rulo-gr.jpg"
+    },
+    {
+      "id": "the-bear-house-lavian-bg",
+      "name": "LAVIAN-BG",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "beige",
+        "casual",
+        "check",
+        "cotton",
+        "flannel",
+        "flannel checks",
+        "flannel tag",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/lavian-bg",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-lavian-bg",
+        "catalog_product_id": "9388935872763"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-LAVIAN-BG_1.webp?v=1786529206",
+      "image_path": "images/the-bear-house-lavian-bg.jpg"
+    },
+    {
+      "id": "the-bear-house-kagin",
+      "name": "Kagin",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "only 2xl 3xl",
+        "oxford",
+        "red"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/kagin",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-kagin",
+        "catalog_product_id": "8129359642875"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-KAGIN-RD_1.jpg?v=1753867172",
+      "image_path": "images/the-bear-house-kagin.jpg"
+    },
+    {
+      "id": "the-bear-house-haze-bl",
+      "name": "HAZE-BL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "black",
+        "casual",
+        "full sleeve",
+        "made in india",
+        "new",
+        "plain",
+        "print",
+        "shirts"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/haze-bl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-haze-bl",
+        "catalog_product_id": "9388881346811"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-HAZE-BL_1.webp?v=1786521127",
+      "image_path": "images/the-bear-house-haze-bl.jpg"
+    },
+    {
+      "id": "the-bear-house-astron-ny",
+      "name": "ASTRON-NY",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "belgium cyprusregularfit",
+        "button down collar",
+        "casual",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "navy",
+        "new"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/astron-ny",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-astron-ny",
+        "catalog_product_id": "9388877775099"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-ASTRON-NY_1.webp?v=1786518392",
+      "image_path": "images/the-bear-house-astron-ny.jpg"
+    },
+    {
+      "id": "the-bear-house-astron-mr",
+      "name": "ASTRON-MR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "belgium cyprusregularfit",
+        "button down collar",
+        "casual",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "maroon",
+        "new"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/astron-mr",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-astron-mr",
+        "catalog_product_id": "9388877545723"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-ASTRON-MR_1.webp?v=1786518226",
+      "image_path": "images/the-bear-house-astron-mr.jpg"
+    },
+    {
+      "id": "the-bear-house-isho-yl",
+      "name": "ISHO-YL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "cotton blend",
+        "full sleeve",
+        "made in india",
+        "new",
+        "plain",
+        "shirts",
+        "shirtslimfit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/isho-yl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-isho-yl",
+        "catalog_product_id": "9388879741179"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/SFD-ISHO-YL_1.webp?v=1786520193",
+      "image_path": "images/the-bear-house-isho-yl.jpg"
+    },
+    {
+      "id": "the-bear-house-dekko-mc",
+      "name": "DEKKO-MC",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "cotton blend",
+        "full sleeve",
+        "made in india",
+        "multi",
+        "new",
+        "plain",
+        "shirts"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/dekko-mc",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-dekko-mc",
+        "catalog_product_id": "9388879216891"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/SFD-DEKKO-MC_1.webp?v=1786519539",
+      "image_path": "images/the-bear-house-dekko-mc.jpg"
+    },
+    {
+      "id": "the-bear-house-citroy-bl",
+      "name": "CITROY-BL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "button down collar",
+        "casual",
+        "check",
+        "cotton",
+        "flannel",
+        "flannel checks",
+        "flannel tag",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/citroy-bl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-citroy-bl",
+        "catalog_product_id": "9388880560379"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/ONL-CITROY-BL_1.webp?v=1786520538",
+      "image_path": "images/the-bear-house-citroy-bl.jpg"
+    },
+    {
+      "id": "the-bear-house-glimr-bk",
+      "name": "GLIMR-BK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "black",
+        "button down collar",
+        "casual",
+        "check",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "new"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/glimr-bk",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-glimr-bk",
+        "catalog_product_id": "9388878627067"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/FFD-GLIMR-BK_1.webp?v=1786519143",
+      "image_path": "images/the-bear-house-glimr-bk.jpg"
+    },
+    {
+      "id": "the-bear-house-carilo-bl",
+      "name": "CARILO-BL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "blue",
+        "button down collar",
+        "casual",
+        "check",
+        "cotton",
+        "full sleeve",
+        "made in india",
+        "new"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/carilo-bl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-carilo-bl",
+        "catalog_product_id": "9388878201083"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/FFD-CARILO-BL_1.webp?v=1786518880",
+      "image_path": "images/the-bear-house-carilo-bl.jpg"
+    },
+    {
+      "id": "the-bear-house-noaha-wh",
+      "name": "NOAHA-WH",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "dubairelaxfit",
+        "half sleeve",
+        "made in india",
+        "new",
+        "plain",
+        "relaxed fit",
+        "shirts"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/noaha-wh",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-noaha-wh",
+        "catalog_product_id": "9388908347643"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-NOAHA-WH_1.webp?v=1786526950",
+      "image_path": "images/the-bear-house-noaha-wh.jpg"
+    },
+    {
+      "id": "the-bear-house-aqau-gr",
+      "name": "AQAU-GR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "dubairelaxfit",
+        "green",
+        "half sleeve",
+        "made in india",
+        "new",
+        "plain",
+        "relaxed fit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/aqau-gr",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-aqau-gr",
+        "catalog_product_id": "9388890554619"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-AQAU-GR_2.webp?v=1786526431",
+      "image_path": "images/the-bear-house-aqau-gr.jpg"
+    },
+    {
+      "id": "the-bear-house-trust-ow",
+      "name": "TRUST-OW",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "casual",
+        "cotton",
+        "embroidery",
+        "half sleeve",
+        "knitted",
+        "made in india",
+        "off white",
+        "oversized fit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/trust-ow",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-trust-ow",
+        "catalog_product_id": "9328549855483"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-TRUST-OW_1.webp?v=1779968666",
+      "image_path": "images/the-bear-house-trust-ow.jpg"
+    },
+    {
+      "id": "the-bear-house-luck-gr",
+      "name": "LUCK-GR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "button down collar",
+        "casual",
+        "check",
+        "cotton blend",
+        "full sleeve",
+        "green",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/luck-gr",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-luck-gr",
+        "catalog_product_id": "9294220525819"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-LUCK-GR_1.jpg?v=1776854245",
+      "image_path": "images/the-bear-house-luck-gr.jpg"
+    },
+    {
+      "id": "the-bear-house-breezy-br",
+      "name": "BREEZY-BR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "bear play",
+        "brown",
+        "casual",
+        "cotton",
+        "knitted",
+        "made in india",
+        "only 2xl 3xl"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/breezy-br",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-breezy-br",
+        "catalog_product_id": "9245251010811"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-BREEZY-BR_1.jpg?v=1770966470",
+      "image_path": "images/the-bear-house-breezy-br.jpg"
+    },
+    {
+      "id": "the-bear-house-henriet-bk",
+      "name": "HENRIET-BK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "black",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection formal look",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton",
+        "formal"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/henriet-bk",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-henriet-bk",
+        "catalog_product_id": "9227612258555"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-HENRIET-BK_7.jpg?v=1769597018",
+      "image_path": "images/the-bear-house-henriet-bk.jpg"
+    },
+    {
+      "id": "the-bear-house-tbh-renot-pk",
+      "name": "RENOT-PK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "full sleeve",
+        "made in india",
+        "only 2xl 3xl",
+        "pink"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/tbh-renot-pk",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tbh-renot-pk",
+        "catalog_product_id": "9197440925947"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-RENOT-PK_1.jpg?v=1766575179",
+      "image_path": "images/the-bear-house-tbh-renot-pk.jpg"
+    },
+    {
+      "id": "the-bear-house-snape",
+      "name": "SNAPE",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "black",
+        "button down collar",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "full sleeve",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/snape",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-snape",
+        "catalog_product_id": "9190144246011"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-SNAPE-BK_1.jpg?v=1765445778",
+      "image_path": "images/the-bear-house-snape.jpg"
+    },
+    {
+      "id": "the-bear-house-rudao",
+      "name": "RUDAO",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "button down collar",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "full sleeve",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/rudao",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-rudao",
+        "catalog_product_id": "9177931415803"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-RUDAO-BL_1.jpg?v=1763721703",
+      "image_path": "images/the-bear-house-rudao.jpg"
+    },
+    {
+      "id": "the-bear-house-sukar",
+      "name": "SUKAR",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "belgium cyprusregularfit",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "full sleeve",
+        "made in india"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/sukar",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-sukar",
+        "catalog_product_id": "9117089530107"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-SUKAR-MR_1.jpg?v=1758881744",
+      "image_path": "images/the-bear-house-sukar.jpg"
+    },
+    {
+      "id": "the-bear-house-tbh-ember-pl",
+      "name": "EMBER-PL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "auto hidden",
+        "belgium cyprusregularfit",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/tbh-ember-pl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tbh-ember-pl",
+        "catalog_product_id": "9201986044155"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-EMBER-PL_1.jpg?v=1767010803",
+      "image_path": "images/the-bear-house-tbh-ember-pl.jpg"
+    },
+    {
+      "id": "the-bear-house-tron-1",
+      "name": "TRON",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "boss",
+        "button down collar",
+        "casual",
+        "check",
+        "collection casual outings",
+        "collection smart casual",
+        "cotton",
+        "full sleeve"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/tron-1",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tron-1",
+        "catalog_product_id": "9180622127355"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/FFD-TRON-GR_1.jpg?v=1764143502",
+      "image_path": "images/the-bear-house-tron-1.jpg"
+    },
+    {
+      "id": "the-bear-house-dralian",
+      "name": "DRALIAN",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "belgium cyprusregularfit",
+        "blue",
+        "casual",
+        "collection 9 to 7 office casual",
+        "collection casual outings",
+        "collection minimalist",
+        "collection smart casual",
+        "cotton"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/dralian",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-dralian",
+        "catalog_product_id": "9171650642171"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-DRALIAN-BL_1.jpg?v=1762944882",
+      "image_path": "images/the-bear-house-dralian.jpg"
+    },
+    {
+      "id": "the-bear-house-pehes-pk",
+      "name": "PEHES-PK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "button",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton",
+        "half sleeve",
+        "knitted"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Polo",
+        "product_url": "https://thebearhouse.com/products/pehes-pk",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-pehes-pk",
+        "catalog_product_id": "9049486622971"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/POL-PEHES-PK_1.jpg?v=1757335954",
+      "image_path": "images/the-bear-house-pehes-pk.jpg"
+    },
+    {
+      "id": "the-bear-house-pillblu",
+      "name": "PILLBLU",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "bbs sale",
+        "bdaysale2025",
+        "casual",
+        "collection print play",
+        "collection street wear",
+        "cotton",
+        "half sleeve",
+        "knitted"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "T-shirt",
+        "product_url": "https://thebearhouse.com/products/pillblu",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-pillblu",
+        "catalog_product_id": "8915726631163"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TSH-PILLBLU-WH_1.jpg?v=1757339774",
+      "image_path": "images/the-bear-house-pillblu.jpg"
+    },
+    {
+      "id": "the-bear-house-yelon",
+      "name": "Yelon",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "blackfriday",
+        "boss",
+        "casual",
+        "collection casual outings",
+        "collection smart casual",
+        "collection winter layering",
+        "cotton",
+        "delistedstyles"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Polo",
+        "product_url": "https://thebearhouse.com/products/yelon",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-yelon",
+        "catalog_product_id": "8343387930875"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/POL-YELON-YL_1.jpg?v=1753865087",
+      "image_path": "images/the-bear-house-yelon.jpg"
+    },
+    {
+      "id": "the-bear-house-tien-bk",
+      "name": "TIEN-BK",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "black",
+        "button down collar",
+        "casual",
+        "check",
+        "cotton",
+        "flannel",
+        "flannel checks",
+        "flannel tag"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/tien-bk",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-tien-bk",
+        "catalog_product_id": "9274241581307"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/ONL-TIEN-BK_1.jpg?v=1773837297",
+      "image_path": "images/the-bear-house-tien-bk.jpg"
+    },
+    {
+      "id": "the-bear-house-armand-bl",
+      "name": "ARMAND-BL",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "blue",
+        "casual",
+        "collection casual outings",
+        "collection print play",
+        "collection smart casual",
+        "collection street wear",
+        "cotton",
+        "ethopiarelaxfit"
+      ],
+      "metadata": {
+        "brand": "The Bear House",
+        "subcategory": "Shirts",
+        "product_url": "https://thebearhouse.com/products/armand-bl",
+        "catalog_source": "https://thebearhouse.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-bear-house-armand-bl",
+        "catalog_product_id": "9227519852795"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0517/2939/9964/files/TBH-ARMAND-BL_1.jpg?v=1769584737",
+      "image_path": "images/the-bear-house-armand-bl.jpg"
     }
   ],
   "scenarios": [
     {
-      "id": "smart_work_signature",
+      "id": "boardroom_product_presentation",
       "occasion": "work",
-      "prompt": "Create polished contemporary office looks that balance authority, texture, and all-day comfort.",
-      "mood": "composed",
+      "prompt": "The user is leading a 45-minute product presentation for senior clients, then working from the office for the rest of the day. Style the required herringbone check shirt with credible authority, controlled pattern scale, clean seated lines, and enough comfort for a full workday. Avoid vague 'professional' claims\u2014explain why each proportion works on camera and in the room.",
+      "mood": "authoritative but approachable",
       "weather_context": {
-        "temperature_c": 23,
-        "feels_like_c": 23,
-        "condition": "clear",
-        "wind_kph": 7
+        "temperature_c": 21,
+        "feels_like_c": 21,
+        "condition": "strongly air-conditioned boardroom and dry commute",
+        "wind_kph": 6
       },
       "preferences": {
-        "style": "smart casual",
-        "workplace": "creative office"
+        "style": "textured contemporary tailoring",
+        "workplace": "client-facing creative business",
+        "priorities": [
+          "camera-ready contrast",
+          "all-day comfort"
+        ]
       },
       "must_include_item_ids": [
         "bear-abed-check-shirt"
@@ -194,28 +2682,39 @@
       "limit": 3
     },
     {
-      "id": "cold_rain_layering",
+      "id": "airport_to_client_site",
       "occasion": "travel",
-      "prompt": "Build a rainy cool-weather airport-to-city look; do not overstate water resistance.",
-      "mood": "practical",
+      "prompt": "Build a carry-on-friendly outfit for a two-hour flight followed immediately by a visit to a casual client site with no hotel stop. The required navy mock-collar jacket must work in cabin air conditioning and still look deliberate on arrival. Balance wrinkle tolerance, pocket practicality, walking comfort, and client-facing polish using only listed pieces.",
+      "mood": "efficient and composed",
       "weather_context": {
-        "temperature_c": 12,
-        "feels_like_c": 9,
-        "condition": "rain and wind",
-        "precipitation_mm": 4,
-        "wind_kph": 26
+        "temperature_c": 20,
+        "feels_like_c": 20,
+        "condition": "cool aircraft cabin followed by a mild overcast arrival",
+        "wind_kph": 14
       },
       "preferences": {
-        "style": "minimal utility",
+        "style": "minimal smart utility",
         "priorities": [
-          "walking comfort",
-          "layerability"
+          "sitting comfort",
+          "walking",
+          "arrival polish"
         ]
       },
       "must_include_item_ids": [
-        "bear-ardi-black-cargo"
+        "bear-anun-navy-jacket",
+        "bear-zephy-black-sneakers"
       ],
-      "limit": 2
+      "wear_history": [
+        "bear-adame-blue-jeans"
+      ],
+      "limit": 3
     }
-  ]
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 234,
+    "curated_items_preserved": 8
+  }
 }

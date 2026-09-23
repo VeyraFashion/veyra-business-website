@@ -6,14 +6,14 @@
       "slug": "blissclub",
       "assetsDir": "Blissclub",
       "catalogFile": "blissclub.json",
-      "hasCatalog": false
+      "hasCatalog": true
     },
     "34f56177ab": {
       "brand": "Bonkers Corner",
       "slug": "bonkers-corner",
       "assetsDir": "Bonkers Corner",
       "catalogFile": "bonkers-corner.json",
-      "hasCatalog": false
+      "hasCatalog": true
     },
     "88c64009be": {
       "brand": "SNITCH",
@@ -27,49 +27,49 @@
       "slug": "newme",
       "assetsDir": "NEWME",
       "catalogFile": "newme.json",
-      "hasCatalog": false
+      "hasCatalog": true
     },
     "51e026192a": {
       "brand": "The Bear House",
       "slug": "the-bear-house",
       "assetsDir": "The Bear House",
       "catalogFile": "the-bear-house.json",
-      "hasCatalog": false
+      "hasCatalog": true
     },
     "513c78d2c8": {
       "brand": "FREAKINS",
       "slug": "freakins",
       "assetsDir": "FREAKINS",
       "catalogFile": "freakins.json",
-      "hasCatalog": false
+      "hasCatalog": true
     },
     "3e1523409b": {
       "brand": "The Pant Project",
       "slug": "the-pant-project",
       "assetsDir": "The Pant Project",
       "catalogFile": "the-pant-project.json",
-      "hasCatalog": false
+      "hasCatalog": true
     },
     "9cba38c2ce": {
       "brand": "Urban Monkey",
       "slug": "urban-monkey",
       "assetsDir": "Urban Monkey",
       "catalogFile": "urban-monkey.json",
-      "hasCatalog": false
+      "hasCatalog": true
     },
     "ad7e5cf4f2": {
       "brand": "BEWAKOOF",
       "slug": "bewakoof",
       "assetsDir": "BEWAKOOF",
       "catalogFile": "bewakoof.json",
-      "hasCatalog": false
+      "hasCatalog": true
     },
     "c4be7e363b": {
       "brand": "The Souled Store",
       "slug": "the-souled-store",
       "assetsDir": "The Souled Store",
       "catalogFile": "the-souled-store.json",
-      "hasCatalog": false
+      "hasCatalog": true
     }
   }
 }

@@ -176,29 +176,2789 @@
         "product_url": "https://freakins.com/products/curve-blue-high-rise-stretchable-slouchy-jeans"
       },
       "image_path": null
+    },
+    {
+      "id": "freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans-size-26",
+      "name": "Wide Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-mid-blue-high-rise-stretchable-wide-leg-jeans?variant=54345382035731",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438019481875",
+        "variant_id": "54345382035731",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11767_3.jpg?v=1782461963",
+      "image_path": "images/freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans-size-26",
+      "name": "Wide Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-high-rise-stretchable-wide-leg-jeans?variant=54345379152147",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018892051",
+        "variant_id": "54345379152147",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSWDIN1016_1.jpg?v=1782461943",
+      "image_path": "images/freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans-size-26",
+      "name": "Bootcut Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377841427",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018629907",
+        "variant_id": "54345377841427",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2_x_3_in_6.jpg?v=1782461964",
+      "image_path": "images/freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans-size-26",
+      "name": "Wide Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-jet-black-high-rise-stretchable-wide-leg-jeans?variant=54345381052691",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438019285267",
+        "variant_id": "54345381052691",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11777_2.jpg?v=1782461985",
+      "image_path": "images/freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans-size-26",
+      "name": "Wide Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans?variant=54345379315987",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018924819",
+        "variant_id": "54345379315987",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/25_6ca3c978-9d21-46d6-a081-9017bbf3f078.jpg?v=1782461971",
+      "image_path": "images/freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans-size-26",
+      "name": "Bootcut Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-deep-blue-high-rise-stretchable-bootcut-jeans?variant=54345380331795",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019121427",
+        "variant_id": "54345380331795",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKEN102379_1.jpg?v=1782461952",
+      "image_path": "images/freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-indigo-high-rise-stretchable-wide-leg-jeans-size-26",
+      "name": "Wide Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-indigo-high-rise-stretchable-wide-leg-jeans?variant=54345378988307",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-indigo-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018859283",
+        "variant_id": "54345378988307",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSWDIN1015_2.jpg?v=1782461969",
+      "image_path": "images/freakins-women-indigo-high-rise-stretchable-wide-leg-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-indigo-high-rise-stretchable-bootcut-jeans-size-26",
+      "name": "Bootcut Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-indigo-high-rise-stretchable-bootcut-jeans?variant=54345378005267",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018662675",
+        "variant_id": "54345378005267",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSBCIN1024_2.jpg?v=1782461965",
+      "image_path": "images/freakins-women-indigo-high-rise-stretchable-bootcut-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-blue-high-rise-stretchable-straight-jeans-size-26",
+      "name": "Straight Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-blue-high-rise-stretchable-straight-jeans?variant=54345379479827",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-blue-high-rise-stretchable-straight-jeans",
+        "catalog_product_id": "10438018957587",
+        "variant_id": "54345379479827",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11995_1.jpg?v=1782461942",
+      "image_path": "images/freakins-women-blue-high-rise-stretchable-straight-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans-size-26",
+      "name": "Bootcut Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-dark-indigo-high-rise-stretchable-bootcut-jeans?variant=54345378169107",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018695443",
+        "variant_id": "54345378169107",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSBCIN1025_2.jpg?v=1782461935",
+      "image_path": "images/freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-men-white-straight-jeans-size-28",
+      "name": "Straight Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-white-straight-jeans?variant=54345382199571",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-white-straight-jeans",
+        "catalog_product_id": "10438019514643",
+        "variant_id": "54345382199571",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E7.1.jpg?v=1782461992",
+      "image_path": "images/freakins-men-white-straight-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-black-high-rise-stretchable-bootcut-jeans-size-26",
+      "name": "Bootcut Jeans \u2014 Size 26",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-black-high-rise-stretchable-bootcut-jeans?variant=54345381216531",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-black-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019318035",
+        "variant_id": "54345381216531",
+        "size": "26",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11815_2.jpg?v=1782461958",
+      "image_path": "images/freakins-women-black-high-rise-stretchable-bootcut-jeans-size-26.jpg"
+    },
+    {
+      "id": "freakins-men-tinted-indigo-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-tinted-indigo-stretchable-baggy-jeans?variant=54345378496787",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-tinted-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018760979",
+        "variant_id": "54345378496787",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_fb1ad026-ad97-4dad-afc9-d8e1183d3cd5.png?v=1782461938",
+      "image_path": "images/freakins-men-tinted-indigo-stretchable-baggy-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-tinted-blue-stretchable-straight-jeans-size-28",
+      "name": "Straight Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-tinted-blue-stretchable-straight-jeans?variant=54345380692243",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-tinted-blue-stretchable-straight-jeans",
+        "catalog_product_id": "10438019219731",
+        "variant_id": "54345380692243",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_8625b8c3-1ed5-4570-9446-c2af940e5be6.png?v=1782461956",
+      "image_path": "images/freakins-men-tinted-blue-stretchable-straight-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-light-indigo-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-light-indigo-stretchable-baggy-jeans?variant=54345378824467",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-light-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018826515",
+        "variant_id": "54345378824467",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_a045f2cc-ee2c-4923-83d5-e3fa929e4087.png?v=1782461939",
+      "image_path": "images/freakins-men-light-indigo-stretchable-baggy-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-light-blue-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-light-blue-stretchable-baggy-jeans?variant=54345380528403",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-light-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019186963",
+        "variant_id": "54345380528403",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new2.png?v=1782461954",
+      "image_path": "images/freakins-men-light-blue-stretchable-baggy-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-indigo-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-indigo-stretchable-baggy-jeans?variant=54345378660627",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018793747",
+        "variant_id": "54345378660627",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2_x_3_in.jpg?v=1782461938",
+      "image_path": "images/freakins-men-indigo-stretchable-baggy-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-men-indigo-washed-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-indigo-washed-stretchable-baggy-jeans?variant=54345378332947",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-indigo-washed-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018728211",
+        "variant_id": "54345378332947",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/6_f8c016e4-4cba-4474-83d7-edb70acad7ee.png?v=1782461937",
+      "image_path": "images/freakins-men-indigo-washed-stretchable-baggy-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-ecru-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-ecru-baggy-jeans?variant=54345382363411",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-ecru-baggy-jeans",
+        "catalog_product_id": "10438019547411",
+        "variant_id": "54345382363411",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/5_6862eadb-f56d-490f-b220-8a230031c805.png?v=1782461966",
+      "image_path": "images/freakins-men-ecru-baggy-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-classic-blue-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-classic-blue-stretchable-baggy-jeans?variant=54345380167955",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-classic-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019088659",
+        "variant_id": "54345380167955",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E2.2_5ef518fe-5313-4260-9a1b-144467b1b9d9.jpg?v=1782461952",
+      "image_path": "images/freakins-men-classic-blue-stretchable-baggy-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-men-charcoal-black-stretchable-straight-jeans-size-28",
+      "name": "Straight Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-charcoal-black-stretchable-straight-jeans?variant=54345381871891",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-charcoal-black-stretchable-straight-jeans",
+        "catalog_product_id": "10438019449107",
+        "variant_id": "54345381871891",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_1ba23291-7c5e-4955-acf2-9e2e3953fcab.png?v=1782461991",
+      "image_path": "images/freakins-men-charcoal-black-stretchable-straight-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-black-washed-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-washed-stretchable-baggy-jeans?variant=54345381544211",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-washed-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019383571",
+        "variant_id": "54345381544211",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_3d3bfc91-242e-47b2-8bf3-0e0b142b4fbf.png?v=1782461989",
+      "image_path": "images/freakins-men-black-washed-stretchable-baggy-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-blue-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-blue-stretchable-baggy-jeans?variant=54345380856083",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019252499",
+        "variant_id": "54345380856083",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E1.1_afcf372e-936c-4634-a3f3-c922bc429dd9.jpg?v=1782461956",
+      "image_path": "images/freakins-men-blue-stretchable-baggy-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-men-black-stretchable-baggy-jeans-size-28",
+      "name": "Baggy Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-stretchable-baggy-jeans?variant=54345381708051",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019416339",
+        "variant_id": "54345381708051",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_3fe066ac-b026-4127-9b56-08ecf4419842.png?v=1782461962",
+      "image_path": "images/freakins-men-black-stretchable-baggy-jeans-size-28.png"
+    },
+    {
+      "id": "freakins-men-black-stretchable-straight-jeans-size-28",
+      "name": "Straight Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-stretchable-straight-jeans?variant=54345381380371",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-stretchable-straight-jeans",
+        "catalog_product_id": "10438019350803",
+        "variant_id": "54345381380371",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E3.2_a70be163-a479-4b5b-b1f9-c0f2b96548aa.jpg?v=1782461959",
+      "image_path": "images/freakins-men-black-stretchable-straight-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans-size-36",
+      "name": "Bootcut Jeans \u2014 Size 36",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-mid-blue-high-rise-stretchable-bootcut-jeans?variant=54345379840275",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019023123",
+        "variant_id": "54345379840275",
+        "size": "36",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E4.2.jpg?v=1782461948",
+      "image_path": "images/freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans-size-36.jpg"
+    },
+    {
+      "id": "freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans-size-36",
+      "name": "Bootcut Jeans \u2014 Size 36",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-dark-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377677587",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018597139",
+        "variant_id": "54345377677587",
+        "size": "36",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_ec25b9e0-122a-4e70-be27-e5307d8d8062.png?v=1782461964",
+      "image_path": "images/freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans-size-36.png"
+    },
+    {
+      "id": "freakins-curve-indigo-high-rise-stretchable-bootcut-jeans-size-36",
+      "name": "Bootcut Jeans \u2014 Size 36",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377513747",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018531603",
+        "variant_id": "54345377513747",
+        "size": "36",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/4_72dcc488-2f3e-4ae7-966d-3f1876825e3a.png?v=1782461962",
+      "image_path": "images/freakins-curve-indigo-high-rise-stretchable-bootcut-jeans-size-36.png"
+    },
+    {
+      "id": "freakins-curve-blue-high-rise-stretchable-slouchy-jeans-size-36",
+      "name": "Slouchy Jeans \u2014 Size 36",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "curve",
+        "jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-blue-high-rise-stretchable-slouchy-jeans?variant=54345380004115",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-blue-high-rise-stretchable-slouchy-jeans",
+        "catalog_product_id": "10438019055891",
+        "variant_id": "54345380004115",
+        "size": "36",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE13025_2.jpg?v=1782461982",
+      "image_path": "images/freakins-curve-blue-high-rise-stretchable-slouchy-jeans-size-36.jpg"
+    },
+    {
+      "id": "freakins-curve-blue-high-rise-stretchable-straight-jeans-size-34",
+      "name": "Straight Jeans \u2014 Size 34",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "curve",
+        "jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-blue-high-rise-stretchable-straight-jeans?variant=54345379643667",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-blue-high-rise-stretchable-straight-jeans",
+        "catalog_product_id": "10438018990355",
+        "variant_id": "54345379643667",
+        "size": "34",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2x3in_2_.jpg_1.jpg?v=1782461973",
+      "image_path": "images/freakins-curve-blue-high-rise-stretchable-straight-jeans-size-34.jpg"
+    },
+    {
+      "id": "freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans-size-28",
+      "name": "Wide Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-mid-blue-high-rise-stretchable-wide-leg-jeans?variant=54345382068499",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438019481875",
+        "variant_id": "54345382068499",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11767_3.jpg?v=1782461963",
+      "image_path": "images/freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans-size-28",
+      "name": "Wide Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-high-rise-stretchable-wide-leg-jeans?variant=54345379184915",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018892051",
+        "variant_id": "54345379184915",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSWDIN1016_1.jpg?v=1782461943",
+      "image_path": "images/freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans-size-28",
+      "name": "Bootcut Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377874195",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018629907",
+        "variant_id": "54345377874195",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2_x_3_in_6.jpg?v=1782461964",
+      "image_path": "images/freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans-size-28",
+      "name": "Wide Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-jet-black-high-rise-stretchable-wide-leg-jeans?variant=54345381085459",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438019285267",
+        "variant_id": "54345381085459",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11777_2.jpg?v=1782461985",
+      "image_path": "images/freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans-size-28",
+      "name": "Wide Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans?variant=54345379348755",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018924819",
+        "variant_id": "54345379348755",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/25_6ca3c978-9d21-46d6-a081-9017bbf3f078.jpg?v=1782461971",
+      "image_path": "images/freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans-size-28",
+      "name": "Bootcut Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-deep-blue-high-rise-stretchable-bootcut-jeans?variant=54345380364563",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019121427",
+        "variant_id": "54345380364563",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKEN102379_1.jpg?v=1782461952",
+      "image_path": "images/freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-indigo-high-rise-stretchable-wide-leg-jeans-size-28",
+      "name": "Wide Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-indigo-high-rise-stretchable-wide-leg-jeans?variant=54345379021075",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-indigo-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018859283",
+        "variant_id": "54345379021075",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSWDIN1015_2.jpg?v=1782461969",
+      "image_path": "images/freakins-women-indigo-high-rise-stretchable-wide-leg-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-indigo-high-rise-stretchable-bootcut-jeans-size-28",
+      "name": "Bootcut Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-indigo-high-rise-stretchable-bootcut-jeans?variant=54345378038035",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018662675",
+        "variant_id": "54345378038035",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSBCIN1024_2.jpg?v=1782461965",
+      "image_path": "images/freakins-women-indigo-high-rise-stretchable-bootcut-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-blue-high-rise-stretchable-straight-jeans-size-28",
+      "name": "Straight Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-blue-high-rise-stretchable-straight-jeans?variant=54345379512595",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-blue-high-rise-stretchable-straight-jeans",
+        "catalog_product_id": "10438018957587",
+        "variant_id": "54345379512595",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11995_1.jpg?v=1782461942",
+      "image_path": "images/freakins-women-blue-high-rise-stretchable-straight-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans-size-28",
+      "name": "Bootcut Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-dark-indigo-high-rise-stretchable-bootcut-jeans?variant=54345378201875",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018695443",
+        "variant_id": "54345378201875",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSBCIN1025_2.jpg?v=1782461935",
+      "image_path": "images/freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-men-white-straight-jeans-size-30",
+      "name": "Straight Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-white-straight-jeans?variant=54345382232339",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-white-straight-jeans",
+        "catalog_product_id": "10438019514643",
+        "variant_id": "54345382232339",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E7.1.jpg?v=1782461992",
+      "image_path": "images/freakins-men-white-straight-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-black-high-rise-stretchable-bootcut-jeans-size-28",
+      "name": "Bootcut Jeans \u2014 Size 28",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-black-high-rise-stretchable-bootcut-jeans?variant=54345381249299",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-black-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019318035",
+        "variant_id": "54345381249299",
+        "size": "28",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11815_2.jpg?v=1782461958",
+      "image_path": "images/freakins-women-black-high-rise-stretchable-bootcut-jeans-size-28.jpg"
+    },
+    {
+      "id": "freakins-men-tinted-indigo-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-tinted-indigo-stretchable-baggy-jeans?variant=54345378529555",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-tinted-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018760979",
+        "variant_id": "54345378529555",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_fb1ad026-ad97-4dad-afc9-d8e1183d3cd5.png?v=1782461938",
+      "image_path": "images/freakins-men-tinted-indigo-stretchable-baggy-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-tinted-blue-stretchable-straight-jeans-size-30",
+      "name": "Straight Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-tinted-blue-stretchable-straight-jeans?variant=54345380725011",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-tinted-blue-stretchable-straight-jeans",
+        "catalog_product_id": "10438019219731",
+        "variant_id": "54345380725011",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_8625b8c3-1ed5-4570-9446-c2af940e5be6.png?v=1782461956",
+      "image_path": "images/freakins-men-tinted-blue-stretchable-straight-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-light-indigo-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-light-indigo-stretchable-baggy-jeans?variant=54345378857235",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-light-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018826515",
+        "variant_id": "54345378857235",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_a045f2cc-ee2c-4923-83d5-e3fa929e4087.png?v=1782461939",
+      "image_path": "images/freakins-men-light-indigo-stretchable-baggy-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-light-blue-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-light-blue-stretchable-baggy-jeans?variant=54345380561171",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-light-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019186963",
+        "variant_id": "54345380561171",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new2.png?v=1782461954",
+      "image_path": "images/freakins-men-light-blue-stretchable-baggy-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-indigo-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-indigo-stretchable-baggy-jeans?variant=54345378693395",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018793747",
+        "variant_id": "54345378693395",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2_x_3_in.jpg?v=1782461938",
+      "image_path": "images/freakins-men-indigo-stretchable-baggy-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-men-indigo-washed-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-indigo-washed-stretchable-baggy-jeans?variant=54345378365715",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-indigo-washed-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018728211",
+        "variant_id": "54345378365715",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/6_f8c016e4-4cba-4474-83d7-edb70acad7ee.png?v=1782461937",
+      "image_path": "images/freakins-men-indigo-washed-stretchable-baggy-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-ecru-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-ecru-baggy-jeans?variant=54345382396179",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-ecru-baggy-jeans",
+        "catalog_product_id": "10438019547411",
+        "variant_id": "54345382396179",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/5_6862eadb-f56d-490f-b220-8a230031c805.png?v=1782461966",
+      "image_path": "images/freakins-men-ecru-baggy-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-classic-blue-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-classic-blue-stretchable-baggy-jeans?variant=54345380200723",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-classic-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019088659",
+        "variant_id": "54345380200723",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E2.2_5ef518fe-5313-4260-9a1b-144467b1b9d9.jpg?v=1782461952",
+      "image_path": "images/freakins-men-classic-blue-stretchable-baggy-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-men-charcoal-black-stretchable-straight-jeans-size-30",
+      "name": "Straight Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-charcoal-black-stretchable-straight-jeans?variant=54345381904659",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-charcoal-black-stretchable-straight-jeans",
+        "catalog_product_id": "10438019449107",
+        "variant_id": "54345381904659",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_1ba23291-7c5e-4955-acf2-9e2e3953fcab.png?v=1782461991",
+      "image_path": "images/freakins-men-charcoal-black-stretchable-straight-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-black-washed-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-washed-stretchable-baggy-jeans?variant=54345381576979",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-washed-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019383571",
+        "variant_id": "54345381576979",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_3d3bfc91-242e-47b2-8bf3-0e0b142b4fbf.png?v=1782461989",
+      "image_path": "images/freakins-men-black-washed-stretchable-baggy-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-blue-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-blue-stretchable-baggy-jeans?variant=54345380888851",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019252499",
+        "variant_id": "54345380888851",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E1.1_afcf372e-936c-4634-a3f3-c922bc429dd9.jpg?v=1782461956",
+      "image_path": "images/freakins-men-blue-stretchable-baggy-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-men-black-stretchable-baggy-jeans-size-30",
+      "name": "Baggy Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-stretchable-baggy-jeans?variant=54345381740819",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019416339",
+        "variant_id": "54345381740819",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_3fe066ac-b026-4127-9b56-08ecf4419842.png?v=1782461962",
+      "image_path": "images/freakins-men-black-stretchable-baggy-jeans-size-30.png"
+    },
+    {
+      "id": "freakins-men-black-stretchable-straight-jeans-size-30",
+      "name": "Straight Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-stretchable-straight-jeans?variant=54345381413139",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-stretchable-straight-jeans",
+        "catalog_product_id": "10438019350803",
+        "variant_id": "54345381413139",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E3.2_a70be163-a479-4b5b-b1f9-c0f2b96548aa.jpg?v=1782461959",
+      "image_path": "images/freakins-men-black-stretchable-straight-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans-size-38",
+      "name": "Bootcut Jeans \u2014 Size 38",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-mid-blue-high-rise-stretchable-bootcut-jeans?variant=54345379873043",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019023123",
+        "variant_id": "54345379873043",
+        "size": "38",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E4.2.jpg?v=1782461948",
+      "image_path": "images/freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans-size-38.jpg"
+    },
+    {
+      "id": "freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans-size-38",
+      "name": "Bootcut Jeans \u2014 Size 38",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-dark-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377710355",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018597139",
+        "variant_id": "54345377710355",
+        "size": "38",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_ec25b9e0-122a-4e70-be27-e5307d8d8062.png?v=1782461964",
+      "image_path": "images/freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans-size-38.png"
+    },
+    {
+      "id": "freakins-curve-indigo-high-rise-stretchable-bootcut-jeans-size-38",
+      "name": "Bootcut Jeans \u2014 Size 38",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377546515",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018531603",
+        "variant_id": "54345377546515",
+        "size": "38",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/4_72dcc488-2f3e-4ae7-966d-3f1876825e3a.png?v=1782461962",
+      "image_path": "images/freakins-curve-indigo-high-rise-stretchable-bootcut-jeans-size-38.png"
+    },
+    {
+      "id": "freakins-curve-blue-high-rise-stretchable-slouchy-jeans-size-38",
+      "name": "Slouchy Jeans \u2014 Size 38",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "curve",
+        "jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-blue-high-rise-stretchable-slouchy-jeans?variant=54345380036883",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-blue-high-rise-stretchable-slouchy-jeans",
+        "catalog_product_id": "10438019055891",
+        "variant_id": "54345380036883",
+        "size": "38",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE13025_2.jpg?v=1782461982",
+      "image_path": "images/freakins-curve-blue-high-rise-stretchable-slouchy-jeans-size-38.jpg"
+    },
+    {
+      "id": "freakins-curve-blue-high-rise-stretchable-straight-jeans-size-36",
+      "name": "Straight Jeans \u2014 Size 36",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "curve",
+        "jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-blue-high-rise-stretchable-straight-jeans?variant=54345379676435",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-blue-high-rise-stretchable-straight-jeans",
+        "catalog_product_id": "10438018990355",
+        "variant_id": "54345379676435",
+        "size": "36",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2x3in_2_.jpg_1.jpg?v=1782461973",
+      "image_path": "images/freakins-curve-blue-high-rise-stretchable-straight-jeans-size-36.jpg"
+    },
+    {
+      "id": "freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans-size-30",
+      "name": "Wide Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-mid-blue-high-rise-stretchable-wide-leg-jeans?variant=54345382101267",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438019481875",
+        "variant_id": "54345382101267",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11767_3.jpg?v=1782461963",
+      "image_path": "images/freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans-size-30",
+      "name": "Wide Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-high-rise-stretchable-wide-leg-jeans?variant=54345379217683",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018892051",
+        "variant_id": "54345379217683",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSWDIN1016_1.jpg?v=1782461943",
+      "image_path": "images/freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans-size-30",
+      "name": "Bootcut Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377906963",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018629907",
+        "variant_id": "54345377906963",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2_x_3_in_6.jpg?v=1782461964",
+      "image_path": "images/freakins-women-light-indigo-high-rise-stretchable-bootcut-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans-size-30",
+      "name": "Wide Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-jet-black-high-rise-stretchable-wide-leg-jeans?variant=54345381118227",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438019285267",
+        "variant_id": "54345381118227",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11777_2.jpg?v=1782461985",
+      "image_path": "images/freakins-women-jet-black-high-rise-stretchable-wide-leg-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans-size-30",
+      "name": "Wide Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans?variant=54345379381523",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018924819",
+        "variant_id": "54345379381523",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/25_6ca3c978-9d21-46d6-a081-9017bbf3f078.jpg?v=1782461971",
+      "image_path": "images/freakins-women-light-indigo-floral-high-rise-stretchable-wide-leg-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans-size-30",
+      "name": "Bootcut Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-deep-blue-high-rise-stretchable-bootcut-jeans?variant=54345380397331",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019121427",
+        "variant_id": "54345380397331",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKEN102379_1.jpg?v=1782461952",
+      "image_path": "images/freakins-women-deep-blue-high-rise-stretchable-bootcut-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-indigo-high-rise-stretchable-wide-leg-jeans-size-30",
+      "name": "Wide Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-indigo-high-rise-stretchable-wide-leg-jeans?variant=54345379053843",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-indigo-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018859283",
+        "variant_id": "54345379053843",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSWDIN1015_2.jpg?v=1782461969",
+      "image_path": "images/freakins-women-indigo-high-rise-stretchable-wide-leg-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-indigo-high-rise-stretchable-bootcut-jeans-size-30",
+      "name": "Bootcut Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-indigo-high-rise-stretchable-bootcut-jeans?variant=54345378070803",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018662675",
+        "variant_id": "54345378070803",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSBCIN1024_2.jpg?v=1782461965",
+      "image_path": "images/freakins-women-indigo-high-rise-stretchable-bootcut-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-blue-high-rise-stretchable-straight-jeans-size-30",
+      "name": "Straight Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-blue-high-rise-stretchable-straight-jeans?variant=54345379545363",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-blue-high-rise-stretchable-straight-jeans",
+        "catalog_product_id": "10438018957587",
+        "variant_id": "54345379545363",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11995_1.jpg?v=1782461942",
+      "image_path": "images/freakins-women-blue-high-rise-stretchable-straight-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans-size-30",
+      "name": "Bootcut Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-dark-indigo-high-rise-stretchable-bootcut-jeans?variant=54345378234643",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018695443",
+        "variant_id": "54345378234643",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSBCIN1025_2.jpg?v=1782461935",
+      "image_path": "images/freakins-women-dark-indigo-high-rise-stretchable-bootcut-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-men-white-straight-jeans-size-32",
+      "name": "Straight Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-white-straight-jeans?variant=54345382265107",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-white-straight-jeans",
+        "catalog_product_id": "10438019514643",
+        "variant_id": "54345382265107",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E7.1.jpg?v=1782461992",
+      "image_path": "images/freakins-men-white-straight-jeans-size-32.jpg"
+    },
+    {
+      "id": "freakins-women-black-high-rise-stretchable-bootcut-jeans-size-30",
+      "name": "Bootcut Jeans \u2014 Size 30",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "jeans"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-black-high-rise-stretchable-bootcut-jeans?variant=54345381282067",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-black-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019318035",
+        "variant_id": "54345381282067",
+        "size": "30",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11815_2.jpg?v=1782461958",
+      "image_path": "images/freakins-women-black-high-rise-stretchable-bootcut-jeans-size-30.jpg"
+    },
+    {
+      "id": "freakins-men-tinted-indigo-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-tinted-indigo-stretchable-baggy-jeans?variant=54345378562323",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-tinted-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018760979",
+        "variant_id": "54345378562323",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_fb1ad026-ad97-4dad-afc9-d8e1183d3cd5.png?v=1782461938",
+      "image_path": "images/freakins-men-tinted-indigo-stretchable-baggy-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-tinted-blue-stretchable-straight-jeans-size-32",
+      "name": "Straight Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-tinted-blue-stretchable-straight-jeans?variant=54345380757779",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-tinted-blue-stretchable-straight-jeans",
+        "catalog_product_id": "10438019219731",
+        "variant_id": "54345380757779",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_8625b8c3-1ed5-4570-9446-c2af940e5be6.png?v=1782461956",
+      "image_path": "images/freakins-men-tinted-blue-stretchable-straight-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-light-indigo-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-light-indigo-stretchable-baggy-jeans?variant=54345378890003",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-light-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018826515",
+        "variant_id": "54345378890003",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_a045f2cc-ee2c-4923-83d5-e3fa929e4087.png?v=1782461939",
+      "image_path": "images/freakins-men-light-indigo-stretchable-baggy-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-light-blue-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-light-blue-stretchable-baggy-jeans?variant=54345380593939",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-light-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019186963",
+        "variant_id": "54345380593939",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new2.png?v=1782461954",
+      "image_path": "images/freakins-men-light-blue-stretchable-baggy-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-indigo-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-indigo-stretchable-baggy-jeans?variant=54345378726163",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-indigo-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018793747",
+        "variant_id": "54345378726163",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2_x_3_in.jpg?v=1782461938",
+      "image_path": "images/freakins-men-indigo-stretchable-baggy-jeans-size-32.jpg"
+    },
+    {
+      "id": "freakins-men-indigo-washed-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-indigo-washed-stretchable-baggy-jeans?variant=54345378398483",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-indigo-washed-stretchable-baggy-jeans",
+        "catalog_product_id": "10438018728211",
+        "variant_id": "54345378398483",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/6_f8c016e4-4cba-4474-83d7-edb70acad7ee.png?v=1782461937",
+      "image_path": "images/freakins-men-indigo-washed-stretchable-baggy-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-ecru-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-ecru-baggy-jeans?variant=54345382428947",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-ecru-baggy-jeans",
+        "catalog_product_id": "10438019547411",
+        "variant_id": "54345382428947",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/5_6862eadb-f56d-490f-b220-8a230031c805.png?v=1782461966",
+      "image_path": "images/freakins-men-ecru-baggy-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-classic-blue-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-classic-blue-stretchable-baggy-jeans?variant=54345380233491",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-classic-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019088659",
+        "variant_id": "54345380233491",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E2.2_5ef518fe-5313-4260-9a1b-144467b1b9d9.jpg?v=1782461952",
+      "image_path": "images/freakins-men-classic-blue-stretchable-baggy-jeans-size-32.jpg"
+    },
+    {
+      "id": "freakins-men-charcoal-black-stretchable-straight-jeans-size-32",
+      "name": "Straight Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-charcoal-black-stretchable-straight-jeans?variant=54345381937427",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-charcoal-black-stretchable-straight-jeans",
+        "catalog_product_id": "10438019449107",
+        "variant_id": "54345381937427",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_1ba23291-7c5e-4955-acf2-9e2e3953fcab.png?v=1782461991",
+      "image_path": "images/freakins-men-charcoal-black-stretchable-straight-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-black-washed-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-washed-stretchable-baggy-jeans?variant=54345381609747",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-washed-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019383571",
+        "variant_id": "54345381609747",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_3d3bfc91-242e-47b2-8bf3-0e0b142b4fbf.png?v=1782461989",
+      "image_path": "images/freakins-men-black-washed-stretchable-baggy-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-blue-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-blue-stretchable-baggy-jeans?variant=54345380921619",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-blue-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019252499",
+        "variant_id": "54345380921619",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E1.1_afcf372e-936c-4634-a3f3-c922bc429dd9.jpg?v=1782461956",
+      "image_path": "images/freakins-men-blue-stretchable-baggy-jeans-size-32.jpg"
+    },
+    {
+      "id": "freakins-men-black-stretchable-baggy-jeans-size-32",
+      "name": "Baggy Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "baggy",
+        "bg1",
+        "bg2",
+        "jeans",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-stretchable-baggy-jeans?variant=54345381773587",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-stretchable-baggy-jeans",
+        "catalog_product_id": "10438019416339",
+        "variant_id": "54345381773587",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/2_3fe066ac-b026-4127-9b56-08ecf4419842.png?v=1782461962",
+      "image_path": "images/freakins-men-black-stretchable-baggy-jeans-size-32.png"
+    },
+    {
+      "id": "freakins-men-black-stretchable-straight-jeans-size-32",
+      "name": "Straight Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na men",
+        "all shop men",
+        "all products 1",
+        "jeans",
+        "mens",
+        "mens jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/men-black-stretchable-straight-jeans?variant=54345381445907",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-men-black-stretchable-straight-jeans",
+        "catalog_product_id": "10438019350803",
+        "variant_id": "54345381445907",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E3.2_a70be163-a479-4b5b-b1f9-c0f2b96548aa.jpg?v=1782461959",
+      "image_path": "images/freakins-men-black-stretchable-straight-jeans-size-32.jpg"
+    },
+    {
+      "id": "freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans-size-40",
+      "name": "Bootcut Jeans \u2014 Size 40",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-mid-blue-high-rise-stretchable-bootcut-jeans?variant=54345379905811",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438019023123",
+        "variant_id": "54345379905811",
+        "size": "40",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/E4.2.jpg?v=1782461948",
+      "image_path": "images/freakins-curve-mid-blue-high-rise-stretchable-bootcut-jeans-size-40.jpg"
+    },
+    {
+      "id": "freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans-size-40",
+      "name": "Bootcut Jeans \u2014 Size 40",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-dark-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377743123",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018597139",
+        "variant_id": "54345377743123",
+        "size": "40",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/new_ec25b9e0-122a-4e70-be27-e5307d8d8062.png?v=1782461964",
+      "image_path": "images/freakins-curve-dark-indigo-high-rise-stretchable-bootcut-jeans-size-40.png"
+    },
+    {
+      "id": "freakins-curve-indigo-high-rise-stretchable-bootcut-jeans-size-40",
+      "name": "Bootcut Jeans \u2014 Size 40",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "bo1",
+        "bo2",
+        "bootcut",
+        "curve"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-indigo-high-rise-stretchable-bootcut-jeans?variant=54345377579283",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-indigo-high-rise-stretchable-bootcut-jeans",
+        "catalog_product_id": "10438018531603",
+        "variant_id": "54345377579283",
+        "size": "40",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/4_72dcc488-2f3e-4ae7-966d-3f1876825e3a.png?v=1782461962",
+      "image_path": "images/freakins-curve-indigo-high-rise-stretchable-bootcut-jeans-size-40.png"
+    },
+    {
+      "id": "freakins-curve-blue-high-rise-stretchable-slouchy-jeans-size-40",
+      "name": "Slouchy Jeans \u2014 Size 40",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "curve",
+        "jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-blue-high-rise-stretchable-slouchy-jeans?variant=54345380069651",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-blue-high-rise-stretchable-slouchy-jeans",
+        "catalog_product_id": "10438019055891",
+        "variant_id": "54345380069651",
+        "size": "40",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE13025_2.jpg?v=1782461982",
+      "image_path": "images/freakins-curve-blue-high-rise-stretchable-slouchy-jeans-size-40.jpg"
+    },
+    {
+      "id": "freakins-curve-blue-high-rise-stretchable-straight-jeans-size-38",
+      "name": "Straight Jeans \u2014 Size 38",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "curve",
+        "jeans",
+        "newarrivals 2026",
+        "nnt"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/curve-blue-high-rise-stretchable-straight-jeans?variant=54345379709203",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-curve-blue-high-rise-stretchable-straight-jeans",
+        "catalog_product_id": "10438018990355",
+        "variant_id": "54345379709203",
+        "size": "38",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/Untitled_2x3in_2_.jpg_1.jpg?v=1782461973",
+      "image_path": "images/freakins-curve-blue-high-rise-stretchable-straight-jeans-size-38.jpg"
+    },
+    {
+      "id": "freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans-size-32",
+      "name": "Wide Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-mid-blue-high-rise-stretchable-wide-leg-jeans?variant=54345382134035",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438019481875",
+        "variant_id": "54345382134035",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/FKE11767_3.jpg?v=1782461963",
+      "image_path": "images/freakins-women-mid-blue-high-rise-stretchable-wide-leg-jeans-size-32.jpg"
+    },
+    {
+      "id": "freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans-size-32",
+      "name": "Wide Jeans \u2014 Size 32",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "26na women",
+        "all shop women s jeans",
+        "all shop women",
+        "all products 1",
+        "jeans",
+        "newarrivals 2026",
+        "nnt",
+        "nnt women"
+      ],
+      "metadata": {
+        "brand": "FREAKINS",
+        "subcategory": "JEANS",
+        "product_url": "https://freakins.com/products/women-light-indigo-high-rise-stretchable-wide-leg-jeans?variant=54345379250451",
+        "catalog_source": "https://freakins.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans",
+        "catalog_product_id": "10438018892051",
+        "variant_id": "54345379250451",
+        "size": "32",
+        "catalog_granularity": "variant"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0995/7995/3427/files/WJNSWDIN1016_1.jpg?v=1782461943",
+      "image_path": "images/freakins-women-light-indigo-high-rise-stretchable-wide-leg-jeans-size-32.jpg"
     }
   ],
   "scenarios": [
     {
-      "id": "night_out_signature",
+      "id": "live_music_night_gap",
       "occasion": "party",
-      "prompt": "Build around the required jeans for a night out. Do not invent a top, shoes, or accessories; describe the missing top precisely enough to complete the silhouette.",
-      "mood": "edgy",
+      "prompt": "The wardrobe contains only denim. Build around the required floral wide-leg jeans for a live-music night with two hours of standing and dancing. Do not invent a top, shoes, jacket, or accessories. Specify the missing top by neckline, proportion, color relationship, and material weight so it supports rather than competes with the floral denim.",
+      "mood": "expressive but controlled",
       "weather_context": {
-        "temperature_c": 24,
-        "feels_like_c": 25,
-        "condition": "clear evening",
-        "wind_kph": 5
+        "temperature_c": 23,
+        "feels_like_c": 23,
+        "condition": "dry evening with a warm indoor venue",
+        "wind_kph": 7
       },
       "preferences": {
-        "style": "dark contemporary",
+        "style": "editorial denim",
         "priorities": [
-          "strong silhouette",
+          "one focal point",
           "movement comfort"
         ]
       },
       "must_include_item_ids": [
-        "freakins-black-bootcut-jeans"
+        "freakins-light-indigo-floral-wide-jeans"
       ],
       "expected_missing_slots": [
         "base_top"
@@ -206,28 +2966,37 @@
       "limit": 3
     },
     {
-      "id": "cold_rain_layering",
-      "occasion": "casual",
-      "prompt": "Use the required jeans but clearly identify the missing base top and weatherproof outerwear rather than inventing them.",
-      "mood": "relaxed",
+      "id": "creative_agency_interview_gap",
+      "occasion": "interview",
+      "prompt": "The user is interviewing at a fashion-forward creative agency and owns only the listed jeans. Use the required dark-indigo bootcut pair as the anchor, but do not pretend the outfit is complete. Define the missing top and footwear precisely enough to signal taste and competence without becoming corporate or clubwear, and keep all claims grounded in supplied denim metadata.",
+      "mood": "confident and discerning",
       "weather_context": {
-        "temperature_c": 11,
-        "feels_like_c": 8,
-        "condition": "rain",
-        "precipitation_mm": 6,
-        "wind_kph": 22
+        "temperature_c": 22,
+        "feels_like_c": 22,
+        "condition": "dry midday commute and air-conditioned studio",
+        "wind_kph": 8
       },
       "preferences": {
-        "style": "minimal denim"
+        "style": "creative professional",
+        "avoid": [
+          "rigid corporate styling",
+          "nightclub styling"
+        ]
       },
       "must_include_item_ids": [
-        "freakins-jet-black-wide-jeans"
+        "freakins-dark-indigo-bootcut-jeans"
       ],
       "expected_missing_slots": [
-        "base_top",
-        "outerwear"
+        "base_top"
       ],
-      "limit": 2
+      "limit": 3
     }
-  ]
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 152,
+    "curated_items_preserved": 8
+  }
 }

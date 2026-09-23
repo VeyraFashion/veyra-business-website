@@ -159,23 +159,2407 @@
         "product_url": "https://pantproject.com/products/dark-grey-slim-fit-power-stretch-pants"
       },
       "image_path": null
+    },
+    {
+      "id": "the-pant-project-deep-teal-green-missoni-wool-pant",
+      "name": "Deep Teal Green Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/deep-teal-green-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-deep-teal-green-missoni-wool-pant",
+        "catalog_product_id": "8522850369723"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-deep-navy-missoni-wool-pant",
+      "name": "Deep Navy Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/deep-navy-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-deep-navy-missoni-wool-pant",
+        "catalog_product_id": "8522754588859"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-etaupe-brown-100-linen-pants",
+      "name": "Etaupe Brown 100% Linen Pants",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "wizzy ignore",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/etaupe-brown-100-linen-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-etaupe-brown-100-linen-pants",
+        "catalog_product_id": "7997941285051"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-sky-blue-textured-stelvio-linen-blend-pant",
+      "name": "Sky Blue Textured Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/sky-blue-textured-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-sky-blue-textured-stelvio-linen-blend-pant",
+        "catalog_product_id": "8519034241211"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-dirty-green-muted-checks-belice-wool-pant",
+      "name": "Dirty Green Muted Checks Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/dirty-green-muted-checks-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-dirty-green-muted-checks-belice-wool-pant",
+        "catalog_product_id": "8519030407355"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-khaki-melange-stelvio-linen-blend-pant",
+      "name": "Khaki Melange Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/khaki-melange-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-khaki-melange-stelvio-linen-blend-pant",
+        "catalog_product_id": "8519026737339"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-lt-grey-houndstooth-belice-wool-pant",
+      "name": "Lt. Grey Houndstooth Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/lt-grey-houndstooth-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-lt-grey-houndstooth-belice-wool-pant",
+        "catalog_product_id": "8519023198395"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-dark-green-checks-belice-wool-pant",
+      "name": "Dark Green Checks Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/dark-green-checks-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-dark-green-checks-belice-wool-pant",
+        "catalog_product_id": "8519016710331"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-beige-stelvio-linen-blend-pant",
+      "name": "Beige Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/beige-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-beige-stelvio-linen-blend-pant",
+        "catalog_product_id": "8519013236923"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-darkest-teal-missoni-wool-pant",
+      "name": "Darkest Teal Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/darkest-teal-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-darkest-teal-missoni-wool-pant",
+        "catalog_product_id": "8518925779131"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-blue-stelvio-linen-blend-pant",
+      "name": "Blue Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/blue-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-blue-stelvio-linen-blend-pant",
+        "catalog_product_id": "8512751370427"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-grey-textured-belice-wool-pant",
+      "name": "Grey Textured Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/grey-textured-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-grey-textured-belice-wool-pant",
+        "catalog_product_id": "8511199445179"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-grey-hopsack-belice-wool-pant",
+      "name": "Grey Hopsack Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/grey-hopsack-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-grey-hopsack-belice-wool-pant",
+        "catalog_product_id": "8508622471355"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-noble-brown-stretch-chinos",
+      "name": "Noble Brown Stretch Chinos",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "breathable",
+        "bs chino pants",
+        "chinos",
+        "cotton",
+        "cotton lycra",
+        "cotton stretch chinos",
+        "green"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/noble-brown-stretch-chinos",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-noble-brown-stretch-chinos",
+        "catalog_product_id": "8507187069115"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/6_3169db9e-b71d-48c0-9dc9-1ac74d021462.png?v=1786599281",
+      "image_path": "images/the-pant-project-noble-brown-stretch-chinos.png"
+    },
+    {
+      "id": "the-pant-project-cream-melange-stelvio-linen-blend-pant",
+      "name": "Cream Melange Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "cream"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/cream-melange-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-cream-melange-stelvio-linen-blend-pant",
+        "catalog_product_id": "8505751470267"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-hunter-camo-stretch-cargo-pants",
+      "name": "Hunter Camo Stretch Cargo Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "6 pocket cargos",
+        "all collections",
+        "all occasions",
+        "bs cargo pants",
+        "camouflage",
+        "cargo pants",
+        "cargos",
+        "cm cargo"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/hunter-camo-stretch-cargo-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-hunter-camo-stretch-cargo-pants",
+        "catalog_product_id": "6862152237243"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/3_0a297c08-9015-4550-ae40-28cc8a601834.jpg?v=1742961662",
+      "image_path": "images/the-pant-project-hunter-camo-stretch-cargo-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-cream-textured-stelvio-linen-blend-pant",
+      "name": "Cream Textured Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "cream"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/cream-textured-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-cream-textured-stelvio-linen-blend-pant",
+        "catalog_product_id": "8499685064891"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-light-grey-melange-stelvio-linen-blend-pant",
+      "name": "Light Grey Melange Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/light-grey-melange-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-light-grey-melange-stelvio-linen-blend-pant",
+        "catalog_product_id": "8497410605243"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-off-white-stelvio-linen-blend-pant-1",
+      "name": "Off White Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "white",
+        "off white"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/off-white-stelvio-linen-blend-pant-1",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-off-white-stelvio-linen-blend-pant-1",
+        "catalog_product_id": "8497410408635"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-light-grey-textured-stelvio-linen-blend-pant",
+      "name": "Light Grey Textured Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/light-grey-textured-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-light-grey-textured-stelvio-linen-blend-pant",
+        "catalog_product_id": "8495556395195"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-khaki-houndstooth-belice-wool-pant",
+      "name": "Khaki Houndstooth Belice Wool Pant",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/khaki-houndstooth-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-khaki-houndstooth-belice-wool-pant",
+        "catalog_product_id": "8492911820987"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-boardroom-brown-relaxed-fit-stretch-formal-trousers",
+      "name": "Boardroom Brown Relaxed Fit Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/boardroom-brown-relaxed-fit-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-boardroom-brown-relaxed-fit-stretch-formal-trousers",
+        "catalog_product_id": "8490106716347"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-boardroom-light-grey-relaxed-fit-stretch-formal-trousers",
+      "name": "Boardroom Light Grey Relaxed Fit Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/boardroom-light-grey-relaxed-fit-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-boardroom-light-grey-relaxed-fit-stretch-formal-trousers",
+        "catalog_product_id": "8490106486971"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-boardroom-navy-relaxed-fit-stretch-formal-trousers",
+      "name": "Boardroom Navy Relaxed Fit Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/boardroom-navy-relaxed-fit-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-boardroom-navy-relaxed-fit-stretch-formal-trousers",
+        "catalog_product_id": "8490106224827"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-boardroom-dark-grey-relaxed-fit-stretch-formal-trousers",
+      "name": "Boardroom Dark Grey Relaxed Fit Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/boardroom-dark-grey-relaxed-fit-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-boardroom-dark-grey-relaxed-fit-stretch-formal-trousers",
+        "catalog_product_id": "8490106093755"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-boardroom-khaki-relaxed-fit-stretch-formal-trousers",
+      "name": "Boardroom Khaki Relaxed Fit Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/boardroom-khaki-relaxed-fit-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-boardroom-khaki-relaxed-fit-stretch-formal-trousers",
+        "catalog_product_id": "8490105897147"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-boardroom-black-relaxed-fit-stretch-formal-trousers",
+      "name": "Boardroom Black Relaxed Fit Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/boardroom-black-relaxed-fit-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-boardroom-black-relaxed-fit-stretch-formal-trousers",
+        "catalog_product_id": "8490105667771"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-hudson-grey-textured-merino-wool-pants",
+      "name": "Hudson Grey Textured Merino Wool Pants",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Suits",
+        "product_url": "https://pantproject.com/products/hudson-grey-textured-merino-wool-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-hudson-grey-textured-merino-wool-pants",
+        "catalog_product_id": "8489985966267"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-bristol-blue-merino-wool-pants",
+      "name": "Bristol Blue Merino Wool Pants",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Suits",
+        "product_url": "https://pantproject.com/products/bristol-blue-merino-wool-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-bristol-blue-merino-wool-pants",
+        "catalog_product_id": "8489985867963"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-mercer-grey-checks-merino-wool-pants",
+      "name": "Mercer Grey Checks Merino Wool Pants",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Suits",
+        "product_url": "https://pantproject.com/products/mercer-grey-checks-merino-wool-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-mercer-grey-checks-merino-wool-pants",
+        "catalog_product_id": "8489985802427"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-oceanus-navy-merino-wool-pants",
+      "name": "Oceanus Navy Merino Wool Pants",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Suits",
+        "product_url": "https://pantproject.com/products/oceanus-navy-merino-wool-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-oceanus-navy-merino-wool-pants",
+        "catalog_product_id": "8489505063099"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-darkest-navy-stelvio-linen-blend-pant",
+      "name": "Darkest Navy Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/darkest-navy-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-darkest-navy-stelvio-linen-blend-pant",
+        "catalog_product_id": "8487957627067"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-cmls-stv-02",
+      "name": "Dark Khaki Melange Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "wizzy ignore",
+        "linen"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/cmls-stv-02",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-cmls-stv-02",
+        "catalog_product_id": "8486648938683"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-beige-textured-stelvio-linen-blend-pant",
+      "name": "Beige Textured Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/beige-textured-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-beige-textured-stelvio-linen-blend-pant",
+        "catalog_product_id": "8481827586235"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-medium-grey-checks-slim-fit-power-stretch-pants",
+      "name": "Medium Grey Checks Slim Fit Power Stretch Pants",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "4 way high stretch",
+        "apr ps 26",
+        "bss",
+        "bssnew",
+        "checks",
+        "cred",
+        "freedomfit",
+        "grey"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/medium-grey-checks-slim-fit-power-stretch-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-medium-grey-checks-slim-fit-power-stretch-pants",
+        "catalog_product_id": "7992980111547"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/DSC08468.jpg?v=1736360040",
+      "image_path": "images/the-pant-project-medium-grey-checks-slim-fit-power-stretch-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-cream-stelvio-linen-blend-pant",
+      "name": "Cream Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "cream"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/cream-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-cream-stelvio-linen-blend-pant",
+        "catalog_product_id": "8480443302075"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-off-white-stelvio-linen-blend-pant",
+      "name": "Off White Stelvio Linen Blend Pant",
+      "category": "bottom",
+      "colors": [
+        "white",
+        "off white"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "breathable",
+        "fabric wool",
+        "fashion forward",
+        "flextech waist",
+        "mens"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/off-white-stelvio-linen-blend-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-off-white-stelvio-linen-blend-pant",
+        "catalog_product_id": "8480435601595"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-tea-brown-melange-missoni-wool-pant",
+      "name": "Tea Brown Melange Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/tea-brown-melange-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-tea-brown-melange-missoni-wool-pant",
+        "catalog_product_id": "8478326489275"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-khaki-melange-missoni-wool-pant",
+      "name": "Khaki Melange Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/khaki-melange-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-khaki-melange-missoni-wool-pant",
+        "catalog_product_id": "8467686129851"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-zed-black-micro-checks-relaxed-fit-formal-trousers",
+      "name": "Zed Black Micro Checks Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "new arrivals",
+        "newchecks"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/zed-black-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-zed-black-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8456547107003"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/02bottom_5c50ecc1-ed1a-4720-a9fe-b2fde51741fb.jpg?v=1782363896",
+      "image_path": "images/the-pant-project-zed-black-micro-checks-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-vanta-grey-micro-textured-relaxed-fit-formal-trousers",
+      "name": "Vanta Grey Micro Textured Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "new arrivals",
+        "newchecks"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/vanta-grey-micro-textured-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-vanta-grey-micro-textured-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8456546582715"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/02Bottom_40d11973-c3b1-4070-b42d-1e1f0b0cc812.jpg?v=1782363830",
+      "image_path": "images/the-pant-project-vanta-grey-micro-textured-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-classic-power-stretch-pants-bundle-of-2-copy",
+      "name": "Premium Power-Stretch Pants Bundle of 2",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "all bundles",
+        "bestseller",
+        "bestseller custom",
+        "blacks",
+        "blues",
+        "build bundles",
+        "bundle cm",
+        "bundle ps"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/classic-power-stretch-pants-bundle-of-2-copy",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-classic-power-stretch-pants-bundle-of-2-copy",
+        "catalog_product_id": "8160072433851"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/PremiumPower-StretchPantsBundleof2.jpg?v=1755318988",
+      "image_path": "images/the-pant-project-classic-power-stretch-pants-bundle-of-2-copy.jpg"
+    },
+    {
+      "id": "the-pant-project-trench-blue-micro-checks-relaxed-fit-formal-trousers",
+      "name": "Trench Blue Micro Checks Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "formal pants",
+        "new arrivals"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/trench-blue-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-trench-blue-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8450993914043"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/MicroChecks-TrenchBlue.jpg?v=1781861153",
+      "image_path": "images/the-pant-project-trench-blue-micro-checks-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-offshore-blue-mini-checks-relaxed-fit-formal-trousers",
+      "name": "Offshore Blue Mini Checks Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "formal pants",
+        "freedomfit"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/offshore-blue-mini-checks-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-offshore-blue-mini-checks-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8450993815739"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/MicroChecks-OffshoreBlue.jpg?v=1781861147",
+      "image_path": "images/the-pant-project-offshore-blue-mini-checks-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-dynasty-blue-checks-relaxed-fit-formal-trousers",
+      "name": "Dynasty Blue Checks Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "formal pants",
+        "freedomfit"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/dynasty-blue-checks-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-dynasty-blue-checks-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8450993651899"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/checks-DynastyBlue.jpg?v=1781861108",
+      "image_path": "images/the-pant-project-dynasty-blue-checks-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-zenthra-grey-mini-checks-relaxed-fit-formal-trousers",
+      "name": "Zenthra Grey Mini Checks Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "formal pants",
+        "freedomfit"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/zenthra-grey-mini-checks-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-zenthra-grey-mini-checks-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8447063916731"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/Checks-ZenthraGrey.jpg?v=1781571998",
+      "image_path": "images/the-pant-project-zenthra-grey-mini-checks-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-terraforge-brown-micro-checks-relaxed-fit-formal-trousers",
+      "name": "Terraforge Brown Micro Checks Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "formal pants",
+        "freedomfit"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/terraforge-brown-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-terraforge-brown-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8447063818427"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/MicroChecks-terraforgebrown.jpg?v=1781572092",
+      "image_path": "images/the-pant-project-terraforge-brown-micro-checks-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-ferron-grey-micro-checks-relaxed-fit-formal-trousers",
+      "name": "Ferron Grey Micro Checks Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "formal pants",
+        "freedomfit"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/ferron-grey-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-ferron-grey-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8447063752891"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/Micro-FerronGrey.jpg?v=1781572103",
+      "image_path": "images/the-pant-project-ferron-grey-micro-checks-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-bushland-olive-micro-checks-relaxed-fit-formal-trousers",
+      "name": "Bushland Olive Micro Checks Relaxed Fit Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "olive"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bestseller rtw",
+        "cred",
+        "exclusiveformals",
+        "flextech waist",
+        "formal events",
+        "formal pants",
+        "freedomfit"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/bushland-olive-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-bushland-olive-micro-checks-relaxed-fit-formal-trousers",
+        "catalog_product_id": "8447063523515"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/MicroChecks-Bushlandolive.jpg?v=1781572111",
+      "image_path": "images/the-pant-project-bushland-olive-micro-checks-relaxed-fit-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-bluvera-grey-100-linen",
+      "name": "Bluvera Grey 100% Linen Pants",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "all collections",
+        "all occasions",
+        "black",
+        "blacks",
+        "breathable",
+        "flextech waist",
+        "green",
+        "light"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/bluvera-grey-100-linen",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-bluvera-grey-100-linen",
+        "catalog_product_id": "8442222903483"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-harbour-grey-power-stretchable-women-pants",
+      "name": "Harbour Grey Power-Stretch Pants - Women",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "flextech waist",
+        "greys",
+        "knit",
+        "medium stretch",
+        "partywear",
+        "poly viscose",
+        "return prime",
+        "smart casuals"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Womens Pants",
+        "product_url": "https://pantproject.com/products/harbour-grey-power-stretchable-women-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-harbour-grey-power-stretchable-women-pants",
+        "catalog_product_id": "7734203187387"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/products/womenswear01002.jpg?v=1669113740",
+      "image_path": "images/the-pant-project-harbour-grey-power-stretchable-women-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-tetsu-brown-power-stretch-pants",
+      "name": "Tetsu Brown Power-Stretch Pants",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "4 way high stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "brown",
+        "browns",
+        "bs power stretch",
+        "fabric wool"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/tetsu-brown-power-stretch-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-tetsu-brown-power-stretch-pants",
+        "catalog_product_id": "8442221330619"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/7_e1f61b1b-0b56-456f-acb5-125c1e370003.jpg?v=1781204976",
+      "image_path": "images/the-pant-project-tetsu-brown-power-stretch-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-porto-brown-linen-pants",
+      "name": "Porto Brown Linen Pants",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "100 luxe linen",
+        "all collections",
+        "all occasions",
+        "black",
+        "blacks",
+        "breathable",
+        "cm linen",
+        "flextech waist"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/porto-brown-linen-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-porto-brown-linen-pants",
+        "catalog_product_id": "8442220478651"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/5_95af4895-cd9c-4424-b3fb-32bd3ddfe697.jpg?v=1781204874",
+      "image_path": "images/the-pant-project-porto-brown-linen-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-nurell-beige-100-linen-pants",
+      "name": "Nurell Beige 100% Linen Pants",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "100 luxe linen",
+        "all collections",
+        "all occasions",
+        "black",
+        "blacks",
+        "breathable",
+        "cm linen",
+        "flextech waist"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/nurell-beige-100-linen-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-nurell-beige-100-linen-pants",
+        "catalog_product_id": "8442220347579"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/3_82432aea-f0eb-4a9a-9688-690c71028896.jpg?v=1781204768",
+      "image_path": "images/the-pant-project-nurell-beige-100-linen-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-korean-sky-blue-relaxed-fit-pintuck-pants",
+      "name": "Korean Sky Blue Relaxed Fit Pintuck Pants",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bfcm25",
+        "big ghost sale",
+        "black",
+        "blacks",
+        "bsrtw",
+        "cred",
+        "korean"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/korean-sky-blue-relaxed-fit-pintuck-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-korean-sky-blue-relaxed-fit-pintuck-pants",
+        "catalog_product_id": "8439662411963"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/02_0818a5b0-cbcc-47c9-8c6a-e9c9ed29142e.jpg?v=1781183769",
+      "image_path": "images/the-pant-project-korean-sky-blue-relaxed-fit-pintuck-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-korean-cream-relaxed-fit-pintuck-pants",
+      "name": "Korean Cream Relaxed Fit Pintuck Pants",
+      "category": "bottom",
+      "colors": [
+        "cream"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bfcm25",
+        "big ghost sale",
+        "black",
+        "blacks",
+        "bsrtw",
+        "cred",
+        "korean"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/korean-cream-relaxed-fit-pintuck-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-korean-cream-relaxed-fit-pintuck-pants",
+        "catalog_product_id": "8439661953211"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/01.jpg?v=1781184024",
+      "image_path": "images/the-pant-project-korean-cream-relaxed-fit-pintuck-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-korean-blue-relaxed-fit-pintuck-pants",
+      "name": "Korean Blue Relaxed Fit Pintuck Pants",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bfcm25",
+        "big ghost sale",
+        "black",
+        "blacks",
+        "bsrtw",
+        "cred",
+        "korean"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/korean-blue-relaxed-fit-pintuck-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-korean-blue-relaxed-fit-pintuck-pants",
+        "catalog_product_id": "8439661756603"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/09styling.jpg?v=1780949212",
+      "image_path": "images/the-pant-project-korean-blue-relaxed-fit-pintuck-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-korean-grey-relaxed-fit-pintuck-pants",
+      "name": "Korean Grey Relaxed Fit Pintuck Pants",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bfcm25",
+        "big ghost sale",
+        "black",
+        "blacks",
+        "bsrtw",
+        "cred",
+        "korean"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/korean-grey-relaxed-fit-pintuck-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-korean-grey-relaxed-fit-pintuck-pants",
+        "catalog_product_id": "8439661428923"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/revised.jpg?v=1781184095",
+      "image_path": "images/the-pant-project-korean-grey-relaxed-fit-pintuck-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-korean-khaki-relaxed-fit-pintuck-pants",
+      "name": "Korean Khaki Relaxed Fit Pintuck Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "2 way medium stretch",
+        "bfcm25",
+        "big ghost sale",
+        "black",
+        "blacks",
+        "bsrtw",
+        "cred",
+        "korean"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/korean-khaki-relaxed-fit-pintuck-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-korean-khaki-relaxed-fit-pintuck-pants",
+        "catalog_product_id": "8439661199547"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/10_cd441e88-0105-47c5-85d3-ef8149114309.jpg?v=1781184237",
+      "image_path": "images/the-pant-project-korean-khaki-relaxed-fit-pintuck-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-korean-beige-relaxed-fit-pintuck-pants",
+      "name": "Korean Beige Relaxed Fit Pintuck Pants",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bfcm25",
+        "big ghost sale",
+        "black",
+        "blacks",
+        "bsrtw",
+        "cred",
+        "korean"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/korean-beige-relaxed-fit-pintuck-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-korean-beige-relaxed-fit-pintuck-pants",
+        "catalog_product_id": "8439660806331"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/01Full_55f9c3d4-d4e0-4c33-9223-8f8e1273cb84.jpg?v=1780949251",
+      "image_path": "images/the-pant-project-korean-beige-relaxed-fit-pintuck-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-korean-green-relaxed-fit-pintuck-pants",
+      "name": "Korean Green Relaxed Fit Pintuck Pants",
+      "category": "bottom",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "bfcm25",
+        "big ghost sale",
+        "black",
+        "blacks",
+        "bsrtw",
+        "cred",
+        "freedomfit"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/korean-green-relaxed-fit-pintuck-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-korean-green-relaxed-fit-pintuck-pants",
+        "catalog_product_id": "8439659823291"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/Front.jpg?v=1781184371",
+      "image_path": "images/the-pant-project-korean-green-relaxed-fit-pintuck-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-korean-teal-relaxed-fit-pintuck-pants",
+      "name": "Korean Teal Relaxed Fit Pintuck Pants",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "2 way medium stretch",
+        "bfcm25",
+        "big ghost sale",
+        "black",
+        "blacks",
+        "bsrtw",
+        "cred",
+        "freedomfit"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/korean-teal-relaxed-fit-pintuck-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-korean-teal-relaxed-fit-pintuck-pants",
+        "catalog_product_id": "8439657955515"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/09_1_70e2b36e-a985-423d-8bc1-780465051854.jpg?v=1781184301",
+      "image_path": "images/the-pant-project-korean-teal-relaxed-fit-pintuck-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-japanese-beige-straight-fit-pleated-formal-trousers",
+      "name": "Japanese Beige Straight Fit Pleated Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/japanese-beige-straight-fit-pleated-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-japanese-beige-straight-fit-pleated-formal-trousers",
+        "catalog_product_id": "8427826446523"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/002bottom.jpg?v=1784092591",
+      "image_path": "images/the-pant-project-japanese-beige-straight-fit-pleated-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-japanese-khaki-straight-fit-pleated-formal-trousers",
+      "name": "Japanese Khaki Straight Fit Pleated Formal Trousers",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/japanese-khaki-straight-fit-pleated-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-japanese-khaki-straight-fit-pleated-formal-trousers",
+        "catalog_product_id": "8427826315451"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/09_83d56059-550b-408a-84a5-d34a0dbb6210.jpg?v=1784092972",
+      "image_path": "images/the-pant-project-japanese-khaki-straight-fit-pleated-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-japanese-brown-straight-fit-pleated-formal-trousers",
+      "name": "Japanese Brown Straight Fit Pleated Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/japanese-brown-straight-fit-pleated-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-japanese-brown-straight-fit-pleated-formal-trousers",
+        "catalog_product_id": "8427826086075"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/03_1_c37899cb-6a9d-4828-a9d7-55ddab673016.jpg?v=1784092851",
+      "image_path": "images/the-pant-project-japanese-brown-straight-fit-pleated-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-japanese-navy-straight-fit-pleated-formal-trousers",
+      "name": "Japanese Navy Straight Fit Pleated Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/japanese-navy-straight-fit-pleated-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-japanese-navy-straight-fit-pleated-formal-trousers",
+        "catalog_product_id": "8427825856699"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/10_2b93da0f-ea84-4b7d-b4c2-f4d3246f473c.jpg?v=1784092518",
+      "image_path": "images/the-pant-project-japanese-navy-straight-fit-pleated-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-japanese-grey-straight-fit-pleated-formal-trousers",
+      "name": "Japanese Grey Straight Fit Pleated Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/japanese-grey-straight-fit-pleated-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-japanese-grey-straight-fit-pleated-formal-trousers",
+        "catalog_product_id": "8427825135803"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/10_95ea9329-33fa-43d9-b6e9-72ba6e483578.jpg?v=1784092182",
+      "image_path": "images/the-pant-project-japanese-grey-straight-fit-pleated-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-japanese-black-straight-fit-pleated-formal-trousers",
+      "name": "Japanese Black Straight Fit Pleated Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all black hp",
+        "bestseller",
+        "bestseller rtw",
+        "bfcm25",
+        "black",
+        "blacks",
+        "bsrtw"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/japanese-black-straight-fit-pleated-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-japanese-black-straight-fit-pleated-formal-trousers",
+        "catalog_product_id": "8427724144827"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/02_bd6f52cf-7ce3-45a9-821a-3e83e26f9484.jpg?v=1784092313",
+      "image_path": "images/the-pant-project-japanese-black-straight-fit-pleated-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-caligo-grey-melange-stretch-formal-pants",
+      "name": "Caligo Grey Melange Stretch Formal Pants",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "better basics",
+        "bs formal pants",
+        "cm formals",
+        "comfy pant"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/caligo-grey-melange-stretch-formal-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-caligo-grey-melange-stretch-formal-pants",
+        "catalog_product_id": "8425443655867"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/11_9b0f5812-2384-42e6-a4dd-d5a18266bfe1.jpg?v=1779695372",
+      "image_path": "images/the-pant-project-caligo-grey-melange-stretch-formal-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-elara-cream-melange-stretch-formal-pants",
+      "name": "Elara Cream Melange Stretch Formal Pants",
+      "category": "bottom",
+      "colors": [
+        "cream"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "better basics",
+        "bs formal pants",
+        "cm formals",
+        "comfy pant"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/elara-cream-melange-stretch-formal-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-elara-cream-melange-stretch-formal-pants",
+        "catalog_product_id": "8425441198267"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/1_a21dba00-7c49-42dd-bc89-bb7911aaef11.jpg?v=1779695219",
+      "image_path": "images/the-pant-project-elara-cream-melange-stretch-formal-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-flanor-beige-melange-stretch-formal-pants",
+      "name": "Flanor Beige Melange Stretch Formal Pants",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "better basics",
+        "bs formal pants",
+        "cm formals",
+        "comfy pant"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/flanor-beige-melange-stretch-formal-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-flanor-beige-melange-stretch-formal-pants",
+        "catalog_product_id": "8425310257339"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/1_98f25857-828f-444f-b30e-427c89bd4f4e.jpg?v=1779688270",
+      "image_path": "images/the-pant-project-flanor-beige-melange-stretch-formal-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-sorrel-green-melange-stretch-formal-pants",
+      "name": "Sorrel Green Melange Stretch Formal Pants",
+      "category": "bottom",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "better basics",
+        "bs formal pants",
+        "cm formals",
+        "comfy pant"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/sorrel-green-melange-stretch-formal-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-sorrel-green-melange-stretch-formal-pants",
+        "catalog_product_id": "8425287090363"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/1_82c16fbf-036f-46e5-bc96-184fa40c2ea6.jpg?v=1779687621",
+      "image_path": "images/the-pant-project-sorrel-green-melange-stretch-formal-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-midnight-houndstooth-belice-wool-pant",
+      "name": "Midnight Houndstooth Belice Wool Pant",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/midnight-houndstooth-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-midnight-houndstooth-belice-wool-pant",
+        "catalog_product_id": "8424674885819"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-highland-olive-slim-fit-lightweight-power-stretch-pants",
+      "name": "Highland Olive Slim Fit Lightweight Power Stretch Pants",
+      "category": "bottom",
+      "colors": [
+        "olive"
+      ],
+      "tags": [
+        "4 way high stretch",
+        "bestseller rtw",
+        "blacks",
+        "poly viscose elastane",
+        "poly viscose",
+        "power stretch",
+        "ps210",
+        "smart casuals"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Readymade",
+        "product_url": "https://pantproject.com/products/highland-olive-slim-fit-lightweight-power-stretch-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-highland-olive-slim-fit-lightweight-power-stretch-pants",
+        "catalog_product_id": "8415124062395"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/07_e704089b-d5f6-4ccd-b4ff-e7ad5bc56cde.jpg?v=1781585715",
+      "image_path": "images/the-pant-project-highland-olive-slim-fit-lightweight-power-stretch-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-flat-beige-melange-missoni-wool-pant",
+      "name": "Flat Beige Melange Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/flat-beige-melange-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-flat-beige-melange-missoni-wool-pant",
+        "catalog_product_id": "8411943207099"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-navy-houndstooth-belice-wool-pant",
+      "name": "Navy Houndstooth Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/navy-houndstooth-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-navy-houndstooth-belice-wool-pant",
+        "catalog_product_id": "8411931836603"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-blue-grey-melange-belice-wool-pant",
+      "name": "Blue Grey Melange Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "grey",
+        "blue"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/blue-grey-melange-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-blue-grey-melange-belice-wool-pant",
+        "catalog_product_id": "8411931705531"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-blink-brown-melange-missoni-wool-pant",
+      "name": "Blink Brown Melange Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/blink-brown-melange-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-blink-brown-melange-missoni-wool-pant",
+        "catalog_product_id": "8409144066235"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-black-textured-belice-wool-pant",
+      "name": "Black Textured Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/black-textured-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-black-textured-belice-wool-pant",
+        "catalog_product_id": "8402965332155"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-saggy-blue-melange-missoni-wool-pant",
+      "name": "Saggy Blue Melange Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/saggy-blue-melange-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-saggy-blue-melange-missoni-wool-pant",
+        "catalog_product_id": "8401566564539"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-highlighter-blue-melange-missoni-wool-pant",
+      "name": "Highlighter Blue Melange Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/highlighter-blue-melange-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-highlighter-blue-melange-missoni-wool-pant",
+        "catalog_product_id": "8401093460155"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-cream-brown-houndstooth-belice-wool-pant",
+      "name": "Cream Brown Houndstooth Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "cream",
+        "brown"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/cream-brown-houndstooth-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-cream-brown-houndstooth-belice-wool-pant",
+        "catalog_product_id": "8401079763131"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-charcoal-power-stretchable-women-pants",
+      "name": "Charcoal Power-Stretch Pants - Women",
+      "category": "bottom",
+      "colors": [
+        "charcoal"
+      ],
+      "tags": [
+        "flextech waist",
+        "greys",
+        "knit",
+        "medium stretch",
+        "partywear",
+        "poly viscose",
+        "return prime",
+        "smart casuals"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Womens Pants",
+        "product_url": "https://pantproject.com/products/charcoal-power-stretchable-women-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-charcoal-power-stretchable-women-pants",
+        "catalog_product_id": "7734202859707"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/products/womenswear00562.jpg?v=1668689630",
+      "image_path": "images/the-pant-project-charcoal-power-stretchable-women-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-mac-grey-melange-missoni-wool-pant",
+      "name": "Mac Grey Melange Missoni Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/mac-grey-melange-missoni-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-mac-grey-melange-missoni-wool-pant",
+        "catalog_product_id": "8388684906683"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-deepest-grey-melange-belice-wool-pant",
+      "name": "Deepest Grey Melange Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/deepest-grey-melange-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-deepest-grey-melange-belice-wool-pant",
+        "catalog_product_id": "8388684841147"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-dk-grey-houndstooth-belice-wool-pant",
+      "name": "Dk. Grey Houndstooth Belice Wool Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/dk-grey-houndstooth-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-dk-grey-houndstooth-belice-wool-pant",
+        "catalog_product_id": "8388684710075"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-grey-melange-belice-woo-pant",
+      "name": "Grey Melange Belice Woo Pant",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/grey-melange-belice-woo-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-grey-melange-belice-woo-pant",
+        "catalog_product_id": "8388684611771"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-khaki-textured-belice-wool-pant",
+      "name": "Khaki Textured Belice Wool Pant",
+      "category": "bottom",
+      "colors": [],
+      "tags": [
+        "wizzy ignore"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Socks",
+        "product_url": "https://pantproject.com/products/khaki-textured-belice-wool-pant",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-khaki-textured-belice-wool-pant",
+        "catalog_product_id": "8388684579003"
+      },
+      "image_path": null
+    },
+    {
+      "id": "the-pant-project-harbour-grey-power-stretch-pants",
+      "name": "Harbour Grey Power-Stretch Pants",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "4 way high stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "black",
+        "blacks",
+        "bs power stretch",
+        "bscm"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/harbour-grey-power-stretch-pants",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-harbour-grey-power-stretch-pants",
+        "catalog_product_id": "8387916497083"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/harbour-grey-power-stretch-pants_dad2b2bb-a99a-4c82-abd6-bd151bc7faca.jpg?v=1776274571",
+      "image_path": "images/the-pant-project-harbour-grey-power-stretch-pants.jpg"
+    },
+    {
+      "id": "the-pant-project-advisor-brown-pro-stretch-formal-trousers",
+      "name": "Advisor Brown Pro.Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "better basics",
+        "black",
+        "blacks",
+        "bs formal pants"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/advisor-brown-pro-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-advisor-brown-pro-stretch-formal-trousers",
+        "catalog_product_id": "8387913744571"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/FrontHalf.jpg?v=1777285938",
+      "image_path": "images/the-pant-project-advisor-brown-pro-stretch-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-decision-grey-pro-stretch-formal-trousers",
+      "name": "Decision Grey Pro.Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "better basics",
+        "black",
+        "blacks",
+        "bs formal pants"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/decision-grey-pro-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-decision-grey-pro-stretch-formal-trousers",
+        "catalog_product_id": "8387909943483"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/DSC03219.jpg?v=1776274161",
+      "image_path": "images/the-pant-project-decision-grey-pro-stretch-formal-trousers.jpg"
+    },
+    {
+      "id": "the-pant-project-executive-navy-pro-stretch-formal-trousers",
+      "name": "Executive Navy Pro.Stretch Formal Trousers",
+      "category": "bottom",
+      "colors": [
+        "navy"
+      ],
+      "tags": [
+        "2 way medium stretch",
+        "all collections",
+        "all occasions",
+        "bestseller custom",
+        "better basics",
+        "black",
+        "blacks",
+        "bs formal pants"
+      ],
+      "metadata": {
+        "brand": "The Pant Project",
+        "subcategory": "Pants",
+        "product_url": "https://pantproject.com/products/executive-navy-pro-stretch-formal-trousers",
+        "catalog_source": "https://pantproject.com/products.json?limit=250",
+        "catalog_fetched_at": "2026-08-25",
+        "style_group": "the-pant-project-executive-navy-pro-stretch-formal-trousers",
+        "catalog_product_id": "8387908599995"
+      },
+      "image_url": "https://cdn.shopify.com/s/files/1/0423/3576/4634/files/frontlow.jpg?v=1776323821",
+      "image_path": "images/the-pant-project-executive-navy-pro-stretch-formal-trousers.jpg"
     }
   ],
   "scenarios": [
     {
-      "id": "work_gap_signature",
+      "id": "investor_demo_day_gap",
       "occasion": "work",
-      "prompt": "Build around the required trousers. Do not invent a shirt or shoes; identify the exact missing slots needed for a credible office look.",
-      "mood": "authoritative",
+      "prompt": "The user is presenting on an investor demo-day stage and the wardrobe contains only trousers. Anchor the recommendation on the required navy formal pants, but do not invent a shirt, jacket, belt, or shoes. Describe the missing top with exact collar, structure, contrast, and camera-read requirements so the finished look conveys authority without looking ceremonial.",
+      "mood": "authoritative and modern",
       "weather_context": {
-        "temperature_c": 25,
-        "feels_like_c": 26,
-        "condition": "clear",
+        "temperature_c": 22,
+        "feels_like_c": 22,
+        "condition": "air-conditioned auditorium with a short dry commute",
         "wind_kph": 5
       },
       "preferences": {
         "style": "modern professional",
-        "workplace": "business casual"
+        "workplace": "technology conference",
+        "priorities": [
+          "stage contrast",
+          "seated comfort"
+        ]
       },
       "must_include_item_ids": [
         "pant-daily-navy-formal"
@@ -186,32 +2570,39 @@
       "limit": 3
     },
     {
-      "id": "cold_rain_gap",
+      "id": "three_city_business_trip_gap",
       "occasion": "travel",
-      "prompt": "Use the water-repellent pants but be precise that bottomwear alone is not a complete cold rainy travel outfit.",
-      "mood": "practical",
+      "prompt": "Plan around the required water-repellent trousers for a three-city business trip involving two flights, long taxi rides, and one informal client lunch. The wardrobe is bottomwear-only: state that clearly, then specify the most versatile missing top and footwear rather than presenting trousers as an outfit. Do not overstate what 'water repellent' guarantees.",
+      "mood": "efficient and understated",
       "weather_context": {
-        "temperature_c": 9,
-        "feels_like_c": 5,
-        "condition": "heavy rain and wind",
-        "precipitation_mm": 10,
-        "wind_kph": 31
+        "temperature_c": 19,
+        "feels_like_c": 19,
+        "condition": "mixed indoor transit and mild intermittent drizzle",
+        "precipitation_mm": 1.5,
+        "wind_kph": 12
       },
       "preferences": {
-        "style": "functional minimal",
+        "style": "functional business minimal",
         "priorities": [
-          "weather protection",
-          "mobility"
+          "repeatability",
+          "sitting comfort",
+          "light weather resilience"
         ]
       },
       "must_include_item_ids": [
         "pant-brisk-water-repellent"
       ],
       "expected_missing_slots": [
-        "base_top",
-        "outerwear"
+        "base_top"
       ],
-      "limit": 2
+      "limit": 3
     }
-  ]
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 239,
+    "curated_items_preserved": 8
+  }
 }

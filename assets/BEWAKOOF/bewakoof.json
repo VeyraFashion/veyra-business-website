@@ -159,24 +159,1926 @@
         "product_url": "https://www.bewakoof.com/p/mens-white-grey-color-block-windcheater-jacket"
       },
       "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-gardenia-stamp-graphic-printed-oversized-hoodies",
+      "name": "Gardenia Stamp Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-gardenia-stamp-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-gardenia-stamp-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-tibetan-red-travel-graphic-printed-oversized-acid-wash-sweatshirt",
+      "name": "Tibetan Red Travel Graphic Printed Oversized Acid Wash Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-tibetan-red-travel-graphic-printed-oversized-acid-wash-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-tibetan-red-travel-graphic-printed-oversized-acid-wash-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-logo-graphic-printed-oversized-t-shirt-men",
+      "name": "Jet Black Logo Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-logo-graphic-printed-oversized-t-shirt-men",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-logo-graphic-printed-oversized-t-shirt-men",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-black-super-surfer-graphic-printed-oversized-hoodies",
+      "name": "Black Super Surfer Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-black-super-surfer-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-black-super-surfer-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-black-lost-in-space-graphic-printed-oversized-sweatshirt",
+      "name": "Black Lost In Space Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-black-lost-in-space-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-black-lost-in-space-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-navy-blue-beige-top-dawg-graphic-printed-oversized-hoodies",
+      "name": "Navy Blue Beige Top Dawg Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "beige",
+        "navy",
+        "blue"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-navy-blue-beige-top-dawg-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-navy-blue-beige-top-dawg-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-beige-soul-craft-graphic-printed-oversized-sweatshirt",
+      "name": "Beige Soul Craft Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-beige-soul-craft-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-beige-soul-craft-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-ginger-root-brown-echoes-graphic-printed-oversized-hoodies",
+      "name": "Ginger Root Brown Echoes Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-ginger-root-brown-echoes-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-ginger-root-brown-echoes-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-black-misfit-typography-sweatshirt",
+      "name": "Black Misfit Typography Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-black-misfit-typography-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-black-misfit-typography-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-ginger-root-brown-up-side-down-graphic-printed-oversized-t-shirt",
+      "name": "Ginger Root Brown Up Side Down Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-ginger-root-brown-up-side-down-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-ginger-root-brown-up-side-down-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-beige-hfcos-graphic-printed-oversized-t-shirt",
+      "name": "Beige Hfcos Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-beige-hfcos-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-beige-hfcos-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-brown-all-creatures-welcome-graphic-printed-oversized-hoodies",
+      "name": "Brown All Creatures Welcome Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-brown-all-creatures-welcome-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-brown-all-creatures-welcome-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-chocolate-tarte-brown-demo-bat-graphic-printed-oversized-sweatshirt",
+      "name": "Chocolate Tarte Brown Demo Bat Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-chocolate-tarte-brown-demo-bat-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-chocolate-tarte-brown-demo-bat-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-logo-graphic-printed-t-shirt",
+      "name": "Jet Black Logo Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-logo-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-logo-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-beige-royalty-graphic-printed-oversized-sweatshirt",
+      "name": "Beige Royalty Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-beige-royalty-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-beige-royalty-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-ginger-root-brown-minion-mashup-graphic-printed-oversized-hoodies",
+      "name": "Ginger Root Brown Minion Mashup Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-ginger-root-brown-minion-mashup-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-ginger-root-brown-minion-mashup-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-time-for-chai-graphic-printed-t-shirt",
+      "name": "White Time For Chai Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-time-for-chai-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-time-for-chai-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-dont-quit-graphic-printed-oversized-t-shirt",
+      "name": "Jet Black Dont Quit Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-dont-quit-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-dont-quit-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-horizon-graphic-printed-oversized-t-shirt",
+      "name": "Jet Black Horizon Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-horizon-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-horizon-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-aventurine-green-good-vibes-graphic-printed-t-shirt",
+      "name": "Aventurine Green Good Vibes Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-aventurine-green-good-vibes-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-aventurine-green-good-vibes-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-cycle-graphic-printed-t-shirt",
+      "name": "White Cycle Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-cycle-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-cycle-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-caramel-orange-start-graphic-printed-oversized-t-shirt",
+      "name": "Caramel Orange Start Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "orange"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-caramel-orange-start-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-caramel-orange-start-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-oyester-mushroom-grey-big-mood-graphic-printed-t-shirt",
+      "name": "Oyester Mushroom Grey Big Mood Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-oyester-mushroom-grey-big-mood-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-oyester-mushroom-grey-big-mood-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-bird-egg-green-into-the-ocean-graphic-printed-oversized-t-shirt",
+      "name": "Bird Egg Green Into The Ocean Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-bird-egg-green-into-the-ocean-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-bird-egg-green-into-the-ocean-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-things-graphic-printed-oversized-t-shirt",
+      "name": "White Things Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-things-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-things-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-balance-graphic-printed-oversized-t-shirt",
+      "name": "White Balance Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-balance-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-balance-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-pool-blue-life-is-rad-graphic-printed-t-shirt",
+      "name": "Pool Blue Life Is Rad Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-pool-blue-life-is-rad-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-pool-blue-life-is-rad-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-navy-blue-wind-wave-graphic-printed-oversized-t-shirt",
+      "name": "Navy Blue Wind Wave Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "navy",
+        "blue"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-navy-blue-wind-wave-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-navy-blue-wind-wave-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jade-lime-green-start-graphic-printed-oversized-t-shirt",
+      "name": "Jade Lime Green Start Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jade-lime-green-start-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jade-lime-green-start-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-just-keep-going-graphic-printed-oversized-t-shirt",
+      "name": "Jet Black Just Keep Going Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-just-keep-going-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-just-keep-going-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-beige-board-meeting-graphic-printed-oversized-t-shirt",
+      "name": "Beige Board Meeting Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-beige-board-meeting-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-beige-board-meeting-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-demogorgan-graphic-printed-hoodies",
+      "name": "Jet Black Demogorgan Graphic Printed Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-demogorgan-graphic-printed-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-demogorgan-graphic-printed-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-navy-blue-sargasm-graphic-printed-t-shirt",
+      "name": "Navy Blue Sargasm Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "navy",
+        "blue"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-navy-blue-sargasm-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-navy-blue-sargasm-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-off-white-textured-oversized-shirts",
+      "name": "Off White Textured Oversized Shirts",
+      "category": "top",
+      "colors": [
+        "white",
+        "off white"
+      ],
+      "tags": [
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-off-white-textured-oversized-shirts",
+        "product_url": "https://www.bewakoof.com/p/mens-off-white-textured-oversized-shirts",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-dark-sea-green-graphic-printed-oversized-acid-wash-t-shirt",
+      "name": "Dark Sea Green Graphic Printed Oversized Acid Wash T Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-dark-sea-green-graphic-printed-oversized-acid-wash-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-dark-sea-green-graphic-printed-oversized-acid-wash-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-bold-red-ah-shit-graphic-printed-t-shirt",
+      "name": "Bold Red Ah Shit Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-bold-red-ah-shit-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-bold-red-ah-shit-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-believe-yourself-graphic-printed-t-shirt",
+      "name": "White Believe Yourself Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-believe-yourself-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-believe-yourself-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-bird-egg-green-be-different-graphic-printed-t-shirt",
+      "name": "Bird Egg Green Be Different Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-bird-egg-green-be-different-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-bird-egg-green-be-different-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-navy-blue-nsfw-graphic-printed-t-shirt",
+      "name": "Navy Blue Nsfw Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "navy",
+        "blue"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-navy-blue-nsfw-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-navy-blue-nsfw-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-gardenia-hawkins-high-graphic-printed-oversized-hoodies",
+      "name": "Gardenia Hawkins High Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-gardenia-hawkins-high-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-gardenia-hawkins-high-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-navy-blue-play-it-again-graphic-printed-t-shirt",
+      "name": "Navy Blue Play It Again Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "navy",
+        "blue"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-navy-blue-play-it-again-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-navy-blue-play-it-again-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-hell-fire-club-graphic-printed-t-shirt",
+      "name": "White Hell Fire Club Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-hell-fire-club-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-hell-fire-club-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-black-sts-platter-graphic-printed-oversized-t-shirt",
+      "name": "Black Sts Platter Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-black-sts-platter-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-black-sts-platter-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-chocolate-tarte-brown-hfc-graphic-printed-oversized-sweatshirt",
+      "name": "Chocolate Tarte Brown Hfc Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-chocolate-tarte-brown-hfc-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-chocolate-tarte-brown-hfc-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-play-it-loud-graphic-printed-oversized-t-shirt",
+      "name": "Jet Black Play It Loud Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-play-it-loud-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-play-it-loud-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-winner-graphic-printed-oversized-t-shirt",
+      "name": "White Winner Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-winner-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-winner-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-altitude-graphic-printed-oversized-t-shirt",
+      "name": "Jet Black Altitude Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-altitude-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-altitude-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jade-lime-green-fungi-graphic-printed-oversized-t-shirt",
+      "name": "Jade Lime Green Fungi Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jade-lime-green-fungi-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jade-lime-green-fungi-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-salsa-red-777-graphic-printed-oversized-sweatshirt",
+      "name": "Salsa Red 777 Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-salsa-red-777-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-salsa-red-777-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-bird-egg-green-dont-quit-graphic-printed-oversized-t-shirt",
+      "name": "Bird Egg Green Dont Quit Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-bird-egg-green-dont-quit-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-bird-egg-green-dont-quit-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-frame-born-graphic-printed-sweatshirt",
+      "name": "Jet Black Frame Born Graphic Printed Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-frame-born-graphic-printed-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-frame-born-graphic-printed-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-salsa-red-spiderman-oriental-graphic-printed-oversized-hoodies",
+      "name": "Salsa Red Spiderman Oriental Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-salsa-red-spiderman-oriental-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-salsa-red-spiderman-oriental-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-surf-spray-green-self-indulgent-graphic-printed-oversized-hoodies",
+      "name": "Surf Spray Green Self Indulgent Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-surf-spray-green-self-indulgent-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-surf-spray-green-self-indulgent-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-fudgesickle-maroon-protector-graphic-printed-oversized-hoodies",
+      "name": "Fudgesickle Maroon Protector Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "maroon"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-fudgesickle-maroon-protector-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-fudgesickle-maroon-protector-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-bold-red-too-fan-graphic-printed-t-shirt",
+      "name": "Bold Red Too Fan Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-bold-red-too-fan-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-bold-red-too-fan-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-eyes-on-the-prize-graphic-printed-oversized-t-shirt",
+      "name": "White Eyes On The Prize Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-eyes-on-the-prize-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-eyes-on-the-prize-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-black-chaos-graphic-printed-oversized-acid-wash-t-shirt",
+      "name": "Black Chaos Graphic Printed Oversized Acid Wash T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-black-chaos-graphic-printed-oversized-acid-wash-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-black-chaos-graphic-printed-oversized-acid-wash-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-gardenia-drip-vibes-graphic-printed-oversized-hoodies",
+      "name": "Gardenia Drip Vibes Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-gardenia-drip-vibes-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-gardenia-drip-vibes-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-poker-graphic-printed-sweatshirt",
+      "name": "Jet Black Poker Graphic Printed Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-poker-graphic-printed-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-poker-graphic-printed-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-beige-the-goat-07-graphic-printed-oversized-sweatshirt",
+      "name": "Beige The Goat 07 Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-beige-the-goat-07-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-beige-the-goat-07-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-beige-heard-mee-graphic-printed-oversized-sweatshirt",
+      "name": "Beige Heard Mee Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-beige-heard-mee-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-beige-heard-mee-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-beige-fearless-graphic-printed-oversized-sweatshirt",
+      "name": "Beige Fearless Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-beige-fearless-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-beige-fearless-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-navy-blue-beige-unlimited-graphic-printed-oversized-hoodies",
+      "name": "Navy Blue Beige Unlimited Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "beige",
+        "navy",
+        "blue"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-navy-blue-beige-unlimited-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-navy-blue-beige-unlimited-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-salsa-red-speed-graphic-printed-oversized-sweatshirt",
+      "name": "Salsa Red Speed Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-salsa-red-speed-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-salsa-red-speed-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-stay-cool-graphic-printed-oversized-hoodies",
+      "name": "Jet Black Stay Cool Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-stay-cool-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-stay-cool-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-gardenia-chillzz-graphic-printed-oversized-hoodies",
+      "name": "Gardenia Chillzz Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-gardenia-chillzz-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-gardenia-chillzz-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-weapon-graphic-printed-oversized-hoodies",
+      "name": "Jet Black Weapon Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-weapon-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-weapon-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-gardenia-og-graphic-printed-oversized-hoodies",
+      "name": "Gardenia Og Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-gardenia-og-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-gardenia-og-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-sinister-symbiote-graphic-printed-oversized-hoodies",
+      "name": "Jet Black Sinister Symbiote Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-sinister-symbiote-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-sinister-symbiote-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-morty-forever-graphic-printed-oversized-hoodies",
+      "name": "Jet Black Morty Forever Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-morty-forever-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-morty-forever-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-ginger-root-brown-champion-graphic-printed-oversized-hoodies",
+      "name": "Ginger Root Brown Champion Graphic Printed Oversized Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-ginger-root-brown-champion-graphic-printed-oversized-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-ginger-root-brown-champion-graphic-printed-oversized-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-power-in-unity-graphic-printed-zipper-hoodies",
+      "name": "Jet Black Power In Unity Graphic Printed Zipper Hoodies",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-power-in-unity-graphic-printed-zipper-hoodies",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-power-in-unity-graphic-printed-zipper-hoodies",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-salsa-red-space-rocks-graphic-printed-oversized-sweatshirt",
+      "name": "Salsa Red Space Rocks Graphic Printed Oversized Sweatshirt",
+      "category": "outerwear",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-salsa-red-space-rocks-graphic-printed-oversized-sweatshirt",
+        "product_url": "https://www.bewakoof.com/p/mens-salsa-red-space-rocks-graphic-printed-oversized-sweatshirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-dark-shadow-grey-eyes-on-the-prize-graphic-printed-oversized-t-shirt",
+      "name": "Dark Shadow Grey Eyes On The Prize Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-dark-shadow-grey-eyes-on-the-prize-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-dark-shadow-grey-eyes-on-the-prize-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-orange-pepper-too-fan-graphic-printed-t-shirt",
+      "name": "Orange Pepper Too Fan Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "orange"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-orange-pepper-too-fan-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-orange-pepper-too-fan-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-ginger-root-brown-gamble-graphic-printed-oversized-t-shirt",
+      "name": "Ginger Root Brown Gamble Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-ginger-root-brown-gamble-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-ginger-root-brown-gamble-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-bold-red-bat-logo-graphic-printed-plus-size-t-shirt",
+      "name": "Bold Red Bat Logo Graphic Printed Plus Size T Shirt",
+      "category": "top",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-bold-red-bat-logo-graphic-printed-plus-size-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-bold-red-bat-logo-graphic-printed-plus-size-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-plum-purple-defender-graphic-printed-oversized-t-shirt",
+      "name": "Plum Purple Defender Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "purple"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-plum-purple-defender-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-plum-purple-defender-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-dark-shadow-grey-introvert-graphic-printed-oversized-t-shirt",
+      "name": "Dark Shadow Grey Introvert Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-dark-shadow-grey-introvert-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-dark-shadow-grey-introvert-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-indigo-blue-green-checked-shirt",
+      "name": "Indigo Blue Green Checked Shirt",
+      "category": "top",
+      "colors": [
+        "blue",
+        "indigo",
+        "green"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-indigo-blue-green-checked-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-indigo-blue-green-checked-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-ginger-root-brown-marvel-hulk-graphic-printed-oversized-t-shirt",
+      "name": "Ginger Root Brown Marvel Hulk Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-ginger-root-brown-marvel-hulk-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-ginger-root-brown-marvel-hulk-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-into-the-wild-graphic-printed-t-shirt",
+      "name": "White Into The Wild Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-into-the-wild-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-into-the-wild-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-spidey-graphic-printed-oversized-hoodie-t-shirt",
+      "name": "Jet Black Spidey Graphic Printed Oversized Hoodie T Shirt",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-spidey-graphic-printed-oversized-hoodie-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-spidey-graphic-printed-oversized-hoodie-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-indigo-blue-beige-checked-shirt",
+      "name": "Indigo Blue Beige Checked Shirt",
+      "category": "top",
+      "colors": [
+        "beige",
+        "blue",
+        "indigo"
+      ],
+      "tags": [],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-indigo-blue-beige-checked-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-indigo-blue-beige-checked-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-blue-fire-heart-graphic-printed-t-shirt",
+      "name": "Blue Fire Heart Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-blue-fire-heart-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-blue-fire-heart-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-ginger-root-brown-slayer-graphic-printed-oversized-t-shirt",
+      "name": "Ginger Root Brown Slayer Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-ginger-root-brown-slayer-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-ginger-root-brown-slayer-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-ginger-root-brown-rooted-graphic-printed-oversized-t-shirt",
+      "name": "Ginger Root Brown Rooted Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "brown"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-ginger-root-brown-rooted-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-ginger-root-brown-rooted-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-white-error-graphic-printed-t-shirt",
+      "name": "White Error Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "white"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-white-error-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-white-error-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-fog-green-wilderness-graphic-printed-t-shirt",
+      "name": "Fog Green Wilderness Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-fog-green-wilderness-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-fog-green-wilderness-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-jet-black-freedom-graphic-printed-oversized-t-shirt",
+      "name": "Jet Black Freedom Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-jet-black-freedom-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-jet-black-freedom-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-lilac-bloom-purple-wave-graphic-printed-t-shirt",
+      "name": "Lilac Bloom Purple Wave Graphic Printed T Shirt",
+      "category": "top",
+      "colors": [
+        "lilac",
+        "purple"
+      ],
+      "tags": [
+        "graphic",
+        "printed"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-lilac-bloom-purple-wave-graphic-printed-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-lilac-bloom-purple-wave-graphic-printed-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
+    },
+    {
+      "id": "bewakoof-mens-bold-red-freedom-graphic-printed-oversized-t-shirt",
+      "name": "Bold Red Freedom Graphic Printed Oversized T Shirt",
+      "category": "top",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "graphic",
+        "printed",
+        "oversized"
+      ],
+      "metadata": {
+        "brand": "BEWAKOOF",
+        "subcategory": "mens-bold-red-freedom-graphic-printed-oversized-t-shirt",
+        "product_url": "https://www.bewakoof.com/p/mens-bold-red-freedom-graphic-printed-oversized-t-shirt",
+        "catalog_source": "https://www.bewakoof.com/products_men.xml",
+        "catalog_fetched_at": "2026-08-25"
+      },
+      "image_path": null
     }
   ],
   "scenarios": [
     {
-      "id": "casual_signature",
+      "id": "college_reunion_lunch",
       "occasion": "casual",
-      "prompt": "Create elevated everyday looks from accessible streetwear basics; control oversized proportions so the outfit feels intentional.",
-      "mood": "easygoing",
+      "prompt": "The user is meeting former college friends for a long Sunday lunch at a casual modern restaurant and wants to look noticeably more considered without appearing overdressed. Build around the required textured oversized shirt, control its volume while seated, and create meaningful alternatives rather than swapping bottoms mechanically. Do not invent shoes or accessories.",
+      "mood": "relaxed and quietly confident",
       "weather_context": {
-        "temperature_c": 29,
-        "feels_like_c": 32,
-        "condition": "sunny and humid",
-        "humidity_percent": 70
+        "temperature_c": 27,
+        "feels_like_c": 28,
+        "condition": "mostly indoor lunch with a short sunny walk",
+        "humidity_percent": 55,
+        "wind_kph": 8
       },
       "preferences": {
-        "style": "relaxed streetwear",
+        "style": "elevated accessible streetwear",
         "priorities": [
+          "seated proportions",
           "breathability"
+        ],
+        "avoid": [
+          "trying too hard"
         ]
       },
       "must_include_item_ids": [
@@ -185,24 +2087,38 @@
       "limit": 3
     },
     {
-      "id": "cold_rain_layering",
-      "occasion": "casual",
-      "prompt": "Build a rainy commute look and assess whether the windcheater offers enough warmth for the stated temperature.",
-      "mood": "practical",
+      "id": "overnight_train_then_sightseeing",
+      "occasion": "travel",
+      "prompt": "Style the required grey joggers for an overnight train, an early station arrival, and four hours of sightseeing before hotel check-in. Balance sleep comfort, air-conditioned carriage temperatures, secure practical layering, and looking presentable in daytime photos. Use the windcheater only if its color and function improve the outfit; do not assume unlisted footwear.",
+      "mood": "comfortable but put-together",
       "weather_context": {
-        "temperature_c": 10,
-        "feels_like_c": 6,
-        "condition": "rain and wind",
-        "precipitation_mm": 7,
-        "wind_kph": 29
+        "temperature_c": 25,
+        "feels_like_c": 26,
+        "condition": "cool air-conditioned train followed by a dry, bright morning",
+        "wind_kph": 9
       },
       "preferences": {
-        "style": "clean casual"
+        "style": "clean travel casual",
+        "priorities": [
+          "sleeping comfort",
+          "photo-ready arrival",
+          "easy layering"
+        ]
       },
       "must_include_item_ids": [
-        "bewakoof-windcheater"
+        "bewakoof-grey-joggers"
       ],
-      "limit": 2
+      "wear_history": [
+        "bewakoof-textured-shirt"
+      ],
+      "limit": 3
     }
-  ]
+  ],
+  "catalog_metadata": {
+    "generated_at": "2026-08-25",
+    "item_count": 100,
+    "minimum_item_target": 100,
+    "official_catalog_entries_fetched": 12003,
+    "curated_items_preserved": 8
+  }
 }
