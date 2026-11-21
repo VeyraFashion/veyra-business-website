@@ -40,6 +40,8 @@ const BY_BRAND: Partial<Record<string, ModelId[]>> = {
   FREAKINS: ["female"],
   NEWME: ["female"],
   "The Bear House": ["male"],
+  "House of Masaba Menswear": ["male"],
+  "House of Masaba Womenswear": ["female"],
 };
 
 /** Below this many URL-bearing items the signal is noise, not evidence. */

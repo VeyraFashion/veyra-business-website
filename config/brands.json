@@ -71,5 +71,21 @@
       "catalogFile": "the-souled-store.json",
       "hasCatalog": true
     }
+  },
+  "idsByEnv": {
+    "STYLD_DEMO_HOUSE_OF_MASABA_MENSWEAR_ID": {
+      "brand": "House of Masaba Menswear",
+      "slug": "house-of-masaba-menswear",
+      "assetsDir": "House of Masaba",
+      "catalogFile": "house-of-masaba-menswear.json",
+      "hasCatalog": true
+    },
+    "STYLD_DEMO_HOUSE_OF_MASABA_WOMENSWEAR_ID": {
+      "brand": "House of Masaba Womenswear",
+      "slug": "house-of-masaba-womenswear",
+      "assetsDir": "House of Masaba",
+      "catalogFile": "house-of-masaba-womenswear.json",
+      "hasCatalog": true
+    }
   }
 }

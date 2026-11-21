@@ -1,0 +1,2376 @@
+{
+  "brand": "House of Masaba Menswear",
+  "slug": "house-of-masaba-menswear",
+  "wardrobe": [
+    {
+      "id": "masaba-yellow-anaar-symphony-kurta",
+      "name": "Yellow Anaar Symphony Kurta",
+      "category": "full_body",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba05229copy_11817b1b-9d49-4516-bc33-3a00f90f34b1.jpg?v=1787828230",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/yellow-anaar-symphony-kurta",
+        "price_inr": 25000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-kaju-spice-club-bandi-set",
+      "name": "Kaju Spice Club Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "multicolor",
+        "yellow"
+      ],
+      "tags": [],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04285copy.jpg?v=1787828481",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/kaju-spice-club-bandi-set",
+        "price_inr": 38000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-neel-noor-kurta",
+      "name": "Neel Noor Kurta",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "festive"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba05092copy_28e7e7fd-c1f6-4013-a9cf-bdcb000dec30.jpg?v=1788247219",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/neel-noor-kurta",
+        "price_inr": 26000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-green-kaju-ka-phool-kurta",
+      "name": "Green Kaju Ka Phool Kurta",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cocktail"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/5_35aedbbb-1872-4ca5-8cd9-1501e462360e.jpg?v=1789566107",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/green-kaju-ka-phool-kurta",
+        "price_inr": 22000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-salmon-pink-backwater-postcard-kurta-set",
+      "name": "Salmon Pink Backwater Postcard Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "pooja"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04357copy.jpg?v=1787750402",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/salmon-pink-backwater-postcard-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-grey-astral-bloom-kurta",
+      "name": "Grey Astral Bloom Kurta",
+      "category": "full_body",
+      "colors": [
+        "grey"
+      ],
+      "tags": [
+        "pooja"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04815copy.jpg?v=1787748658",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/grey-astral-bloom-kurta",
+        "price_inr": 22000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-raat-sona-bandi-set",
+      "name": "Raat Sona Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "tissue",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba05507copy.jpg?v=1786017764",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/raat-sona-bandi-set",
+        "price_inr": 38000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-amber-celestial-tales-kurta",
+      "name": "Amber Celestial Tales Kurta",
+      "category": "full_body",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "festive",
+        "viscose",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04493copy_d81e070f-a7e5-4cc4-b54d-5df036b27ea5.jpg?v=1786007847",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/amber-celestial-tales-kurta",
+        "price_inr": 22000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-anaar-arcade-kurta",
+      "name": "Black Anaar Arcade Kurta",
+      "category": "outerwear",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "viscose",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba05375copy.jpg?v=1786007478",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi",
+        "product_url": "https://www.houseofmasaba.com/products/black-anaar-arcade-kurta",
+        "price_inr": 25000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-all-charms-sweatshirt",
+      "name": "All Charms Sweatshirt",
+      "category": "top",
+      "colors": [],
+      "tags": [],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/IMG_6101_1.jpg?v=1785837062",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sweatshirt",
+        "product_url": "https://www.houseofmasaba.com/products/all-charms-sweatshirt",
+        "price_inr": 55000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-darbar-dilruba-set",
+      "name": "'Darbar Dilruba' Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "sangeet",
+        "tissue",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/MSG26204_1.jpg?v=1784182535",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/darbar-dilruba-set",
+        "price_inr": 75000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-rabdi-rasmalai-bandi-set",
+      "name": "'Rabdi Rasmalai' Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "sangeet",
+        "tissue",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/MSG26203_10.jpg?v=1784183807",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/rabdi-rasmalai-bandi-set",
+        "price_inr": 85000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-khushboo-khwaab-bandi-set",
+      "name": "Black 'Khushboo Khwaab' Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "sangeet",
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/MSG26205_1.jpg?v=1784184245",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/black-khushboo-khwaab-bandi-set",
+        "price_inr": 65000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-khushboo-khwaab-bandi-set",
+      "name": "'Khushboo Khwaab' Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "sangeet",
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/MSG26202_1.jpg?v=1784184392",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/khushboo-khwaab-bandi-set",
+        "price_inr": 65000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-jashn-jigar-bandi-set",
+      "name": "'Jashn Jigar' Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "sangeet",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/MSG26201_1.jpg?v=1784184929",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/jashn-jigar-bandi-set",
+        "price_inr": 65000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-bottle-green-kochi-conch-kurta-set",
+      "name": "Bottle Green Kochi Conch Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "festive",
+        "viscose",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04722copy.jpg?v=1784053153",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/bottle-green-kochi-conch-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-celestial-moonfall-bandi-set",
+      "name": "Celestial Moonfall Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "maroon"
+      ],
+      "tags": [
+        "festive",
+        "viscose",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/8_4f704970-b673-4da8-91d8-2accfaca587e.jpg?v=1788347126",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/celestial-moonfall-bandi-set",
+        "price_inr": 25000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-malabar-grove-bandi-set",
+      "name": "Black Malabar Grove Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "viscose",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/9_5fe28872-7689-4f01-bfe3-fe142c2835d4.jpg?v=1788347262",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/black-malabar-grove-bandi-set",
+        "price_inr": 25000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ivory-backwater-postcard-kurta-set",
+      "name": "Ivory Backwater Postcard Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "festive",
+        "viscose",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/1_2_jpg.jpg?v=1789556481",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-backwater-postcard-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-midnight-blue-astral-arch-kurta",
+      "name": "Midnight Blue Astral Arch Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "festive",
+        "viscose",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04787copy.jpg?v=1783603694",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/midnight-blue-astral-arch-kurta",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ivory-kochi-conch-veshti-set",
+      "name": "Ivory Kochi Conch Veshti Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "festive",
+        "tissue",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/1_970f82b0-91e9-4d36-a7fa-a05c75581134.jpg?v=1792574195",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-kochi-conch-veshti-set",
+        "price_inr": 26000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-palm-pillar-black-white-kurta",
+      "name": "Palm Pillar Black & White Kurta",
+      "category": "full_body",
+      "colors": [
+        "black",
+        "ivory"
+      ],
+      "tags": [
+        "festive",
+        "tissue",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/M.jpg?v=1785218887",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/palm-pillar-black-white-kurta",
+        "price_inr": 26000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-celestial-moonfall-kurta",
+      "name": "Black Celestial Moonfall Kurta",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "viscose",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/MMW26001_1.jpg?v=1783662105",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/black-celestial-moonfall-kurta",
+        "price_inr": 20000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-and-gold-chaand-koti-set",
+      "name": "Black and Gold Chaand Koti Set",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "crepe"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/1_a589456e-1095-4213-b976-3ecbdb87411c.jpg?v=1776868893",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "raja koti set",
+        "product_url": "https://www.houseofmasaba.com/products/black-and-gold-chaand-koti-set",
+        "price_inr": 106000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-brown-checkers-bloom-shirt",
+      "name": "Brown Checkers Bloom Shirt",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1868.jpg?v=1744453939",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/brown-checkers-bloom-shirt",
+        "price_inr": 11200.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-turtle-tale-kurta-set",
+      "name": "Black Turtle Tale Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "sangeet"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/1_jpg_2a3740db-7e63-4252-8896-7b9d3abc8335.jpg?v=1794468751",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/black-turtle-tale-kurta-set",
+        "price_inr": 20000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-red-tropical-kurta-set",
+      "name": "Red Tropical Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "festive",
+        "pooja"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/22_769dca6e-6d4f-4413-958b-eba3fc8b9f66.jpg?v=1788424686",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/red-tropical-kurta-set",
+        "price_inr": 15300.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-white-turtle-tale-kurta-set",
+      "name": "Black & White Turtle Tale Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "sangeet"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/08_23ee46a7-83d5-48a7-bb19-31b31c01bfdb.jpg?v=1788424824",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/black-white-turtle-tale-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-bottle-green-tropical-kurta-set",
+      "name": "Bottle Green Tropical Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "festive",
+        "pooja"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/26_f638b738-2306-4032-8b2a-329e3a388aa2.jpg?v=1788424824",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/bottle-green-tropical-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ivory-rose-blush-kurta",
+      "name": "Ivory Rose Blush Kurta",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "festive",
+        "pooja"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/04.jpg?v=1788424825",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-rose-blush-kurta",
+        "price_inr": 20000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-mauve-moon-garden-kurta-set",
+      "name": "Mauve Moon Garden Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "festive",
+        "haldi",
+        "mehendi",
+        "tissue"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00732.jpg?v=1761816607",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/mauve-moon-garden-kurta-set",
+        "price_inr": 23800.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-navy-blue-teardrop-kurta-set",
+      "name": "Navy Blue Teardrop Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01082_d3d64db9-749e-4227-b5ca-4018169a5405.jpg?v=1760601943",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/navy-blue-teardrop-kurta-set",
+        "price_inr": 9800.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-green-pixie-dust-kurta-set",
+      "name": "Green Pixie Dust Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00905.jpg?v=1760618236",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/green-pixie-dust-kurta-set",
+        "price_inr": 9800.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-green-wallflower-kurta-set",
+      "name": "Green Wallflower Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01382.jpg?v=1759520957",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/green-wallflower-kurta-set",
+        "price_inr": 16800.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-baby-pink-whispering-leaf-menswear-kurta-set",
+      "name": "Baby Pink Whispering Leaf Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04408.jpg?v=1755844099",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/baby-pink-whispering-leaf-menswear-kurta-set",
+        "price_inr": 15300.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-green-totem-lines-and-pot-menswear-kurta-set",
+      "name": "Green Totem Lines And Pot Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04129.jpg?v=1755843972",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/green-totem-lines-and-pot-menswear-kurta-set",
+        "price_inr": 15300.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-mocha-folkstone-kurta-set",
+      "name": "Mocha Folkstone Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "beige",
+        "brown"
+      ],
+      "tags": [
+        "festive",
+        "mehendi",
+        "silk",
+        "tissue"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04565.jpg?v=1755843786",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/mocha-folkstone-kurta-set",
+        "price_inr": 18700.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ivory-moon-garden-kurta-set",
+      "name": "Gold Ivory Moon Garden Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "gold",
+        "ivory"
+      ],
+      "tags": [
+        "festive",
+        "haldi",
+        "mehendi",
+        "tissue"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04283_b971a9ae-bb32-47d5-b0e8-3366215e371b.jpg?v=1755843507",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-moon-garden-kurta-set",
+        "price_inr": 18700.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-crane-dawn-kurta-set",
+      "name": "Black Crane Dawn Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "sangeet",
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba03979.jpg?v=1755842603",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/black-crane-dawn-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-bottle-green-buttercup-mens-kurta-set",
+      "name": "Bottle Green Buttercup Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/IMG_2257-2_1.jpg?v=1686811643",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/bottle-green-buttercup-mens-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-midas-touch-menswear-kurta-set",
+      "name": "Black Midas Touch Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "sangeet",
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba03949.jpg?v=1755844325",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/black-midas-touch-menswear-kurta-set",
+        "price_inr": 17000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ochre-trinklet-and-pots-menswear-kurta-set",
+      "name": "Ochre Trinklet And Pots Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "festive",
+        "haldi",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04087.jpg?v=1755844269",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ochre-trinklet-and-pots-menswear-kurta-set",
+        "price_inr": 15300.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-pehli-baarish-sherwani-set",
+      "name": "'Pehli Baarish' Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00810_a98f03d3-7bf3-4539-9bf6-9df8d0c9af58.jpg?v=1758881680",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/pehli-baarish-sherwani-set",
+        "price_inr": 135000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-pyaar-ke-charche-bandi-set",
+      "name": "'Pyaar Ke Charche' Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "sangeet",
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01005.jpg?v=1758811992",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/pyaar-ke-charche-bandi-set",
+        "price_inr": 30000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-pehli-kiran-bandi-set",
+      "name": "'Pehli Kiran' Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00174.jpg?v=1758811905",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/pehli-kiran-bandi-set",
+        "price_inr": 85000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ikrar-hua-bandi-set",
+      "name": "'Ikrar Hua' Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "silk",
+        "tissue",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00096.jpg?v=1758811733",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/ikrar-hua-bandi-set",
+        "price_inr": 79000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-chandni-sherwani-set",
+      "name": "'Chandni' Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "gold",
+        "ivory"
+      ],
+      "tags": [
+        "silk",
+        "tissue",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00550_c57e31ea-f5d0-4b6e-86cd-d5e8bff983f7.jpg?v=1758811650",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/chandni-sherwani-set",
+        "price_inr": 140000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-jaisa-koi-sapna-sherwani-set",
+      "name": "'Jaise Koi Sapna' Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "silk",
+        "tissue",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00028.jpg?v=1758811412",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/jaisa-koi-sapna-sherwani-set",
+        "price_inr": 135000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-tere-peeche-chala-aaya-sherwani-set",
+      "name": "'Tere Peeche Chala Aaya' Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00396_3a8af8f8-1253-43b3-ae9e-aa0bba9ef516.jpg?v=1758811188",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/tere-peeche-chala-aaya-sherwani-set",
+        "price_inr": 195000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-namkeen-sherwani-set",
+      "name": "'Namkeen' Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00294.jpg?v=1758811105",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/namkeen-sherwani-set",
+        "price_inr": 110000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-gulposh-raja-koti-set",
+      "name": "'Gulposh' Raja Koti Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00663.jpg?v=1758795376",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "raja koti set",
+        "product_url": "https://www.houseofmasaba.com/products/gulposh-raja-koti-set",
+        "price_inr": 155000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-sapphire-trinklet-and-pots-kurta-set",
+      "name": "Sapphire Trinklet And Pots Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04508.jpg?v=1755843916",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/sapphire-trinklet-and-pots-kurta-set",
+        "price_inr": 15300.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ivory-crane-dawn-kurta-set",
+      "name": "Ivory Crane Dawn Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "festive",
+        "haldi",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04222.jpg?v=1755842528",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-crane-dawn-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-haath-phool-kurta-set",
+      "name": "Black Haath Phool Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "bridal",
+        "cotton",
+        "festive",
+        "sangeet",
+        "silk",
+        "wedding"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1993.jpg?v=1741162158",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/black-haath-phool-kurta-set",
+        "price_inr": 20000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ivory-travellers-palm-jacquard-kurta-set",
+      "name": "Ivory Traveller's Palm Jacquard Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "haldi",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba101472-copy.jpg?v=1721043916",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-travellers-palm-jacquard-kurta-set",
+        "price_inr": 22000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-travellers-palm-jacquard-kurta-set",
+      "name": "Black Traveller's Palm Jacquard Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "sangeet",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Ishaan_websiteresized.jpg?v=1756452215",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/black-travellers-palm-jacquard-kurta-set",
+        "price_inr": 22000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-blue-whispering-leaf-foil-kurta-set",
+      "name": "Blue Whispering Leaf Foil Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "cotton",
+        "crepe",
+        "festive",
+        "mehendi"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba102244-copy_219fd57f-b827-4c2b-a52f-d686ac838e87.jpg?v=1751267559",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/blue-whispering-leaf-foil-kurta-set",
+        "price_inr": 18000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-crescent-palm-trench-coat-set",
+      "name": "The Crescent Palm Trench Coat Set",
+      "category": "full_body",
+      "colors": [],
+      "tags": [
+        "crepe"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/karanwebsite1.png?v=1788425707",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "coat set",
+        "product_url": "https://www.houseofmasaba.com/products/crescent-palm-trench-coat-set",
+        "price_inr": 25000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-son-patissa-bandi-set",
+      "name": "The Son Patissa Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_1039.jpg?v=1724154724",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/the-son-patissa-bandi-set",
+        "price_inr": 85000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-mustard-bandi-set",
+      "name": "Mustard Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "festive",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba8036_68119010-1c91-4a50-a7c0-c6a3563aa13c.jpg?v=1738591517",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/mustard-bandi-set",
+        "price_inr": 70000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-malai-barfi-kurta",
+      "name": "Malai Barfi Kurta",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "festive",
+        "haldi",
+        "pooja",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba6340.jpg?v=1738590508",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta",
+        "product_url": "https://www.houseofmasaba.com/products/malai-barfi-kurta",
+        "price_inr": 20000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-kashni-kurta",
+      "name": "Kashni Kurta",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "festive",
+        "mehendi",
+        "pooja",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba0231_7301b421-fb12-4588-b620-c668ce7b0e41.jpg?v=1738590708",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta",
+        "product_url": "https://www.houseofmasaba.com/products/kashni-kurta",
+        "price_inr": 20000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-kalakand-kurta",
+      "name": "Kalakand Kurta",
+      "category": "top",
+      "colors": [],
+      "tags": [
+        "festive",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba8069_397d3ca2-68a9-4f42-98ea-b67e13a1aaea.jpg?v=1738591156",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta",
+        "product_url": "https://www.houseofmasaba.com/products/kalakand-kurta",
+        "price_inr": 20000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-tropical-print-shirt",
+      "name": "Black Tropical Print Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "georgette"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1659.jpg?v=1775633591",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/black-tropical-print-shirt",
+        "price_inr": 8000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-white-tropical-embroidered-shirt",
+      "name": "White Tropical Embroidered Shirt",
+      "category": "top",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1909.jpg?v=1738433553",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/white-tropical-embroidered-shirt",
+        "price_inr": 8000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-baby-pink-leopard-print-shirt",
+      "name": "Baby Pink Leopard Print Shirt",
+      "category": "top",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1821.jpg?v=1775633524",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/baby-pink-leopard-print-shirt",
+        "price_inr": 8000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-white-leopard-print-shirt",
+      "name": "White Leopard Print Shirt",
+      "category": "top",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1950.jpg?v=1775633517",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/white-leopard-print-shirt",
+        "price_inr": 8000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-black-midnight-imprint-shirt",
+      "name": "Black Midnight Imprint Shirt",
+      "category": "top",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "crepe"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1644.jpg?v=1775459832",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/black-midnight-imprint-shirt",
+        "price_inr": 8000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-white-tropical-print-shirt",
+      "name": "White Tropical Print Shirt",
+      "category": "top",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "crepe"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1901.jpg?v=1775460158",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/white-tropical-print-shirt",
+        "price_inr": 8000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ivory-bagh-e-bahar-sherwani-set",
+      "name": "Ivory Bagh E Bahar Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba6703_1bd338b9-b054-4063-ace9-90270f4370bc.jpg?v=1738567497",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-bagh-e-bahar-sherwani-set",
+        "price_inr": 226000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-green-tropical-rhapsody-shirt",
+      "name": "Green Tropical Rhapsody Shirt",
+      "category": "top",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1795.jpg?v=1738429113",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/green-tropical-rhapsody-shirt",
+        "price_inr": 6000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-white-palm-tree-print-shirt",
+      "name": "White Palm Tree Print Shirt",
+      "category": "top",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "crepe"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1966.jpg?v=1738428769",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/white-palm-tree-print-shirt",
+        "price_inr": 8000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-red-tropical-rhapsody-shirt",
+      "name": "Red Tropical Rhapsody Shirt",
+      "category": "top",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "crepe"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1764.jpg?v=1738428687",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/red-tropical-rhapsody-shirt",
+        "price_inr": 6000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-blue-nomadic-tribe-shirt",
+      "name": "Blue Nomadic Tribe Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1746.jpg?v=1738428334",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/blue-nomadic-tribe-shirt",
+        "price_inr": 6000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-yellow-nomadic-tribe-shirt",
+      "name": "Yellow Nomadic Tribe Shirt",
+      "category": "top",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "crepe"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1782.jpg?v=1738428008",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/yellow-nomadic-tribe-shirt",
+        "price_inr": 6000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-bombay-barfi-kurta",
+      "name": "Bombay Barfi Kurta",
+      "category": "top",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "haldi",
+        "pooja"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba3132.jpg?v=1738324192",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta",
+        "product_url": "https://www.houseofmasaba.com/products/bombay-barfi-kurta",
+        "price_inr": 20000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-malai-burfi-sherwani-set",
+      "name": "The Malai Burfi Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_1915.jpg?v=1724415534",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/the-malai-burfi-sherwani-set",
+        "price_inr": 190000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-bombay-barfi-sherwani-set",
+      "name": "The Bombay Barfi Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_1518.jpg?v=1724415476",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/the-bombay-barfi-sherwani-set",
+        "price_inr": 195000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-kaju-katli-kurta",
+      "name": "Kaju Katli Kurta",
+      "category": "top",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "georgette",
+        "haldi",
+        "pooja",
+        "tissue"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba6431copy.jpg?v=1738221472",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta",
+        "product_url": "https://www.houseofmasaba.com/products/kaju-katli-kurta",
+        "price_inr": 26000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-neel-bahar-bandi-set",
+      "name": "The Neel Bahar Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Untitled-2-09.jpg?v=1738324813",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/the-neel-bahar-bandi-set",
+        "price_inr": 90000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-kashni-raja-koti-set",
+      "name": "The Kashni Raja Koti Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Untitled-2-13.jpg?v=1724160174",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "raja koti set",
+        "product_url": "https://www.houseofmasaba.com/products/the-kashni-raja-koti-set",
+        "price_inr": 130000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-malai-chamcham-shervani-set",
+      "name": "The Malai Chamcham Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_827.jpg?v=1724157649",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/the-malai-chamcham-shervani-set",
+        "price_inr": 165000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-pista-barfi-sherwani-set",
+      "name": "The Pista Barfi Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_1198.jpg?v=1724157868",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/the-pista-barfi-sherwani-set",
+        "price_inr": 180000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-agra-petha-bandi-set",
+      "name": "The Agra Petha Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "silk",
+        "tissue"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_1332.jpg?v=1724154439",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/the-agra-petha-bandi-set",
+        "price_inr": 85000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-kalakand-bandi-set",
+      "name": "The Kalakand Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_2060.jpg?v=1724154226",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/the-kalakand-bandi-set",
+        "price_inr": 65000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-neel-bahar-sherwani-set",
+      "name": "The Neel Bahar Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_2389.jpg?v=1738324861",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/the-neel-bahar-sherwani-set",
+        "price_inr": 165000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-matka-kulfi-sherwani-set",
+      "name": "The Matka Kulfi Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_2302.jpg?v=1724153990",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/the-matka-kulfi-sherwani-set",
+        "price_inr": 220000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-sandesh-sherwani-set",
+      "name": "The Sandesh Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_455.jpg?v=1724155042",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/the-sandesh-sherwani-set",
+        "price_inr": 230000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-kesar-varak-sherwani-set",
+      "name": "The Kesar Varak Sherwani Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_320.jpg?v=1724155144",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "sherwani set",
+        "product_url": "https://www.houseofmasaba.com/products/the-kesar-varak-sherwani-set",
+        "price_inr": 165000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-kala-khatta-long-bandi-set",
+      "name": "The Kala Khatta Long Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_919.jpg?v=1724154821",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/the-kala-khatta-long-bandi-set",
+        "price_inr": 105000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-the-kaju-katli-raja-koti-set",
+      "name": "The Kaju Katli Raja Koti Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "georgette",
+        "silk",
+        "tissue"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/SMPL_HoMBridal24_152.jpg?v=1724155194",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "raja koti set",
+        "product_url": "https://www.houseofmasaba.com/products/the-kaju-katli-raja-koti-set",
+        "price_inr": 110000.0,
+        "available": true
+      }
+    },
+    {
+      "id": "masaba-ivory-midas-touch-kurta-set",
+      "name": "Ivory Midas Touch Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "festive",
+        "haldi",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/3_7e398ede-d810-46d1-9ef7-40cf91609cd8.png?v=1788425353",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-midas-touch-kurta-set",
+        "price_inr": 17000.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-green-tropical-nandi-kurta-set",
+      "name": "Green Tropical Nandi Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "festive",
+        "pooja"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/18_f4b62126-6fe6-4420-9a6d-17cd19aef928.jpg?v=1788424824",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/green-tropical-nandi-kurta-set",
+        "price_inr": 20000.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-dusty-pink-tulip-bandi-set",
+      "name": "Dusty Pink Tulip Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00402.jpg?v=1761657427",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/dusty-pink-tulip-bandi-set",
+        "price_inr": 27300.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-rosepink-bloomingdale-bandi-set",
+      "name": "Rosepink Bloomingdale Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00633.jpg?v=1761657921",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/rosepink-bloomingdale-bandi-set",
+        "price_inr": 27300.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-baby-pink-parijat-bandi-set",
+      "name": "Baby Pink Parijat Bandi Set",
+      "category": "full_body",
+      "colors": [
+        "pink"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00526.jpg?v=1761658821",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "bandi set",
+        "product_url": "https://www.houseofmasaba.com/products/baby-pink-parijat-bandi-set",
+        "price_inr": 27300.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-red-mystic-kurta-set",
+      "name": "Red Mystic Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba00814_ca3fcf2b-9209-454a-a47c-ec751dae6e5c.jpg?v=1760617670",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/red-mystic-kurta-set",
+        "price_inr": 9800.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-rust-palmscape-kurta-set",
+      "name": "Rust Palmscape Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "orange"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01550.jpg?v=1760623135",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/rust-palmscape-kurta-set",
+        "price_inr": 9800.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-sage-green-iris-bud-gold-foil-kurta-set",
+      "name": "Sage Green Iris Bud Gold Foil Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01283.jpg?v=1760626660",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/sage-green-iris-bud-gold-foil-kurta-set",
+        "price_inr": 14000.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-mustard-wallflower-kurta-set",
+      "name": "Mustard Wallflower Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01004_237e34db-1b76-453a-9f2a-a7cbfd7dc84d.jpg?v=1760619301",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/mustard-wallflower-kurta-set",
+        "price_inr": 9800.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-red-wallflower-kurta-set",
+      "name": "Red Wallflower Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01248.jpg?v=1760622777",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/red-wallflower-kurta-set",
+        "price_inr": 9800.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-lime-green-wallflower-kurta-set",
+      "name": "Lime Green Wallflower Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cotton",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01138_db21d95d-7a12-4116-8daa-79a188ef586a.jpg?v=1760626907",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/lime-green-wallflower-kurta-set",
+        "price_inr": 9800.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-red-jacquard-kurta-set",
+      "name": "Red Jacquard Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01733.jpg?v=1759522289",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/red-jacquard-kurta-set",
+        "price_inr": 15400.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-navy-jacquard-kurta-set",
+      "name": "Navy Jacquard Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01641.jpg?v=1759522247",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/navy-jacquard-kurta-set",
+        "price_inr": 15400.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-green-jacquard-kurta-set",
+      "name": "Green Jacquard Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01771.jpg?v=1759521927",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/green-jacquard-kurta-set",
+        "price_inr": 15400.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-navy-folkstone-kurta-set",
+      "name": "Navy Folkstone Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01851.jpg?v=1759521531",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/navy-folkstone-kurta-set",
+        "price_inr": 15400.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-black-zen-kurta-set",
+      "name": "Black Zen Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "black"
+      ],
+      "tags": [
+        "festive",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04012_9acb8184-611e-4051-a06b-9476f04c4199.jpg?v=1755843698",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/black-zen-kurta-set",
+        "price_inr": 13005.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-ivory-spade-blossom-kurta-set",
+      "name": "Ivory Spade Blossom Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "bridal",
+        "cotton",
+        "festive",
+        "mehendi"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba2036_52ed38ab-22ee-4c81-9275-28aa18a57203.jpg?v=1744631724",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ivory-spade-blossom-kurta-set",
+        "price_inr": 15400.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-ochre-bamboo-grove-menswear-kurta-set",
+      "name": "Ochre Bamboo Grove Menswear Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "yellow"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "haldi",
+        "mehendi"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04372_daa122d9-14ef-468c-9ace-c5aa7b07cadd.jpg?v=1755844209",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/ochre-bamboo-grove-menswear-kurta-set",
+        "price_inr": 12750.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-beige-pixie-dust-kurta-set",
+      "name": "Beige Pixie Dust Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01459.jpg?v=1759520788",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/beige-pixie-dust-kurta-set",
+        "price_inr": 12600.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-beige-littile-pots-menswear-kurta-set",
+      "name": "Beige Little Pots Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "festive",
+        "haldi",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba01277.jpg?v=1762014004",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/beige-littile-pots-menswear-kurta-set",
+        "price_inr": 15300.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-olive-zen-kurta-set",
+      "name": "Olive Zen Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04625.jpg?v=1755847174",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/olive-zen-kurta-set",
+        "price_inr": 15300.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-red-whispering-leaf-kurta-set",
+      "name": "Red Whispering Leaf Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "red"
+      ],
+      "tags": [
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba04466.jpg?v=1755844154",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/red-whispering-leaf-kurta-set",
+        "price_inr": 15300.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-green-tropical-rhapsody-kurta-set",
+      "name": "Green Tropical Rhapsody Kurta Set",
+      "category": "full_body",
+      "colors": [
+        "green"
+      ],
+      "tags": [
+        "cotton",
+        "festive",
+        "mehendi",
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba102187-copy_15d37af3-8a4c-4f54-b7a7-c7e8ce1700bb.jpg?v=1751267566",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "kurta set",
+        "product_url": "https://www.houseofmasaba.com/products/green-tropical-rhapsody-kurta-set",
+        "price_inr": 9000.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-blue-palm-stripes-shirt",
+      "name": "Blue Palm Stripes Shirt",
+      "category": "top",
+      "colors": [
+        "blue"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1707.jpg?v=1775633574",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/blue-palm-stripes-shirt",
+        "price_inr": 8000.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-white-monotone-tropical-shirt",
+      "name": "White Monotone Tropical Shirt",
+      "category": "top",
+      "colors": [
+        "ivory"
+      ],
+      "tags": [
+        "cotton"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba1927.jpg?v=1738433796",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/white-monotone-tropical-shirt",
+        "price_inr": 8000.0,
+        "available": false
+      }
+    },
+    {
+      "id": "masaba-beige-midnight-maze-shirt",
+      "name": "Beige Midnight Maze Shirt",
+      "category": "top",
+      "colors": [
+        "beige"
+      ],
+      "tags": [
+        "silk"
+      ],
+      "image_url": "https://cdn.shopify.com/s/files/1/0525/1842/0657/files/Masaba0577.jpg?v=1738428502",
+      "metadata": {
+        "brand": "House of Masaba",
+        "subcategory": "shirt",
+        "product_url": "https://www.houseofmasaba.com/products/beige-midnight-maze-shirt",
+        "price_inr": 6000.0,
+        "available": false
+      }
+    }
+  ]
+}

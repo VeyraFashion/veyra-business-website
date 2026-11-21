@@ -12,6 +12,7 @@ export interface BrandEntry {
 interface BrandsConfig {
   _note: string;
   idsById: Record<string, BrandEntry>;
+  idsByEnv?: Record<string, BrandEntry>;
 }
 
 let cached: BrandsConfig | null = null;
@@ -26,6 +27,11 @@ function loadBrandsConfig(): BrandsConfig {
 /** Resolves a /demo/<brandId> URL segment to its brand entry, or null if the id is unknown.
  *  Unknown ids should 404 - never leak whether a given id "almost" matched anything. */
 export function resolveBrand(brandId: string): BrandEntry | null {
+  if (!brandId) return null;
   const config = loadBrandsConfig();
-  return config.idsById[brandId] ?? null;
+  if (Object.hasOwn(config.idsById, brandId)) return config.idsById[brandId];
+  for (const [key, entry] of Object.entries(config.idsByEnv ?? {})) {
+    if (process.env[key] === brandId) return entry;
+  }
+  return null;
 }

@@ -108,20 +108,24 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ bra
       return NextResponse.json({ error: "No catalog items for this brand yet." }, { status: 400 });
     }
 
-    const wardrobe = catalog.items.map((item) => ({
-      id: item.id,
-      name: item.name,
-      category: item.category,
-      image_url: item.image,
-      colors: item.colors,
-      tags: item.tags,
-      metadata: {
-        subcategory: item.subcategory,
-        role: item.role,
-        price_inr: item.price_inr,
-        brand: catalog.brand,
-      },
-    }));
+    const selected = new Set(body.mustIncludeItemIds ?? []);
+    const wardrobe = catalog.items
+      .filter((item) => item.available !== false || selected.has(item.id))
+      .map((item) => ({
+        id: item.id,
+        name: item.name,
+        category: item.category,
+        image_url: item.imageDiskPath ? item.image : undefined,
+        colors: item.colors,
+        tags: item.tags,
+        metadata: {
+          subcategory: item.subcategory,
+          role: item.role,
+          price_inr: item.price_inr,
+          product_url: item.productUrl,
+          brand: catalog.brand,
+        },
+      }));
 
     let userImage: Record<string, string> | null = null;
     if (body.userImage) {

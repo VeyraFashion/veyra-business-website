@@ -14,8 +14,9 @@ export interface CatalogItem {
   colors: string[];
   tags: string[];
   productUrl?: string;
-  image: string; // browser-facing URL served by app/brand-assets/[...path]/route.ts
-  imageDiskPath: string; // absolute filesystem path, for server-side reads (AI job upload)
+  available?: boolean;
+  image: string;
+  imageDiskPath?: string;
 }
 
 export interface Catalog {
@@ -32,8 +33,15 @@ interface RawWardrobeItem {
   category: string; // top | bottom | outerwear | footwear | accessory
   colors?: string[];
   tags?: string[];
-  metadata?: { subcategory?: string; product_url?: string; brand?: string };
+  metadata?: {
+    subcategory?: string;
+    product_url?: string;
+    brand?: string;
+    price_inr?: number;
+    available?: boolean;
+  };
   image_path?: string | null; // relative to the brand's own asset folder, e.g. "images/x.jpg"
+  image_url?: string | null;
 }
 
 interface RawBrandCatalog {
@@ -108,6 +116,19 @@ function safeProductUrl(value: string | undefined): string | undefined {
   }
 }
 
+function catalogImageUrl(value: string | null | undefined): string | undefined {
+  if (!value) return undefined;
+  try {
+    const url = new URL(value);
+    if (url.origin === "https://cdn.shopify.com" && !url.username && !url.password
+        && /^\/s\/files\/1\/0525\/1842\/0657\/(files|products)\//.test(url.pathname)) {
+      return url.toString();
+    }
+  } catch {
+    return undefined;
+  }
+}
+
 /** Loads assets/<assetsDir>/<catalogFile> for a resolved brand and adapts it to this app's
  *  CatalogItem shape. Returns an empty-items catalog (not an error) when the file doesn't
  *  exist yet, or when a wardrobe entry has no real image — most brands start with images
@@ -121,35 +142,32 @@ export function loadCatalogForBrand(entry: BrandEntry): Catalog {
   const raw = JSON.parse(fs.readFileSync(file, "utf-8")) as RawBrandCatalog;
   const assetsDirAbs = path.join(process.cwd(), "assets", entry.assetsDir);
 
-  const items: CatalogItem[] = raw.wardrobe
-    .filter((w) => Boolean(w.image_path))
-    .map((w) => {
-      const role = CATEGORY_TO_ROLE[w.category] ?? "accessory";
-      const imagePathSegments = w.image_path!.split("/").filter(Boolean);
-      return {
-        id: w.id,
-        name: w.name,
-        price_inr: estimatePriceInr(w.id, role),
-        category: w.category,
-        subcategory: decodeSubcategory(w.metadata?.subcategory),
-        role,
-        colors: w.colors ?? [],
-        tags: w.tags ?? [],
-        productUrl: safeProductUrl(w.metadata?.product_url),
-        image: `/brand-assets/${encodeAssetPath(entry.assetsDir, ...imagePathSegments)}`,
-        imageDiskPath: path.join(assetsDirAbs, ...imagePathSegments),
-      };
-    });
+  const items: CatalogItem[] = raw.wardrobe.flatMap((w) => {
+    const imagePathSegments = w.image_path?.split("/").filter(Boolean) ?? [];
+    const image = imagePathSegments.length
+      ? `/brand-assets/${encodeAssetPath(entry.assetsDir, ...imagePathSegments)}`
+      : catalogImageUrl(w.image_url);
+    if (!image) return [];
+    const role = CATEGORY_TO_ROLE[w.category] ?? "accessory";
+    return [{
+      id: w.id,
+      name: w.name,
+      price_inr: w.metadata?.price_inr ?? estimatePriceInr(w.id, role),
+      category: w.category,
+      subcategory: decodeSubcategory(w.metadata?.subcategory),
+      role,
+      colors: w.colors ?? [],
+      tags: w.tags ?? [],
+      productUrl: safeProductUrl(w.metadata?.product_url),
+      available: w.metadata?.available,
+      image,
+      imageDiskPath: imagePathSegments.length ? path.join(assetsDirAbs, ...imagePathSegments) : undefined,
+    }];
+  });
 
   return {
     brand: raw.brand ?? entry.brand,
     note: `${items.length} catalog item(s) loaded from assets/${entry.assetsDir}/${entry.catalogFile}.`,
     items,
   };
-}
-
-/** Resolves a catalog item's image to an absolute file path on disk, for server-side reads
- *  (e.g. attaching the real image bytes to an AI try-on job). */
-export function resolveItemImagePath(item: CatalogItem): string {
-  return item.imageDiskPath;
 }

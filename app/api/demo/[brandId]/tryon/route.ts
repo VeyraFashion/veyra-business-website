@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "node:fs";
 import path from "node:path";
 import { resolveBrand } from "@/lib/brands";
-import { loadCatalogForBrand, resolveItemImagePath } from "@/lib/catalog";
+import { loadCatalogForBrand, type CatalogItem } from "@/lib/catalog";
 import { submitTryOnJob, qualityProfile } from "@/lib/veyra-ai";
 
 export const runtime = "nodejs";
@@ -21,6 +21,27 @@ function imageMimeType(filePath: string): string {
     default:
       return "application/octet-stream";
   }
+}
+
+async function garmentImage(item: CatalogItem) {
+  if (item.imageDiskPath) {
+    const data = fs.readFileSync(item.imageDiskPath);
+    const extension = path.extname(item.imageDiskPath).toLowerCase();
+    return new File([new Uint8Array(data)], `${item.id}${extension}`, {
+      type: imageMimeType(item.imageDiskPath),
+    });
+  }
+
+  // The catalog loader restricts remote images to the retailer's Shopify CDN path.
+  const url = new URL(item.image);
+  url.searchParams.set("width", "1536");
+  const response = await fetch(url, { redirect: "error", signal: AbortSignal.timeout(12_000) });
+  if (!response.ok) throw new Error(`Could not download catalog image for ${item.id}`);
+  const blob = await response.blob();
+  if (!["image/jpeg", "image/png", "image/webp"].includes(blob.type) || !blob.size || blob.size > 8 * 1024 * 1024) {
+    throw new Error(`Unsupported catalog image for ${item.id}`);
+  }
+  return new File([blob], `${item.id}${path.extname(url.pathname)}`, { type: blob.type });
 }
 
 /** Client sends: multipart form with `photo` (the visitor's uploaded image) and `itemIds`
@@ -67,12 +88,8 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ bra
       role: item.role,
     }));
 
-    for (const item of items) {
-      const filePath = resolveItemImagePath(item);
-      const buf = fs.readFileSync(filePath);
-      const extension = path.extname(filePath).toLowerCase();
-      const blob = new Blob([buf], { type: imageMimeType(filePath) });
-      outgoing.append("clothing_images", blob, `${item.id}${extension}`);
+    for (const image of await Promise.all(items.map(garmentImage))) {
+      outgoing.append("clothing_images", image);
     }
 
     outgoing.set("garment_metadata", JSON.stringify(metadata));

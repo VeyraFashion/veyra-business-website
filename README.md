@@ -120,6 +120,11 @@ Shopper photos are capped at 8 MB and their bytes are excluded from STYLD API lo
 resolve through **config/brands.json**; catalog data lives in **catalog/**, and product images live
 under **public/products/**.
 
+Set `STYLD_DEMO_HOUSE_OF_MASABA_MENSWEAR_ID` and `STYLD_DEMO_HOUSE_OF_MASABA_WOMENSWEAR_ID`
+to distinct, unguessable values in the server environment to enable the House of Masaba demos.
+The value becomes the URL segment in `/demo/[brandId]`. The catalog snapshots are in
+`assets/House of Masaba/` and use the retailer's Shopify image URLs.
+
 These routes are intentionally:
 
 - excluded from the public homepage;
